@@ -1,8 +1,11 @@
 let country = 'Russia';
-let continent = 'Eurasia';
+const continent = 'Eurasia';
 let population = '145';
-let isIsland = false;
+const isIsland = false;
 let language;
+
+language = 'Russian';
+// isIsland = true;
 
 console.log(typeof isIsland);
 console.log(typeof population);
