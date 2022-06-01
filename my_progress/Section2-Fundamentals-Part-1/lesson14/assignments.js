@@ -8,6 +8,8 @@ language = 'Russian';
 // isIsland = true;
 
 const halfPopulation = population / 2; // population = 72.5
+console.log(halfPopulation);
+
 const increasedPopulation = population + 1; // population = 146
 console.log(increasedPopulation);
 
