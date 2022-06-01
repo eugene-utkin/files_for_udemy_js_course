@@ -13,3 +13,5 @@ console.log(increasedPopulation);
 
 let finlandPopulation = 6;
 console.log(population > finlandPopulation);
+
+let averagePopulation = 33;
