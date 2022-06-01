@@ -7,13 +7,12 @@ let language;
 language = 'Russian';
 // isIsland = true;
 
-halfPopulation = population / 2; // population = 72.5
-increasedPopulation = population + 1; // population = 146
+const halfPopulation = population / 2; // population = 72.5
+const increasedPopulation = population + 1; // population = 146
 console.log(increasedPopulation);
 
-let finlandPopulation = 6;
+const finlandPopulation = 6;
 console.log(population > finlandPopulation);
 
-let averagePopulation = 33;
+const averagePopulation = 33;
 console.log(population < averagePopulation);
-
