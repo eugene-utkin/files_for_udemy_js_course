@@ -5,7 +5,6 @@ const isIsland = false;
 let language;
 
 language = 'Russian';
-// isIsland = true;
 
 const halfPopulation = population / 2; // population = 72.5
 console.log(halfPopulation);
