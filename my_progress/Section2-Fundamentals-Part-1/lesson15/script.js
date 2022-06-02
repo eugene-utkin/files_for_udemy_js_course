@@ -97,3 +97,5 @@ const ageSarah = now - 2018;
 console.log(now - 1991 > now - 2018);
 
 console.log(25 - 10 - 5);
+
+let x, y;
