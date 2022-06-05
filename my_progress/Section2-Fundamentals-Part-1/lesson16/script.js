@@ -15,3 +15,4 @@ console.log("Case 1. Mark's BMI is higher than John's: " + markHigherBMI);
 let markHeight = 1.88;
 let markWeight = 95;
 let johnHeight = 1.76;
+let johnWeight = 85;
