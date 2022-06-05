@@ -21,3 +21,4 @@ markBMI = markWeight / markHeight ** 2;
 johnBMI = johnWeight / (johnHeight * johnHeight);
 
 markHigherBMI = markBMI > johnBMI;
+console.log("Case 2. Mark's BMI is higher than John's: " + markHigherBMI);
