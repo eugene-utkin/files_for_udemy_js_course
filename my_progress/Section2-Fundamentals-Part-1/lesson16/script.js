@@ -16,3 +16,5 @@ markHeight = 1.88;
 markWeight = 95;
 johnHeight = 1.76;
 johnWeight = 85;
+
+markHigherBMI = markBMI > johnBMI;
