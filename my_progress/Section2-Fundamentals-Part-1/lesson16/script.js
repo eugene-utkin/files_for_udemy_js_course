@@ -6,6 +6,8 @@ let johnWeight = 92;
 
 let markBMI = markWeight / markHeight ** 2;
 let johnBMI = johnWeight / (johnHeight * johnHeight);
+console.log("Mark's BMI: " + markBMI);
+console.log("John's BMI: " + johnBMI);
 
 let markHigherBMI = markBMI > johnBMI;
 console.log("Case 1. Mark's BMI is higher than John's: " + markHigherBMI);
@@ -19,6 +21,8 @@ johnWeight = 85;
 
 markBMI = markWeight / markHeight ** 2;
 johnBMI = johnWeight / (johnHeight * johnHeight);
+console.log("Mark's BMI: " + markBMI);
+console.log("John's BMI: " + johnBMI);
 
 markHigherBMI = markBMI > johnBMI;
 console.log("Case 2. Mark's BMI is higher than John's: " + markHigherBMI);
