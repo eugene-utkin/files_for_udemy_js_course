@@ -133,3 +133,4 @@ console.log(lastName);
 // console.log("Case 2. Mark's BMI is higher than John's: " + markHigherBMI);
 
 const firstName = 'Jonas';
+const job = 'teacher';
