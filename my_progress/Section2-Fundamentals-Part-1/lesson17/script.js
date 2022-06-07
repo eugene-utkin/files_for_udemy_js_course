@@ -132,3 +132,4 @@ console.log(lastName);
 // markHigherBMI = markBMI > johnBMI;
 // console.log("Case 2. Mark's BMI is higher than John's: " + markHigherBMI);
 
+const firstName = 'Jonas';
