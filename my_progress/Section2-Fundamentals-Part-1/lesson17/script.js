@@ -134,3 +134,4 @@ console.log(lastName);
 
 const firstName = 'Jonas';
 const job = 'teacher';
+const birthYear = 1991;
