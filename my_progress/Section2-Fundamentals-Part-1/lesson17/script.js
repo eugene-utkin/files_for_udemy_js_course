@@ -141,3 +141,4 @@ const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' +
 console.log(jonas);
 
 const jonasNew = `I'm ${firstName}`;
+console.log(jonasNew);
