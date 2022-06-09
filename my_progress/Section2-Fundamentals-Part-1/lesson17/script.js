@@ -147,4 +147,4 @@ console.log(`Just a regular string...`);
 
 console.log('String with \n\
 multiple \n\
-lines')
+lines');
