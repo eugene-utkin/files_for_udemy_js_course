@@ -155,3 +155,4 @@ lines`);
 */
 
 const age = 19;
+const isOldEnough = age >= 18;
