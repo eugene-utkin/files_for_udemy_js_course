@@ -132,7 +132,7 @@ console.log(lastName);
 // markHigherBMI = markBMI > johnBMI;
 // console.log("Case 2. Mark's BMI is higher than John's: " + markHigherBMI);
 
-const firstName = 'Jonas';
+/*const firstName = 'Jonas';
 const job = 'teacher';
 const birthYear = 1991;
 const year = 2037;
@@ -152,3 +152,5 @@ lines');
 console.log(`String
 multiple
 lines`);
+*/
+
