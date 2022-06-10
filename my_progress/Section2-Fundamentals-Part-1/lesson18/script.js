@@ -155,8 +155,7 @@ lines`);
 */
 
 const age = 19;
-const isOldEnough = age >= 18;
 
-if (isOldEnough) {
+if (age >= 18) {
 	console.log('Sarah can start driving license 🚗');
 }
