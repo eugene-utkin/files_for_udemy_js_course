@@ -166,4 +166,6 @@ if (age >= 18) {
 const birthYear = 1991;
 if (birthYear <= 2000) {
 	let century = 20;
+} else {
+	let century = 21;
 }
