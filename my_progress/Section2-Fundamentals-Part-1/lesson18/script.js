@@ -163,7 +163,7 @@ if (age >= 18) {
 	console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
 }
 
-const birthYear = 1991;
+const birthYear = 2012;
 
 let century;
 if (birthYear <= 2000) {
