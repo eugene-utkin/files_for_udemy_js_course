@@ -25,5 +25,7 @@ console.log(`${country} is in ${continent}, and its ${population} million people
 
 if (population > 33) {
   console.log(`${country}'s population is above average`);
+} else {
+  const populationLeft = 33 - population;
 }
 
