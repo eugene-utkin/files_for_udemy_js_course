@@ -23,3 +23,7 @@ console.log(description);
 
 console.log(`${country} is in ${continent}, and its ${population} million people speak ${language}`);
 
+if (population > 33) {
+  console.log("Portugal's population is above average");
+}
+
