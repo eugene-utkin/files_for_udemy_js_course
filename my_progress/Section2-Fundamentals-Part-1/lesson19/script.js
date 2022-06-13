@@ -182,10 +182,11 @@ let johnWeight = 92;
 let markBMI = markWeight / markHeight ** 2;
 let roundedMarkBMI = Number((markBMI).toFixed(1));
 let johnBMI = johnWeight / (johnHeight * johnHeight);
+let roundedJohnBMI = Number((johnBMI).toFixed(1));
 
 let markHigherBMI = markBMI > johnBMI;
 if (markHigherBMI) {
-  console.log(`Mark's BMI (${roundedMarkBMI}) is higher than John's (${johnBMI})!`);
+  console.log(`Mark's BMI (${roundedMarkBMI}) is higher than John's (${roundedJohnBMI})!`);
 } else {
   console.log("John's BMI is higher than Mark's!");
 }
