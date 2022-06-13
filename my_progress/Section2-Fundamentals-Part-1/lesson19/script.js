@@ -154,21 +154,52 @@ multiple
 lines`);
 */
 
-const age = 15;
+// const age = 15;
 
-if (age >= 18) {
-  console.log('Sarah can start driving license 🚗');
-} else {
-  const yearsLeft = 18 - age;
-  console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+// if (age >= 18) {
+//   console.log('Sarah can start driving license 🚗');
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+// }
+
+// const birthYear = 2012;
+
+// let century;
+// if (birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
+// console.log(century);
+
+// Case 1
+let markHeight = 1.69;
+let markWeight = 78;
+let johnHeight = 1.95;
+let johnWeight = 92;
+
+let markBMI = markWeight / markHeight ** 2;
+let johnBMI = johnWeight / (johnHeight * johnHeight);
+console.log("Mark's BMI: " + markBMI);
+console.log("John's BMI: " + johnBMI);
+
+let markHigherBMI = markBMI > johnBMI;
+if (markHigherBMI) {
+  console.log("Case 1. Mark's BMI is higher than John's: " + markHigherBMI);
 }
 
-const birthYear = 2012;
 
-let century;
-if (birthYear <= 2000) {
-  century = 20;
-} else {
-  century = 21;
-}
-console.log(century);
+// Case 2
+markHeight = 1.88;
+markWeight = 95;
+johnHeight = 1.76;
+johnWeight = 85;
+
+markBMI = markWeight / markHeight ** 2;
+johnBMI = johnWeight / (johnHeight * johnHeight);
+console.log("Mark's BMI: " + markBMI);
+console.log("John's BMI: " + johnBMI);
+
+markHigherBMI = markBMI > johnBMI;
+console.log("Case 2. Mark's BMI is higher than John's: " + markHigherBMI);
