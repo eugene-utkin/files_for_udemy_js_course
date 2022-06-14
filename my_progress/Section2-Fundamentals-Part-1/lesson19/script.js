@@ -204,4 +204,6 @@ johnBMI = johnWeight / (johnHeight * johnHeight);
 roundedJohnBMI = Number((johnBMI).toFixed(1));
 
 markHigherBMI = markBMI > johnBMI;
-console.log("Case 2. Mark's BMI is higher than John's: " + markHigherBMI);
+if (markHigherBMI) {
+  console.log(`Mark's BMI (${roundedMarkBMI}) is higher than John's (${roundedJohnBMI})!`);
+}
