@@ -201,7 +201,7 @@ johnWeight = 85;
 markBMI = markWeight / markHeight ** 2;
 roundedMarkBMI = Number((markBMI).toFixed(1));
 johnBMI = johnWeight / (johnHeight * johnHeight);
-console.log("John's BMI: " + johnBMI);
+roundedJohnBMI = Number((johnBMI).toFixed(1));
 
 markHigherBMI = markBMI > johnBMI;
 console.log("Case 2. Mark's BMI is higher than John's: " + markHigherBMI);
