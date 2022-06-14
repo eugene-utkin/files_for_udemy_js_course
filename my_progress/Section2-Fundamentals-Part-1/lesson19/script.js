@@ -188,7 +188,7 @@ let markHigherBMI = markBMI > johnBMI;
 if (markHigherBMI) {
   console.log(`Mark's BMI (${roundedMarkBMI}) is higher than John's (${roundedJohnBMI})!`);
 } else {
-  console.log("John's BMI (${roundedJohnBMI}) is higher than Mark's (${roundedMarkBMI})!");
+  console.log(`John's BMI (${roundedJohnBMI}) is higher than Mark's (${roundedMarkBMI})!`);
 }
 
 
@@ -206,4 +206,6 @@ roundedJohnBMI = Number((johnBMI).toFixed(1));
 markHigherBMI = markBMI > johnBMI;
 if (markHigherBMI) {
   console.log(`Mark's BMI (${roundedMarkBMI}) is higher than John's (${roundedJohnBMI})!`);
+} else {
+  console.log("John's BMI (${roundedJohnBMI}) is higher than Mark's (${roundedMarkBMI})!");
 }
