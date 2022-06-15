@@ -173,39 +173,39 @@ lines`);
 // }
 // console.log(century);
 
-// Case 1
-let markHeight = 1.69;
-let markWeight = 78;
-let johnHeight = 1.95;
-let johnWeight = 92;
+// // Case 1
+// let markHeight = 1.69;
+// let markWeight = 78;
+// let johnHeight = 1.95;
+// let johnWeight = 92;
 
-let markBMI = markWeight / markHeight ** 2;
-let roundedMarkBMI = Number((markBMI).toFixed(1));
-let johnBMI = johnWeight / (johnHeight * johnHeight);
-let roundedJohnBMI = Number((johnBMI).toFixed(1));
+// let markBMI = markWeight / markHeight ** 2;
+// let roundedMarkBMI = Number((markBMI).toFixed(1));
+// let johnBMI = johnWeight / (johnHeight * johnHeight);
+// let roundedJohnBMI = Number((johnBMI).toFixed(1));
 
-let markHigherBMI = markBMI > johnBMI;
-if (markHigherBMI) {
-  console.log(`Mark's BMI (${roundedMarkBMI}) is higher than John's (${roundedJohnBMI})!`);
-} else {
-  console.log(`John's BMI (${roundedJohnBMI}) is higher than Mark's (${roundedMarkBMI})!`);
-}
+// let markHigherBMI = markBMI > johnBMI;
+// if (markHigherBMI) {
+//   console.log(`Mark's BMI (${roundedMarkBMI}) is higher than John's (${roundedJohnBMI})!`);
+// } else {
+//   console.log(`John's BMI (${roundedJohnBMI}) is higher than Mark's (${roundedMarkBMI})!`);
+// }
 
 
-// Case 2
-markHeight = 1.88;
-markWeight = 95;
-johnHeight = 1.76;
-johnWeight = 85;
+// // Case 2
+// markHeight = 1.88;
+// markWeight = 95;
+// johnHeight = 1.76;
+// johnWeight = 85;
 
-markBMI = markWeight / markHeight ** 2;
-roundedMarkBMI = Number((markBMI).toFixed(1));
-johnBMI = johnWeight / (johnHeight * johnHeight);
-roundedJohnBMI = Number((johnBMI).toFixed(1));
+// markBMI = markWeight / markHeight ** 2;
+// roundedMarkBMI = Number((markBMI).toFixed(1));
+// johnBMI = johnWeight / (johnHeight * johnHeight);
+// roundedJohnBMI = Number((johnBMI).toFixed(1));
 
-markHigherBMI = markBMI > johnBMI;
-if (markHigherBMI) {
-  console.log(`Mark's BMI (${roundedMarkBMI}) is higher than John's (${roundedJohnBMI})!`);
-} else {
-  console.log(`John's BMI (${roundedJohnBMI}) is higher than Mark's (${roundedMarkBMI})!`);
-}
+// markHigherBMI = markBMI > johnBMI;
+// if (markHigherBMI) {
+//   console.log(`Mark's BMI (${roundedMarkBMI}) is higher than John's (${roundedJohnBMI})!`);
+// } else {
+//   console.log(`John's BMI (${roundedJohnBMI}) is higher than Mark's (${roundedMarkBMI})!`);
+// }
