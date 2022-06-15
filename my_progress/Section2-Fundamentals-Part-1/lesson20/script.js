@@ -209,3 +209,5 @@ lines`);
 // } else {
 //   console.log(`John's BMI (${roundedJohnBMI}) is higher than Mark's (${roundedMarkBMI})!`);
 // }
+
+const inputYear = '1991';
