@@ -222,3 +222,4 @@ console.log(String(23), 23);
 
 // type coercion
 console.log('I am ' + 23 + ' years old');
+console.log('I am ' + '23' + ' years old');
