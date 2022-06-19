@@ -231,3 +231,5 @@ let n = '1' + 1; // '11'
 n = n - 1;
 console.log(n);
 */
+
+// 5 falsy values: 0, '', undefined, null, NaN
