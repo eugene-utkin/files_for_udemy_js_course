@@ -210,6 +210,7 @@ lines`);
 //   console.log(`John's BMI (${roundedJohnBMI}) is higher than Mark's (${roundedMarkBMI})!`);
 // }
 
+/*
 // type conversion
 const inputYear = '1991';
 console.log(Number(inputYear), inputYear);
@@ -228,4 +229,5 @@ console.log('23' / '2');
 
 let n = '1' + 1; // '11'
 n = n - 1;
-console.log(n); 
+console.log(n);
+*/
