@@ -239,3 +239,5 @@ console.log(Boolean(undefined));
 console.log(Boolean('Jonas'));
 console.log(Boolean({}));
 console.log(Boolean(''));
+
+const money = 0;
