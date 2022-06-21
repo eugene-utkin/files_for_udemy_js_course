@@ -248,3 +248,6 @@ if (money) {
 }
 
 let height;
+if (height) {
+  console.log('YAY! Height is defined');
+}
