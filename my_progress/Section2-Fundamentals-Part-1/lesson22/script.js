@@ -232,6 +232,7 @@ n = n - 1;
 console.log(n);
 */
 
+/*
 // 5 falsy values: 0, '', undefined, null, NaN
 
 console.log(Boolean(0));
@@ -253,3 +254,5 @@ if (height) {
 } else {
   console.log('Height is UNDEFINED');
 }
+*/
+
