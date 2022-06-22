@@ -256,3 +256,4 @@ if (height) {
 }
 */
 
+const age = 18;
