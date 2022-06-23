@@ -265,6 +265,6 @@ const favourite = prompt("What's your favourite number?");
 console.log(favourite);
 console.log(typeof favourite);
 
-if (favourite == 23) {
+if (favourite === 23) {
   console.log('Cool! 23 is an amazing number!');
 }
