@@ -263,3 +263,4 @@ if (age == 18) console.log('You just became an adult :D (loose)');
 
 const favourite = prompt("What's your favourite number?");
 console.log(favourite);
+console.log(typeof favourite);
