@@ -274,3 +274,5 @@ if (favourite === 23) { // 22 === 23 -> FALSE
 } else {
   console.log('Number is not 23 or 7 or 9');
 }
+
+if (favourite !== 23) console.log('Why not 23?');
