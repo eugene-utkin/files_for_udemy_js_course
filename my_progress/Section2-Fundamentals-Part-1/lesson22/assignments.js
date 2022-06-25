@@ -1,4 +1,4 @@
-let numNeighbours = prompt('How many neighbour countries does your country have?');
+let numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
 
 if (numNeighbours === 1) {
 	console.log('Only 1 border!');
