@@ -280,6 +280,6 @@ if (favourite !== 23) console.log('Why not 23?');
 */
 
 const hasDriversLicense = true; // A
-const hasGoodVision = true; // B
+const hasGoodVision = false; // B
 
 console.log(hasDriversLicense && hasGoodVision);
