@@ -290,4 +290,6 @@ const shouldDrive = hasDriversLicense && hasGoodVision;
 
 if (shouldDrive) {
   console.log('Sarah is able to drive!');
+} else {
+  console.log('Someone else should drive...');
 }
