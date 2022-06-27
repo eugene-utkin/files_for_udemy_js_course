@@ -286,9 +286,8 @@ console.log(hasDriversLicense && hasGoodVision);
 console.log(hasDriversLicense || hasGoodVision);
 console.log(!hasDriversLicense);
 
-const shouldDrive = hasDriversLicense && hasGoodVision;
 
-if (shouldDrive) {
+if (hasDriversLicense && hasGoodVision) {
   console.log('Sarah is able to drive!');
 } else {
   console.log('Someone else should drive...');
