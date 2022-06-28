@@ -294,3 +294,4 @@ if (hasDriversLicense && hasGoodVision) {
 }
 
 const isTired = true; // C
+console.log(hasDriversLicense || hasGoodVision || isTired);
