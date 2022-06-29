@@ -293,5 +293,5 @@ if (hasDriversLicense && hasGoodVision) {
   console.log('Someone else should drive...');
 }
 
-const isTired = true; // C
+const isTired = false; // C
 console.log(hasDriversLicense && hasGoodVision && isTired);
