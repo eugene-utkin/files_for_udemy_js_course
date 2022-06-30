@@ -17,5 +17,5 @@ let language;
 language = 'Russian';
 
 if ((language === "English") && (population < 50) && !isIsland) {
-	console.log("You should live in ${country} :)");
+	console.log(`You should live in ${country} :)`);
 }
