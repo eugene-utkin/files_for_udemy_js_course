@@ -16,4 +16,4 @@ let language;
 
 language = 'Russian';
 
-if ((language === "English") && (population < 50))
+if ((language === "English") && (population < 50) && !isIsland)
