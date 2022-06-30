@@ -15,3 +15,5 @@ const isIsland = false;
 let language;
 
 language = 'Russian';
+
+if (language == "English")
