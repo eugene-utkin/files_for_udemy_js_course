@@ -308,3 +308,5 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 // Case 1
 let dolphins = (96 + 108 + 89) / 3;
 let koalas = (88 + 91 + 110) / 3;
+
+// Case 2
