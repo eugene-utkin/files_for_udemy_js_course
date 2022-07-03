@@ -310,6 +310,7 @@ let dolphins = (96 + 108 + 89) / 3;
 let koalas = (88 + 91 + 110) / 3;
 
 console.log(`Dolphins: ${dolphins}`);
+console.log(`Koalas: ${koalas}`);
 
 if (dolphins > koalas) {
   console.log('Dolphins won!');
