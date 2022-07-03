@@ -312,3 +312,5 @@ let koalas = (88 + 91 + 110) / 3;
 // Case 2
 dolphins = (97 + 112 + 101) / 3;
 koalas = (109 + 95 + 123) / 3;
+
+// Case 3
