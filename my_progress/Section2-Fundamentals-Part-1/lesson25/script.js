@@ -309,6 +309,10 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 let dolphins = (96 + 108 + 89) / 3;
 let koalas = (88 + 91 + 110) / 3;
 
+if (dolphins > koalas) {
+  console.log('Dolphins won!');
+}
+
 // Case 2
 dolphins = (97 + 112 + 101) / 3;
 koalas = (109 + 95 + 123) / 3;
