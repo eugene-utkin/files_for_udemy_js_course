@@ -314,6 +314,8 @@ console.log(`Koalas: ${koalas}`);
 
 if (dolphins > koalas) {
   console.log('Dolphins won!');
+} else if (dolphins === koalas) {
+  console.log("It's a draw!");
 }
 
 // Case 2
