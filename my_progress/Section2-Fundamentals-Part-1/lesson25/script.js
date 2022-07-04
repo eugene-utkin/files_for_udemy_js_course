@@ -343,3 +343,4 @@ koalas = (109 + 95 + 106) / 3;
 
 console.log('');
 console.log(`Dolphins: ${dolphins}`);
+console.log(`Koalas: ${koalas}`);
