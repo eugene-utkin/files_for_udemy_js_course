@@ -344,3 +344,11 @@ koalas = (109 + 95 + 106) / 3;
 console.log('');
 console.log(`Dolphins: ${dolphins}`);
 console.log(`Koalas: ${koalas}`);
+
+if (dolphins > koalas) {
+  console.log('Dolphins won!');
+} else if (dolphins === koalas) {
+  console.log("It's a draw!");
+} else {
+  console.log("Koalas won!");
+}
