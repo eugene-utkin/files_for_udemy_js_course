@@ -340,3 +340,5 @@ if (dolphins > koalas) {
 
 // Case 3
 koalas = (109 + 95 + 106) / 3;
+
+console.log('');
