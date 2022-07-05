@@ -333,7 +333,7 @@ if (dolphins > koalas && dolphins >= 100) {
   console.log('Dolphins won!');
 } else if (dolphins === koalas) {
   console.log("It's a draw!");
-} else {
+} else if (dolphins < koalas && koalas >= 100) {
   console.log("Koalas won!");
 }
 
