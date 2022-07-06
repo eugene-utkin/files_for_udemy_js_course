@@ -304,7 +304,7 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 }
 */
 
-
+/*
 // Case 1
 let dolphins = (96 + 108 + 89) / 3;
 let koalas = (88 + 91 + 110) / 3;
@@ -358,3 +358,5 @@ if (dolphins > koalas && dolphins >= 100) {
 } else {
   console.log("No one won!");
 }
+*/
+
