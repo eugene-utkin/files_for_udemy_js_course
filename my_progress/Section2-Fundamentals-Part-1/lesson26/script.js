@@ -363,5 +363,6 @@ if (dolphins > koalas && dolphins >= 100) {
 const day = 'monday';
 
 switch (day) {
-
+  case 'monday':
+    console.log('Plan course structure');
 }
