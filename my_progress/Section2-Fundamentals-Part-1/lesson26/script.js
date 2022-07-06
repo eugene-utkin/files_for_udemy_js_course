@@ -361,3 +361,7 @@ if (dolphins > koalas && dolphins >= 100) {
 */
 
 const day = 'monday';
+
+switch (day) {
+
+}
