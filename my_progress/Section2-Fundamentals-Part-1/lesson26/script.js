@@ -372,5 +372,7 @@ switch (day) {
     break;
   case 'wednesday':
   case 'thursday':
-
+    console.log('Write code examples');
+  case 'friday':
+    console.log('Record videos');
 }
