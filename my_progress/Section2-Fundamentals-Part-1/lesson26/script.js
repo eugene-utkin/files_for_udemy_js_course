@@ -376,4 +376,5 @@ switch (day) {
   case 'friday':
     console.log('Record videos');
   case 'saturday':
+  case 'sunday':
 }
