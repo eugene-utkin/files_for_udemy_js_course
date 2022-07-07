@@ -371,5 +371,6 @@ switch (day) {
     console.log('Prepare theory videos');
     break;
   case 'wednesday':
+  case 'thursday':
 
 }
