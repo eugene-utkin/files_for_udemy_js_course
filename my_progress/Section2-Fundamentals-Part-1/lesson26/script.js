@@ -370,4 +370,6 @@ switch (day) {
   case 'tuesday':
     console.log('Prepare theory videos');
     break;
+  case 'wednesday':
+
 }
