@@ -367,4 +367,6 @@ switch (day) {
     console.log('Plan course structure');
     console.log('Go to coding meetup');
     break;
+  case 'tuesday':
+    console.log('Prepare theory videos');
 }
