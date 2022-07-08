@@ -380,4 +380,5 @@ switch (day) {
   case 'saturday':
   case 'sunday':
     console.log('Enjoy the weekend :D');
+    break;
 }
