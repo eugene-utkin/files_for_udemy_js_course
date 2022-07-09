@@ -392,4 +392,6 @@ if (day === 'monday') {
   console.log('Prepare theory videos');
 } else if (day === 'wednesday' || day === 'thursday') {
   console.log('Write code examples');
+} else if (day === 'friday') {
+  console.log('Record videos');
 }
