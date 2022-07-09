@@ -363,7 +363,7 @@ if (dolphins > koalas && dolphins >= 100) {
 const day = 'monday';
 
 switch (day) {
-  case 'monday':
+  case 'monday': // day === 'monday'
     console.log('Plan course structure');
     console.log('Go to coding meetup');
     break;
