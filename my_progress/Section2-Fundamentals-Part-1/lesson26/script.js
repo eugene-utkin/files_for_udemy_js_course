@@ -384,3 +384,8 @@ switch (day) {
   default:
     console.log('Not a valid day!');
 }
+
+if (day === 'monday') {
+  console.log('Plan course structure');
+  console.log('Go to coding meetup');
+}
