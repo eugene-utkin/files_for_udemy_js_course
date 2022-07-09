@@ -390,4 +390,6 @@ if (day === 'monday') {
   console.log('Go to coding meetup');
 } else if (day === 'tuesday') {
   console.log('Prepare theory videos');
+} else if (day === 'wednesday' || day === 'thursday') {
+  console.log('Write code examples');
 }
