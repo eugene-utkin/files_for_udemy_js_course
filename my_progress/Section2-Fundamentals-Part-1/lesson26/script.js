@@ -396,4 +396,6 @@ if (day === 'monday') {
   console.log('Record videos');
 } else if (day === 'saturday' || day === 'sunday') {
   console.log('Enjoy the weekend :D');
+} else {
+  console.log('Not a valid day!');
 }
