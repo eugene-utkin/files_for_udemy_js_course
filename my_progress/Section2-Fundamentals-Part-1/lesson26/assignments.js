@@ -13,4 +13,5 @@ switch (language) {
 		break;
 	case 'spanish':
 		console.log('2nd place in number of native speakers');
+		break;
 }
