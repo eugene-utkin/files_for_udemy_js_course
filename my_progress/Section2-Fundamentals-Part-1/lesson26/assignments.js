@@ -11,4 +11,6 @@ switch (language) {
 	case 'mandarin':
 		console.log('MOST number of native speakers');
 		break;
+	case 'spanish':
+		console.log('2nd place in number of native speakers');
 }
