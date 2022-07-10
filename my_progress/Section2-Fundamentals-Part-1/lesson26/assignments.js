@@ -10,4 +10,5 @@ switch (language) {
 	case 'chinese':
 	case 'mandarin':
 		console.log('MOST number of native speakers');
+		break;
 }
