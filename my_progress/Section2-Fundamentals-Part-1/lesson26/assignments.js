@@ -6,3 +6,6 @@ let language;
 
 language = 'Russian';
 
+switch (language) {
+
+}
