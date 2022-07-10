@@ -16,4 +16,5 @@ switch (language) {
 		break;
 	case 'english':
 		console.log('3rd place');
+		break;
 }
