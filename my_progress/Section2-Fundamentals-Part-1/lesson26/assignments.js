@@ -19,4 +19,5 @@ switch (language) {
 		break;
 	case 'hindi':
 		console.log('Number 4');
+		break;
 }
