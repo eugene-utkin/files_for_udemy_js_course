@@ -22,4 +22,5 @@ switch (language) {
 		break;
 	case 'arabic':
 		console.log('5th most spoken language');
+		break;
 }
