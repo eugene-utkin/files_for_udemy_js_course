@@ -17,4 +17,6 @@ switch (language) {
 	case 'english':
 		console.log('3rd place');
 		break;
+	case 'hindi':
+		console.log('Number 4');
 }
