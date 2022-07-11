@@ -23,4 +23,6 @@ switch (language) {
 	case 'arabic':
 		console.log('5th most spoken language');
 		break;
+	default:
+		console.log('Great language too :D');
 }
