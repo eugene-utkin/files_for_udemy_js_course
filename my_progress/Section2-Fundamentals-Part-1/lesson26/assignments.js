@@ -20,4 +20,6 @@ switch (language) {
 	case 'hindi':
 		console.log('Number 4');
 		break;
+	case 'arabic':
+		console.log('5th most spoken language');
 }
