@@ -415,3 +415,4 @@ const me = 'Jonas';
 console.log(`I'm ${2037 - 1991} years old ${me}.`)
 */
 
+const age = 23;
