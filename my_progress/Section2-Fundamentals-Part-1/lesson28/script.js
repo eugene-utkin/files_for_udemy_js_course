@@ -416,3 +416,4 @@ console.log(`I'm ${2037 - 1991} years old ${me}.`)
 */
 
 const age = 23;
+age >= 18 ? console.log('I like to drink wine 🍷') : console.log('I like to drink water 💧');
