@@ -424,4 +424,6 @@ console.log(drink);
 let drink2;
 if (age >= 18) {
   drink2 = 'wine 🍷';
+} else {
+  drink2 = 'water 💧';
 }
