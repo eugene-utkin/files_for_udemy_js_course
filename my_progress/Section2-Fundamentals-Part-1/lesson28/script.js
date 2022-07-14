@@ -427,3 +427,4 @@ if (age >= 18) {
 } else {
   drink2 = 'water 💧';
 }
+console.log(drink2);
