@@ -433,5 +433,5 @@ console.log(`I like to drink ${age >= 18 ? 'wine 🍷' : 'water 💧'}`);
 */
 
 let billValue = 275;
-let tip = billValue * 0.2;
+let tip = billValue >= 50 && billValue <= 300 ? billValue * 0.15 : billValue * 0.2;
 
