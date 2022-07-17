@@ -446,4 +446,5 @@ console.log('');
 
 billValue = 430;
 tip = billValue >= 50 && billValue <= 300 ? billValue * 0.15 : billValue * 0.2;
+console.log('Case 3');
 console.log(`The bill was ${billValue}, the tip was ${tip}, and the total value ${billValue + tip}`);
