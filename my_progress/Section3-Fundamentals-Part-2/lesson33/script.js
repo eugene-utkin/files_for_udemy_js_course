@@ -14,3 +14,5 @@ if (hasDriversLicense) console.log('I can drive :D');
 function logger() {
 	console.log('My name is Jonas');
 }
+
+logger();
