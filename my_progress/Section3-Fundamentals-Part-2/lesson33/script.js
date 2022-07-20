@@ -19,3 +19,7 @@ function logger() {
 logger();
 logger();
 logger();
+
+function fruitProcessor(apples, oranges) {
+
+}
