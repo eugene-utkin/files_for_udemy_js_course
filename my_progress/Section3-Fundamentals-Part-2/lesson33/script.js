@@ -28,3 +28,4 @@ function fruitProcessor(apples, oranges) {
 
 const appleJuice = fruitProcessor(5, 0);
 console.log(appleJuice);
+console.log(fruitProcessor(5, 0));
