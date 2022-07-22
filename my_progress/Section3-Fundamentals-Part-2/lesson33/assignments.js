@@ -9,6 +9,6 @@
 // const populationComparison = population > 33 ? 'above' : 'below';
 // console.log(`${country}'s population is ${populationComparison} average`);
 
-function describeCountry(country) {
+function describeCountry(country, population) {
 
 }
