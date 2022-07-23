@@ -19,3 +19,5 @@ console.log(finlandDescription);
 
 const kyrgyzstanDescription = describeCountry("Kyrgyzstan", 7, "Bishkek");
 console.log(kyrgyzstanDescription);
+
+const englandDescription = describeCountry("England", 56, "London");
