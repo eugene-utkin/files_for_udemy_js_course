@@ -16,3 +16,5 @@ function describeCountry(country, population, capitalCity) {
 
 const finlandDescription = describeCountry("Finland", 6, "Helsinki");
 console.log(finlandDescription);
+
+const kyrgyzstanDescription = describeCountry("Kyrgyzstan", 7, "Bishkek");
