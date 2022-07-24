@@ -36,5 +36,5 @@ const num = Number('23');
 */
 
 function calcAge1(birthYear) {
-
+	const age = 2037 - birthYear;
 }
