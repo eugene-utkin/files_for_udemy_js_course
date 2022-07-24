@@ -34,3 +34,7 @@ console.log(appleOrangeJuice);
 
 const num = Number('23');
 */
+
+function calcAge1() {
+
+}
