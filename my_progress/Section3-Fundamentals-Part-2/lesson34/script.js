@@ -35,6 +35,7 @@ console.log(appleOrangeJuice);
 const num = Number('23');
 */
 
+// Function declaration
 function calcAge1(birthYear) {
 	return 2037 - birthYear;
 }
