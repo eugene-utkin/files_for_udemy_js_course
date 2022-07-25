@@ -42,6 +42,6 @@ function calcAge1(birthYear) {
 const age1 = calcAge1(1991);
 console.log(age1);
 
-function (birthYear) {
+const calcAge2 = function (birthYear) {
 	return 2037 - birthYear;
 }
