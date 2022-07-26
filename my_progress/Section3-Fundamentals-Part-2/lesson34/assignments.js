@@ -17,3 +17,5 @@ function describeCountry(country, population, capitalCity) {
 function percentageOfWorld1(population) {
 	return population / 7900 * 100;
 }
+
+let chinaPopulation = percentageOfWorld1(1441);
