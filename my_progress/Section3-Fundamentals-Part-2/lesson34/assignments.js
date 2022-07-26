@@ -19,3 +19,4 @@ function percentageOfWorld1(population) {
 }
 
 let chinaPopulation = percentageOfWorld1(1441);
+let kyrgyzstanPopulation = percentageOfWorld1(6.7);
