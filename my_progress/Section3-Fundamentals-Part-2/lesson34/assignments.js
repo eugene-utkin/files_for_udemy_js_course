@@ -14,6 +14,6 @@ function describeCountry(country, population, capitalCity) {
 	return description;
 }
 
-function percentageOfWorld1() {
+function percentageOfWorld1(population) {
 
 }
