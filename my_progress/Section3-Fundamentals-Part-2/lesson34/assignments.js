@@ -20,10 +20,10 @@ function percentageOfWorld1(population) {
 
 let chinaPopulation = percentageOfWorld1(1441);
 let roundedChinaPopulation = Number((chinaPopulation).toFixed(2));
-let chinaComparison = `China has 1441 million people, so it's about ${chinaPopulation}% of the world population.`
+let chinaComparison = `China has 1441 million people, so it's about ${roundedChinaPopulation}% of the world population.`
 let kyrgyzstanPopulation = percentageOfWorld1(6.7);
 let kyrgyzstanComparison = `Kirgizstan has 6.7 million people, so it's about ${kyrgyzstanPopulation}% of the world population.`
 let russiaPopulation = percentageOfWorld1(145);
 let russiaComparison = `Russia has 145 million people, so it's about ${russiaPopulation}% of the world population.`
 
-console.log(roundedChinaComparison);
+console.log(chinaComparison);
