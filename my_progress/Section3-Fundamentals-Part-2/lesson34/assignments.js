@@ -19,7 +19,7 @@ function percentageOfWorld1(population) {
 }
 
 let chinaPopulation = percentageOfWorld1(1441);
-let chinaComparison = `China has 1441 million people, so it's about ${chinaPopulation}% of
-the world population.`
+let chinaComparison = `China has 1441 million people, so it's about ${chinaPopulation}% of the world population.`
 let kyrgyzstanPopulation = percentageOfWorld1(6.7);
+let kyrgyzstanComparison = `Kirgizstan has 6.7 million people, so it's about ${kyrgyzstanPopulation}% of the world population.`
 let russiaPopulation = percentageOfWorld1(145);
