@@ -23,3 +23,4 @@ let chinaComparison = `China has 1441 million people, so it's about ${chinaPopul
 let kyrgyzstanPopulation = percentageOfWorld1(6.7);
 let kyrgyzstanComparison = `Kirgizstan has 6.7 million people, so it's about ${kyrgyzstanPopulation}% of the world population.`
 let russiaPopulation = percentageOfWorld1(145);
+let russiaComparison = `Russia has 145 million people, so it's about ${russiaPopulation}% of the world population.`
