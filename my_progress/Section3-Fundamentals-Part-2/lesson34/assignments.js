@@ -26,7 +26,7 @@ let roundedKyrgyzstanPopulation = Number((kyrgyzstanPopulation).toFixed(2));
 let kyrgyzstanComparison = `Kirgizstan has 6.7 million people, so it's about ${roundedKyrgyzstanPopulation}% of the world population.`
 let russiaPopulation = percentageOfWorld1(145);
 let roundedRussiaPopulation = Number((russiaPopulation).toFixed(2));
-let russiaComparison = `Russia has 145 million people, so it's about ${russiaPopulation}% of the world population.`
+let russiaComparison = `Russia has 145 million people, so it's about ${roundedRussiaPopulation}% of the world population.`
 
 console.log(chinaComparison);
 console.log(kyrgyzstanComparison);
