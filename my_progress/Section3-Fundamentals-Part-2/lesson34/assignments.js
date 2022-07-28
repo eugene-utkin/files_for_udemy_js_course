@@ -31,3 +31,7 @@ let russiaComparison = `Russia has 145 million people, so it's about ${roundedRu
 console.log(chinaComparison);
 console.log(kyrgyzstanComparison);
 console.log(russiaComparison);
+
+const percentageOfWorld2 = function (population) {
+	return population / 7900 * 100;
+}
