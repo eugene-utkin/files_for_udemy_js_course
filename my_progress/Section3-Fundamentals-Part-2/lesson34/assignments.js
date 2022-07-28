@@ -28,3 +28,4 @@ let russiaPopulation = percentageOfWorld1(145);
 let russiaComparison = `Russia has 145 million people, so it's about ${russiaPopulation}% of the world population.`
 
 console.log(chinaComparison);
+console.log(kyrgyzstanComparison);
