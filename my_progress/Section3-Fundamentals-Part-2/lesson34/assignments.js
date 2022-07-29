@@ -35,3 +35,5 @@ console.log(russiaComparison);
 const percentageOfWorld2 = function (population) {
 	return population / 7900 * 100;
 }
+
+chinaPopulation = percentageOfWorld2(1441);
