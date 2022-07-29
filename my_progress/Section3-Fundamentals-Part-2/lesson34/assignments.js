@@ -37,3 +37,4 @@ const percentageOfWorld2 = function (population) {
 }
 
 chinaPopulation = percentageOfWorld2(1441);
+roundedChinaPopulation = Number((chinaPopulation).toFixed(2));
