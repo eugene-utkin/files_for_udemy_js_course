@@ -38,3 +38,4 @@ const percentageOfWorld2 = function (population) {
 
 chinaPopulation = percentageOfWorld2(1441);
 roundedChinaPopulation = Number((chinaPopulation).toFixed(2));
+chinaComparison = `China has 1441 million people, so it's about ${roundedChinaPopulation}% of the world population.`
