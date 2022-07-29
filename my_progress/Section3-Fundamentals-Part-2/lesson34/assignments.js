@@ -41,3 +41,4 @@ roundedChinaPopulation = Number((chinaPopulation).toFixed(2));
 chinaComparison = `China has 1441 million people, so it's about ${roundedChinaPopulation}% of the world population.`
 kyrgyzstanPopulation = percentageOfWorld2(6.7);
 roundedKyrgyzstanPopulation = Number((kyrgyzstanPopulation).toFixed(2));
+kyrgyzstanComparison = `Kirgizstan has 6.7 million people, so it's about ${roundedKyrgyzstanPopulation}% of the world population.`
