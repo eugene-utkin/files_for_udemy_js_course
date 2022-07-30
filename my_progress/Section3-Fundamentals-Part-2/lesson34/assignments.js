@@ -48,3 +48,4 @@ russiaComparison = `Russia has 145 million people, so it's about ${roundedRussia
 
 console.log(chinaComparison);
 console.log(kyrgyzstanComparison);
+console.log(russiaComparison);
