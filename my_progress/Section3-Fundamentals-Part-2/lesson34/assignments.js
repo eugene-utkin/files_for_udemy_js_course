@@ -47,3 +47,4 @@ roundedRussiaPopulation = Number((russiaPopulation).toFixed(2));
 russiaComparison = `Russia has 145 million people, so it's about ${roundedRussiaPopulation}% of the world population.`
 
 console.log(chinaComparison);
+console.log(kyrgyzstanComparison);
