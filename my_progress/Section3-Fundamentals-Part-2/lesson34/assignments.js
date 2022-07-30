@@ -14,6 +14,7 @@ function describeCountry(country, population, capitalCity) {
 	return description;
 }
 
+// Function declaration
 function percentageOfWorld1(population) {
 	return population / 7900 * 100;
 }
