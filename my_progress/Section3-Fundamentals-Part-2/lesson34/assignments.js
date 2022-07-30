@@ -49,6 +49,7 @@ russiaPopulation = percentageOfWorld2(145);
 roundedRussiaPopulation = Number((russiaPopulation).toFixed(2));
 russiaComparison = `Russia has 145 million people, so it's about ${roundedRussiaPopulation}% of the world population.`
 
+console.log('Function expression example');
 console.log(chinaComparison);
 console.log(kyrgyzstanComparison);
 console.log(russiaComparison);
