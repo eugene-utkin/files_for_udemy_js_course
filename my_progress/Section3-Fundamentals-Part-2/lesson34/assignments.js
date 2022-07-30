@@ -44,3 +44,4 @@ roundedKyrgyzstanPopulation = Number((kyrgyzstanPopulation).toFixed(2));
 kyrgyzstanComparison = `Kirgizstan has 6.7 million people, so it's about ${roundedKyrgyzstanPopulation}% of the world population.`
 russiaPopulation = percentageOfWorld2(145);
 roundedRussiaPopulation = Number((russiaPopulation).toFixed(2));
+russiaComparison = `Russia has 145 million people, so it's about ${roundedRussiaPopulation}% of the world population.`
