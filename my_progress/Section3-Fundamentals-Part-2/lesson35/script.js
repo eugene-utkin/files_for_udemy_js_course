@@ -62,3 +62,5 @@ const yearsUntilRetirement = birthYear => {
 	const retirement = 65 - age;
 	return retirement;
 }
+
+yearsUntilRetirement(1991);
