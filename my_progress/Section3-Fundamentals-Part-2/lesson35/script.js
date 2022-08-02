@@ -64,4 +64,4 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 	return `${firstName} retires is ${retirement} years`;
 }
 
-console.log(yearsUntilRetirement(1991));
+console.log(yearsUntilRetirement(1991, 'Jonas'));
