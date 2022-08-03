@@ -66,3 +66,4 @@ const percentageOfWorld3 = population => population / 7900 * 100;
 let chinaPopulation = percentageOfWorld3(1441);
 let roundedChinaPopulation = Number((chinaPopulation).toFixed(2));
 let chinaComparison = `China has 1441 million people, so it's about ${roundedChinaPopulation}% of the world population.`
+let kyrgyzstanPopulation = percentageOfWorld3(6.7);
