@@ -55,3 +55,5 @@ console.log('Function expression example');
 console.log(chinaComparison);
 console.log(kyrgyzstanComparison);
 console.log(russiaComparison);
+
+console.log('');
