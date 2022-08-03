@@ -57,3 +57,4 @@ console.log(kyrgyzstanComparison);
 console.log(russiaComparison);
 
 console.log('');
+// Arrow function
