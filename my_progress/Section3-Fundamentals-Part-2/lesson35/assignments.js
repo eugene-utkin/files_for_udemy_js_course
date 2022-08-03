@@ -59,3 +59,5 @@ console.log(russiaComparison);
 console.log('');
 // Arrow function
 const percentageOfWorld3 = population => population / 7900 * 100;
+
+chinaPopulation = percentageOfWorld3(1441);
