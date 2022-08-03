@@ -9,6 +9,7 @@
 // const populationComparison = population > 33 ? 'above' : 'below';
 // console.log(`${country}'s population is ${populationComparison} average`);
 
+/*
 function describeCountry(country, population, capitalCity) {
 	const description = `${country} has ${population} million people and its capital city is ${capitalCity}`;
 	return description;
@@ -57,7 +58,10 @@ console.log(kyrgyzstanComparison);
 console.log(russiaComparison);
 
 console.log('');
+*/
+
 // Arrow function
 const percentageOfWorld3 = population => population / 7900 * 100;
 
-chinaPopulation = percentageOfWorld3(1441);
+let chinaPopulation = percentageOfWorld3(1441);
+let roundedChinaPopulation = Number((chinaPopulation).toFixed(2));
