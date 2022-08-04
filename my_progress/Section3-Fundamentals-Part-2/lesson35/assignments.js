@@ -69,4 +69,4 @@ const chinaComparison = `China has 1441 million people, so it's about ${roundedC
 const kyrgyzstanPopulation = percentageOfWorld3(6.7);
 const roundedKyrgyzstanPopulation = Number((kyrgyzstanPopulation).toFixed(2));
 const kyrgyzstanComparison = `Kirgizstan has 6.7 million people, so it's about ${roundedKyrgyzstanPopulation}% of the world population.`
-const russiaPopulation = percentageOfWorld2(145);
+const russiaPopulation = percentageOfWorld3(145);
