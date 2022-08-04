@@ -76,3 +76,4 @@ const russiaComparison = `Russia has 145 million people, so it's about ${rounded
 console.log('Arrow function example');
 console.log(chinaComparison);
 console.log(kyrgyzstanComparison);
+console.log(russiaComparison);
