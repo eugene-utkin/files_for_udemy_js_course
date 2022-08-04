@@ -72,3 +72,5 @@ const kyrgyzstanComparison = `Kirgizstan has 6.7 million people, so it's about $
 const russiaPopulation = percentageOfWorld3(145);
 const roundedRussiaPopulation = Number((russiaPopulation).toFixed(2));
 const russiaComparison = `Russia has 145 million people, so it's about ${roundedRussiaPopulation}% of the world population.`
+
+console.log('Arrow function example');
