@@ -74,3 +74,4 @@ const roundedRussiaPopulation = Number((russiaPopulation).toFixed(2));
 const russiaComparison = `Russia has 145 million people, so it's about ${roundedRussiaPopulation}% of the world population.`
 
 console.log('Arrow function example');
+console.log(chinaComparison);
