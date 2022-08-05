@@ -68,3 +68,7 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 console.log(yearsUntilRetirement(1991, 'Jonas'));
 console.log(yearsUntilRetirement(1980, 'Bob'));
 */
+
+function fruitProcessor(apples, oranges) {
+
+}
