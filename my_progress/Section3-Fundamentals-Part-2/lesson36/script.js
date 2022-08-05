@@ -69,6 +69,10 @@ console.log(yearsUntilRetirement(1991, 'Jonas'));
 console.log(yearsUntilRetirement(1980, 'Bob'));
 */
 
+function cutFruitPieces(fruit) {
+
+}
+
 function fruitProcessor(apples, oranges) {
 	const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
 	return juice;
