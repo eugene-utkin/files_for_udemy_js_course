@@ -58,6 +58,8 @@ console.log(kyrgyzstanComparison);
 console.log(russiaComparison);
 
 */
+
+/*
 console.log('');
 // Arrow function
 const percentageOfWorld3 = population => population / 7900 * 100;
@@ -76,6 +78,7 @@ console.log('Arrow function example');
 console.log(chinaComparison);
 console.log(kyrgyzstanComparison);
 console.log(russiaComparison);
+*/
 
 function describePopulation(country, population) {
 	const description = `${country} has ${population} million people, which is about 18.2% of the world.`;
