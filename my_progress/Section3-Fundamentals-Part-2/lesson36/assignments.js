@@ -78,5 +78,6 @@ console.log(kyrgyzstanComparison);
 console.log(russiaComparison);
 
 function describePopulation(country, population) {
-	return `China has 1441 million people, which is about 18.2% of the world.`
+	const description = `${country} has 1441 million people, which is about 18.2% of the world.`;
+	return description;
 }
