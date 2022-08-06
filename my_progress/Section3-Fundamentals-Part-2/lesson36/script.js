@@ -80,4 +80,4 @@ function fruitProcessor(apples, oranges) {
 	const juice = `Juice with ${applePieces} pieces of apple and ${orangePieces} pieces of orange.`;
 	return juice;
 }
-fruitProcessor(2, 3);
+console.log(fruitProcessor(2, 3));
