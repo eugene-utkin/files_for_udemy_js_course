@@ -77,6 +77,6 @@ console.log(chinaComparison);
 console.log(kyrgyzstanComparison);
 console.log(russiaComparison);
 
-function describePopulation() {
+function describePopulation(country, population) {
 
 }
