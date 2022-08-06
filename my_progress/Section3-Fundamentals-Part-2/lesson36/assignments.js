@@ -76,3 +76,7 @@ console.log('Arrow function example');
 console.log(chinaComparison);
 console.log(kyrgyzstanComparison);
 console.log(russiaComparison);
+
+function describePopulation() {
+
+}
