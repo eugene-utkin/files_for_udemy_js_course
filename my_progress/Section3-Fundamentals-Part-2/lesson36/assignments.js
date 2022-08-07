@@ -90,3 +90,5 @@ function describePopulation(country, population) {
 	const description = `${country} has ${population} million people, which is about ${roundedPercentage}% of the world.`;
 	return description;
 }
+
+const country = "China";
