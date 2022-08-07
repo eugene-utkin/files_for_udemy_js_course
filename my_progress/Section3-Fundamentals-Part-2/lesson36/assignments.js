@@ -80,6 +80,10 @@ console.log(kyrgyzstanComparison);
 console.log(russiaComparison);
 */
 
+function percentageOfWorld1(population) {
+	return population / 7900 * 100;
+}
+
 function describePopulation(country, population) {
 	const description = `${country} has ${population} million people, which is about 18.2% of the world.`;
 	return description;
