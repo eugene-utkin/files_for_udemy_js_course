@@ -92,3 +92,4 @@ function describePopulation(country, population) {
 }
 
 const country = "China";
+const population = 1441;
