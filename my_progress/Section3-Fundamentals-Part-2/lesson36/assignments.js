@@ -85,6 +85,7 @@ function percentageOfWorld1(population) {
 }
 
 function describePopulation(country, population) {
+	const percentage = percentageOfWorld1(population);
 	const description = `${country} has ${population} million people, which is about 18.2% of the world.`;
 	return description;
 }
