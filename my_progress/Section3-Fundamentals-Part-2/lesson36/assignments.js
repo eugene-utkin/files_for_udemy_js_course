@@ -93,7 +93,7 @@ function describePopulation(country, population) {
 
 const country1 = "China";
 const population1 = 1441;
-console.log(describePopulation(country, population));
+console.log(describePopulation(country1, population1));
 
 const country2 = "Kyrgyzstan";
 const population2 = 6.7;
