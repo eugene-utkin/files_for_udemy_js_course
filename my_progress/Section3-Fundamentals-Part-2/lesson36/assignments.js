@@ -98,6 +98,7 @@ console.log(describePopulation(country1, population1));
 
 console.log("");
 
+console.log("Case 2:");
 const country2 = "Kyrgyzstan";
 const population2 = 6.7;
 console.log(describePopulation(country2, population2));
