@@ -96,6 +96,8 @@ const country1 = "China";
 const population1 = 1441;
 console.log(describePopulation(country1, population1));
 
+console.log("");
+
 const country2 = "Kyrgyzstan";
 const population2 = 6.7;
 console.log(describePopulation(country2, population2));
