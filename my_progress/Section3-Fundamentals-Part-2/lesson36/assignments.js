@@ -106,3 +106,4 @@ console.log(describePopulation(country2, population2));
 console.log("");
 
 console.log("Case 3:");
+const country3 = "Russia";
