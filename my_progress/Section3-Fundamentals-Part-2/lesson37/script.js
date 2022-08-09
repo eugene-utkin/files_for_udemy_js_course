@@ -69,6 +69,7 @@ console.log(yearsUntilRetirement(1991, 'Jonas'));
 console.log(yearsUntilRetirement(1980, 'Bob'));
 */
 
+/*
 function cutFruitPieces(fruit) {
 	return fruit * 4;
 }
@@ -81,3 +82,4 @@ function fruitProcessor(apples, oranges) {
 	return juice;
 }
 console.log(fruitProcessor(2, 3));
+*/
