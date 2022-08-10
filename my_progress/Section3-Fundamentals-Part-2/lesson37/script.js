@@ -91,7 +91,10 @@ const calcAge = function (birthYear) {
 const yearsUntilRetirement = function (birthYear, firstName) {
 	const age = calcAge(birthYear);
 	const retirement = 65 - age;
-	return retirement;
+
+	if (retirement > 0) {
+		return retirement;
+	}
 
 	// return `${firstName} retires in ${retirement} years`;
 }
