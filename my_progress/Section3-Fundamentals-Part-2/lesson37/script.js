@@ -94,6 +94,8 @@ const yearsUntilRetirement = function (birthYear, firstName) {
 
 	if (retirement > 0) {
 		return retirement;
+	} else {
+		return -1;
 	}
 
 	// return `${firstName} retires in ${retirement} years`;
