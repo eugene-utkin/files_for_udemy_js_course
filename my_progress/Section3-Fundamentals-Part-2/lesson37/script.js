@@ -94,12 +94,11 @@ const yearsUntilRetirement = function (birthYear, firstName) {
 
 	if (retirement > 0) {
 		return retirement;
+		console.log(`${firstName} retires in ${retirement} years`);
 	} else {
 		return -1;
 	}
-
-	// return `${firstName} retires in ${retirement} years`;
 }
 
 console.log(yearsUntilRetirement(1991, 'Jonas'));
-console.log(yearsUntilRetirement(1970, 'Mike'));
+console.log(yearsUntilRetirement(1950, 'Mike'));
