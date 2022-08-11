@@ -105,3 +105,7 @@ const yearsUntilRetirement = function (birthYear, firstName) {
 console.log(yearsUntilRetirement(1991, 'Jonas'));
 console.log(yearsUntilRetirement(1950, 'Mike'));
 */
+
+function calcAverage(score1, score2, score3) {
+
+}
