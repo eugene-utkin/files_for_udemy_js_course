@@ -107,5 +107,5 @@ console.log(yearsUntilRetirement(1950, 'Mike'));
 */
 
 function calcAverage(score1, score2, score3) {
-
+	const averageScore = (score1 + score2 + score3) / 3;
 }
