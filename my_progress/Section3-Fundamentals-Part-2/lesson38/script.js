@@ -110,3 +110,5 @@ function calcAverage(score1, score2, score3) {
 	const averageScore = (score1 + score2 + score3) / 3;
 	return averageScore;
 }
+
+console.log('Case 1:');
