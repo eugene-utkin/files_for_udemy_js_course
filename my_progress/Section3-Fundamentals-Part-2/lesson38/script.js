@@ -118,3 +118,4 @@ let dolphins3 = 71;
 let dolphinsAverage = averageScore(dolphins1, dolphins2, dolphins3);
 
 let koalas1 = 65;
+let koalas2 = 54;
