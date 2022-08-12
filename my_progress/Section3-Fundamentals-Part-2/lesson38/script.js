@@ -114,3 +114,4 @@ function calcAverage(score1, score2, score3) {
 console.log('Case 1:');
 let dolphins1 = 44;
 let dolphins2 = 23;
+let dolphins3 = 71;
