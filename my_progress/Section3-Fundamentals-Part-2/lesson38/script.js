@@ -136,3 +136,4 @@ checkWinner(dolphinsAverage, koalasAverage);
 
 console.log('');
 console.log('Case 2:');
+dolphins1 = 85;
