@@ -116,6 +116,8 @@ function checkWinner(avgDolphins, avgKoalas) {
 		console.log(`Dolphins win (${avgDolphins} vs. ${avgKoalas})`);
 	} else if (avgKoalas >= avgDolphins * 2) {
 		console.log(`Koalas win (${avgKoalas} vs. ${avgDolphins})`);
+	} else {
+		console.log('No team wins');
 	}
 }
 
