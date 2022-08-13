@@ -130,6 +130,6 @@ let dolphinsAverage = calcAverage(dolphins1, dolphins2, dolphins3);
 let koalas1 = 65;
 let koalas2 = 54;
 let koalas3 = 49;
-let koalasAverage = averageScore(koalas1, koalas2, koalas3);
+let koalasAverage = calcAverage(koalas1, koalas2, koalas3);
 
 checkWinner(dolphinsAverage, koalasAverage);
