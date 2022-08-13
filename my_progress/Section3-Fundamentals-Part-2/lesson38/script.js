@@ -112,7 +112,9 @@ function calcAverage(score1, score2, score3) {
 }
 
 function checkWinner(avgDolphins, avgKoalas) {
-
+	if (avgDolphins >= avgKoalas * 2) {
+		console.log(`Dolphins win (${avgDolphins} vs. ${avgKoalas})`);
+	}
 }
 
 console.log('Case 1:');
