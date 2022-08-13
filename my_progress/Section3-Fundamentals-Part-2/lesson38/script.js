@@ -111,6 +111,10 @@ function calcAverage(score1, score2, score3) {
 	return averageScore;
 }
 
+function checkWinner(avgDolphins, avgKoalas) {
+
+}
+
 console.log('Case 1:');
 let dolphins1 = 44;
 let dolphins2 = 23;
