@@ -135,3 +135,4 @@ let koalasAverage = calcAverage(koalas1, koalas2, koalas3);
 checkWinner(dolphinsAverage, koalasAverage);
 
 console.log('');
+console.log('Case 2:');
