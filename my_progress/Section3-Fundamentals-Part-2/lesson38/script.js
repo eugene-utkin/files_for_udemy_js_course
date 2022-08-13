@@ -133,3 +133,5 @@ let koalas3 = 49;
 let koalasAverage = calcAverage(koalas1, koalas2, koalas3);
 
 checkWinner(dolphinsAverage, koalasAverage);
+
+console.log('');
