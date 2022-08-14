@@ -106,6 +106,7 @@ console.log(yearsUntilRetirement(1991, 'Jonas'));
 console.log(yearsUntilRetirement(1950, 'Mike'));
 */
 
+/*
 function calcAverage(score1, score2, score3) {
 	const averageScore = (score1 + score2 + score3) / 3;
 	return averageScore;
@@ -147,3 +148,5 @@ koalas3 = 27;
 koalasAverage = calcAverage(koalas1, koalas2, koalas3);
 
 checkWinner(dolphinsAverage, koalasAverage);
+*/
+
