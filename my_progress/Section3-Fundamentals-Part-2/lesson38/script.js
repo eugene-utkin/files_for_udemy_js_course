@@ -145,3 +145,5 @@ koalas1 = 23;
 koalas2 = 34;
 koalas3 = 27;
 koalasAverage = calcAverage(koalas1, koalas2, koalas3);
+
+checkWinner(dolphinsAverage, koalasAverage);
