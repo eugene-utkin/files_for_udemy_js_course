@@ -140,3 +140,5 @@ dolphins1 = 85;
 dolphins2 = 54;
 dolphins3 = 41;
 dolphinsAverage = calcAverage(dolphins1, dolphins2, dolphins3);
+
+koalas1 = 23;
