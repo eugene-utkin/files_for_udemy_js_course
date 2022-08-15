@@ -150,3 +150,4 @@ koalasAverage = calcAverage(koalas1, koalas2, koalas3);
 checkWinner(dolphinsAverage, koalasAverage);
 */
 
+const friend1 = 'Michael';
