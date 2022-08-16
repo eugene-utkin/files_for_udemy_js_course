@@ -167,4 +167,4 @@ console.log(friends[friends.length - 1]);
 
 friends[2] = 'Jay';
 console.log(friends);
-friends = ['Bob', 'Alice'];
+// friends = ['Bob', 'Alice'];
