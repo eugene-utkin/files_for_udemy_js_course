@@ -180,3 +180,4 @@ const calcAge = function (birthYear) {
 }
 const years = [1990, 1967, 2002, 2010, 2018];
 const age1 = calcAge(years[0]);
+const age2 = calcAge(years[1]);
