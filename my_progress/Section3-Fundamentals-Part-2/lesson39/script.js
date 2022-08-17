@@ -175,3 +175,6 @@ console.log(jonas);
 console.log(jonas.length);
 
 // Exercise
+const calcAge = function (birthYear) {
+	return 2037 - birthYear;
+}
