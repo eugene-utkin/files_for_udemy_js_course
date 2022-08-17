@@ -171,3 +171,4 @@ console.log(friends);
 
 const firstName = 'Jonas';
 const jonas = [firstName, 'Schmedtmann', 2037 - 1991, 'teacher', friends];
+console.log(jonas);
