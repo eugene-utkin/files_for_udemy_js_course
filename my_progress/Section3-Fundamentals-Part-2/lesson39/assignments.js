@@ -114,3 +114,4 @@ const population3 = 145;
 console.log(describePopulation(country3, population3));
 */
 
+const populations = [1441, 6.7, 145, 33];
