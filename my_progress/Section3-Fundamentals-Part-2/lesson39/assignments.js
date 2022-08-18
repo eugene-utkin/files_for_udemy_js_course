@@ -80,6 +80,7 @@ console.log(kyrgyzstanComparison);
 console.log(russiaComparison);
 */
 
+/*
 function percentageOfWorld1(population) {
 	return population / 7900 * 100;
 }
@@ -111,3 +112,5 @@ console.log("Case 3:");
 const country3 = "Russia";
 const population3 = 145;
 console.log(describePopulation(country3, population3));
+*/
+
