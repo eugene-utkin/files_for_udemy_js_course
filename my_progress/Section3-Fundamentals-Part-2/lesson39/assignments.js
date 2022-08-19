@@ -123,3 +123,4 @@ function percentageOfWorld1(population) {
 
 const percentage1 = percentageOfWorld1(populations[0]);
 const percentage2 = percentageOfWorld1(populations[1]);
+const percentage3 = percentageOfWorld1(populations[2]);
