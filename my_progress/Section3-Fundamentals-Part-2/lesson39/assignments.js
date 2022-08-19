@@ -116,3 +116,7 @@ console.log(describePopulation(country3, population3));
 
 const populations = [1441, 6.7, 145, 33];
 console.log(populations.length == 4);
+
+function percentageOfWorld1(population) {
+	return population / 7900 * 100;
+}
