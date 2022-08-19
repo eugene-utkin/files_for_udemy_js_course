@@ -125,3 +125,5 @@ const percentage1 = percentageOfWorld1(populations[0]);
 const percentage2 = percentageOfWorld1(populations[1]);
 const percentage3 = percentageOfWorld1(populations[2]);
 const percentage4 = percentageOfWorld1(populations[3]);
+
+const percentages = [percentage1, percentage2, percentage3, percentage4];
