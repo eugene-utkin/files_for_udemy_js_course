@@ -120,3 +120,5 @@ console.log(populations.length == 4);
 function percentageOfWorld1(population) {
 	return population / 7900 * 100;
 }
+
+const percentage1 = percentageOfWorld1(populations[0]);
