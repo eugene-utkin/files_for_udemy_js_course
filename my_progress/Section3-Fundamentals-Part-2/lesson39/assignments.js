@@ -118,7 +118,7 @@ const populations = [1441, 6.7, 145, 33];
 console.log(populations.length == 4);
 
 function percentageOfWorld1(population) {
-	return population / 7900 * 100;
+	return Number((population / 7900 * 100).toFixed(2));
 }
 
 const percentage1 = percentageOfWorld1(populations[0]);
