@@ -197,3 +197,5 @@ console.log(newLength);
 
 friends.unshift('John');
 console.log(friends);
+
+// Remove elements
