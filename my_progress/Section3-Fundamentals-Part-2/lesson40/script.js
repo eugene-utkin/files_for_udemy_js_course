@@ -190,5 +190,5 @@ console.log(ages);
 */
 
 const friends = ['Michael', 'Steven', 'Peter'];
-friends.push('Jay');
+const newLength = friends.push('Jay');
 console.log(friends);
