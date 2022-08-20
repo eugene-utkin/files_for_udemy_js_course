@@ -195,3 +195,4 @@ console.log(friends);
 console.log(newLength);
 
 friends.unshift('John');
+console.log(friends);
