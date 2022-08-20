@@ -150,6 +150,7 @@ koalasAverage = calcAverage(koalas1, koalas2, koalas3);
 checkWinner(dolphinsAverage, koalasAverage);
 */
 
+/*
 const friend1 = 'Michael';
 const friend2 = 'Steven';
 const friend3 = 'Peter';
@@ -186,3 +187,4 @@ console.log(age1, age2, age3);
 
 const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])];
 console.log(ages);
+*/
