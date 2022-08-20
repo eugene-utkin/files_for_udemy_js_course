@@ -190,3 +190,4 @@ console.log(ages);
 */
 
 const friends = ['Michael', 'Steven', 'Peter'];
+friends.push('Jay');
