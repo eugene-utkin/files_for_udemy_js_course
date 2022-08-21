@@ -204,4 +204,4 @@ const popped = friends.pop();
 console.log(popped);
 console.log(friends);
 
-friends.shift();
+friends.shift(); // First
