@@ -200,5 +200,5 @@ console.log(friends);
 
 // Remove elements
 friends.pop(); // Last
-friends.pop();
+const popped = friends.pop();
 console.log(friends);
