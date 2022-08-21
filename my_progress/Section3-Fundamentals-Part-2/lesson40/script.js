@@ -205,3 +205,4 @@ console.log(popped);
 console.log(friends);
 
 friends.shift(); // First
+console.log(friends);
