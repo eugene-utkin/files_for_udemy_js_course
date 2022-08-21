@@ -199,4 +199,4 @@ friends.unshift('John');
 console.log(friends);
 
 // Remove elements
-friends.pop();
+friends.pop(); // Last
