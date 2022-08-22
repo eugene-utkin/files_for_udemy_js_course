@@ -206,3 +206,5 @@ console.log(friends);
 
 friends.shift(); // First
 console.log(friends);
+
+console.log(friends.indexOf('Steven'));
