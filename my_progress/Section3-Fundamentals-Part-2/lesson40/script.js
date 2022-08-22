@@ -209,3 +209,5 @@ console.log(friends);
 
 console.log(friends.indexOf('Steven'));
 console.log(friends.indexOf('Bob'));
+
+console.log(friends.includes('Steven'));
