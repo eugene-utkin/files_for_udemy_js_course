@@ -131,4 +131,4 @@ const percentages = [percentage1, percentage2, percentage3, percentage4];
 console.log(percentages);
 */
 
-["Kazakhstan", "China", "Tajikistan", "Uzbekistan"]
+const neighbours = ["Kazakhstan", "China", "Tajikistan", "Uzbekistan"];
