@@ -138,3 +138,5 @@ neighbours.pop();
 if (!neighbours.includes("Germany")) {
 	console.log("Probably not a central European country :D");
 }
+
+const kazakhstanIndex = neighbours.indexOf("Kazakhstan");
