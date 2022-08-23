@@ -132,3 +132,4 @@ console.log(percentages);
 */
 
 const neighbours = ["Kazakhstan", "China", "Tajikistan", "Uzbekistan"];
+neighbours.push("Utopia");
