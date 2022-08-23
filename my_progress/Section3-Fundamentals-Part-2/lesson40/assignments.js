@@ -114,6 +114,7 @@ const population3 = 145;
 console.log(describePopulation(country3, population3));
 */
 
+/*
 const populations = [1441, 6.7, 145, 33];
 console.log(populations.length == 4);
 
@@ -128,3 +129,6 @@ const percentage4 = percentageOfWorld1(populations[3]);
 
 const percentages = [percentage1, percentage2, percentage3, percentage4];
 console.log(percentages);
+*/
+
+["Kazakhstan", "China", "Tajikistan", "Uzbekistan"]
