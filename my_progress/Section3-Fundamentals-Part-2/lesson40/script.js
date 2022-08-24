@@ -220,3 +220,7 @@ if (friends.includes('Steven')) {
 	console.log('You have a friend called Steven');
 }
 */
+
+function calcTip(billValue) {
+
+}
