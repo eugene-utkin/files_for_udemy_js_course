@@ -141,3 +141,4 @@ if (!neighbours.includes("Germany")) {
 
 const kazakhstanIndex = neighbours.indexOf("Kazakhstan");
 neighbours[kazakhstanIndex] = "Republic of Kazakhstan";
+console.log(neighbours);
