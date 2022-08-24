@@ -228,3 +228,5 @@ function calcTip(billValue) {
 		return billValue * 0.2;
 	}
 }
+
+console.log(calcTip(100));
