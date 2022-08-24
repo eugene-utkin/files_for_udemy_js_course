@@ -222,5 +222,7 @@ if (friends.includes('Steven')) {
 */
 
 function calcTip(billValue) {
-
+	if (billValue >= 50 && billValue <= 300) {
+		return billValue * 0.15;
+	}
 }
