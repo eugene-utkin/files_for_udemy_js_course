@@ -221,6 +221,7 @@ if (friends.includes('Steven')) {
 }
 */
 
+/*
 function calcTip(billValue) {
 	return billValue >= 50 && billValue <= 300 ? billValue * 0.15 : billValue * 0.2;
 }
@@ -235,3 +236,4 @@ console.log(tips);
 const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
 console.log(total);
+*/
