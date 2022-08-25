@@ -244,4 +244,4 @@ const jonasArray = [
 	2037 - 1991,
 	'teacher',
 	['Michael', 'Peter', 'Steven']
-]
+];
