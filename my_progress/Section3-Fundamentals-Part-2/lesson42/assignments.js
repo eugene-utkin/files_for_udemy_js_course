@@ -131,6 +131,7 @@ const percentages = [percentage1, percentage2, percentage3, percentage4];
 console.log(percentages);
 */
 
+/*
 const neighbours = ["Kazakhstan", "China", "Tajikistan", "Uzbekistan"];
 neighbours.push("Utopia");
 neighbours.pop();
@@ -142,3 +143,12 @@ if (!neighbours.includes("Germany")) {
 const kazakhstanIndex = neighbours.indexOf("Kazakhstan");
 neighbours[kazakhstanIndex] = "Republic of Kazakhstan";
 console.log(neighbours);
+*/
+
+const myCountry = {
+	country: 'Russia',
+	capital: 'Moscow',
+	language: 'Russian',
+	population: 145,
+	neighbours: ['Finland', 'Georgia']
+}
