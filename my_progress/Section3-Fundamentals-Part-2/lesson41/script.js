@@ -245,3 +245,7 @@ const jonasArray = [
 	'teacher',
 	['Michael', 'Peter', 'Steven']
 ];
+
+const jonas = {
+
+}
