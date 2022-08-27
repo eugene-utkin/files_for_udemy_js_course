@@ -265,3 +265,4 @@ const jonas = {
 console.log(jonas);
 
 console.log(jonas.lastName);
+console.log(jonas['lastName']);
