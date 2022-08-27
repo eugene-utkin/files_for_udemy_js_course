@@ -266,3 +266,5 @@ console.log(jonas);
 
 console.log(jonas.lastName);
 console.log(jonas['lastName']);
+
+const nameKey = 'Name';
