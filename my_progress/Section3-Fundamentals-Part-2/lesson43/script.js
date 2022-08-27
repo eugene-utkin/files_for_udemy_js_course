@@ -262,3 +262,4 @@ const jonas = {
 	job: 'teacher',
 	friends: ['Michael', 'Peter', 'Steven']
 };
+console.log(jonas);
