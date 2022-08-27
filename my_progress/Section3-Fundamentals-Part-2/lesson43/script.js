@@ -263,3 +263,5 @@ const jonas = {
 	friends: ['Michael', 'Peter', 'Steven']
 };
 console.log(jonas);
+
+console.log(jonas.lastName);
