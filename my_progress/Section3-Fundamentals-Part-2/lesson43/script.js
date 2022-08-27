@@ -269,3 +269,4 @@ console.log(jonas['lastName']);
 
 const nameKey = 'Name';
 console.log(jonas['first' + nameKey]);
+console.log(jonas['last' + nameKey]);
