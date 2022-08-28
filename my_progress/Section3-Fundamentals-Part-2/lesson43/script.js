@@ -283,3 +283,4 @@ if (jonas[interestedIn]) {
 
 jonas.location = 'Portugal';
 jonas['twitter'] = '@jonasschmedtman';
+console.log(jonas);
