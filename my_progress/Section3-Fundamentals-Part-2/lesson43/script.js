@@ -272,3 +272,5 @@ console.log(jonas['first' + nameKey]);
 console.log(jonas['last' + nameKey]);
 
 // console.log(jonas.'last' + nameKey);
+
+prompt('What do you want to know about Jonas? Choose between firstName, lastName, age, job and friends');
