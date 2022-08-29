@@ -286,3 +286,4 @@ jonas['twitter'] = '@jonasschmedtman';
 console.log(jonas);
 
 // Challenge
+// "Jonas has 3 friends, and his best friend is called Michael"
