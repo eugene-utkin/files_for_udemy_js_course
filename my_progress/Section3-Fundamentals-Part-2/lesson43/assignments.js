@@ -153,4 +153,4 @@ const myCountry = {
 	neighbours: ['Finland', 'Georgia']
 }
 
-console.log(`${myCountry.country} has ${myCountry.population} million ${myCountry.language}-speaking people, ${myCountry.neighbours.length} and a capital called ${myCountry.capital}.`);
+console.log(`${myCountry.country} has ${myCountry.population} million ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`);
