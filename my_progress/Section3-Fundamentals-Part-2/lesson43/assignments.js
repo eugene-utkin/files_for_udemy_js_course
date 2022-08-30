@@ -158,3 +158,4 @@ console.log(`${myCountry.country} has ${myCountry.population} million ${myCountr
 myCountry.population = myCountry.population + 2;
 console.log(myCountry.population);
 myCountry['population'] = myCountry['population'] - 2;
+console.log(myCountry['population']);
