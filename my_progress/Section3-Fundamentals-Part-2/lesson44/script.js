@@ -294,7 +294,7 @@ console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his bes
 const jonas = {
 	firstName: 'Jonas',
 	lastName: 'Schmedtmann',
-	age: 2037 - 1991,
+	birthYear: 1991,
 	job: 'teacher',
 	friends: ['Michael', 'Peter', 'Steven']
 };
