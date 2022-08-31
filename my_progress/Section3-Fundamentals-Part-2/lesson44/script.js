@@ -299,9 +299,9 @@ const jonas = {
 	friends: ['Michael', 'Peter', 'Steven'],
 	hasDriversLicense: true,
 
-	calcAge: function (birthYear) {
-		return 2037 - birthYear;
-	}
+	// calcAge: function (birthYear) {
+	// 	return 2037 - birthYear;
+	// }
 };
 
 console.log(jonas.calcAge(1991));
