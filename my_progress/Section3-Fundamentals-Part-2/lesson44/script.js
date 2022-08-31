@@ -303,3 +303,5 @@ const jonas = {
 		return 2037 - birthYear;
 	}
 };
+
+jonas.calcAge(1991);
