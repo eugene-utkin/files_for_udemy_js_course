@@ -304,4 +304,4 @@ const jonas = {
 	}
 };
 
-jonas.calcAge(1991);
+console.log(jonas.calcAge(1991));
