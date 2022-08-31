@@ -297,5 +297,9 @@ const jonas = {
 	birthYear: 1991,
 	job: 'teacher',
 	friends: ['Michael', 'Peter', 'Steven'],
-	hasDriversLicense: true
+	hasDriversLicense: true,
+
+	calcAge: function (birthYear) {
+		return 2037 - birthYear;
+	}
 };
