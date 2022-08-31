@@ -296,5 +296,6 @@ const jonas = {
 	lastName: 'Schmedtmann',
 	birthYear: 1991,
 	job: 'teacher',
-	friends: ['Michael', 'Peter', 'Steven']
+	friends: ['Michael', 'Peter', 'Steven'],
+	hasDriversLicense: true
 };
