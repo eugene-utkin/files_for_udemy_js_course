@@ -319,3 +319,5 @@ console.log(jonas.calcAge());
 console.log(jonas.age);
 console.log(jonas.age);
 console.log(jonas.age);
+
+// Challenge
