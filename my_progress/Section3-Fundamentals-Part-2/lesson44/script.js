@@ -310,7 +310,7 @@ const jonas = {
 
 	calcAge: function () {
 		this.age = 2037 - this.birthYear;
-		return;
+		return this.age;
 	}
 };
 
