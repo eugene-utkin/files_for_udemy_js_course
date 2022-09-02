@@ -324,3 +324,4 @@ console.log(jonas.age);
 // "Jonas is a 46-year old teacher, and he has a/no driver's license"
 
 const licenseStatus = jonas.hasDriversLicense ? ? 'a' : 'no';
+console.log(`${jonas.firstName}`);
