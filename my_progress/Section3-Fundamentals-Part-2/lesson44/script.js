@@ -314,7 +314,7 @@ const jonas = {
 	},
 
 	description: function () {
-		return `${this.firstName} is a ${self.age}-year old ${self.job}, and he has ${self.hasDriversLicense ? 'a' : 'no'} driver's license`
+		return `${this.firstName} is a ${this.age}-year old ${self.job}, and he has ${self.hasDriversLicense ? 'a' : 'no'} driver's license`
 	}
 };
 
