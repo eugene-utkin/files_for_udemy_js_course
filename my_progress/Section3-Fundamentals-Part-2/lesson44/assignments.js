@@ -145,6 +145,7 @@ neighbours[kazakhstanIndex] = "Republic of Kazakhstan";
 console.log(neighbours);
 */
 
+/*
 const myCountry = {
 	country: 'Russia',
 	capital: 'Moscow',
@@ -159,3 +160,4 @@ myCountry.population += 2;
 console.log(myCountry.population);
 myCountry['population'] -= 2;
 console.log(myCountry['population']);
+*/
