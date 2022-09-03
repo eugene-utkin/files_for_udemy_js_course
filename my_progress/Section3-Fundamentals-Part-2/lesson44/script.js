@@ -327,4 +327,4 @@ console.log(jonas.age);
 // Challenge
 // "Jonas is a 46-year old teacher, and he has a/no driver's license"
 
-console.log(jonas.description);
+console.log(jonas.description());
