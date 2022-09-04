@@ -167,5 +167,8 @@ const myCountry = {
 	capital: 'Moscow',
 	language: 'Russian',
 	population: 145,
-	neighbours: ['Finland', 'Georgia']
+	neighbours: ['Finland', 'Georgia'],
+	describe: function () {
+
+	}
 }
