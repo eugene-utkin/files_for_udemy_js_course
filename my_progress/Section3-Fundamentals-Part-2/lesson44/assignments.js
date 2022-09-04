@@ -169,6 +169,6 @@ const myCountry = {
 	population: 145,
 	neighbours: ['Finland', 'Georgia'],
 	describe: function () {
-
+		console.log(`${this.country} has`);
 	}
 }
