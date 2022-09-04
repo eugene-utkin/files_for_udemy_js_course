@@ -161,3 +161,11 @@ console.log(myCountry.population);
 myCountry['population'] -= 2;
 console.log(myCountry['population']);
 */
+
+const myCountry = {
+	country: 'Russia',
+	capital: 'Moscow',
+	language: 'Russian',
+	population: 145,
+	neighbours: ['Finland', 'Georgia']
+}
