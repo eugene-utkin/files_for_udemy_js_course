@@ -177,3 +177,4 @@ const myCountry = {
 }
 
 myCountry.describe();
+myCountry.checkIsland();
