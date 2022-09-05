@@ -178,3 +178,4 @@ const myCountry = {
 
 myCountry.describe();
 myCountry.checkIsland();
+console.log(myCountry.isIsland);
