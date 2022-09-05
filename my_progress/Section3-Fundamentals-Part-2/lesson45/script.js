@@ -330,3 +330,7 @@ console.log(jonas.age);
 
 console.log(jonas.getDescription());
 */
+
+const mark = {
+
+}
