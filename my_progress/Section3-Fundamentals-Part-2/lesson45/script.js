@@ -332,5 +332,6 @@ console.log(jonas.getDescription());
 */
 
 const mark = {
-	fullName: 'Mark'
+	fullName: 'Mark',
+	mass: 78
 }
