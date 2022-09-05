@@ -338,5 +338,5 @@ const mark = {
 }
 
 const john = {
-
+	fullName: 'John'
 }
