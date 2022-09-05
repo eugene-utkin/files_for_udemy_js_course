@@ -336,3 +336,7 @@ const mark = {
 	mass: 78,
 	height: 1.69
 }
+
+const john = {
+
+}
