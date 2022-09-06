@@ -334,7 +334,11 @@ console.log(jonas.getDescription());
 const mark = {
 	fullName: 'Mark Miller',
 	mass: 78,
-	height: 1.69
+	height: 1.69,
+	calcBMI: function () {
+		this.BMI = Number((this.mass / this.height ** 2).toFixed(1));
+		return this.BMI;
+	}
 }
 
 const john = {
