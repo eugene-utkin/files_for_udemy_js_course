@@ -332,7 +332,7 @@ console.log(jonas.getDescription());
 */
 
 const mark = {
-	fullName: 'Mark',
+	fullName: 'Mark Miller',
 	mass: 78,
 	height: 1.69
 }
