@@ -338,5 +338,6 @@ const mark = {
 }
 
 const john = {
-	fullName: 'John'
+	fullName: 'John',
+	mass: 92
 }
