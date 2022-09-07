@@ -352,3 +352,4 @@ const john = {
 }
 
 mark.calcBMI();
+john.calcBMI();
