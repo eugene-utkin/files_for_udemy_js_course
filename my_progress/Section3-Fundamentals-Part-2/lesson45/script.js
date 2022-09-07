@@ -350,3 +350,5 @@ const john = {
 		return this.BMI;
 	}
 }
+
+mark.calcBMI();
