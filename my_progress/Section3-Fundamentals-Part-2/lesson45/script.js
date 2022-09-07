@@ -357,7 +357,7 @@ john.calcBMI();
 if (mark.BMI > john.BMI) {
 	console.log(`Mark's BMI (${mark.BMI}) is higher than John's (${john.BMI})!`);
 } else if (john.BMI > mark.BMI) {
-	console.log(`John's BMI (${john.BMI}) is higher than Mark's (${mark.MBI})!`);
+	console.log(`John's BMI (${john.BMI}) is higher than Mark's (${mark.BMI})!`);
 } else {
 	console.log(`John and Mark have the same BMI (${john.BMI})!`);
 }
