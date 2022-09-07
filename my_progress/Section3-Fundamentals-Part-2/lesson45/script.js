@@ -353,3 +353,7 @@ const john = {
 
 mark.calcBMI();
 john.calcBMI();
+
+if (mark.BMI > john.BMI) {
+
+}
