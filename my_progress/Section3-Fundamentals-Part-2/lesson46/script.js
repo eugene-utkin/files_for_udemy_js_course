@@ -363,3 +363,5 @@ if (markBMI > johnBMI) {
 	console.log(`${john.fullName} and ${mark.fullName} have the same BMI (${johnBMI})!`);
 }
 */
+
+console.log('Lifting weights repetition 1 🏋️');
