@@ -331,6 +331,7 @@ console.log(jonas.age);
 console.log(jonas.getDescription());
 */
 
+/*
 const mark = {
 	fullName: 'Mark Miller',
 	mass: 78,
@@ -361,3 +362,4 @@ if (markBMI > johnBMI) {
 } else {
 	console.log(`John and Mark have the same BMI (${johnBMI})!`);
 }
+*/
