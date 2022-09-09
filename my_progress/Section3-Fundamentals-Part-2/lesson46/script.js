@@ -374,3 +374,5 @@ console.log('Lifting weights repetition 7 🏋️');
 console.log('Lifting weights repetition 8 🏋️');
 console.log('Lifting weights repetition 9 🏋️');
 console.log('Lifting weights repetition 10 🏋️');
+
+for (let rep = 1)
