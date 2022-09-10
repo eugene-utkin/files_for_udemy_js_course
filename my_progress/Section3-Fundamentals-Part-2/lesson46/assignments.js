@@ -183,5 +183,5 @@ console.log(myCountry.isIsland);
 */
 
 for (let votingPerson = 1; votingPerson <= 50; votingPerson++) {
-
+	console.log('Voter number 1 is currently voting');
 }
