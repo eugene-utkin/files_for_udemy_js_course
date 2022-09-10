@@ -181,3 +181,5 @@ myCountry.describe();
 myCountry.checkIsland();
 console.log(myCountry.isIsland);
 */
+
+for (let voting = 1)
