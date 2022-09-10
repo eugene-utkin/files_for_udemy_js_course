@@ -376,6 +376,6 @@ if (markBMI > johnBMI) {
 // console.log('Lifting weights repetition 10 🏋️');
 
 // for loop keeps running while condition is TRUE
-for (let rep = 1; rep <= 10; rep++) {
+for (let rep = 1; rep <= 30; rep++) {
 	console.log(`Lifting weights repetition ${rep} 🏋️`);
 }
