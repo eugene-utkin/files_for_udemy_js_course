@@ -182,4 +182,6 @@ myCountry.checkIsland();
 console.log(myCountry.isIsland);
 */
 
-for (let voting = 1; voting <= 50; voting++)
+for (let voting = 1; voting <= 50; voting++) {
+
+}
