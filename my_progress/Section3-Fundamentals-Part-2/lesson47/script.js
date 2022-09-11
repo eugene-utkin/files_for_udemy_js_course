@@ -390,6 +390,6 @@ const jonasArray = [
 	['Michael', 'Peter', 'Steven']
 ];
 
-for (let i = 0; ; i++) {
+for (let i = 0; i < 5; i++) {
 	console.log(jonasArray[i]);
 }
