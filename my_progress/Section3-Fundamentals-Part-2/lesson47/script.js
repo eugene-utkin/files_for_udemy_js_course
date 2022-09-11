@@ -381,3 +381,11 @@ for (let rep = 1; rep <= 30; rep++) {
 	console.log(`Lifting weights repetition ${rep} 🏋️`);
 }
 */
+
+const jonasArray = [
+	'Jonas',
+	'Schmedtmann',
+	2037 - 1991,
+	'teacher',
+	['Michael', 'Peter', 'Steven']
+];
