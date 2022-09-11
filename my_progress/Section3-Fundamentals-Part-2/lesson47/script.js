@@ -389,3 +389,5 @@ const jonasArray = [
 	'teacher',
 	['Michael', 'Peter', 'Steven']
 ];
+
+for (let i = 0)
