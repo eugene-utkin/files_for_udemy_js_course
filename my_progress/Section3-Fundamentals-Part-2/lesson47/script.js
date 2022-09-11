@@ -391,5 +391,5 @@ const jonasArray = [
 ];
 
 for (let i = 0; ; i++) {
-
+	console.log(jonasArray[i]);
 }
