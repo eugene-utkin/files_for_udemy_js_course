@@ -382,7 +382,7 @@ for (let rep = 1; rep <= 30; rep++) {
 }
 */
 
-const jonasArray = [
+const jonas = [
 	'Jonas',
 	'Schmedtmann',
 	2037 - 1991,
@@ -391,5 +391,5 @@ const jonasArray = [
 ];
 
 for (let i = 0; i < 5; i++) {
-	console.log(jonasArray[i]);
+	console.log(jonas[i]);
 }
