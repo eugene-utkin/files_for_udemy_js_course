@@ -390,6 +390,7 @@ const jonas = [
 	['Michael', 'Peter', 'Steven'],
 	true
 ];
+const types = [];
 
 // console.log(jonas[0])
 // console.log(jonas[1])
