@@ -403,3 +403,5 @@ for (let i = 0; i < jonas.length; i++) {
 
 	types[i] = typeof jonas[i];
 }
+
+console.log(types);
