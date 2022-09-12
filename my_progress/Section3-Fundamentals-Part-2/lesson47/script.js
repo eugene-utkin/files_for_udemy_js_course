@@ -400,4 +400,6 @@ const types = [];
 
 for (let i = 0; i < jonas.length; i++) {
 	console.log(jonas[i], typeof jonas[i]);
+
+	types[i] = typeof jonas[i];
 }
