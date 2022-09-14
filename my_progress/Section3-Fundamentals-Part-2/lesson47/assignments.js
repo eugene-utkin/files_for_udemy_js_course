@@ -189,6 +189,7 @@ for (let votingPerson = 1; votingPerson <= 50; votingPerson++) {
 */
 
 const populations = [1441, 6.7, 145, 33];
+const percentages = [percentageOfWorld1(populations[0]), percentageOfWorld1(populations[1]), percentageOfWorld1(populations[2]), percentageOfWorld1(populations[3])];
 const percentages2 = [];
 
 function percentageOfWorld1(population) {
