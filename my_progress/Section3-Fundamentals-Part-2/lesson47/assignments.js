@@ -187,3 +187,5 @@ for (let votingPerson = 1; votingPerson <= 50; votingPerson++) {
 	console.log(`Voter number ${votingPerson} is currently voting`);
 }
 */
+
+const populations = [1441, 6.7, 145, 33];
