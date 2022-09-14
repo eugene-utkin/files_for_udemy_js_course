@@ -418,6 +418,7 @@ for (let i = 0; i < years.length; i++) {
 console.log(ages);
 
 // continue and break
+console.log('--- ONLY STRINGS ---');
 for (let i = 0; i < jonas.length; i++) {
 	if (typeof jonas[i] !== 'string') continue;
 
