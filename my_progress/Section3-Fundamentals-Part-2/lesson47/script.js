@@ -419,5 +419,7 @@ console.log(ages);
 
 // continue and break
 for (let i = 0; i < jonas.length; i++) {
+	if (typeof jonas[i] !== 'string') continue;
+
 	console.log(jonas[i], typeof jonas[i]);
 }
