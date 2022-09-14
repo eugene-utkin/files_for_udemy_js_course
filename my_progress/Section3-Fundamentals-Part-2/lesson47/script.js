@@ -424,3 +424,5 @@ for (let i = 0; i < jonas.length; i++) {
 
 	console.log(jonas[i], typeof jonas[i]);
 }
+
+console.log('--- BREAK WITH NUMBER ---');
