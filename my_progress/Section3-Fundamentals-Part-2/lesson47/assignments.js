@@ -190,3 +190,6 @@ for (let votingPerson = 1; votingPerson <= 50; votingPerson++) {
 
 const populations = [1441, 6.7, 145, 33];
 const percentages2 = [];
+for (let i = 0; i < populations.length; i++) {
+
+}
