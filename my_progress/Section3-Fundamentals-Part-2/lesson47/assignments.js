@@ -190,6 +190,11 @@ for (let votingPerson = 1; votingPerson <= 50; votingPerson++) {
 
 const populations = [1441, 6.7, 145, 33];
 const percentages2 = [];
+
+function percentageOfWorld1(population) {
+	return population / 7900 * 100;
+}
+
 for (let i = 0; i < populations.length; i++) {
 
 }
