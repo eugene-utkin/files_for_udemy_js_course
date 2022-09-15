@@ -198,4 +198,5 @@ function percentageOfWorld1(population) {
 
 for (let i = 0; i < populations.length; i++) {
 	percentages2.push(percentageOfWorld1(populations[i]));
+	console.log(`Elements at position #${i} are equal: ${percentages[i] === percentages2[i]}`);
 }
