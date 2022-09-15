@@ -441,3 +441,6 @@ const jonas = [
 	'teacher',
 	['Michael', 'Peter', 'Steven']
 ];
+
+// 0, 1, ..., 4
+// 4, 3, ..., 0
