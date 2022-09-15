@@ -382,6 +382,7 @@ for (let rep = 1; rep <= 30; rep++) {
 }
 */
 
+/*
 const jonas = [
 	'Jonas',
 	'Schmedtmann',
@@ -431,3 +432,4 @@ for (let i = 0; i < jonas.length; i++) {
 
 	console.log(jonas[i], typeof jonas[i]);
 }
+*/
