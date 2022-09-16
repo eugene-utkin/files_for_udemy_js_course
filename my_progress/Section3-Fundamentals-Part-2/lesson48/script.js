@@ -450,4 +450,6 @@ for (let i = jonas.length - 1; i >= 0; i--) {
 	console.log(jonas[i]);
 }
 
-for (let exercise = 1; exercise < 4; exercise++)
+for (let exercise = 1; exercise < 4; exercise++) {
+
+}
