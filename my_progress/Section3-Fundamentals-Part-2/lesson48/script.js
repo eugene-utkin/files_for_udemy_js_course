@@ -439,7 +439,8 @@ const jonas = [
 	'Schmedtmann',
 	2037 - 1991,
 	'teacher',
-	['Michael', 'Peter', 'Steven']
+	['Michael', 'Peter', 'Steven'],
+	true
 ];
 
 // 0, 1, ..., 4
