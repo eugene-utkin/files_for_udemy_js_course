@@ -452,5 +452,5 @@ for (let i = jonas.length - 1; i >= 0; i--) {
 
 for (let exercise = 1; exercise < 4; exercise++) {
 	console.log(`-------- Starting exercise ${exercise}`);
-	for (let rep = 1; rep < 6; rep <= 5)
+	for (let rep = 1; rep < 6; rep++)
 }
