@@ -202,3 +202,5 @@ for (let i = 0; i < populations.length; i++) {
 	console.log(`Elements at position #${i} are equal: ${percentages[i] === percentages2[i]}`);
 }
 */
+
+const listOfNeighbours = [['Canada', 'Mexico'], ['Spain'], ['Norway', 'Sweden', 'Russia']];
