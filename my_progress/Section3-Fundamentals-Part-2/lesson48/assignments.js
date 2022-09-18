@@ -207,5 +207,5 @@ const listOfNeighbours = [['Canada', 'Mexico'], ['Spain'], ['Norway', 'Sweden', 
 
 for (let i = 0; i < listOfNeighbours.length; i++) {
 	console.log('');
-	for (let neighbour = 0; listOfNeighbours[i].length)
+	for (let neighbour = 0; neighbour < listOfNeighbours[i].length)
 }
