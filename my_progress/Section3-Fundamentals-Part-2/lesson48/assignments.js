@@ -208,6 +208,6 @@ const listOfNeighbours = [['Canada', 'Mexico'], ['Spain'], ['Norway', 'Sweden', 
 for (let i = 0; i < listOfNeighbours.length; i++) {
 	console.log('');
 	for (let neighbour = 0; neighbour < listOfNeighbours[i].length; neighbour++) {
-
+		console.log(`'Neighbour: ${listOfNeighbours[i][neighbour]}`);
 	}
 }
