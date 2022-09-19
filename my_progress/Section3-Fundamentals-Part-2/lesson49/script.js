@@ -465,6 +465,6 @@ for (let rep = 1; rep <= 10; rep++) {
 
 let rep = 1;
 while (rep <= 10) {
-	console.log(`Lifting weights repetition ${rep} 🏋️`);
+	console.log(`WHILE: Lifting weights repetition ${rep} 🏋️`);
 	rep++;
 }
