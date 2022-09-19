@@ -434,6 +434,7 @@ for (let i = 0; i < jonas.length; i++) {
 }
 */
 
+/*
 const jonas = [
 	'Jonas',
 	'Schmedtmann',
@@ -456,3 +457,4 @@ for (let exercise = 1; exercise < 4; exercise++) {
 		console.log(`Exercise ${exercise}: Lifting weight repetition ${rep} 🏋️`);
 	}
 }
+*/
