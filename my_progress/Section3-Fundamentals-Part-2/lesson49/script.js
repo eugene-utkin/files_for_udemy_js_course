@@ -469,3 +469,5 @@ while (rep <= 10) {
 	rep++;
 }
 
+
+let dice = Math.random() * 6;
