@@ -471,3 +471,4 @@ while (rep <= 10) {
 
 
 let dice = Math.random() * 6;
+console.log(dice);
