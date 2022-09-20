@@ -216,6 +216,10 @@ for (let i = 0; i < listOfNeighbours.length; i++) {
 
 const populations = [1441, 6.7, 145, 33];
 
+function percentageOfWorld1(population) {
+	return population / 7900 * 100;
+}
+
 let counter = 0;
 
 while (counter < populations.length) {
