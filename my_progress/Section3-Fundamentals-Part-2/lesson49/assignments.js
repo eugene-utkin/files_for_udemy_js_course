@@ -215,3 +215,5 @@ for (let i = 0; i < listOfNeighbours.length; i++) {
 */
 
 const populations = [1441, 6.7, 145, 33];
+
+let counter = 0;
