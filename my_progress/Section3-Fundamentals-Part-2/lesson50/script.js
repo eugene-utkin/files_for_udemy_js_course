@@ -488,3 +488,5 @@ const totals = [];
 function calcTip(billValue) {
 	return billValue >= 50 && billValue <= 300 ? billValue * 0.15 : billValue * 0.2;
 }
+
+for (let i = 0)
