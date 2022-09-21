@@ -483,3 +483,4 @@ while (dice !== 6) {
 
 const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 const tips = [];
+const totals = [];
