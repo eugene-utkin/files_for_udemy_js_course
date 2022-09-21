@@ -221,6 +221,7 @@ function percentageOfWorld1(population) {
 }
 
 let counter = 0;
+const percentages3 = [];
 
 while (counter < populations.length) {
 	counter++;
