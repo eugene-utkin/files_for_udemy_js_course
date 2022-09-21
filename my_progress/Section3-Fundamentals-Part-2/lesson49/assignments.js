@@ -224,5 +224,6 @@ let counter = 0;
 const percentages3 = [];
 
 while (counter < populations.length) {
+	percentages3.push(percentageOfWorld1(populations[counter]));
 	counter++;
 }
