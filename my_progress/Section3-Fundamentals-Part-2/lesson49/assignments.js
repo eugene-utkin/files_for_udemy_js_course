@@ -227,3 +227,5 @@ while (counter < populations.length) {
 	percentages3.push(percentageOfWorld1(populations[counter]));
 	counter++;
 }
+
+console.log(percentages3);
