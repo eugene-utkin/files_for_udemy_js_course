@@ -480,3 +480,5 @@ while (dice !== 6) {
 	if (dice === 6) console.log('Loop is about to end...');
 }
 */
+
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
