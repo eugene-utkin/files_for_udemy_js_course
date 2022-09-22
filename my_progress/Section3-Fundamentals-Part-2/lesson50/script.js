@@ -496,3 +496,7 @@ for (let i = 0; i < bills.length; i++) {
 
 console.log(tips);
 console.log(totals);
+
+function calcAverage(arr) {
+
+}
