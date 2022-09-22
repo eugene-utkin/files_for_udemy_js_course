@@ -498,5 +498,5 @@ console.log(tips);
 console.log(totals);
 
 function calcAverage(arr) {
-	for (let element = 0)
+	for (let element = 0; element < arr.length)
 }
