@@ -493,3 +493,5 @@ for (let i = 0; i < bills.length; i++) {
 	tips.push(calcTip(bills[i]));
 	totals.push(bills[i] + tips[i]);
 }
+
+console.log(tips);
