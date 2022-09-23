@@ -502,4 +502,5 @@ function calcAverage(arr) {
 	for (let element = 0; element < arr.length; element++) {
 		sum += arr[element];
 	}
+	return sum / arr.length;
 }
