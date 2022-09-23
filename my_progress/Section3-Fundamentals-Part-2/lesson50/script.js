@@ -500,6 +500,6 @@ console.log(totals);
 function calcAverage(arr) {
 	let sum = 0;
 	for (let element = 0; element < arr.length; element++) {
-
+		sum += arr[element];
 	}
 }
