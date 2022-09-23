@@ -506,5 +506,5 @@ function calcAverage(arr) {
 }
 
 console.log(`Bills average: ${calcAverage(bills)}`);
-console.log(calcAverage(tips));
+console.log(`Tips average: ${calcAverage(tips)}`);
 console.log(calcAverage(totals));
