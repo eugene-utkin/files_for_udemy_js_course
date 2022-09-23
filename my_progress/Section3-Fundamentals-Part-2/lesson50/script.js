@@ -505,4 +505,5 @@ function calcAverage(arr) {
 	return sum / arr.length;
 }
 
+console.log(calcAverage(tips));
 console.log(calcAverage(totals));
