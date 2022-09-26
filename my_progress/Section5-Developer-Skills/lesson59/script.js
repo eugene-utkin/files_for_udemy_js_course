@@ -11,6 +11,6 @@
 const temperatures = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
 
 // 1) Understanding the problem
-// - What is temp amplitude?
+// - What is temp amplitude? Answer: difference between highest and lowest temp
 
 // 2) Breaking up into sub-problems
