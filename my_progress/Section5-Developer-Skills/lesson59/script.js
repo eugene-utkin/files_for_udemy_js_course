@@ -22,5 +22,5 @@ const temperatures = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
 // - Subtract min from max (amplitude) and return it
 
 const calcTempAmplitude = function (temps) {
-	for(let i = 0; i < temps.length)
+	for(let i = 0; i < temps.length; i++)
 };
