@@ -26,4 +26,5 @@ const calcTempAmplitude = function (temps) {
 	for(let i = 0; i < temps.length; i++) {
 		if(temps[i] > max) max = temps[i];
 	}
+	console.log(max);
 };
