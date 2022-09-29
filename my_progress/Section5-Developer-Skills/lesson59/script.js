@@ -36,3 +36,4 @@ const calcTempAmplitude = function (temps) {
 };
 
 calcTempAmplitude([3, 7, 4, 1, 8]);
+calcTempAmplitude(temperatures);
