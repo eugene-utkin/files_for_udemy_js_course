@@ -37,3 +37,5 @@ const calcTempAmplitude = function (temps) {
 };
 const amplitude = calcTempAmplitude(temperatures);
 console.log(amplitude);
+
+// PROBLEM 2:
