@@ -42,3 +42,5 @@ console.log(amplitude);
 // Function should now receive 2 arrays of temps
 
 // 1) Understanding the problem
+// - With 2 arrays, should we implement functionality
+// twice?
