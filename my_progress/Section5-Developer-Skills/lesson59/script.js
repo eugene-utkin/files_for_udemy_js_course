@@ -46,3 +46,4 @@ console.log(amplitude);
 // twice? NO! Just merge two arrays
 
 // 2) Breaking up into sub-problems
+// - How to merge 2 arrays?
