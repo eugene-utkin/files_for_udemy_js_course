@@ -50,6 +50,7 @@ console.log(amplitude);
 
 const calcTempAmplitudeNew = function (t1, t2) {
   const temps = t1.concat(t2);
+  console.log(temps);
 
   let max = temps[0];
   let min = temps[0];
