@@ -62,5 +62,5 @@ const calcTempAmplitudeNew = function (temps) {
   console.log(max, min);
   return max - min;
 };
-const amplitude = calcTempAmplitudeNew(temperatures);
-console.log(amplitude);
+const amplitudeNew = calcTempAmplitudeNew(temperatures);
+console.log(amplitudeNew);
