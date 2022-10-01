@@ -70,4 +70,10 @@ const amplitudeNew = calcTempAmplitudeNew([3, 5, 1], [9, 0, 5]);
 console.log(amplitudeNew);
 */
 
-const measureKelvin = function () {};
+const measureKelvin = function () {
+  const measurement = {
+    type: 'temp',
+    unit: 'cels',
+    value: prompt('Degrees celsius:'),
+  };
+};
