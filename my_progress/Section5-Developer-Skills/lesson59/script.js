@@ -48,7 +48,7 @@ console.log(amplitude);
 // 2) Breaking up into sub-problems
 // - Merge 2 arrays
 
-const calcTempAmplitude = function (temps) {
+const calcTempAmplitudeNew = function (temps) {
   let max = temps[0];
   let min = temps[0];
 
@@ -62,5 +62,5 @@ const calcTempAmplitude = function (temps) {
   console.log(max, min);
   return max - min;
 };
-const amplitude = calcTempAmplitude(temperatures);
+const amplitude = calcTempAmplitudeNew(temperatures);
 console.log(amplitude);
