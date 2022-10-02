@@ -78,6 +78,7 @@ const measureKelvin = function () {
   };
 
   console.log(measurement);
+  console.table(measurement);
 
   // console.log(measurement.value);
   // console.warn(measurement.value);
