@@ -77,7 +77,6 @@ const measureKelvin = function () {
     value: prompt('Degrees celsius:'),
   };
 
-  console.log(measurement);
   console.table(measurement);
 
   // console.log(measurement.value);
