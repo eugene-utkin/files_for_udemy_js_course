@@ -79,6 +79,7 @@ const measureKelvin = function () {
 
   console.log(measurement.value);
   console.warn(measurement.value);
+  console.error(measurement.value);
 
   const kelvin = measurement.value + 273;
   return kelvin;
