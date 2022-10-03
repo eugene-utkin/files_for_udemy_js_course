@@ -74,6 +74,8 @@ const measureKelvin = function () {
   const measurement = {
     type: 'temp',
     unit: 'cels',
+
+    // C) FIX
     value: prompt('Degrees celsius:'),
   };
 
