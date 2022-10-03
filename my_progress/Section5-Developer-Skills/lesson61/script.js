@@ -93,6 +93,7 @@ const measureKelvin = function () {
 // A) IDENTIFY
 console.log(measureKelvin());
 
+// Using a debugger
 const calcTempAmplitudeBug = function (t1, t2) {
   const temps = t1.concat(t2);
   console.log(temps);
