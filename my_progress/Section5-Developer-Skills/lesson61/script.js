@@ -109,5 +109,5 @@ const calcTempAmplitudeBug = function (t1, t2) {
   console.log(max, min);
   return max - min;
 };
-const amplitudeNew = calcTempAmplitudeBug([3, 5, 1], [9, 0, 5]);
-console.log(amplitudeNew);
+const amplitudeBug = calcTempAmplitudeBug([3, 5, 1], [9, 0, 5]);
+console.log(amplitudeBug);
