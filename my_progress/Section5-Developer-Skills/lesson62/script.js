@@ -116,4 +116,6 @@ const amplitudeBug = calcTempAmplitudeBug([3, 5, 1], [9, 4, 5]);
 console.log(amplitudeBug);
 */
 
-function printForecast(arr) {}
+function printForecast(arr) {
+  for (let i = 0)
+}
