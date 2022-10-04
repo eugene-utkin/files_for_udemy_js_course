@@ -112,4 +112,5 @@ const calcTempAmplitudeBug = function (t1, t2) {
   return max - min;
 };
 const amplitudeBug = calcTempAmplitudeBug([3, 5, 1], [9, 4, 5]);
+// A) IDENTIFY
 console.log(amplitudeBug);
