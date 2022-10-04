@@ -117,5 +117,5 @@ console.log(amplitudeBug);
 */
 
 function printForecast(arr) {
-  for (let i = 0)
+  for (let i = 0; i < temps.length)
 }
