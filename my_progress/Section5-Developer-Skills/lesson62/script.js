@@ -115,6 +115,8 @@ const calcTempAmplitudeBug = function (t1, t2) {
 const amplitudeBug = calcTempAmplitudeBug([3, 5, 1], [9, 4, 5]);
 console.log(amplitudeBug);
 */
+
+const data1 = [17, 21, 23];
 function printForecast(arr) {
   let forecast = '...';
   for (let i = 0; i < arr.length; i++) {
