@@ -126,3 +126,5 @@ function printForecast(arr) {
 
   return forecast;
 }
+
+printForecast(data1);
