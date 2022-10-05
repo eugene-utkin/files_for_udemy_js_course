@@ -117,7 +117,7 @@ console.log(amplitudeBug);
 */
 function printForecast(arr) {
   let forecast = '...';
-  for (let i = 0; i < temps.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     forecast += ` ${arr[i]}ºC in ${i} days ...`;
   }
 }
