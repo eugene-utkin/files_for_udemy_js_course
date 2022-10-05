@@ -115,8 +115,9 @@ const calcTempAmplitudeBug = function (t1, t2) {
 const amplitudeBug = calcTempAmplitudeBug([3, 5, 1], [9, 4, 5]);
 console.log(amplitudeBug);
 */
-
 function printForecast(arr) {
   let forecast = '...';
-  for (let i = 0; i < temps.length; i++) {}
+  for (let i = 0; i < temps.length; i++) {
+    forecast += ` ${arr[i]}ºC in ${i} days ...`;
+  }
 }
