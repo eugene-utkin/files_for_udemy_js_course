@@ -121,4 +121,6 @@ function printForecast(arr) {
     forecast += ` ${arr[i]}ºC in ${i} days ...`;
   }
   console.log(forecast);
+
+  return forecast;
 }
