@@ -128,6 +128,7 @@ function printForecast(arr) {
   return forecast;
 }
 
+console.log('Weather forecasts');
 console.log('Data 1:');
 printForecast(data1);
 console.log('');
