@@ -128,5 +128,6 @@ function printForecast(arr) {
   return forecast;
 }
 
+console.log('Data 1:');
 printForecast(data1);
 printForecast(data2);
