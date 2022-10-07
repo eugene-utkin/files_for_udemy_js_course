@@ -129,6 +129,7 @@ function printForecast(arr) {
 }
 
 console.log('CODING CHALLENGE!');
+console.log('');
 console.log('Weather forecasts');
 console.log('Data 1:');
 printForecast(data1);
