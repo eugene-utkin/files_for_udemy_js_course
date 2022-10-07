@@ -131,5 +131,5 @@ function printForecast(arr) {
 console.log('Data 1:');
 printForecast(data1);
 console.log('');
-printForecast(data2);
 console.log('Data 2:');
+printForecast(data2);
