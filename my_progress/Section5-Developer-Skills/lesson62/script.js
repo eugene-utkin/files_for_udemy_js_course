@@ -120,6 +120,8 @@ console.log(amplitudeBug);
 // - Array transformed to string, separated by ...
 // - What is the x days? Answer: index + 1
 
+// 2) Breakin up into sub-problems
+
 const data1 = [17, 21, 23];
 const data2 = [12, 5, -5, 0, 4];
 function printForecast(arr) {
