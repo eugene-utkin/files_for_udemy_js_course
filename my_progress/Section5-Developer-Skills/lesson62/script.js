@@ -125,6 +125,7 @@ console.log(amplitudeBug);
 // - Transform each element to string with ºC
 // - String needs to contain day (index + 1)
 // - Add ... between elements and start and end of string
+// - Log string to console
 
 const data1 = [17, 21, 23];
 const data2 = [12, 5, -5, 0, 4];
