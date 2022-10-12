@@ -47,6 +47,10 @@ a {
   background-color: yellowgreen;
 }
 
+#course-image {
+  width: 200px;
+}
+
 #your-name h2 {
   color: olivedrab;
 }
