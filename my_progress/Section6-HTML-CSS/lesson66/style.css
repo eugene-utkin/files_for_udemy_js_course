@@ -21,6 +21,10 @@ h2 {
   text-align: center;
 }
 
+p {
+  margin-bottom: 10px;
+}
+
 .first {
   color: red;
 }
