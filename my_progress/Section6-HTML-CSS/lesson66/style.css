@@ -28,4 +28,5 @@ h2 {
 #your-name {
   background-color: rgb(255, 220, 105);
   border: 5px solid #444;
+  width: 400px;
 }
