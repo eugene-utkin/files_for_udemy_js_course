@@ -42,3 +42,7 @@ button {
   padding: 10px;
   font-size: 16px;
 }
+
+a {
+  background-color: yellowgreen;
+}
