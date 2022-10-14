@@ -15,6 +15,6 @@ const x = function () {
 };
 
 document.querySelector('.check').addEventListener('click', function () {
-  const guess = document.querySelector('.guess').value;
+  const guess = Number(document.querySelector('.guess').value);
   console.log(typeof guess);
 });
