@@ -10,4 +10,4 @@ document.querySelector('.guess').value = 23;
 console.log(document.querySelector('.guess').value);
 */
 
-document.querySelector('.check');
+document.querySelector('.check').addEventListener('click', function () {});
