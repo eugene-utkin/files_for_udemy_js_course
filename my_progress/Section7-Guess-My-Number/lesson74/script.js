@@ -25,8 +25,10 @@ document.querySelector('.check').addEventListener('click', function () {
   } else if (guess > secretNumber) {
     document.querySelector('.message').textContent = '📈 Too high!';
     score--;
+    document.querySelector('.score').textContent = score;
   } else if (guess < secretNumber) {
     document.querySelector('.message').textContent = '📉 Too low!';
     score--;
+    document.querySelector('.score').textContent = score;
   }
 });
