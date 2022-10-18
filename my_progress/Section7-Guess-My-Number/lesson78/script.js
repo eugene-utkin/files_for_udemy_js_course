@@ -38,8 +38,6 @@ document.querySelector('.check').addEventListener('click', function () {
     // When guess is wrong
   } else if () {
 
-  }
-
     // When guess is too high
   } else if (guess > secretNumber) {
     if (score > 1) {
