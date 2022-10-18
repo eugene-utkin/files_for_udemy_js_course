@@ -35,7 +35,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.highscore').textContent = highscore;
     }
 
-  } else if {
+  } else if () {
 
   }
 
