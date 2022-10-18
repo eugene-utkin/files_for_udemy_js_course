@@ -35,6 +35,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.highscore').textContent = highscore;
     }
 
+    // When guess is wrong
   } else if () {
 
   }
