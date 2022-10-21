@@ -18,4 +18,6 @@ btnCloseModal.addEventListener('click', function () {
   overlay.classList.add('hidden');
 });
 
-overlay.addEventListener('click', function () {});
+overlay.addEventListener('click', function () {
+  modal.classList.add('hidden');
+});
