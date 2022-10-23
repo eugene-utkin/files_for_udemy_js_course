@@ -14,3 +14,4 @@ score1El.textContent = 0;
 diceEl.classList.add('hidden');
 
 // Rolling dice functionality
+btnRoll.addEventListener('click', function () {});
