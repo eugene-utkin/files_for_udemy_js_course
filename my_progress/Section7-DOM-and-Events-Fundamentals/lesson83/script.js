@@ -20,5 +20,6 @@ btnRoll.addEventListener('click', function () {
 
   // 2. Display dice
   diceEl.classList.remove('hidden');
+  diceEl.src = `dice-${dice}.png`;
   // 3. Check if rolled 1: if truem switch to next player
 });
