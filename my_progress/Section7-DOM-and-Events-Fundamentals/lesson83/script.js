@@ -17,4 +17,5 @@ diceEl.classList.add('hidden');
 btnRoll.addEventListener('click', function () {
   // 1. Generating a random dice roll
   // 2. Display dice
+  // 3. Check if rolled 1: if truem switch to next player
 });
