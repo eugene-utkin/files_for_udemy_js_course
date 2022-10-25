@@ -68,8 +68,8 @@ btnHold.addEventListener('click', function () {
     document
       .querySelector(`player--${activePlayer}`)
       .classList.remove('player--active');
+  } else {
+    // Switch to the next player
+    switchPlayer();
   }
-
-  // Switch to the next player
-  switchPlayer();
 });
