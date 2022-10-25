@@ -31,6 +31,8 @@ const switchPlayer = function () {
 
 // Rolling dice functionality
 btnRoll.addEventListener('click', function () {
+  console.log('Hold button');
+
   // 1. Generating a random dice roll
   const dice = Math.trunc(Math.random() * 6) + 1;
   console.log(dice);
