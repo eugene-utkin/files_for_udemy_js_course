@@ -31,8 +31,6 @@ const switchPlayer = function () {
 
 // Rolling dice functionality
 btnRoll.addEventListener('click', function () {
-  console.log('Hold button');
-
   // 1. Generating a random dice roll
   const dice = Math.trunc(Math.random() * 6) + 1;
   console.log(dice);
@@ -56,6 +54,8 @@ btnRoll.addEventListener('click', function () {
 btnHold.addEventListener('click', function () {
   // 1. Add current score to active player's score
   scores[activePlayer] += currentScore;
+  console.log(scores[activePlayer]);
+
   // scores[1] = scores[1] + currentScore
   document.getElementById(`current--${activePlayer}`).textContent =
     scores[activePlayer];
