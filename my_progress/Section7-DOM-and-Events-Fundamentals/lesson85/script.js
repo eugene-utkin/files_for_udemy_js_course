@@ -65,6 +65,9 @@ btnHold.addEventListener('click', function () {
     document
       .querySelector(`player--${activePlayer}`)
       .classList.add('player--winner');
+    document
+      .querySelector(`player--${activePlayer}`)
+      .classList.remove('player--active');
   }
 
   // Switch to the next player
