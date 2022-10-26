@@ -13,15 +13,6 @@ const btnRoll = document.querySelector('.btn--roll');
 const btnHold = document.querySelector('.btn--hold');
 
 // Starting conditions
-score0El.textContent = 0;
-score1El.textContent = 0;
-diceEl.classList.add('hidden');
-
-let scores = [0, 0];
-let currentScore = 0;
-let activePlayer = 0;
-let playing = true;
-
 const init = function () {
   scores = [0, 0];
   currentScore = 0;
@@ -39,6 +30,7 @@ const init = function () {
   player0El.classList.add('player--active');
   player1El.classList.remove('player--active');
 };
+init();
 
 const switchPlayer = function () {
   document.getElementById(`current--${activePlayer}`).textContent = 0;
