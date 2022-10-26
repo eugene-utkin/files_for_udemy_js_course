@@ -90,4 +90,9 @@ btnNew.addEventListener('click', function () {
 
   currentScore = 0;
   activePlayer = 0;
+
+  player0El.classList.add('player--active');
+  player0El.classList.remove('player--winner');
+  player1El.classList.remove('player--active');
+  player1El.classList.remove('player--winner');
 });
