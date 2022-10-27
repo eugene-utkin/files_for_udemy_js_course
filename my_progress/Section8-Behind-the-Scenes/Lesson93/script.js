@@ -7,6 +7,7 @@ function calcAge(birthYear) {
     const output = `You are ${age}, born in ${birthYear}`;
     console.log(output);
   }
+  printAge();
 
   return age;
 }
