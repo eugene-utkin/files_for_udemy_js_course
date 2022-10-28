@@ -6,6 +6,9 @@ function calcAge(birthYear) {
   function printAge() {
     const output = `${firstName}, you are ${age}, born in ${birthYear}`;
     console.log(output);
+
+    if (birthYear >= 1981 && birthYear <= 1996) {
+    }
   }
   printAge();
 
