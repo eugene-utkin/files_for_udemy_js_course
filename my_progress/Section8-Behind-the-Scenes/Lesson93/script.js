@@ -13,6 +13,7 @@ function calcAge(birthYear) {
       console.log(str);
     }
     // console.log(str);
+    console.log(millenial);
   }
   printAge();
 
