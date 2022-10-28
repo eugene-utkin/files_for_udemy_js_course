@@ -1,4 +1,4 @@
-// 'use strict';
+'use strict';
 
 function calcAge(birthYear) {
   const age = 2037 - birthYear;
@@ -18,7 +18,7 @@ function calcAge(birthYear) {
     }
     // console.log(str);
     console.log(millenial);
-    console.log(add(2, 3));
+    // console.log(add(2, 3));
   }
   printAge();
 
