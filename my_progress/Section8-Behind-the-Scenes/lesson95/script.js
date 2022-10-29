@@ -46,3 +46,5 @@ console.log(me);
 var me = 'Jonas';
 let job = 'teacher';
 const year = 1991;
+
+// Functions
