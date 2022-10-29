@@ -51,3 +51,7 @@ const year = 1991;
 function addDecl(a, b) {
   return a + b;
 }
+
+const addExpr = function (a, b) {
+  return a + b;
+};
