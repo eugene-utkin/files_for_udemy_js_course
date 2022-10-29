@@ -37,3 +37,5 @@ calcAge(1991);
 // console.log(age);
 // printAge();
 */
+
+var me = 'Jonas';
