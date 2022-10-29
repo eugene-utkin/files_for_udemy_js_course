@@ -48,6 +48,8 @@ let job = 'teacher';
 const year = 1991;
 
 // Functions
+console.log(addDecl(2, 3));
+
 function addDecl(a, b) {
   return a + b;
 }
