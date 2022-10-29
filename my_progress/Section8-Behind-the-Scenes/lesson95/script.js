@@ -39,6 +39,7 @@ calcAge(1991);
 */
 
 console.log(me);
+console.log(job);
 
 var me = 'Jonas';
 let job = 'teacher';
