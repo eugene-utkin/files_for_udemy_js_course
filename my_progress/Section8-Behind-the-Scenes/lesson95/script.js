@@ -38,6 +38,7 @@ calcAge(1991);
 // printAge();
 */
 
+// Variables
 console.log(me);
 // console.log(job);
 // console.log(year);
