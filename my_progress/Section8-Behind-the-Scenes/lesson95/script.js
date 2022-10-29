@@ -40,3 +40,4 @@ calcAge(1991);
 
 var me = 'Jonas';
 let job = 'teacher';
+const year = 1991;
