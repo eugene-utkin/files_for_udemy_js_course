@@ -103,3 +103,7 @@ const jonas = {
   },
 };
 jonas.calcAge();
+
+const matilda = {
+  year: 2017,
+};
