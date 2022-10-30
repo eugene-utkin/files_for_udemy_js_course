@@ -101,3 +101,4 @@ const jonas = {
     console.log(this);
   },
 };
+jonas.calcAge();
