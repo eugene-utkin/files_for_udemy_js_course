@@ -93,3 +93,4 @@ const calcAgeArrow = birthYear => {
   console.log(2037 - birthYear);
   console.log(this);
 };
+calcAgeArrow(1980);
