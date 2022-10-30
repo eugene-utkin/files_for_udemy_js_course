@@ -95,4 +95,6 @@ const calcAgeArrow = birthYear => {
 };
 calcAgeArrow(1980);
 
-const jonas = {};
+const jonas = {
+  year: 1991,
+};
