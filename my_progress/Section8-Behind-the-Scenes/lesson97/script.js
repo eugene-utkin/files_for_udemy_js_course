@@ -82,3 +82,5 @@ console.log(z === window.z);
 */
 
 console.log(this);
+
+const calcAge = function (birthYear) {};
