@@ -126,7 +126,7 @@ const jonas = {
     console.log(2037 - this.year);
   },
 
-  greet: () => {
+  greet: function () {
     console.log(this);
     console.log(`Hey ${this.firstName}`);
   },
