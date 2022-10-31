@@ -125,7 +125,7 @@ const jonas = {
     // console.log(this);
     console.log(2037 - this.year);
 
-    const self = this;
+    const self = this; // self or that
     const isMillenial = function () {
       console.log(self);
       console.log(self.year >= 1981 && self.year <= 1996);
