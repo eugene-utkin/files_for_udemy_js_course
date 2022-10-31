@@ -116,6 +116,7 @@ const f = jonas.calcAge;
 f();
 */
 
+var firstName = 'Matilda';
 const jonas = {
   firstName: 'Jonas',
   year: 1991,
@@ -127,4 +128,3 @@ const jonas = {
   greet: () => console.log(`Hey ${this.firstName}`),
 };
 jonas.greet();
-console.log(this.firstName);
