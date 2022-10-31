@@ -136,3 +136,4 @@ const jonas = {
   },
 };
 jonas.greet();
+jonas.calcAge();
