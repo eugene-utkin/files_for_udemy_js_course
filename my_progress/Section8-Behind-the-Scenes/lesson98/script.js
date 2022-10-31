@@ -148,3 +148,8 @@ const jonas = {
 };
 jonas.greet();
 jonas.calcAge();
+
+const addExpr = function (a, b) {
+  console.log(arguments);
+  return a + b;
+};
