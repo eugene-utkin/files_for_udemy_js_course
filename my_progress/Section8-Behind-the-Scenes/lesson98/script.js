@@ -128,6 +128,7 @@ const jonas = {
     const isMillenial = function () {
       console.log(this.year >= 1981 && this.year <= 1996);
     };
+    isMillenial();
   },
 
   greet: () => {
