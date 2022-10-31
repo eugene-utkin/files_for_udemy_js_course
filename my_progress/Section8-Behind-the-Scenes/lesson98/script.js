@@ -123,4 +123,6 @@ const jonas = {
     console.log(this);
     console.log(2037 - this.year);
   },
+
+  greet: () => console.log(`Hey ${this.firstName}`),
 };
