@@ -126,3 +126,4 @@ const jonas = {
 
   greet: () => console.log(`Hey ${this.firstName}`),
 };
+jonas.greet();
