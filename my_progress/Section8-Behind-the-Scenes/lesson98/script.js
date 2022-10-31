@@ -81,6 +81,7 @@ console.log(y === window.y);
 console.log(z === window.z);
 */
 
+/*
 console.log(this);
 
 const calcAge = function (birthYear) {
@@ -113,3 +114,4 @@ matilda.calcAge();
 
 const f = jonas.calcAge;
 f();
+*/
