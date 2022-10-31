@@ -116,7 +116,8 @@ const f = jonas.calcAge;
 f();
 */
 
-var firstName = 'Matilda';
+// var firstName = 'Matilda';
+
 const jonas = {
   firstName: 'Jonas',
   year: 1991,
