@@ -117,6 +117,7 @@ f();
 */
 
 const jonas = {
+  firstName: 'Jonas',
   year: 1991,
   calcAge: function () {
     console.log(this);
