@@ -154,3 +154,5 @@ const addExpr = function (a, b) {
   return a + b;
 };
 addExpr(2, 5);
+
+var addArrow = (a, b) => a + b;
