@@ -116,6 +116,7 @@ const f = jonas.calcAge;
 f();
 */
 
+/*
 // var firstName = 'Matilda';
 
 const jonas = {
@@ -161,3 +162,4 @@ var addArrow = (a, b) => {
   return a + b;
 };
 addArrow(2, 5, 8);
+*/
