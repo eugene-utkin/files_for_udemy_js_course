@@ -163,3 +163,5 @@ var addArrow = (a, b) => {
 };
 addArrow(2, 5, 8);
 */
+
+let age = 30;
