@@ -167,3 +167,4 @@ addArrow(2, 5, 8);
 let age = 30;
 let oldAge = age;
 age = 31;
+console.log(age);
