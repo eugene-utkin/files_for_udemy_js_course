@@ -174,3 +174,5 @@ const me = {
   name: 'Jonas',
   age: 30,
 };
+
+const friend = me;
