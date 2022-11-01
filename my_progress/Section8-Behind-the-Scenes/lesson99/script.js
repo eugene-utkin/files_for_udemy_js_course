@@ -176,3 +176,4 @@ const me = {
 };
 
 const friend = me;
+friend.age = 27;
