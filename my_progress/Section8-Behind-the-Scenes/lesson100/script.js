@@ -192,3 +192,5 @@ const jessica = {
   lastName: 'Williams',
   age: 27,
 };
+
+const marriedJessica = jessica;
