@@ -181,3 +181,5 @@ friend.age = 27;
 console.log('Friend:', friend);
 console.log('Me:', me);
 */
+
+let lastName = 'Williams';
