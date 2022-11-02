@@ -194,3 +194,4 @@ const jessica = {
 };
 
 const marriedJessica = jessica;
+marriedJessica.lastName = 'Davis';
