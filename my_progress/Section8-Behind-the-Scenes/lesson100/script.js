@@ -206,3 +206,5 @@ const jessica2 = {
   lastName: 'Williams',
   age: 27,
 };
+
+const jessicaCopy = Object.assign({}, jessica2);
