@@ -38,3 +38,4 @@ console.log(x, y, z);
 console.log(arr);
 
 const [first, second] = restaurant.categories;
+console.log(first, second);
