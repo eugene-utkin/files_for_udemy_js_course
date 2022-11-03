@@ -27,3 +27,5 @@ const restaurant = {
     },
   },
 };
+
+const arr = [2, 3, 4];
