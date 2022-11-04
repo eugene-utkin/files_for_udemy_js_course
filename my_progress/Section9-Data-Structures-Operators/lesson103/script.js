@@ -37,7 +37,7 @@ const [x, y, z] = arr;
 console.log(x, y, z);
 console.log(arr);
 
-const [main, , secondary] = restaurant.categories;
+let [main, , secondary] = restaurant.categories;
 console.log(main, secondary);
 
 const temp = main;
