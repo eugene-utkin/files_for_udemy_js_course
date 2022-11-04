@@ -41,3 +41,4 @@ const [main, , secondary] = restaurant.categories;
 console.log(main, secondary);
 
 const temp = main;
+main = secondary;
