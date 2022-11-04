@@ -53,4 +53,4 @@ console.log(main, secondary);
 [main, secondary] = [secondary, main];
 console.log(main, secondary);
 
-console.log(restaurant.order(2, 0));
+const [strater, main] = restaurant.order(2, 0);
