@@ -53,4 +53,4 @@ console.log(main, secondary);
 [main, secondary] = [secondary, main];
 console.log(main, secondary);
 
-restaurant.order(2, 0);
+console.log(restaurant.order(2, 0));
