@@ -39,3 +39,5 @@ console.log(arr);
 
 const [main, , secondary] = restaurant.categories;
 console.log(main, secondary);
+
+const temp = main;
