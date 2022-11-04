@@ -53,5 +53,6 @@ console.log(main, secondary);
 [main, secondary] = [secondary, main];
 console.log(main, secondary);
 
+// Receive 2 return values from a function
 const [strater, mainCourse] = restaurant.order(2, 0);
 console.log(starter, mainCourse);
