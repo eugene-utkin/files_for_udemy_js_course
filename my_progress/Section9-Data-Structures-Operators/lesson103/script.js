@@ -43,3 +43,4 @@ console.log(main, secondary);
 const temp = main;
 main = secondary;
 secondary = temp;
+console.log(main, secondary);
