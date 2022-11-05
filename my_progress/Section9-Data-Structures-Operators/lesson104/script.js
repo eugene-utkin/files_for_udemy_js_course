@@ -35,6 +35,13 @@ const restaurant = {
   },
 };
 
+restaurant.orderDelivery({
+  time: '22:30',
+  address: 'Via del Sole, 21',
+  mainIndex: 2,
+  starterIndex: 2,
+});
+
 const { name, openingHours, categories } = restaurant;
 console.log(name, openingHours, categories);
 
