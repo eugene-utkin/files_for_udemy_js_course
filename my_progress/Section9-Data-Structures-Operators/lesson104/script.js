@@ -51,6 +51,7 @@ restaurant.orderDelivery({
 
 restaurant.orderDelivery({
   address: 'Via del Sole, 21',
+  starterIndex: 1,
 });
 
 const { name, openingHours, categories } = restaurant;
