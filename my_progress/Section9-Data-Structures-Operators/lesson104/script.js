@@ -55,9 +55,9 @@ console.log(a, b);
 
 // Nested objects
 const {
-  fri: { open, close },
+  fri: { open: o, close: c },
 } = openingHours;
-console.log(open, close);
+console.log(o, c);
 
 /*
 const arr = [2, 3, 4];
