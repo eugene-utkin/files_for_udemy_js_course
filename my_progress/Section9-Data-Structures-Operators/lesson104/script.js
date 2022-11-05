@@ -46,6 +46,7 @@ const { menu = [], starterMenu: starters = [] } = restaurant;
 console.log(menu, starters);
 
 // Mutating variables
+let a = 111;
 
 /*
 const arr = [2, 3, 4];
