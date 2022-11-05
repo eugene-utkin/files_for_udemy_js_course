@@ -29,6 +29,10 @@ const restaurant = {
   order: function (starterIndex, mainIndex) {
     return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
   },
+
+  orderDelivery: function (obj) {
+    console.log(obj);
+  },
 };
 
 const { name, openingHours, categories } = restaurant;
