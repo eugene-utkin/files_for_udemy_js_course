@@ -50,6 +50,8 @@ let a = 111;
 let b = 999;
 const obj = { a: 23, b: 7, c: 14 };
 
+({ a, b } = obj);
+
 /*
 const arr = [2, 3, 4];
 const a = arr[0];
