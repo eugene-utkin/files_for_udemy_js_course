@@ -39,6 +39,7 @@ const {
   openingHours: hours,
   categories: tags,
 } = restaurant;
+console.log(restaurantName, hours, tags);
 
 /*
 const arr = [2, 3, 4];
