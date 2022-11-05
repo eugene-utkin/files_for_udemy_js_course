@@ -44,6 +44,8 @@ console.log(restaurantName, hours, tags);
 const { menu = [], starterMenu: starters = [] } = restaurant;
 console.log(menu, starters);
 
+// Mutating variables
+
 /*
 const arr = [2, 3, 4];
 const a = arr[0];
