@@ -32,6 +32,7 @@ const restaurant = {
 };
 
 const { name, openingHours, categories } = restaurant;
+console.log(name, openingHours, categories);
 
 /*
 const arr = [2, 3, 4];
