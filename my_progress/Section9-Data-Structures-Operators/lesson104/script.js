@@ -34,6 +34,12 @@ const restaurant = {
 const { name, openingHours, categories } = restaurant;
 console.log(name, openingHours, categories);
 
+const {
+  name: restaurantName,
+  openingHours: hours,
+  categories: tags,
+} = restaurant;
+
 /*
 const arr = [2, 3, 4];
 const a = arr[0];
