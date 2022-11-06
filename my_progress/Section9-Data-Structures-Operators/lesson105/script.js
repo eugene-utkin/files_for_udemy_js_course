@@ -75,6 +75,12 @@ console.log(letters);
 console.log(...str);
 // console.log(`${...str} Schmedtmann`);
 
+const ingredients = [
+  prompt("Let's make pasta! Ingredient 1?"),
+  prompt('Ingredient 2?'),
+  prompt('Ingredient 3?'),
+];
+
 /*
 // Destructuring Objects
 restaurant.orderDelivery({
