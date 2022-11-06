@@ -63,6 +63,7 @@ const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 console.log(menu);
 
 // Iterables: arrays, strings. maps. sets. NOT objects
+const str = 'Jonas';
 
 /*
 // Destructuring Objects
