@@ -81,6 +81,8 @@ const ingredients = [
   prompt('Ingredient 3?'),
 ];
 
+console.log(ingredients);
+
 /*
 // Destructuring Objects
 restaurant.orderDelivery({
