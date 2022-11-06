@@ -64,6 +64,8 @@ console.log(menu);
 
 // Iterables: arrays, strings. maps. sets. NOT objects
 const str = 'Jonas';
+const letters = [...str, ' ', 'S.'];
+console.log(letters);
 
 /*
 // Destructuring Objects
