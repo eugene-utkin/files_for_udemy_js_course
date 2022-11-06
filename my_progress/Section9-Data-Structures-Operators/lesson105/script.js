@@ -42,6 +42,8 @@ const restaurant = {
   },
 };
 
+const arr = [7, 8, 9];
+
 /*
 // Destructuring Objects
 restaurant.orderDelivery({
