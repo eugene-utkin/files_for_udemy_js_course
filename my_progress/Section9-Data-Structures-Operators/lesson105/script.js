@@ -59,6 +59,8 @@ console.log(newMenu);
 const mainMenuCopy = [...restaurant.mainMenu];
 
 // Join 2 arrays
+const menu = [...restaurant.mainMenu, ...restaurant.starterMenu];
+
 /*
 // Destructuring Objects
 restaurant.orderDelivery({
