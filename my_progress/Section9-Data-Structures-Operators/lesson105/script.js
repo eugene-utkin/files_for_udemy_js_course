@@ -42,6 +42,7 @@ const restaurant = {
   },
 };
 
+/*
 // Destructuring Objects
 restaurant.orderDelivery({
   time: '22:30',
@@ -82,6 +83,7 @@ const {
   fri: { open: o, close: c },
 } = openingHours;
 console.log(o, c);
+*/
 
 /*
 const arr = [2, 3, 4];
