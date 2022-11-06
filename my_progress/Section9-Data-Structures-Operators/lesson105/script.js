@@ -49,6 +49,8 @@ console.log(badNewArr);
 const newArr = [1, 2, ...arr];
 console.log(newArr);
 
+console.log(...newArr);
+
 /*
 // Destructuring Objects
 restaurant.orderDelivery({
