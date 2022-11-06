@@ -42,6 +42,7 @@ const restaurant = {
   },
 };
 
+// Destructuring Objects
 restaurant.orderDelivery({
   time: '22:30',
   address: 'Via del Sole, 21',
