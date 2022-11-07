@@ -68,7 +68,7 @@ console.log(weekdays);
 
 // 2) Functions
 const add = function (...numbers) {
-  console.log(numbers);
+  let sum = 0;
 };
 add(2, 3);
 add(5, 3, 7, 2);
