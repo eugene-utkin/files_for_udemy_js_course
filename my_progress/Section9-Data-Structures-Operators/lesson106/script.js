@@ -84,6 +84,8 @@ add(8, 2, 5, 3, 2, 1, 4);
 const x = [23, 5, 7];
 add(...x);
 
+restaurant.orderPizza('mushrooms', 'onion', 'olives', 'spinach')
+
 /*
 // The Spread Operator (...)
 const arr = [7, 8, 9];
