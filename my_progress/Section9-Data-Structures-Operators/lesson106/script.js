@@ -61,6 +61,8 @@ const [pizza, , risotto, ...otherFood] = [
 ];
 console.log(pizza, risotto, otherFood);
 
+// Objects
+
 /*
 // The Spread Operator (...)
 const arr = [7, 8, 9];
