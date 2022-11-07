@@ -47,10 +47,10 @@ const restaurant = {
     );
   },
 
-  orderPizza: function(mainIngredient, ...otherIngredients) {
+  orderPizza: function (mainIngredient, ...otherIngredients) {
     console.log(mainIngredient);
     console.log(otherIngredients);
-  };
+  },
 };
 
 // 1) Destructuring
@@ -84,7 +84,7 @@ add(8, 2, 5, 3, 2, 1, 4);
 const x = [23, 5, 7];
 add(...x);
 
-restaurant.orderPizza('mushrooms', 'onion', 'olives', 'spinach')
+restaurant.orderPizza('mushrooms', 'onion', 'olives', 'spinach');
 
 /*
 // The Spread Operator (...)
