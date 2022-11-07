@@ -48,6 +48,8 @@ const restaurant = {
   },
 };
 
+const arr = [1, 2, ...[3, 4]];
+
 /*
 // The Spread Operator (...)
 const arr = [7, 8, 9];
