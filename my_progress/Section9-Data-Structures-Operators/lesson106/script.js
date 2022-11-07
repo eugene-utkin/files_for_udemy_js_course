@@ -59,6 +59,7 @@ const [pizza, , risotto, ...otherFood] = [
   ...restaurant.mainMenu,
   ...restaurant.starterMenu,
 ];
+console.log(pizza, risotto, otherFood);
 
 /*
 // The Spread Operator (...)
