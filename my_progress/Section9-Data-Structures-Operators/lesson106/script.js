@@ -67,7 +67,9 @@ const { sat, ...weekdays } = restaurant.openingHours;
 console.log(weekdays);
 
 // 2) Functions
-const add = function () {};
+const add = function (...numbers) {
+  console.log(numbers);
+};
 add(2, 3);
 add(5, 3, 7, 2);
 add(8, 2, 5, 3, 2, 1, 4);
