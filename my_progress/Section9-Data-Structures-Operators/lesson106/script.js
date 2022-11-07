@@ -48,6 +48,7 @@ const restaurant = {
   },
 };
 
+// SPREAD, because on RIGHT side of =
 const arr = [1, 2, ...[3, 4]];
 
 /*
