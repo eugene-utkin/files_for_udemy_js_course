@@ -66,6 +66,8 @@ console.log(pizza, risotto, otherFood);
 const { sat, ...weekdays } = restaurant.openingHours;
 console.log(weekdays);
 
+// 2) Functions
+
 /*
 // The Spread Operator (...)
 const arr = [7, 8, 9];
