@@ -67,6 +67,7 @@ const { sat, ...weekdays } = restaurant.openingHours;
 console.log(weekdays);
 
 // 2) Functions
+const add = function () {};
 
 /*
 // The Spread Operator (...)
