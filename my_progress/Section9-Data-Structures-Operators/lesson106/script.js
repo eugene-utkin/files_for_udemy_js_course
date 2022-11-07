@@ -68,6 +68,9 @@ console.log(weekdays);
 
 // 2) Functions
 const add = function () {};
+add(2, 3);
+add(5, 3, 7, 2);
+add(8, 2, 5, 3, 2, 1, 4);
 
 /*
 // The Spread Operator (...)
