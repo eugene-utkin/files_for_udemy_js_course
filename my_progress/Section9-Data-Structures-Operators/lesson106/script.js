@@ -51,6 +51,8 @@ const restaurant = {
 // SPREAD, because on RIGHT side of =
 const arr = [1, 2, ...[3, 4]];
 
+const [a, b, ...others] = [1, 2, 3, 4, 5];
+
 /*
 // The Spread Operator (...)
 const arr = [7, 8, 9];
