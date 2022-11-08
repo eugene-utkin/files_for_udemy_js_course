@@ -53,6 +53,7 @@ const restaurant = {
   },
 };
 
+// Rest Pattern and Parameters
 // 1) Destructuring
 // SPREAD, because on RIGHT side of =
 const arr = [1, 2, ...[3, 4]];
