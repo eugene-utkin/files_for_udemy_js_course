@@ -57,6 +57,7 @@ const restaurant = {
 console.log(3 || 'Jonas');
 console.log('' || 'Jonas');
 console.log(true || 0);
+console.log(undefined || null);
 
 /*
 // Rest Pattern and Parameters
