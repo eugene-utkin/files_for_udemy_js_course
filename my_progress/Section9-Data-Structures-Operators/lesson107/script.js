@@ -53,6 +53,8 @@ const restaurant = {
   },
 };
 
+console.log(3 || 'Jonas');
+
 /*
 // Rest Pattern and Parameters
 // 1) Destructuring
