@@ -61,6 +61,8 @@ console.log(undefined || null);
 
 console.log(undefined || 0 || '' || 'Hello' || 23 || null);
 
+const guests1 = restaurant.numGuests ? restaurant.numGuests : 10;
+
 /*
 // Rest Pattern and Parameters
 // 1) Destructuring
