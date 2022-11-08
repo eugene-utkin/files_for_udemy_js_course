@@ -73,6 +73,8 @@ console.log('---- AND ----');
 console.log(0 && 'Jonas');
 console.log(7 && 'Jonas');
 
+console.log('Hello' && 23 && null && 'jonas');
+
 /*
 // Rest Pattern and Parameters
 // 1) Destructuring
