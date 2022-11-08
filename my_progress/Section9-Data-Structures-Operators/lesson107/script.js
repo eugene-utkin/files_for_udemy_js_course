@@ -53,6 +53,7 @@ const restaurant = {
   },
 };
 
+/*
 // Rest Pattern and Parameters
 // 1) Destructuring
 // SPREAD, because on RIGHT side of =
@@ -87,6 +88,8 @@ add(...x);
 
 restaurant.orderPizza('mushrooms', 'onion', 'olives', 'spinach');
 restaurant.orderPizza('mushrooms');
+*/
+
 /*
 // The Spread Operator (...)
 const arr = [7, 8, 9];
