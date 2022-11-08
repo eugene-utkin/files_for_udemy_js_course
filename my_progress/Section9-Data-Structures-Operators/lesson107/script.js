@@ -71,6 +71,7 @@ console.log(guests2);
 
 console.log('---- AND ----');
 console.log(0 && 'Jonas');
+console.log(7 && 'Jonas');
 
 /*
 // Rest Pattern and Parameters
