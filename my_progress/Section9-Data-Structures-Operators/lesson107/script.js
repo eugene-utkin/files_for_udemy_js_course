@@ -65,6 +65,7 @@ restaurant.numGuests = 23;
 const guests1 = restaurant.numGuests ? restaurant.numGuests : 10;
 console.log(guests1);
 
+const guests2 = restaurant.numGuests || 10;
 /*
 // Rest Pattern and Parameters
 // 1) Destructuring
