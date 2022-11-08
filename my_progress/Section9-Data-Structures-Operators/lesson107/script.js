@@ -69,6 +69,8 @@ console.log(guests1);
 const guests2 = restaurant.numGuests || 10;
 console.log(guests2);
 
+console.log('---- AND ----');
+
 /*
 // Rest Pattern and Parameters
 // 1) Destructuring
