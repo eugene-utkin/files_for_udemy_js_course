@@ -75,6 +75,11 @@ console.log(7 && 'Jonas');
 
 console.log('Hello' && 23 && null && 'jonas');
 
+// Practical example
+if (restaurant.orderPizza) {
+  restaurant.orderPizza('mushrooms', 'spinach');
+}
+
 /*
 // Rest Pattern and Parameters
 // 1) Destructuring
