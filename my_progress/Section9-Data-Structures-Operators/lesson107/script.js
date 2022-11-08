@@ -56,6 +56,7 @@ const restaurant = {
 // Use ANY data type, return ANY data type, short-circuiting
 console.log(3 || 'Jonas');
 console.log('' || 'Jonas');
+console.log(true || 0);
 
 /*
 // Rest Pattern and Parameters
