@@ -53,6 +53,7 @@ const restaurant = {
   },
 };
 
+/*
 // Short Circuiting (&& and ||)
 console.log('---- OR ----');
 // Use ANY data type, return ANY data type, short-circuiting
@@ -82,6 +83,7 @@ if (restaurant.orderPizza) {
 }
 
 restaurant.orderPizza && restaurant.orderPizza('mushrooms', 'spinach');
+*/
 
 /*
 // Rest Pattern and Parameters
