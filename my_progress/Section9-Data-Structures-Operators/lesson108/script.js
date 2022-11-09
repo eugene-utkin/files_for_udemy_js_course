@@ -57,6 +57,8 @@ restaurant.numGuests = 0;
 const guests = restaurant.numGuests || 10;
 console.log(guests);
 
+const guestsCorrect = restaurant.numGuests ?? 10;
+
 /*
 // Short Circuiting (&& and ||)
 console.log('---- OR ----');
