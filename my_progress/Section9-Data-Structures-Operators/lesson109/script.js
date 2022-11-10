@@ -53,6 +53,11 @@ const restaurant = {
   },
 };
 
+const rest1 = {
+  name: 'Capri',
+  numGuests: 20,
+};
+
 /*
 // The Nullish Coalescing Operator
 restaurant.numGuests = 0;
