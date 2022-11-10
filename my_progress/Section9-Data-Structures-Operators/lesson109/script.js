@@ -63,6 +63,7 @@ const rest2 = {
   owner: 'Giovanni Rossi',
 };
 
+// OR assignment opearator
 // rest1.numGuests = rest1.numGuests || 10;
 // rest2.numGuests = rest2.numGuests || 10;
 
