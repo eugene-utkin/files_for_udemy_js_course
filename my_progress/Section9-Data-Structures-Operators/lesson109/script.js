@@ -58,6 +58,11 @@ const rest1 = {
   numGuests: 20,
 };
 
+const rest2 = {
+  name: 'La Piazza',
+  owner: 'Giovanni Rossi',
+};
+
 /*
 // The Nullish Coalescing Operator
 restaurant.numGuests = 0;
