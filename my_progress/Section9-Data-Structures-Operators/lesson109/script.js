@@ -63,7 +63,7 @@ const rest2 = {
   owner: 'Giovanni Rossi',
 };
 
-rest2.numGuests = rest1.numGuests || 10;
+rest2.numGuests = rest2.numGuests || 10;
 
 /*
 // The Nullish Coalescing Operator
