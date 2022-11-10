@@ -67,10 +67,10 @@ const rest2 = {
 // OR assignment opearator
 // rest1.numGuests = rest1.numGuests || 10;
 // rest2.numGuests = rest2.numGuests || 10;
-
 // rest1.numGuests ||= 10;
 // rest2.numGuests ||= 10;
 
+// nullish assignment opearator (null or undefined)
 rest1.numGuests ??= 10;
 rest2.numGuests ??= 10;
 
