@@ -344,4 +344,5 @@ let gk = game.players[0][0];
 const [, ...fieldPlayers] = game.players[0];
 const allPlayers = [...game.players[0], ...game.players[1]];
 const players1Final = [...game.players[0], 'Thiago', 'Coutinho', 'Perisic'];
-console.log(players1Final);
+let { team1: team1, x: draw, team2: team2 } = game.odds;
+console.log(team1, draw, team2);
