@@ -337,3 +337,5 @@ const game = {
     team2: 6.5,
   },
 };
+
+const players1 = [];
