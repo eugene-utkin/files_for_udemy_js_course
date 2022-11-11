@@ -339,3 +339,4 @@ const game = {
 };
 
 const players1 = [];
+const players2 = [];
