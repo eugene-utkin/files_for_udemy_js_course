@@ -353,3 +353,5 @@ const printGoals = function (player1, player2, player3) {
   console.log(player3);
   console.log(3);
 };
+
+console.log(`More likely to win: ${(team1 > team2 && 'Team 2') || 'Team 1'}`);
