@@ -346,3 +346,10 @@ const allPlayers = [...game.players[0], ...game.players[1]];
 const players1Final = [...game.players[0], 'Thiago', 'Coutinho', 'Perisic'];
 let { team1: team1, x: draw, team2: team2 } = game.odds;
 console.log(team1, draw, team2);
+
+const printGoals = function (player1, player2, player3) {
+  console.log(player1);
+  console.log(player2);
+  console.log(player3);
+  console.log(3);
+};
