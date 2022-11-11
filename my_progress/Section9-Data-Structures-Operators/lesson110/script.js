@@ -341,5 +341,7 @@ const game = {
 const players1 = [];
 const players2 = [];
 let gk = game.players[0][0];
-const fieldPlayers = game.players[0].slice(1, 11);
-console.log(gk, fieldPlayers);
+const [, ...fieldPlayers] = game.players[0];
+const allPlayers = [...game.players[0], ...game.players[1]];
+const players1Final = [...game.players[0], 'Thiago', 'Coutinho', 'Perisic'];
+console.log(players1Final);
