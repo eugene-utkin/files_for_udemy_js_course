@@ -359,9 +359,10 @@ const {
 } = game;
 console.log(team1, draw, team2);
 
+// 6.
 const printGoals = function (...players) {
   for (let i = 0; i < players.length; i++) {
-    console.log(players[i]);
+    console.log(`${players[i]} goals were scored`);
   }
   console.log(players.length);
 };
