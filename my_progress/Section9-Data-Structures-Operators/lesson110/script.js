@@ -355,5 +355,6 @@ const printGoals = function (...players) {
 };
 
 printGoals('Davies', 'Muller', 'Lewandowski', 'Kimmich');
+printGoals(...game.scored);
 
 console.log(`More likely to win: ${(team1 > team2 && 'Team 2') || 'Team 1'}`);
