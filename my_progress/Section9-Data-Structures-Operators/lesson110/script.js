@@ -348,8 +348,12 @@ let { team1: team1, x: draw, team2: team2 } = game.odds;
 console.log(team1, draw, team2);
 
 const printGoals = function (...players) {
-  console.log(players);
+  for (let i = 0; i < players.length; i++) {
+    console.log(players[i]);
+  }
   console.log(players.length);
 };
+
+printGoals('Davies', 'Muller', 'Lewandowski', 'Kimmich');
 
 console.log(`More likely to win: ${(team1 > team2 && 'Team 2') || 'Team 1'}`);
