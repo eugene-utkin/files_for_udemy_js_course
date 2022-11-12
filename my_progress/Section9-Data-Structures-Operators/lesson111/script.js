@@ -66,6 +66,8 @@ const rest2 = {
 
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 
+for (const item of menu) console.log(item);
+
 /*
 // OR assignment opearator
 // rest1.numGuests = rest1.numGuests || 10;
