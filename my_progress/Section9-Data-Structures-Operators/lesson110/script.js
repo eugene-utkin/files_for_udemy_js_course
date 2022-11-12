@@ -338,6 +338,7 @@ const game = {
   },
 };
 
+// 1.
 const players1 = [];
 const players2 = [];
 let gk = game.players[0][0];
