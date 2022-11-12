@@ -346,7 +346,10 @@ console.log(players1, players2);
 const [gk, ...fieldPlayers] = players1;
 console.log(gk, fieldPlayers);
 
-const allPlayers = [...game.players[0], ...game.players[1]];
+// 3.
+const allPlayers = [...players1, ...players2];
+console.log(allPlayers);
+
 const players1Final = [...game.players[0], 'Thiago', 'Coutinho', 'Perisic'];
 let { team1: team1, x: draw, team2: team2 } = game.odds;
 console.log(team1, draw, team2);
