@@ -64,6 +64,8 @@ const rest2 = {
   owner: 'Giovanni Rossi',
 };
 
+const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
+
 /*
 // OR assignment opearator
 // rest1.numGuests = rest1.numGuests || 10;
