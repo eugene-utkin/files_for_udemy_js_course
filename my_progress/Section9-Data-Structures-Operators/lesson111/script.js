@@ -72,7 +72,7 @@ for (const item of menu.entries()) {
   console.log(item);
 }
 
-console.log([...menu.entries()]);
+// console.log([...menu.entries()]);
 
 /*
 // OR assignment opearator
