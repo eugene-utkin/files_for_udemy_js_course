@@ -339,8 +339,8 @@ const game = {
 };
 
 // 1.
-const players1 = [];
-const players2 = [];
+const [players1, players2] = game.players;
+console.log(players1, players2);
 let gk = game.players[0][0];
 const [, ...fieldPlayers] = game.players[0];
 const allPlayers = [...game.players[0], ...game.players[1]];
