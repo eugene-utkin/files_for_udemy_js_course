@@ -4,7 +4,6 @@
 const flights =
   '_Delayed_Departure;fao93766109;txl2133758440;11:25+_Arrival;bru0943384722;fao93766109;11:45+_Delayed_Arrival;hel7439299980;fao93766109;12:05+_Departure;fao93766109;lis2323639855;12:30';
 
-/*
 // Data needed for first part of the section
 const restaurant = {
   name: 'Classico Italiano',
@@ -65,6 +64,7 @@ const rest2 = {
   owner: 'Giovanni Rossi',
 };
 
+/*
 // OR assignment opearator
 // rest1.numGuests = rest1.numGuests || 10;
 // rest2.numGuests = rest2.numGuests || 10;
@@ -297,6 +297,7 @@ const [p = 1, q = 1, r = 1] = [8, 9];
 console.log(p, q, r);
 */
 
+// Coding Challenge #1
 const game = {
   team1: 'Bayern Munich',
   team2: 'Borrussia Dortmund',
