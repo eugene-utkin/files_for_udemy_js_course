@@ -350,9 +350,9 @@ console.log(gk, fieldPlayers);
 const allPlayers = [...players1, ...players2];
 console.log(allPlayers);
 
-const players1Final = [...game.players[0], 'Thiago', 'Coutinho', 'Perisic'];
-let { team1: team1, x: draw, team2: team2 } = game.odds;
-console.log(team1, draw, team2);
+// 4.
+const players1Final = [...players1, 'Thiago', 'Coutinho', 'Perisic'];
+console.log(players1Final);
 
 const printGoals = function (...players) {
   for (let i = 0; i < players.length; i++) {
