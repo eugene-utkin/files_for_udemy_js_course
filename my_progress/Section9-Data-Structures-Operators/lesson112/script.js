@@ -57,6 +57,7 @@ const restaurant = {
 console.log(restaurant);
 
 /*
+// The for-of Loop
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 
 for (const item of menu) console.log(item);
