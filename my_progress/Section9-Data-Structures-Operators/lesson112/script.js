@@ -6,6 +6,7 @@ const flights =
 
 // Data needed for first part of the section
 
+const weekdays = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
 const openingHours = {
   thu: {
     open: 12,
