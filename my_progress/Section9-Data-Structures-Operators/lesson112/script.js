@@ -27,7 +27,7 @@ const restaurant = {
   categories: ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'],
   starterMenu: ['Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad'],
   mainMenu: ['Pizza', 'Pasta', 'Risotto'],
-  openingHours: openingHours,
+  openingHours,
 
   order: function (starterIndex, mainIndex) {
     return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
@@ -55,6 +55,8 @@ const restaurant = {
     console.log(otherIngredients);
   },
 };
+
+console.log(restaurant);
 
 /*
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
