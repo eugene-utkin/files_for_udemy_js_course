@@ -75,6 +75,8 @@ for (const day of days) {
 console.log(restaurant.order?.(0, 1) ?? 'Method does not exits');
 console.log(restaurant.orderRisotto?.(0, 1) ?? 'Method does not exits');
 
+// Arrays
+
 /*
 // The for-of Loop
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
