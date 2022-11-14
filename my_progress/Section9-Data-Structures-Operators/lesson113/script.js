@@ -68,6 +68,7 @@ const days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
 
 for (const day of days) {
   console.log(day);
+  restaurant.openingHours[day];
 }
 
 /*
