@@ -66,6 +66,10 @@ console.log(restaurant.openingHours?.mon?.open);
 // Example
 const days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
 
+for (const day of days) {
+  console.log(day);
+}
+
 /*
 // The for-of Loop
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
