@@ -54,7 +54,7 @@ const restaurant = {
   },
 };
 
-console.log(restaurant);
+console.log(restaurant.openingHours.mon);
 
 /*
 // The for-of Loop
