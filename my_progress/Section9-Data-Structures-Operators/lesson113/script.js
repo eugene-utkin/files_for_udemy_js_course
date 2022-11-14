@@ -71,6 +71,8 @@ for (const day of days) {
   console.log(`On ${day}, we open at ${open}`);
 }
 
+// Methods
+
 /*
 // The for-of Loop
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
