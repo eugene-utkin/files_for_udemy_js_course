@@ -72,7 +72,7 @@ for (const day of days) {
 }
 
 // Methods
-console.log(restaurant.order);
+console.log(restaurant.order?.(0, 1));
 
 /*
 // The for-of Loop
