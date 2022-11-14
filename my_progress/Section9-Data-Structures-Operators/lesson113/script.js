@@ -73,6 +73,7 @@ for (const day of days) {
 
 // Methods
 console.log(restaurant.order?.(0, 1) ?? 'Method does not exits');
+console.log(restaurant.orderRisotto?.(0, 1) ?? 'Method does not exits');
 
 /*
 // The for-of Loop
