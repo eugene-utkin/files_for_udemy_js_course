@@ -61,6 +61,7 @@ if (restaurant.openingHours && restaurant.openingHours.mon)
 
 // WITH optional chaining
 console.log(restaurant.openingHours.mon?.open);
+console.log(restaurant.openingHours?.mon?.open);
 
 /*
 // The for-of Loop
