@@ -77,8 +77,12 @@ console.log(restaurant.orderRisotto?.(0, 1) ?? 'Method does not exits');
 
 // Arrays
 const users = [{ name: 'Jonas', email: 'hello@jonas.io' }];
+// const users = [];
 
 console.log(users[0]?.name ?? 'User array empty');
+
+if (users.length > 0) console.log(users[0].name);
+else console.log('user array empty');
 
 /*
 // The for-of Loop
