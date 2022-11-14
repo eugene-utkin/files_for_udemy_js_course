@@ -57,6 +57,8 @@ const restaurant = {
 if (restaurant.openingHours && restaurant.openingHours.mon)
   console.log(restaurant.openingHours.mon.open);
 
+// WITH optional chaining
+
 /*
 // The for-of Loop
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
