@@ -54,6 +54,7 @@ const restaurant = {
   },
 };
 
+// Optional Chaining
 if (restaurant.openingHours && restaurant.openingHours.mon)
   console.log(restaurant.openingHours.mon.open);
 
