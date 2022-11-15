@@ -54,6 +54,9 @@ const restaurant = {
   },
 };
 
+for (const day of Object.keys(openingHours)) {
+}
+
 /*
 // Optional Chaining
 if (restaurant.openingHours && restaurant.openingHours.mon)
