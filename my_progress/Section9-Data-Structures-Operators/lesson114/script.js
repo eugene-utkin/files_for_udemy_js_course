@@ -67,6 +67,7 @@ console.log(openStr);
 
 // Property VALUES
 const values = Object.values(openingHours);
+console.log(values);
 
 /*
 // Optional Chaining
