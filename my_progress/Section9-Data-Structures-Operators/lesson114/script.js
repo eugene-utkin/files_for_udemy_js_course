@@ -60,7 +60,7 @@ console.log(properties);
 let openStr = console.log(`We are open on ${properties.length} days`);
 
 for (const day of properties) {
-  openStr += `$day, `;
+  openStr += `${day}, `;
 }
 console.log(openStr);
 
