@@ -69,6 +69,8 @@ console.log(openStr);
 const values = Object.values(openingHours);
 console.log(values);
 
+// Entire object
+
 /*
 // Optional Chaining
 if (restaurant.openingHours && restaurant.openingHours.mon)
