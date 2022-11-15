@@ -74,6 +74,7 @@ const entries = Object.entries(openingHours);
 // console.log(entries);
 
 for (const x of entries) {
+  console.log(entries);
 }
 
 /*
