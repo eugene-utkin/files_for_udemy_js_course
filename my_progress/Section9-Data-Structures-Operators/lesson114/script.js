@@ -65,6 +65,8 @@ for (const day of properties) {
 }
 console.log(openStr);
 
+// Property VALUES
+
 /*
 // Optional Chaining
 if (restaurant.openingHours && restaurant.openingHours.mon)
