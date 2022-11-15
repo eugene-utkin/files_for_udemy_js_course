@@ -66,6 +66,7 @@ for (const day of properties) {
 console.log(openStr);
 
 // Property VALUES
+Object.values;
 
 /*
 // Optional Chaining
