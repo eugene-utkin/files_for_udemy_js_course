@@ -59,7 +59,7 @@ console.log(properties);
 
 console.log(`We are open on ${properties.length} days`);
 
-for (const day of Object.keys(openingHours)) {
+for (const day of properties) {
   console.log(day);
 }
 
