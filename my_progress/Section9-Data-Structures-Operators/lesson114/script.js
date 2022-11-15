@@ -73,6 +73,9 @@ console.log(values);
 const entries = Object.entries(openingHours);
 console.log(entries);
 
+for (const x of entries) {
+}
+
 /*
 // Optional Chaining
 if (restaurant.openingHours && restaurant.openingHours.mon)
