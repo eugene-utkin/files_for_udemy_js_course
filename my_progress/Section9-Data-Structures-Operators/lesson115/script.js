@@ -495,6 +495,7 @@ for (let i = 0; i < game.scored.length; i++) {
   console.log(`Goal ${i + 1}: ${game.scored[i]}`);
 }
 
+// 2.
 let oddsSum = 0;
 const oddsCount = Object.values(game.odds);
 for (const odd of oddsCount) {
