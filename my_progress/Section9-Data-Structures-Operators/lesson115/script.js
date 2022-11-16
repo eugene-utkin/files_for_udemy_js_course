@@ -510,3 +510,5 @@ for (const [key, value] of entries) {
     `Odd of ${key == 'x' ? 'draw' : 'victory'} ${game[key] || ''}: ${value}`
   );
 }
+
+// Bonus.
