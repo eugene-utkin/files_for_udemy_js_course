@@ -512,3 +512,12 @@ for (const [key, value] of entries) {
 }
 
 // Bonus.
+const scorers = {};
+
+for (const scorer of game.scored) {
+  if (scorers[scorer]) {
+    scorers[scorer] += 1;
+  } else {
+    scorers[scorer] = 1;
+  }
+}
