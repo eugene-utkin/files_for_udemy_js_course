@@ -491,8 +491,8 @@ const game = {
 };
 
 // 1.
-for (let i = 0; i < game.scored.length; i++) {
-  console.log(`Goal ${i + 1}: ${game.scored[i]}`);
+for (const [i, player] of game.scored.entries()) {
+  console.log(`Goal ${i + 1}: ${player}`);
 }
 
 // 2.
@@ -513,7 +513,6 @@ for (const [key, value] of entries) {
 
 // Bonus.
 const scorers = {};
-
 for (const scorer of game.scored) {
   if (scorers[scorer]) {
     scorers[scorer] += 1;
@@ -521,3 +520,4 @@ for (const scorer of game.scored) {
     scorers[scorer] = 1;
   }
 }
+console.log(scorers);
