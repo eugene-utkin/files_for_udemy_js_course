@@ -489,4 +489,6 @@ const game = {
 };
 
 // 1.
-for (let i = 0; i < game.scored.length; i++) {}
+for (let i = 0; i < game.scored.length; i++) {
+  console.log(`Goal ${i}: ${game.scored[i]}`);
+}
