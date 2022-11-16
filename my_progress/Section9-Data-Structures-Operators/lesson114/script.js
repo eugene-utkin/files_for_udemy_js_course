@@ -489,3 +489,4 @@ const game = {
 };
 
 // 1.
+for (let i = 0; i < game.scored.length; i++) {}
