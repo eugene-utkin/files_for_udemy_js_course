@@ -505,5 +505,7 @@ console.log(oddsSum / oddsCount.length);
 const entries = Object.entries(game.odds);
 
 for (const [key, value] of entries) {
-  console.log(`Odd of ${key} ${game[key] || ''}: ${value}`);
+  console.log(
+    `Odd of ${key == 'x' ? 'draw' : 'victory'} ${game[key] || ''}: ${value}`
+  );
 }
