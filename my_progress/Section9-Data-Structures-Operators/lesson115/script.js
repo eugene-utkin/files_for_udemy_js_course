@@ -496,12 +496,11 @@ for (const [i, player] of game.scored.entries()) {
 }
 
 // 2.
-let oddsSum = 0;
-const oddsCount = Object.values(game.odds);
-for (const odd of oddsCount) {
-  oddsSum += odd;
-}
-console.log(oddsSum / oddsCount.length);
+const odds = Object.values(game.odds);
+let average = 0;
+for (const odd of odds) average += odd;
+average /= odds.length;
+console.log(average);
 
 // 3.
 const entries = Object.entries(game.odds);
