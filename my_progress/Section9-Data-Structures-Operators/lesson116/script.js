@@ -75,6 +75,8 @@ ordersSet.delete('Risotto');
 // ordersSet.clear();
 console.log(ordersSet);
 
+for (const order of ordersSet) console.log(order);
+
 /*
 // Property NAMES
 const properties = Object.keys(openingHours);
