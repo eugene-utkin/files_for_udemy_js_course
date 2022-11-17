@@ -80,6 +80,7 @@ for (const order of ordersSet) console.log(order);
 // Example
 const staff = ['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter'];
 const staffUnique = new Set(staff);
+console.log(staffUnique);
 
 /*
 // Property NAMES
