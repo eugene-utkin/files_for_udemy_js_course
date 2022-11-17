@@ -72,7 +72,7 @@ console.log(ordersSet.has('Bread'));
 ordersSet.add('Garlic Bread');
 ordersSet.add('Garlic Bread');
 ordersSet.delete('Risotto');
-ordersSet.clear();
+// ordersSet.clear();
 console.log(ordersSet);
 
 /*
