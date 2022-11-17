@@ -62,6 +62,7 @@ const ordersSet = new Set([
   'Pasta',
   'Pizza',
 ]);
+console.log(ordersSet);
 
 /*
 // Property NAMES
