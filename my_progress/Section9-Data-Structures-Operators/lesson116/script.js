@@ -448,6 +448,7 @@ team1 < team2 && console.log('Team 1 is more likely to win');
 team1 > team2 && console.log('Team 2 is more likely to win');
 */
 
+/*
 // Coding Challenge #2
 const game = {
   team1: 'Bayern Munich',
@@ -519,3 +520,4 @@ for (const scorer of game.scored) {
   }
 }
 console.log(scorers);
+*/
