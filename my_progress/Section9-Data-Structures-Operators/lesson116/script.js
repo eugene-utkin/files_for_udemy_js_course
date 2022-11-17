@@ -64,6 +64,8 @@ const ordersSet = new Set([
 ]);
 console.log(ordersSet);
 
+console.log(new Set('Jonas'));
+
 /*
 // Property NAMES
 const properties = Object.keys(openingHours);
