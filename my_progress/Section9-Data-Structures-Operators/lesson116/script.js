@@ -67,6 +67,8 @@ console.log(ordersSet);
 console.log(new Set('Jonas'));
 
 console.log(ordersSet.size);
+console.log(ordersSet.has('Pizza'));
+console.log(ordersSet.has('Bread'));
 
 /*
 // Property NAMES
