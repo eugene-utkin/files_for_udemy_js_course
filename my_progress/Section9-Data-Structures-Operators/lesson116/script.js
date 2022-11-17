@@ -54,6 +54,15 @@ const restaurant = {
   },
 };
 
+const ordersSet = new Set([
+  'Pasta',
+  'Pizza',
+  'Pizza',
+  'Risotto',
+  'Pasta',
+  'Pizza',
+]);
+
 /*
 // Property NAMES
 const properties = Object.keys(openingHours);
