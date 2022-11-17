@@ -77,6 +77,9 @@ console.log(ordersSet);
 
 for (const order of ordersSet) console.log(order);
 
+// Example
+const staff = ['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter'];
+
 /*
 // Property NAMES
 const properties = Object.keys(openingHours);
