@@ -70,6 +70,7 @@ console.log(rest.get('name'));
 console.log(rest.get(true));
 
 const time = 21;
+rest.get(time > rest.get('open') && time < rest.get('close'));
 
 /*
 // Sets
