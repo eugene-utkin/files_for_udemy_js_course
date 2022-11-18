@@ -54,6 +54,8 @@ const restaurant = {
   },
 };
 
+const rest = new Map();
+
 /*
 // Sets
 const ordersSet = new Set([
