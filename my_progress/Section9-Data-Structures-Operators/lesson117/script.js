@@ -68,6 +68,9 @@ rest
 
 console.log(rest.get('name'));
 console.log(rest.get(true));
+
+const time = 21;
+
 /*
 // Sets
 const ordersSet = new Set([
