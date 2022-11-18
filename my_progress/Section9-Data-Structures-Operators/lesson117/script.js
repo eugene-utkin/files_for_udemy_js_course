@@ -54,6 +54,7 @@ const restaurant = {
   },
 };
 
+/*
 // Sets
 const ordersSet = new Set([
   'Pasta',
@@ -86,6 +87,7 @@ console.log(
   new Set(['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter']).size
 );
 console.log(new Set('jonasschmedtmann').size);
+*/
 
 /*
 // Property NAMES
