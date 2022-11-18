@@ -54,6 +54,7 @@ const restaurant = {
   },
 };
 
+// Sets
 const ordersSet = new Set([
   'Pasta',
   'Pizza',
