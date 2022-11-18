@@ -75,9 +75,13 @@ console.log(rest.get(time > rest.get('open') && time < rest.get('close')));
 console.log(rest.has('categories'));
 rest.delete(2);
 // rest.clear();
-rest.set([1, 2], 'Test');
+
+const arr = [1, 2];
+rest.set(arr, 'Test');
 console.log(rest);
 console.log(rest.size);
+
+console.log(rest.get(arr));
 
 /*
 // Sets
