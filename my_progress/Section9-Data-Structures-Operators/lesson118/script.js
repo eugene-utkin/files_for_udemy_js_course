@@ -67,6 +67,7 @@ console.log(question);
 
 // Convert object to map
 console.log(Object.entries(openingHours));
+const hoursMap = new Map(Object.entries(openingHours));
 
 /*
 // Maps: Fundamentals
