@@ -81,6 +81,7 @@ console.log(answer);
 console.log(question.get(answer === question.get('correct')));
 
 // Convert map to array
+console.log([...question]);
 
 /*
 // Maps: Fundamentals
