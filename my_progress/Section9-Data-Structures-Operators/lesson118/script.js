@@ -80,6 +80,8 @@ console.log(answer);
 
 console.log(question.get(answer === question.get('correct')));
 
+// Convert map to array
+
 /*
 // Maps: Fundamentals
 const rest = new Map();
