@@ -75,7 +75,8 @@ console.log(question.get('question'));
 for (const [key, value] of question) {
   if (typeof key === 'number') console.log(`Answer ${key}: ${value}`);
 }
-const answer = Number(prompt('Your answer'));
+// const answer = Number(prompt('Your answer'));
+const answer = 3;
 console.log(answer);
 
 console.log(question.get(answer === question.get('correct')));
