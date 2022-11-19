@@ -65,6 +65,7 @@ const question = new Map([
 ]);
 console.log(question);
 
+// Convert object to map
 console.log(Object.entries(openingHours));
 
 /*
