@@ -78,6 +78,8 @@ for (const [key, value] of question) {
 const answer = Number(prompt('Your answer'));
 console.log(answer);
 
+console.log(question.get(answer === question.get('correct')));
+
 /*
 // Maps: Fundamentals
 const rest = new Map();
