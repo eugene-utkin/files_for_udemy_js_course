@@ -71,6 +71,7 @@ const hoursMap = new Map(Object.entries(openingHours));
 console.log(hoursMap);
 
 // Quiz app
+console.log(question.get('question'));
 for (const [key, value] of question) {
   if (typeof key === 'number') console.log(`Answer ${key}: ${value}`);
 }
