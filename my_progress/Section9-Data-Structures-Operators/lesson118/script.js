@@ -65,6 +65,8 @@ const question = new Map([
 ]);
 console.log(question);
 
+console.log(Object.entries(openingHours));
+
 /*
 // Maps: Fundamentals
 const rest = new Map();
