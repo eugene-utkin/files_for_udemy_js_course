@@ -63,6 +63,7 @@ const question = new Map([
   [true, 'Correct 🎉'],
   [false, 'Try again!'],
 ]);
+console.log(question);
 
 /*
 // Maps: Fundamentals
