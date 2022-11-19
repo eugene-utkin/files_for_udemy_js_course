@@ -54,6 +54,7 @@ const restaurant = {
   },
 };
 
+/*
 // Maps: Fundamentals
 const rest = new Map();
 rest.set('name', 'Classico Italiano');
@@ -84,6 +85,7 @@ console.log(rest);
 console.log(rest.size);
 
 console.log(rest.get(arr));
+*/
 
 /*
 // Sets
