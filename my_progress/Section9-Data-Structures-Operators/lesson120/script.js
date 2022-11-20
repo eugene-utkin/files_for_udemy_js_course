@@ -651,4 +651,8 @@ console.log(gameEvents);
 
 // 3.
 const average = 90 / gameEvents.size;
-console.log(average);
+console.log(`An event happened, on average, every ${average} minutes`);
+
+// 4.
+for (const [key, value] of gameEvents) {
+}
