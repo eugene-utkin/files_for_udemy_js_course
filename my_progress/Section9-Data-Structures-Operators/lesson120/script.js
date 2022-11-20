@@ -656,7 +656,7 @@ console.log(
 );
 
 // 4.
-for (const [key, value] of gameEvents) {
-  const part = key < 45 ? 'FIRST' : 'SECOND';
-  console.log(`[${part} HALF] ${key}: ${value}`);
+for (const [min, event] of gameEvents) {
+  const half = min <= 45 ? 'FIRST' : 'SECOND';
+  console.log(`[${half} HALF] ${min}: ${event}`);
 }
