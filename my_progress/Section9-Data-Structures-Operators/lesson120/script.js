@@ -647,3 +647,4 @@ console.log(events);
 
 // 2.
 gameEvents.delete(64);
+console.log(gameEvents);
