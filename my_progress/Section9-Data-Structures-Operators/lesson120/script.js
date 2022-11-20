@@ -624,3 +624,5 @@ for (const scorer of game.scored) {
 }
 console.log(scorers);
 */
+
+// Coding Challenge #3
