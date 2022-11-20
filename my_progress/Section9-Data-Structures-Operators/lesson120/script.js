@@ -641,3 +641,4 @@ const gameEvents = new Map([
 ]);
 
 // 1.
+const events = (...gameEvents.values());
