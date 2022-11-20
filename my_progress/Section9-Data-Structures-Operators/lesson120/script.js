@@ -646,3 +646,4 @@ events = [...new Set(events)];
 console.log(events);
 
 // 2.
+gameEvents.delete(64);
