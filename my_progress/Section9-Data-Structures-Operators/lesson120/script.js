@@ -650,3 +650,4 @@ gameEvents.delete(64);
 console.log(gameEvents);
 
 // 3.
+const average = gameEvents.values().length;
