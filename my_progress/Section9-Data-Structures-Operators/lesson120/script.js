@@ -641,7 +641,7 @@ const gameEvents = new Map([
 ]);
 
 // 1.
-const events = [...new Set([...gameEvents.values()])];
+const events = [...new Set(gameEvents.values())];
 console.log(events);
 
 // 2.
