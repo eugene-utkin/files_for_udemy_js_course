@@ -80,6 +80,7 @@ console.log(airline.slice(1, -1));
 
 const checkMiddleSeat = function (seat) {
   // B and E are middle seats
+  const s = seat.slice(-1);
 };
 
 checkMiddleSeat('11B');
