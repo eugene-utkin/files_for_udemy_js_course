@@ -60,6 +60,7 @@ const plane = 'A320';
 console.log(plane[0]);
 console.log(plane[1]);
 console.log(plane[2]);
+console.log('B737'[0]);
 
 /*
 const question = new Map([
