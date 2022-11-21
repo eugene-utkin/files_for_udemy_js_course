@@ -55,6 +55,7 @@ const restaurant = {
 };
 
 const airline = 'TAP Air Portugal';
+const plane = 'A320';
 
 /*
 const question = new Map([
