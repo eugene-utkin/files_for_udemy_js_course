@@ -625,6 +625,7 @@ for (const scorer of game.scored) {
 console.log(scorers);
 */
 
+/*
 // Coding Challenge #3
 const gameEvents = new Map([
   [17, '⚽ GOAL'],
@@ -660,3 +661,4 @@ for (const [min, event] of gameEvents) {
   const half = min <= 45 ? 'FIRST' : 'SECOND';
   console.log(`[${half} HALF] ${min}: ${event}`);
 }
+*/
