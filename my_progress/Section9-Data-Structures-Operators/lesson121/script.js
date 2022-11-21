@@ -54,6 +54,8 @@ const restaurant = {
   },
 };
 
+const airline = 'TAP Air Portugal';
+
 /*
 const question = new Map([
   ['question', 'What is the best programming language in the world?'],
