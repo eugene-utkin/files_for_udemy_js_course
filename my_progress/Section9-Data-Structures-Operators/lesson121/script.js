@@ -67,6 +67,7 @@ console.log('B737'.length);
 
 console.log(airline.indexOf('r'));
 console.log(airline.lastIndexOf('r'));
+console.log(airline.indexOf('Portugal'));
 
 /*
 const question = new Map([
