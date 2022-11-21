@@ -62,6 +62,9 @@ console.log(plane[1]);
 console.log(plane[2]);
 console.log('B737'[0]);
 
+console.log(airline.length);
+console.log('B737'.length);
+
 /*
 const question = new Map([
   ['question', 'What is the best programming language in the world?'],
