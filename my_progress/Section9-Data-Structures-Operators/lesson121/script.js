@@ -57,6 +57,10 @@ const restaurant = {
 const airline = 'TAP Air Portugal';
 const plane = 'A320';
 
+console.log(plane[0]);
+console.log(plane[1]);
+console.log(plane[2]);
+
 /*
 const question = new Map([
   ['question', 'What is the best programming language in the world?'],
