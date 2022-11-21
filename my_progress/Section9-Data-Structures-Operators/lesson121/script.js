@@ -80,6 +80,8 @@ console.log(airline.slice(1, -1));
 
 const checkMiddleSeat = function (seat) {};
 
+checkMiddleSeat('11B');
+
 /*
 const question = new Map([
   ['question', 'What is the best programming language in the world?'],
