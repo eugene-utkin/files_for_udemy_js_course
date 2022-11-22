@@ -54,6 +54,8 @@ const restaurant = {
   },
 };
 
+const airline = 'TAP Air Portugal';
+
 /*
 // Working With Strings - Part 1
 const airline = 'TAP Air Portugal';
