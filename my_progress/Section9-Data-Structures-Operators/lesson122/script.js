@@ -54,6 +54,7 @@ const restaurant = {
   },
 };
 
+/*
 // Working With Strings - Part 1
 const airline = 'TAP Air Portugal';
 const plane = 'A320';
@@ -94,6 +95,7 @@ console.log(new String('jonas'));
 console.log(typeof new String('jonas'));
 
 console.log(typeof new String('jonas').slice(1));
+*/
 
 /*
 const question = new Map([
