@@ -57,6 +57,7 @@ const restaurant = {
 const airline = 'TAP Air Portugal';
 
 console.log(airline.toLowerCase());
+console.log(airline.toUpperCase());
 
 /*
 // Working With Strings - Part 1
