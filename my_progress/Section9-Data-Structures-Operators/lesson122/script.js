@@ -66,6 +66,8 @@ const passengerCorrect =
   passengerLower[0].toUpperCase() + passengerLower.slice(1);
 console.log(passengerCorrect);
 
+// Comparing emails
+
 /*
 // Working With Strings - Part 1
 const airline = 'TAP Air Portugal';
