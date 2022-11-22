@@ -61,6 +61,7 @@ console.log(airline.toUpperCase());
 
 // Fix capitalization in name
 const passenger = 'jOnAS';
+const passengerLower = passenger.toLowerCase();
 
 /*
 // Working With Strings - Part 1
