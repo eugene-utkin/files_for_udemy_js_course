@@ -54,6 +54,7 @@ const restaurant = {
   },
 };
 
+// Working With Strings - Part 1
 const airline = 'TAP Air Portugal';
 const plane = 'A320';
 
