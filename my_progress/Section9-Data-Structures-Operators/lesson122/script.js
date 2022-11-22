@@ -59,6 +59,8 @@ const airline = 'TAP Air Portugal';
 console.log(airline.toLowerCase());
 console.log(airline.toUpperCase());
 
+// Fix capitalization in name
+
 /*
 // Working With Strings - Part 1
 const airline = 'TAP Air Portugal';
