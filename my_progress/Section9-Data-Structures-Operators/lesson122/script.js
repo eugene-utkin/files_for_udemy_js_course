@@ -74,6 +74,8 @@ const lowerEmail = loginEmail.toLowerCase();
 const trimmedEmail = lowerEmail.trim();
 console.log(trimmedEmail);
 
+const normalizedEmail = loginEmail.toLowerCase().trim();
+
 /*
 // Working With Strings - Part 1
 const airline = 'TAP Air Portugal';
