@@ -70,8 +70,8 @@ console.log(passengerCorrect);
 const email = 'hello@jonas.io';
 const loginEmail = '  Hello@Jonas.Io \n';
 
-const lowerEmail = loginEmail.toLowerCase();
-const trimmedEmail = lowerEmail.trim();
+// const lowerEmail = loginEmail.toLowerCase();
+// const trimmedEmail = lowerEmail.trim();
 
 const normalizedEmail = loginEmail.toLowerCase().trim();
 console.log(normalizedEmail);
