@@ -86,6 +86,7 @@ const announcement =
 
 console.log(announcement.replace('door', 'gate'));
 console.log(announcement.replaceAll('door', 'gate'));
+console.log(announcement.replace(/door/g, 'gate'));
 
 /*
 // Working With Strings - Part 1
