@@ -68,7 +68,7 @@ console.log(passengerCorrect);
 
 // Comparing emails
 const email = 'hello@jonas.io';
-const loginEmail = '  Hello@Jonas.Io ';
+const loginEmail = '  Hello@Jonas.Io \n';
 
 /*
 // Working With Strings - Part 1
