@@ -77,6 +77,7 @@ console.log(normalizedEmail);
 console.log(email === normalizedEmail);
 
 // replacing
+const priceGB = '288,97£';
 
 /*
 // Working With Strings - Part 1
