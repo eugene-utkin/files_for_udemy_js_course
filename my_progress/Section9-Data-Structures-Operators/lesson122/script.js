@@ -75,6 +75,7 @@ const trimmedEmail = lowerEmail.trim();
 console.log(trimmedEmail);
 
 const normalizedEmail = loginEmail.toLowerCase().trim();
+console.log(normalizedEmail);
 
 /*
 // Working With Strings - Part 1
