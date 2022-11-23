@@ -71,6 +71,7 @@ const email = 'hello@jonas.io';
 const loginEmail = '  Hello@Jonas.Io \n';
 
 const lowerEmail = loginEmail.toLowerCase();
+const trimmedEmail = lowerEmail.trim();
 
 /*
 // Working With Strings - Part 1
