@@ -70,6 +70,8 @@ console.log(passengerCorrect);
 const email = 'hello@jonas.io';
 const loginEmail = '  Hello@Jonas.Io \n';
 
+const lowerEmail = loginEmail.toLowerCase();
+
 /*
 // Working With Strings - Part 1
 const airline = 'TAP Air Portugal';
