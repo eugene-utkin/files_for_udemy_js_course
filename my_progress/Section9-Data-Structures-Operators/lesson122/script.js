@@ -88,6 +88,8 @@ console.log(announcement.replace('door', 'gate'));
 console.log(announcement.replaceAll('door', 'gate'));
 console.log(announcement.replace(/door/g, 'gate'));
 
+// Booleans
+
 /*
 // Working With Strings - Part 1
 const airline = 'TAP Air Portugal';
