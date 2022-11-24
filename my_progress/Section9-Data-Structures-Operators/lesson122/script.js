@@ -92,6 +92,7 @@ console.log(announcement.replace(/door/g, 'gate'));
 const plane = 'A320neo';
 console.log(plane.includes('A320'));
 console.log(plane.includes('Boeing'));
+console.log(plane.startsWith('Air'));
 
 /*
 // Working With Strings - Part 1
