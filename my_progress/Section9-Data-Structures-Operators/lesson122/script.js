@@ -90,6 +90,7 @@ console.log(announcement.replace(/door/g, 'gate'));
 
 // Booleans
 const plane = 'A320neo';
+console.log(plane.includes('A320'));
 
 /*
 // Working With Strings - Part 1
