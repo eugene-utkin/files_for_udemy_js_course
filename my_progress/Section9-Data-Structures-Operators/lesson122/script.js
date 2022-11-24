@@ -89,6 +89,7 @@ console.log(announcement.replaceAll('door', 'gate'));
 console.log(announcement.replace(/door/g, 'gate'));
 
 // Booleans
+const plane = 'A320neo';
 
 /*
 // Working With Strings - Part 1
