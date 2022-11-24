@@ -99,6 +99,7 @@ if (plane.startsWith('Airbus') && plane.endsWith('neo')) {
 }
 
 // Practise exercise
+const checkBaggage = function (items) {};
 
 /*
 // Working With Strings - Part 1
