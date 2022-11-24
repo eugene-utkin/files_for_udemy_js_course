@@ -94,6 +94,10 @@ console.log(plane.includes('A320'));
 console.log(plane.includes('Boeing'));
 console.log(plane.startsWith('Airb'));
 
+if (plane.startsWith('Airbus') && plane.endsWith('neo')) {
+  console.log('Part of the NEW Airbus family');
+}
+
 /*
 // Working With Strings - Part 1
 const airline = 'TAP Air Portugal';
