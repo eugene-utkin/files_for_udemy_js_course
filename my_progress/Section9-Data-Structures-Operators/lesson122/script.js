@@ -98,6 +98,8 @@ if (plane.startsWith('Airbus') && plane.endsWith('neo')) {
   console.log('Part of the NEW Airbus family');
 }
 
+// Practise exercise
+
 /*
 // Working With Strings - Part 1
 const airline = 'TAP Air Portugal';
