@@ -99,8 +99,11 @@ if (plane.startsWith('Airbus') && plane.endsWith('neo')) {
 }
 
 // Practise exercise
-const checkBaggage = function (items) {};
-checkBaggage('I have a laptop, some food and a pocket knife');
+const checkBaggage = function (items) {
+  const baggage = items.toLowerCase();
+};
+
+checkBaggage('I have a laptop, some Food and a pocket Knife');
 checkBaggage('Socks and camera');
 checkBaggage('Got some snacks and a gun for protection');
 
