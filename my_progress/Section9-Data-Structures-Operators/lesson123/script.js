@@ -63,6 +63,8 @@ const [firstName, lastName] = 'Jonas Schmedtmann'.split(' ');
 const newName = ['Mr.', firstName, lastName.toUpperCase()].join(' ');
 console.log(newName);
 
+const capitalizeName = function (name) {};
+
 const passenger = 'jessica ann smith davis';
 
 /*
