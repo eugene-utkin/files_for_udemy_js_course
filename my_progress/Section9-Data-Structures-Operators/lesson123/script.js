@@ -55,6 +55,7 @@ const restaurant = {
 };
 
 console.log('a+very+nice+string'.split('+'));
+console.log('Jonas Schmedtmann'.split(' '));
 
 /*
 // Working With Strings - Part 3
