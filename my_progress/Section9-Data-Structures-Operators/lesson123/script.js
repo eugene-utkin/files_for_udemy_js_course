@@ -63,7 +63,9 @@ const [firstName, lastName] = 'Jonas Schmedtmann'.split(' ');
 const newName = ['Mr.', firstName, lastName.toUpperCase()].join(' ');
 console.log(newName);
 
-const capitalizeName = function (name) {};
+const capitalizeName = function (name) {
+  const names = names.split(' ');
+};
 
 capitalizeName('jessica ann smith davis');
 capitalizeName('jonas schmedtmann');
