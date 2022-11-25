@@ -65,7 +65,8 @@ console.log(newName);
 
 const capitalizeName = function (name) {};
 
-const passenger = 'jessica ann smith davis';
+capitalizeName('jessica ann smith davis');
+capitalizeName('jonas schmedtmann');
 
 /*
 // Working With Strings - Part 3
