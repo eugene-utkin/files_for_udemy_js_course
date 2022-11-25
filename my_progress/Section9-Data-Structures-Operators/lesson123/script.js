@@ -60,6 +60,8 @@ console.log('Jonas Schmedtmann'.split(' '));
 const [firstName, lastName] = 'Jonas Schmedtmann'.split(' ');
 
 ['Mr.', firstName, lastName.toUpperCase()].join(' ');
+console.log(newName);
+
 /*
 // Working With Strings - Part 3
 const airline = 'TAP Air Portugal';
