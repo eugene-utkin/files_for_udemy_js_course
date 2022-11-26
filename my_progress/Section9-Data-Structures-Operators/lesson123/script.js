@@ -86,6 +86,8 @@ const maskCreditCard = function (number) {
   const str = number + '';
 };
 
+maskCreditCard(4337846384647384);
+
 /*
 // Working With Strings - Part 3
 const airline = 'TAP Air Portugal';
