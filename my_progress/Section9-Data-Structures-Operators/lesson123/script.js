@@ -64,12 +64,12 @@ const newName = ['Mr.', firstName, lastName.toUpperCase()].join(' ');
 console.log(newName);
 
 const capitalizeName = function (name) {
-  const names = name.toUpperCase().split(' ');
+  const names = name.split(' ');
   const namesUpper = [];
 
   for (const n of names) {
     // namesUpper.push(n[0].toUpperCase() + n.slice(1));
-    namesUpper.push(n[0] + n.slice(1).toLowerCase());
+    namesUpper.push(n.replace(n[0], n[0].toUpperCase()));
   }
   console.log(namesUpper.join(' '));
 };
