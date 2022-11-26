@@ -70,7 +70,7 @@ const capitalizeName = function (name) {
   for (const n of names) {
     namesUpper.push(n[0].toUpperCase() + n.slice(1));
   }
-  console.log(nameUpper.join(' '));
+  console.log(namesUpper.join(' '));
 };
 
 capitalizeName('jessica ann smith davis');
