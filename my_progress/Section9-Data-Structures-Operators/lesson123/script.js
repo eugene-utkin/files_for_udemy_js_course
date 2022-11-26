@@ -77,6 +77,8 @@ const capitalizeName = function (name) {
 capitalizeName('jessica ann smith davis');
 capitalizeName('jonas schmedtmann');
 
+// Padding
+
 /*
 // Working With Strings - Part 3
 const airline = 'TAP Air Portugal';
