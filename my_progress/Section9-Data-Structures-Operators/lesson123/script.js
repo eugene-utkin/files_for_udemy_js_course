@@ -64,7 +64,7 @@ const newName = ['Mr.', firstName, lastName.toUpperCase()].join(' ');
 console.log(newName);
 
 const capitalizeName = function (name) {
-  const names = names.split(' ');
+  const names = name.split(' ');
   const namesUpper = [];
 
   for (const n of names) {
