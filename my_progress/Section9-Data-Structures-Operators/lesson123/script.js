@@ -82,7 +82,9 @@ const message = 'Go to gate 23!';
 console.log(message.padStart(20, '+').padEnd(30, '+'));
 console.log('Jonas'.padStart(20, '+').padEnd(30, '+'));
 
-const maskCreditCard = function (number) {};
+const maskCreditCard = function (number) {
+  const str = number + '';
+};
 
 /*
 // Working With Strings - Part 3
