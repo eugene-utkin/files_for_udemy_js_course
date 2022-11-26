@@ -87,6 +87,7 @@ const maskCreditCard = function (number) {
 };
 
 maskCreditCard(4337846384647384);
+maskCreditCard('334859493847755774747');
 
 /*
 // Working With Strings - Part 3
