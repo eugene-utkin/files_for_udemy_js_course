@@ -85,6 +85,7 @@ console.log('Jonas'.padStart(20, '+').padEnd(30, '+'));
 const maskCreditCard = function (number) {
   const str = number + '';
   const last = str.slice(-4);
+  return last.padStart(str.length, '*');
 };
 
 maskCreditCard(4337846384647384);
