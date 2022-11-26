@@ -88,7 +88,7 @@ const maskCreditCard = function (number) {
   return last.padStart(str.length, '*');
 };
 
-maskCreditCard(4337846384647384);
+console.log(maskCreditCard(4337846384647384));
 maskCreditCard('334859493847755774747');
 
 /*
