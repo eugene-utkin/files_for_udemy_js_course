@@ -79,6 +79,7 @@ capitalizeName('jonas schmedtmann');
 
 // Padding
 const message = 'Go to gate 23!';
+console.log(message.padStart(25, '+'));
 
 /*
 // Working With Strings - Part 3
