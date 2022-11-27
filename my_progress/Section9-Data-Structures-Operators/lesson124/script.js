@@ -826,5 +826,8 @@ Some_Variable
 delayed_departure
 `;
 
-const convertToCamelCase = function (text) {};
-console.log(input.replaceAll(' ', '').toLowerCase());
+const convertToCamelCase = function (text) {
+  text.replaceAll(' ', '').toLowerCase();
+};
+
+convertToCamelCase(input);
