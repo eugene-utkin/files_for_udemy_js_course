@@ -817,3 +817,5 @@ for (const [min, event] of gameEvents) {
   console.log(`[${half} HALF] ${min}: ${event}`);
 }
 */
+
+// Coding Challenge #4
