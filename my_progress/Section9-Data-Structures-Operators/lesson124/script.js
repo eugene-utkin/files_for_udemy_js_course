@@ -819,3 +819,9 @@ for (const [min, event] of gameEvents) {
 */
 
 // Coding Challenge #4
+const input = `underscore_case
+ first_name
+Some_Variable
+  calculate_AGE
+delayed_departure
+`;
