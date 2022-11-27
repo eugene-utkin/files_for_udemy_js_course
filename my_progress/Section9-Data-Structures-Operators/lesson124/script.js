@@ -827,4 +827,13 @@ document.querySelector('button').addEventListener('click', function () {
   const text = document.querySelector('textarea').value;
   const rows = text.split('\n');
   console.log(rows);
+
+  for (const row in rows) {
+  }
 });
+
+// underscore_case -> underscoreCase
+//  first_name
+// Some_Variable
+//   calculate_AGE
+// delayed_departure
