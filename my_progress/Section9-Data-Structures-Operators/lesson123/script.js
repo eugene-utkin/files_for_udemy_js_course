@@ -94,6 +94,7 @@ console.log(maskCreditCard('334859493847755774747'));
 
 // Repeat
 const message2 = 'Bad weather... All Departures Delayed...';
+console.log(message2.repeat(5));
 
 /*
 // Working With Strings - Part 3
