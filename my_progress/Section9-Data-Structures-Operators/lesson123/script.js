@@ -99,6 +99,9 @@ console.log(message2.repeat(5));
 const planesInLine = function (n) {
   console.log(`There are ${n} planes in line ${'✈️'.repeat(n)}`);
 };
+planesInLine(5);
+planesInLine(3);
+planesInLine(12);
 
 /*
 // Working With Strings - Part 3
