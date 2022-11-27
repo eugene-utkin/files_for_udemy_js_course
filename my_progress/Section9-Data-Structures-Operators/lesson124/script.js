@@ -838,4 +838,11 @@ const convertToCamelCase = function (text) {
   }
 };
 
-convertToCamelCase(input);
+document.body.append(document.createElement('textarea'));
+const textarea = document.querySelector('textarea');
+document.body.append(document.createElement('button'));
+const button = document.querySelector('button');
+
+button.addEventListener('click', () => {
+  convertToCamelCase(textarea.value);
+});
