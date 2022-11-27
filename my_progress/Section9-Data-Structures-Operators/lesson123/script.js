@@ -97,7 +97,7 @@ const message2 = 'Bad weather... All Departures Delayed...';
 console.log(message2.repeat(5));
 
 const planesInLine = function (n) {
-  console.log(`There are ${n} planes in line`);
+  console.log(`There are ${n} planes in line ${'✈️'.repeat(n)}`);
 };
 
 /*
