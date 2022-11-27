@@ -826,4 +826,4 @@ Some_Variable
 delayed_departure
 `;
 
-console.log(input.replaceAll(' ', ''));
+console.log(input.replaceAll(' ', '').toLowerCase());
