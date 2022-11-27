@@ -826,10 +826,15 @@ Some_Variable
 delayed_departure`;
 
 const convertToCamelCase = function (text) {
-  for (const name of text.replaceAll(' ', '').toLowerCase().split('\n')) {
-    const nameArray = name.split('_');
-    const result = [];
-    for (let i = 0; i < nameArray.length; i++) {}
+  const names = text.replaceAll(' ', '').toLowerCase().split('\n');
+  for (let num = 0; num < names.length; num++) {
+    const nameArray = names[num].split('_');
+    for (let i = 0; i < nameArray.length; i++) {
+      if (i !== 0) {
+        nameArray[i] = nameArray[i][0].toUpperCase() + nameArray[i].slice(1);
+      }
+    }
+    console.log(`${nameArray.join('').padEnd(20, ' ')}${'✅'.repeat(num + 1)}`);
   }
 };
 
