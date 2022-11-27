@@ -823,11 +823,10 @@ const input = `underscore_case
  first_name
 Some_Variable
   calculate_AGE
-delayed_departure
-`;
+delayed_departure`;
 
 const convertToCamelCase = function (text) {
-  text.replaceAll(' ', '').toLowerCase();
+  text.replaceAll(' ', '').toLowerCase().split('\n');
 };
 
 convertToCamelCase(input);
