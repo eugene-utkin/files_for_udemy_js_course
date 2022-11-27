@@ -54,6 +54,7 @@ const restaurant = {
   },
 };
 
+/*
 // Split and join
 console.log('a+very+nice+string'.split('+'));
 console.log('Jonas Schmedtmann'.split(' '));
@@ -102,6 +103,7 @@ const planesInLine = function (n) {
 planesInLine(5);
 planesInLine(3);
 planesInLine(12);
+*/
 
 /*
 // Working With Strings - Part 3
