@@ -820,30 +820,7 @@ for (const [min, event] of gameEvents) {
 */
 
 // Coding Challenge #4
-const input = `underscore_case
- first_name
-Some_Variable
-  calculate_AGE
-delayed_departure`;
-
-const convertToCamelCase = function (text) {
-  const names = text.replaceAll(' ', '').toLowerCase().split('\n');
-  for (let num = 0; num < names.length; num++) {
-    const nameArray = names[num].split('_');
-    for (let i = 0; i < nameArray.length; i++) {
-      if (i !== 0) {
-        nameArray[i] = nameArray[i][0].toUpperCase() + nameArray[i].slice(1);
-      }
-    }
-    console.log(`${nameArray.join('').padEnd(20, ' ')}${'✅'.repeat(num + 1)}`);
-  }
-};
-
 document.body.append(document.createElement('textarea'));
-const textarea = document.querySelector('textarea');
 document.body.append(document.createElement('button'));
-const button = document.querySelector('button');
 
-button.addEventListener('click', () => {
-  convertToCamelCase(textarea.value);
-});
+const text = document.querySelector('textarea').value;
