@@ -827,6 +827,8 @@ delayed_departure`;
 
 const convertToCamelCase = function (text) {
   for (const name of text.replaceAll(' ', '').toLowerCase().split('\n')) {
+    for (const namePart of name.split('_')) {
+    }
   }
 };
 
