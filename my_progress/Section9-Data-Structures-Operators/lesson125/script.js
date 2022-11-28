@@ -54,6 +54,8 @@ const restaurant = {
   },
 };
 
+// String Methods Practice
+
 /*
 // Working With Strings - Part 2
 // Split and join
