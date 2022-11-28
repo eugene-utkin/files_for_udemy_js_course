@@ -58,7 +58,8 @@ const restaurant = {
 
 for (const flight of flights.split('+')) {
   const [type, from, to, time] = flight.split(';');
-  const output = `$${type} ${from} ${to} ${time}`;
+  const output = `${type} ${from} ${to} (${time})`;
+  console.log(output);
 }
 
 /*
