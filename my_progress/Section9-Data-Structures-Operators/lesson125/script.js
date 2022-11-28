@@ -819,6 +819,7 @@ for (const [min, event] of gameEvents) {
 }
 */
 
+/*
 // Coding Challenge #4
 document.body.append(document.createElement('textarea'));
 document.body.append(document.createElement('button'));
@@ -843,3 +844,4 @@ document.querySelector('button').addEventListener('click', function () {
 // Some_Variable
 //   calculate_AGE
 // delayed_departure
+*/
