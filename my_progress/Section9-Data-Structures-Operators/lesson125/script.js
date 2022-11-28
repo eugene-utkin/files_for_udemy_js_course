@@ -57,7 +57,7 @@ const restaurant = {
 // String Methods Practice
 
 for (const flight of flights.split('+')) {
-  console.log(flight.split(';'));
+  const [type, from, to, time] = flight.split(';');
 }
 
 /*
