@@ -56,6 +56,10 @@ const restaurant = {
 
 // String Methods Practice
 
+for (const flight of flights.split('+')) {
+  console.log(flight.split(';'));
+}
+
 /*
 // Working With Strings - Part 2
 // Split and join
