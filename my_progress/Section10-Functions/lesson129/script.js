@@ -53,3 +53,7 @@ console.log(jonas);
 // Is the same as doing...
 const flightNum = flight;
 const passenger = jonas;
+
+const newPassport = function (person) {
+  person.passport = Math.trunc(Math.random() * 100000000000);
+};
