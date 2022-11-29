@@ -36,3 +36,5 @@ const jonas = {
 };
 
 const checkIn = function (flightNum, passenger) {};
+
+checkIn(flight, jonas);
