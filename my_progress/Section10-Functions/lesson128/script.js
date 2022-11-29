@@ -8,4 +8,6 @@ const createBooking = function (flightNum, numPassengers, price) {
     numPassengers,
     price,
   };
+  console.log(booking);
+  booking.push(booking);
 };
