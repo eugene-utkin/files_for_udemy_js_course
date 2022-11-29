@@ -34,3 +34,5 @@ const jonas = {
   name: 'Jonas Schmedtmann',
   passport: 24739479284,
 };
+
+const checkIn = function (flightNum, passenger) {};
