@@ -28,3 +28,5 @@ createBooking('LH123', 5);
 
 createBooking('LH123', undefined, 1000);
 */
+
+const flight = 'LH234';
