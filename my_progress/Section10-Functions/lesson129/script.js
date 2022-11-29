@@ -47,3 +47,5 @@ const checkIn = function (flightNum, passenger) {
 };
 
 checkIn(flight, jonas);
+console.log(flight);
+console.log(jonas);
