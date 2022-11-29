@@ -40,7 +40,7 @@ const checkIn = function (flightNum, passenger) {
   passenger.name = 'Mr. ' + passenger.name;
 
   if (passenger.passport === 24739479284) {
-    alert('Check in');
+    alert('Checked in');
   } else {
     alert('Wrong passport!');
   }
@@ -49,3 +49,7 @@ const checkIn = function (flightNum, passenger) {
 checkIn(flight, jonas);
 console.log(flight);
 console.log(jonas);
+
+// Is the same as doing...
+const flightNum = flight;
+const passenger = jonas;
