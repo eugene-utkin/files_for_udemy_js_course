@@ -73,3 +73,4 @@ const upperFirstWord = function (str) {
 };
 
 // Higher-order function
+const transformer = function (str, fn) {};
