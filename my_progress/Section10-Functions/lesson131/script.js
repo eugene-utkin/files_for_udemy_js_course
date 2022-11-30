@@ -62,3 +62,7 @@ const newPassport = function (person) {
 newPassport(jonas);
 checkIn(flight, jonas);
 */
+
+const oneWord = function (str) {
+  return str.replace(/ /g, '').toLowerCase();
+};
