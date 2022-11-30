@@ -83,4 +83,6 @@ const transformer = function (str, fn) {
 transformer('JavaScript is the best!', upperFirstWord);
 transformer('JavaScript is the best!', oneWord);
 
-const high5 = function () {};
+const high5 = function () {
+  console.log('👋');
+};
