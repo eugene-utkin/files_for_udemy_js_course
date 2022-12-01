@@ -93,5 +93,7 @@ document.body.addEventListener('click', high5);
 */
 
 const greet = function (greeting) {
-  return function (name) {};
+  return function (name) {
+    console.log(`${greeting} ${name}`);
+  };
 };
