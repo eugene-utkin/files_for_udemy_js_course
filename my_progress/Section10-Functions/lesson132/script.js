@@ -102,4 +102,4 @@ const greeterHey = greet('Hey');
 greeterHey('Jonas');
 greeterHey('Steven');
 
-greet('Hello');
+greet('Hello')('Jonas');
