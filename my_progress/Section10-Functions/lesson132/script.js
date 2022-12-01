@@ -98,4 +98,4 @@ const greet = function (greeting) {
   };
 };
 
-greet('Hey');
+const greeterHey = greet('Hey');
