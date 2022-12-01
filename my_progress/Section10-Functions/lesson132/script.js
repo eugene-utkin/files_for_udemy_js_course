@@ -63,6 +63,7 @@ newPassport(jonas);
 checkIn(flight, jonas);
 */
 
+/*
 const oneWord = function (str) {
   return str.replace(/ /g, '').toLowerCase();
 };
@@ -89,3 +90,4 @@ const high5 = function () {
 };
 document.body.addEventListener('click', high5);
 ['Jonas', 'Martha', 'Adam'].forEach(high5);
+*/
