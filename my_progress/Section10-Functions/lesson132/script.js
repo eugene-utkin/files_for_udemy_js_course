@@ -97,3 +97,5 @@ const greet = function (greeting) {
     console.log(`${greeting} ${name}`);
   };
 };
+
+greet('Hey');
