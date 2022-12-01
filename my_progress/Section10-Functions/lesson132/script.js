@@ -92,7 +92,6 @@ document.body.addEventListener('click', high5);
 ['Jonas', 'Martha', 'Adam'].forEach(high5);
 */
 
-const getCode = str => str.slice(0, 3).toUpperCase();
 const greet = greeting => name => console.log(`${greeting} ${name}`);
 
 const greeterHey = greet('Hey');
