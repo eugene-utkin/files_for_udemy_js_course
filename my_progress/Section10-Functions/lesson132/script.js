@@ -100,3 +100,4 @@ const greet = function (greeting) {
 
 const greeterHey = greet('Hey');
 greeterHey('Jonas');
+greeterHey('Steven');
