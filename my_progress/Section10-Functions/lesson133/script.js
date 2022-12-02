@@ -114,4 +114,5 @@ greetArr('Hi')('Jonas');
 const lufthansa = {
   airline: 'Lufthansa',
   iataCode: 'LH',
+  bookings: [],
 };
