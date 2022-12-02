@@ -153,3 +153,5 @@ const swiss = {
 
 book.call(swiss, 583, 'Mary Cooper');
 console.log(swiss);
+
+// Apply method
