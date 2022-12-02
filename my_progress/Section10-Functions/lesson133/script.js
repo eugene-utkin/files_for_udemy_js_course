@@ -118,7 +118,9 @@ const lufthansa = {
   // book: function() {}
   book(flighNum, name) {
     console.log(
-      `${name} booked a seat on ${this.airline} flight ${this.iataCode}`
+      `${name} booked a seat on ${this.airline} flight ${this.iataCode}${flightNum}`
     );
   },
 };
+
+lufthansa.book(239, 'Jonas Schmedtmann');
