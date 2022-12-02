@@ -136,4 +136,5 @@ const eurowings = {
 
 const book = lufthansa.book;
 
-book(23, 'Sarah Williams');
+// Does NOT work
+// book(23, 'Sarah Williams');
