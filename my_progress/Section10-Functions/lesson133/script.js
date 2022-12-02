@@ -135,3 +135,5 @@ const eurowings = {
 };
 
 const book = lufthansa.book;
+
+book(23, 'Sarah Williams');
