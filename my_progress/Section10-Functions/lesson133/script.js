@@ -116,11 +116,11 @@ const lufthansa = {
   iataCode: 'LH',
   bookings: [],
   // book: function() {}
-  book(flighNum, name) {
+  book(flightNum, name) {
     console.log(
       `${name} booked a seat on ${this.airline} flight ${this.iataCode}${flightNum}`
     );
-    this.bookings.push({ flight: `${this.iataCode}${flightName}`, name });
+    this.bookings.push({ flight: `${this.iataCode}${flightNum}`, name });
   },
 };
 
