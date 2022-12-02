@@ -138,3 +138,5 @@ const book = lufthansa.book;
 
 // Does NOT work
 // book(23, 'Sarah Williams');
+
+book.call(eurowings, 23, 'Sarah Williams');
