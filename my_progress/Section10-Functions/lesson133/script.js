@@ -129,7 +129,7 @@ lufthansa.book(635, 'Jonn Smith');
 console.log(lufthansa);
 
 const eurowings = {
-  name: 'Eurowings',
+  airline: 'Eurowings',
   iataCode: 'EW',
   bookings: [],
 };
@@ -146,7 +146,7 @@ book.call(lufthansa, 239, 'Mary Cooper');
 console.log(lufthansa);
 
 const swiss = {
-  name: 'Swiss Air Lines',
+  airline: 'Swiss Air Lines',
   iataCode: 'LX',
   bookings: [],
 };
