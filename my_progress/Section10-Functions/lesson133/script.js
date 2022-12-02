@@ -124,3 +124,4 @@ const lufthansa = {
 };
 
 lufthansa.book(239, 'Jonas Schmedtmann');
+lufthansa.book(635, 'Jonn Smith');
