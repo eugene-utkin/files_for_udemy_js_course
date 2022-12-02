@@ -140,3 +140,4 @@ const book = lufthansa.book;
 // book(23, 'Sarah Williams');
 
 book.call(eurowings, 23, 'Sarah Williams');
+console.log(eurowings);
