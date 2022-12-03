@@ -189,3 +189,5 @@ document
   .addEventListener('click', lufthansa.buyPlane.bind(lufthansa));
 
 // Partial application
+
+const addTax = (rate, value) => value + value * rate;
