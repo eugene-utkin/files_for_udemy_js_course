@@ -162,3 +162,6 @@ console.log(swiss);
 book.call(swiss, ...flightData);
 
 // Bind method
+// book.call(eurowings, 23, 'Sarah Williams');
+
+const bookEW = book.bind(eurowings);
