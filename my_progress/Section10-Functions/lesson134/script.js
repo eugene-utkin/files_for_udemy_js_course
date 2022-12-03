@@ -166,4 +166,5 @@ book.call(swiss, ...flightData);
 
 const bookEW = book.bind(eurowings);
 const bookLH = book.bind(lufthansa);
+const bookLX = book.bind(swiss);
 bookEW(23, 'Steven Williams');
