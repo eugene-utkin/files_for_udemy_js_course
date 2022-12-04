@@ -236,6 +236,7 @@ poll.registerNewAnswer = function () {
   }
 };
 
+// 2.
 document
   .querySelector('.poll')
   .addEventListener('click', poll.registerNewAnswer.bind(poll));
