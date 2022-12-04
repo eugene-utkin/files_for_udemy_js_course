@@ -210,8 +210,8 @@ console.log(addVAT2(100));
 console.log(addVAT2(23));
 */
 
+/*
 // Coding Challenge #1
-
 const poll = {
   question: 'What is your favourite programming language?',
   options: ['0: JavaScript', '1: Python', '2: Rust', '3: C++'],
@@ -263,3 +263,4 @@ disResults.call(poll, 'array', arr1);
 disResults.call(poll, 'string', arr1);
 disResults.call(poll, 'array', arr2);
 disResults.call(poll, 'string', arr2);
+*/
