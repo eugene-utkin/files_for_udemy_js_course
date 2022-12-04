@@ -245,6 +245,7 @@ poll.registerNewAnswer = function () {
   }
 
   // 4.
+  this.displayResults();
 };
 
 // 2.
