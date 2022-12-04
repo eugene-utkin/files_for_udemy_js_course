@@ -273,10 +273,20 @@ const poll = {
   // This generates [0, 0, 0, 0]. More in the next section!
   answers: new Array(4).fill(0),
   registerNewAnswer() {
+    // Get answer
     const answer = Number(
       prompt(
         `${this.question}\n${this.options.join('\n')}\n(Write option number)`
       )
     );
+    console.log(answer);
+
+    // Register answer
+    typeof answer === 'number' &&
+      answer < this.answers.length &&
+      this.answers[answer]++;
+
+    console.log(this.answers);
   },
 };
+// poll.registerNewAnswer();
