@@ -265,3 +265,4 @@ disResults.call(poll, 'string', arr1);
 disResults.call(poll, 'array', arr2);
 disResults.call(poll, 'string', arr2);
 */
+// Teacher's solution
