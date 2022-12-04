@@ -212,6 +212,7 @@ console.log(addVAT2(23));
 
 /*
 // Coding Challenge #1
+// My solution
 const poll = {
   question: 'What is your favourite programming language?',
   options: ['0: JavaScript', '1: Python', '2: Rust', '3: C++'],
