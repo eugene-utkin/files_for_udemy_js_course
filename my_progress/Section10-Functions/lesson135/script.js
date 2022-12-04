@@ -223,15 +223,19 @@ const poll = {
 poll.registerNewAnswer = function () {
   const answer = Number(
     prompt(
-      'What is your favourite programming language?\
-  0: JavaScript\
-  1: Python\
-  2: Rust\
-  3: C++\
-  (Write option number)'
+      'What is your favourite programming language?\n\
+  0: JavaScript\n\
+  1: Python\n\
+  2: Rust\n\
+  3: C++\n\
+(Write option number)'
     )
   );
   if (answer >= 0 && answer <= 3) {
     this.answers[answer] += 1;
   }
 };
+
+document
+  .querySelector('.poll')
+  .addEventListener('click', poll.registerNewAnswer.bind(poll));
