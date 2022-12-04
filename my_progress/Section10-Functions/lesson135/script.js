@@ -240,3 +240,5 @@ poll.registerNewAnswer = function () {
 document
   .querySelector('.poll')
   .addEventListener('click', poll.registerNewAnswer.bind(poll));
+
+// 3.
