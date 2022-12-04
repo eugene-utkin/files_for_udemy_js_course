@@ -231,7 +231,7 @@ poll.registerNewAnswer = function () {
 (Write option number)'
     )
   );
-  if (answer >= 0 && answer <= 3) {
+  if (typeof answer == 'number' && answer >= 0 && answer <= 3) {
     this.answers[answer] += 1;
   }
 };
