@@ -242,4 +242,8 @@ document
   .addEventListener('click', poll.registerNewAnswer.bind(poll));
 
 // 3.
-poll.displayResults = function (type = 'array') {};
+poll.displayResults = function (type = 'array') {
+  if (type == 'array') {
+    console.log(this.answers);
+  }
+};
