@@ -220,11 +220,11 @@ const poll = {
 };
 
 // 3.
-poll.displayResults = function (type = 'array') {
+poll.displayResults = function (type = 'array', answers = this.answers) {
   if (type == 'array') {
-    console.log(this.answers);
+    console.log(answers);
   } else if (type == 'string') {
-    console.log(`Poll results are ${this.answers.join(', ')}`);
+    console.log(`Poll results are ${answers.join(', ')}`);
   }
 };
 
@@ -252,3 +252,14 @@ poll.registerNewAnswer = function () {
 document
   .querySelector('.poll')
   .addEventListener('click', poll.registerNewAnswer.bind(poll));
+
+// Bonus
+const disResults = poll.displayResults;
+
+const arr1 = [5, 2, 3];
+const arr2 = [1, 5, 3, 9, 6, 1];
+
+disResults.call(poll, 'array', arr1);
+disResults.call(poll, 'string', arr1);
+disResults.call(poll, 'array', arr2);
+disResults.call(poll, 'string', arr2);
