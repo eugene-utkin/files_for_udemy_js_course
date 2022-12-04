@@ -242,3 +242,4 @@ document
   .addEventListener('click', poll.registerNewAnswer.bind(poll));
 
 // 3.
+poll.displayResults = function (type = 'array') {};
