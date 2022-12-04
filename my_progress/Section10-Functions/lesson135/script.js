@@ -221,12 +221,14 @@ const poll = {
 
 // 1.
 poll.registerNewAnswer = function () {
-  prompt(
-    'What is your favourite programming language?\
+  const answer = Number(
+    prompt(
+      'What is your favourite programming language?\
   0: JavaScript\
   1: Python\
   2: Rust\
   3: C++\
   (Write option number)'
+    )
   );
 };
