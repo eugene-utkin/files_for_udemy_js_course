@@ -219,6 +219,15 @@ const poll = {
   answers: new Array(4).fill(0),
 };
 
+// 3.
+poll.displayResults = function (type = 'array') {
+  if (type == 'array') {
+    console.log(this.answers);
+  } else if (type == 'string') {
+    console.log(`Poll results are ${this.answers.join(', ')}`);
+  }
+};
+
 // 1.
 poll.registerNewAnswer = function () {
   const answer = Number(
@@ -234,18 +243,11 @@ poll.registerNewAnswer = function () {
   if (typeof answer == 'number' && answer >= 0 && answer <= 3) {
     this.answers[answer] += 1;
   }
+
+  // 4.
 };
 
 // 2.
 document
   .querySelector('.poll')
   .addEventListener('click', poll.registerNewAnswer.bind(poll));
-
-// 3.
-poll.displayResults = function (type = 'array') {
-  if (type == 'array') {
-    console.log(this.answers);
-  } else if (type == 'string') {
-    console.log(`Poll results are ${this.answers.join(', ')}`);
-  }
-};
