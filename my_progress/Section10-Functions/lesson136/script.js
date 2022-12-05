@@ -316,6 +316,7 @@ const runOnce = function () {
 };
 runOnce();
 
+// IIFE
 (function () {
   console.log('This will never run again');
 })();
