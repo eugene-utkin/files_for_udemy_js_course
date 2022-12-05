@@ -311,6 +311,7 @@ poll.displayResults.call({ answers: [1, 5, 3, 9, 6, 1] });
 // [1, 5, 3, 9, 6, 1];
 */
 
+/*
 const runOnce = function () {
   console.log('This will never run again');
 };
@@ -332,3 +333,4 @@ runOnce();
 }
 // console.log(isPrivate);
 console.log(notPrivate);
+*/
