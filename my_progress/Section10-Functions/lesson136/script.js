@@ -316,6 +316,6 @@ const runOnce = function () {
 };
 runOnce();
 
-function() {
+(function () {
   console.log('This will never run again');
-}
+});
