@@ -310,3 +310,5 @@ poll.displayResults.call({ answers: [1, 5, 3, 9, 6, 1] });
 // [5, 2, 3];
 // [1, 5, 3, 9, 6, 1];
 */
+
+const runOnce = function () {};
