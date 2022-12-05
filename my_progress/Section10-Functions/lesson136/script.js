@@ -264,9 +264,8 @@ disResults.call(poll, 'array', arr1);
 disResults.call(poll, 'string', arr1);
 disResults.call(poll, 'array', arr2);
 disResults.call(poll, 'string', arr2);
-*/
-// Teacher's solution
 
+// Teacher's solution
 const poll = {
   question: 'What is your favourite programming language?',
   options: ['0: JavaScript', '1: Python', '2: Rust', '3: C++'],
@@ -310,3 +309,4 @@ poll.displayResults.call({ answers: [1, 5, 3, 9, 6, 1] });
 
 // [5, 2, 3];
 // [1, 5, 3, 9, 6, 1];
+*/
