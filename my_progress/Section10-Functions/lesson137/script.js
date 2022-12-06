@@ -334,3 +334,5 @@ runOnce();
 // console.log(isPrivate);
 console.log(notPrivate);
 */
+
+const secureBooking = function () {};
