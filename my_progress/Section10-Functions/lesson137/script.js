@@ -335,4 +335,6 @@ runOnce();
 console.log(notPrivate);
 */
 
-const secureBooking = function () {};
+const secureBooking = function () {
+  let passengerCount = 0;
+};
