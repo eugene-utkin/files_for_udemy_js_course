@@ -337,4 +337,6 @@ console.log(notPrivate);
 
 const secureBooking = function () {
   let passengerCount = 0;
+
+  return function () {};
 };
