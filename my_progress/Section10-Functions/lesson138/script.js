@@ -335,6 +335,7 @@ runOnce();
 console.log(notPrivate);
 */
 
+/*
 const secureBooking = function () {
   let passengerCount = 0;
 
@@ -351,3 +352,4 @@ booker();
 booker();
 
 console.dir(booker);
+*/
