@@ -362,3 +362,6 @@ const g = function () {
     console.log(a * 2);
   };
 };
+
+g();
+f();
