@@ -372,3 +372,5 @@ const h = function () {
 
 g();
 f();
+h();
+f();
