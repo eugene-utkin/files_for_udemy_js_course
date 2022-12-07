@@ -358,5 +358,7 @@ let f;
 
 const g = function () {
   const a = 23;
-  f = function () {};
+  f = function () {
+    console.log(a * 2);
+  };
 };
