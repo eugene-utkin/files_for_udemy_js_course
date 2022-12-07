@@ -383,4 +383,6 @@ console.dir(f);
 // Example 2
 const boardPassengers = function (n, wait) {
   const perGroup = n / 3;
+
+  console.log(`Will start boarding in ${wait} seconds`);
 };
