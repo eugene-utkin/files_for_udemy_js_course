@@ -363,5 +363,7 @@ const g = function () {
   };
 };
 
+const h = function () {};
+
 g();
 f();
