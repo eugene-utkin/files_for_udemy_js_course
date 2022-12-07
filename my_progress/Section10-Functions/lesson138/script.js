@@ -379,3 +379,5 @@ console.dir(f);
 h();
 f();
 console.dir(f);
+
+// Example 2
