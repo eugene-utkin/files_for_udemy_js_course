@@ -354,6 +354,7 @@ booker();
 console.dir(booker);
 */
 
+// Example 1
 let f;
 
 const g = function () {
@@ -372,7 +373,9 @@ const h = function () {
 
 g();
 f();
+console.dir(f);
 
 // Re-assigning f function
 h();
 f();
+console.dir(f);
