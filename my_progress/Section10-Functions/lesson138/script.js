@@ -372,5 +372,7 @@ const h = function () {
 
 g();
 f();
+
+// Re-assigning f function
 h();
 f();
