@@ -356,4 +356,6 @@ console.dir(booker);
 
 let f;
 
-const g = function () {};
+const g = function () {
+  const a = 23;
+};
