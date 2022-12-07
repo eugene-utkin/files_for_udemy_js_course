@@ -355,3 +355,5 @@ console.dir(booker);
 */
 
 let f;
+
+const g = function () {};
