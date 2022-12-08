@@ -405,4 +405,4 @@ boardPassengers(180, 3);
   document.querySelector('body').addEventListener('click', function () {
     header.style.color = 'blue';
   });
-});
+})();
