@@ -410,3 +410,7 @@ boardPassengers(180, 3);
 */
 
 // Teacher's solution
+(function () {
+  const header = document.querySelector('h1');
+  header.style.color = 'red';
+})();
