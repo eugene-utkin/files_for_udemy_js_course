@@ -408,3 +408,5 @@ boardPassengers(180, 3);
   });
 })();
 */
+
+// Teacher's solution
