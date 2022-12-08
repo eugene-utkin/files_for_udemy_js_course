@@ -398,7 +398,7 @@ boardPassengers(180, 3);
 */
 
 // Coding Challenge #2
-
+// My solution
 (function () {
   const header = document.querySelector('h1');
   header.style.color = 'red';
