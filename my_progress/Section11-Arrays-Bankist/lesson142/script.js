@@ -89,4 +89,5 @@ console.log([...arr]);
 // SPLICE
 // console.log(arr.splice(2));
 arr.splice(-1);
+arr.splice(1, 2);
 console.log(arr);
