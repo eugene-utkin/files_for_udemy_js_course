@@ -96,3 +96,4 @@ console.log(arr);
 // REVERSE
 arr = ['a', 'b', 'c', 'd', 'e'];
 const arr2 = ['j', 'i', 'h', 'g', 'f'];
+console.log(arr2.reverse());
