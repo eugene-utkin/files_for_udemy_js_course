@@ -92,3 +92,5 @@ arr.splice(-1);
 console.log(arr);
 arr.splice(1, 2);
 console.log(arr);
+
+// REVERSE
