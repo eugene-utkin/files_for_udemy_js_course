@@ -110,6 +110,7 @@ console.log([...arr, ...arr2]);
 console.log(letters.join(' - '));
 */
 
+/*
 const arr = [23, 11, 64];
 console.log(arr[0]);
 console.log(arr.at(0));
@@ -121,3 +122,4 @@ console.log(arr.at(-1));
 
 console.log('jonas'.at(0));
 console.log('jonas'.at(-1));
+*/
