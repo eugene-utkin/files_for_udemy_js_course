@@ -108,3 +108,5 @@ console.log([...arr, ...arr2]);
 // JOIN
 console.log(letters.join(' - '));
 */
+
+const arr = [23, 11, 64];
