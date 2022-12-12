@@ -125,3 +125,6 @@ console.log('jonas'.at(-1));
 */
 
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+
+for (const movement of movements) {
+}
