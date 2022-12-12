@@ -142,3 +142,7 @@ movements.forEach(function (movement) {
     console.log(`You withdrew ${Math.abs(movement)}`);
   }
 });
+// 0: function(200)
+// 1: function(450)
+// 2: function(-400)
+// ...
