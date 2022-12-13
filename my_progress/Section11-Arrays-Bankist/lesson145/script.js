@@ -144,6 +144,7 @@ movements.forEach(function (mov, i, arr) {
 // ...
 */
 
+// Map
 const currencies = new Map([
   ['USD', 'United States dollar'],
   ['EUR', 'Euro'],
