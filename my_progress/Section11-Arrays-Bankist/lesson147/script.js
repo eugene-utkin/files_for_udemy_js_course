@@ -194,6 +194,6 @@ const checkDogs = function (dogsJulia, dogsKate) {
   dogs.forEach(function (age, i) {
     const messageEnd =
       age >= 3 ? `an adult, and is ${age} years old` : 'still a puppy 🐶';
-    console.log(`Dog number ${i} is an adult, and is ${age} years old`);
+    console.log(`Dog number ${i} is ${messageEnd}`);
   });
 };
