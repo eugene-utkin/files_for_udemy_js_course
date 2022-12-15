@@ -77,12 +77,10 @@ const displayMovements = function (movements) {
       </div>
     `;
 
-    containerMovements.insertAdjacentHTML('afterbegin', html);
+    containerMovements.insertAdjacentHTML('beforeend', html);
   });
 };
 displayMovements(account1.movements);
-
-console.log(containerMovements.innerHTML);
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
