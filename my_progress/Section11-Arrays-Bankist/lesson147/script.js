@@ -191,4 +191,5 @@ const checkDogs = function (dogsJulia, dogsKate) {
   const dogsJuliaCopy = [...dogsJulia];
   dogsJuliaCopy.pop().pop().shift();
   const dogs = [...dogsJuliaCopy, ...dogsKate];
+  dogs.forEach(function (dog, i) {});
 };
