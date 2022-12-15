@@ -199,3 +199,4 @@ const checkDogs = function (dogsJulia, dogsKate) {
 };
 
 const juliaData1 = [3, 5, 2, 12, 7];
+const kateData1 = [4, 1, 15, 8, 3];
