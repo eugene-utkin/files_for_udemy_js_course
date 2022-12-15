@@ -187,4 +187,6 @@ currenciesUnique.forEach(function (value, _, map) {
 
 // Coding Challenge #1
 
-const checkDogs = function (dogsJulia, dogsKate) {};
+const checkDogs = function (dogsJulia, dogsKate) {
+  const dogsJuliaCopy = dogsJulia;
+};
