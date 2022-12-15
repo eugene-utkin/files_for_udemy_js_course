@@ -197,3 +197,5 @@ const checkDogs = function (dogsJulia, dogsKate) {
     console.log(`Dog number ${i} is ${messageEnd}`);
   });
 };
+
+const juliaData1 = [3, 5, 2, 12, 7];
