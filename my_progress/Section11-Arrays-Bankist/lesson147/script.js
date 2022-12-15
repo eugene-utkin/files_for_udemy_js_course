@@ -191,5 +191,7 @@ const checkDogs = function (dogsJulia, dogsKate) {
   const dogsJuliaCopy = [...dogsJulia];
   dogsJuliaCopy.pop().pop().shift();
   const dogs = [...dogsJuliaCopy, ...dogsKate];
-  dogs.forEach(function (dog, i) {});
+  dogs.forEach(function (age, i) {
+    console.log(`Dog number ${i} is an adult, and is ${age} years old`);
+  });
 };
