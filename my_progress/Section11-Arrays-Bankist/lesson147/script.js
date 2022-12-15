@@ -184,3 +184,5 @@ currenciesUnique.forEach(function (value, _, map) {
   console.log(`${value}: ${value}`);
 });
 */
+
+// Coding Challenge #1
