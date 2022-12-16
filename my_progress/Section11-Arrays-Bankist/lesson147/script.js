@@ -210,3 +210,5 @@ const juliaData2 = [9, 16, 6, 8, 3];
 const kateData2 = [10, 5, 6, 1, 4];
 checkDogs(juliaData2, kateData2);
 */
+
+// Teacher's solution
