@@ -185,6 +185,7 @@ currenciesUnique.forEach(function (value, _, map) {
 });
 */
 
+/*
 // Coding Challenge #1
 // My solution
 const checkDogs = function (dogsJulia, dogsKate) {
@@ -208,3 +209,4 @@ console.log('------------------');
 const juliaData2 = [9, 16, 6, 8, 3];
 const kateData2 = [10, 5, 6, 1, 4];
 checkDogs(juliaData2, kateData2);
+*/
