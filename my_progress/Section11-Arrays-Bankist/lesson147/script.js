@@ -212,3 +212,4 @@ checkDogs(juliaData2, kateData2);
 */
 
 // Teacher's solution
+const checkDogs = function (dogsJulia, dogsKate) {};
