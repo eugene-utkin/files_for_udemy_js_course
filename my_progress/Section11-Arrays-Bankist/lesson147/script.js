@@ -186,7 +186,7 @@ currenciesUnique.forEach(function (value, _, map) {
 */
 
 // Coding Challenge #1
-
+// My solution
 const checkDogs = function (dogsJulia, dogsKate) {
   const dogsJuliaCopy = [...dogsJulia];
   dogsJuliaCopy.pop();
