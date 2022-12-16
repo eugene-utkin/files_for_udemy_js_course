@@ -188,7 +188,7 @@ currenciesUnique.forEach(function (value, _, map) {
 // Coding Challenge #1
 
 const checkDogs = function (dogsJulia, dogsKate) {
-  const dogsJuliaCopy = [...dogsJulia];
+  let dogsJuliaCopy = [...dogsJulia];
   dogsJuliaCopy.pop().pop().shift();
   const dogs = [...dogsJuliaCopy, ...dogsKate];
   dogs.forEach(function (age, i) {
@@ -200,6 +200,7 @@ const checkDogs = function (dogsJulia, dogsKate) {
 
 const juliaData1 = [3, 5, 2, 12, 7];
 const kateData1 = [4, 1, 15, 8, 3];
+checkDogs(juliaData1, kateData1);
 
 const juliaData2 = [9, 16, 6, 8, 3];
 const kateData2 = [10, 5, 6, 1, 4];
