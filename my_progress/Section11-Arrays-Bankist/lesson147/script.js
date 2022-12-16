@@ -213,3 +213,4 @@ checkDogs(juliaData2, kateData2);
 
 // Teacher's solution
 const checkDogs = function (dogsJulia, dogsKate) {};
+checkDogs([3, 5, 2, 12, 7], [4, 1, 15, 8, 3]);
