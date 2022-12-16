@@ -202,3 +202,4 @@ const juliaData1 = [3, 5, 2, 12, 7];
 const kateData1 = [4, 1, 15, 8, 3];
 
 const juliaData2 = [9, 16, 6, 8, 3];
+const kateData2 = [10, 5, 6, 1, 4];
