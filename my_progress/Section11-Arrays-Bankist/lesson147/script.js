@@ -204,6 +204,7 @@ const juliaData1 = [3, 5, 2, 12, 7];
 const kateData1 = [4, 1, 15, 8, 3];
 checkDogs(juliaData1, kateData1);
 
+console.log('------------------');
 const juliaData2 = [9, 16, 6, 8, 3];
 const kateData2 = [10, 5, 6, 1, 4];
 checkDogs(juliaData2, kateData2);
