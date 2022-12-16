@@ -189,7 +189,9 @@ currenciesUnique.forEach(function (value, _, map) {
 
 const checkDogs = function (dogsJulia, dogsKate) {
   let dogsJuliaCopy = [...dogsJulia];
-  dogsJuliaCopy.pop().pop().shift();
+  dogsJuliaCopy.pop();
+  dogsJuliaCopy.pop();
+  dogsJuliaCopy.shift();
   const dogs = [...dogsJuliaCopy, ...dogsKate];
   dogs.forEach(function (age, i) {
     const messageEnd =
