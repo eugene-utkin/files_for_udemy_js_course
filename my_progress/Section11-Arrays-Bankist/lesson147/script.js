@@ -212,5 +212,7 @@ checkDogs(juliaData2, kateData2);
 */
 
 // Teacher's solution
-const checkDogs = function (dogsJulia, dogsKate) {};
+const checkDogs = function (dogsJulia, dogsKate) {
+  const dogsJuliaCorrected = dogsJulia.slice();
+};
 checkDogs([3, 5, 2, 12, 7], [4, 1, 15, 8, 3]);
