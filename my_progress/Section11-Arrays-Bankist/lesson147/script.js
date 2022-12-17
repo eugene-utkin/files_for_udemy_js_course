@@ -218,5 +218,6 @@ const checkDogs = function (dogsJulia, dogsKate) {
   dogsJuliaCorrected.splice(-2);
   // dogsJulia.slice(1, 3);
   const dogs = dogsJuliaCorrected.concat(dogsKate);
+  console.log(dogs);
 };
 checkDogs([3, 5, 2, 12, 7], [4, 1, 15, 8, 3]);
