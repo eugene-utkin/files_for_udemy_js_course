@@ -232,3 +232,5 @@ checkDogs([9, 16, 6, 8, 3], [10, 5, 6, 1, 4]);
 */
 
 const eurToUsd = 1.1;
+
+movements.map(function (mov) {});
