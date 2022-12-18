@@ -184,3 +184,48 @@ currenciesUnique.forEach(function (value, _, map) {
   console.log(`${value}: ${value}`);
 });
 */
+
+// Coding Challenge #1
+// My solution
+const checkDogs = function (dogsJulia, dogsKate) {
+  const dogsJuliaCopy = [...dogsJulia];
+  dogsJuliaCopy.pop();
+  dogsJuliaCopy.pop();
+  dogsJuliaCopy.shift();
+  const dogs = [...dogsJuliaCopy, ...dogsKate];
+  dogs.forEach(function (age, i) {
+    const messageEnd =
+      age >= 3 ? `an adult, and is ${age} years old` : 'still a puppy 🐶';
+    console.log(`Dog number ${i + 1} is ${messageEnd}`);
+  });
+};
+
+const juliaData1 = [3, 5, 2, 12, 7];
+const kateData1 = [4, 1, 15, 8, 3];
+checkDogs(juliaData1, kateData1);
+
+console.log('------------------');
+const juliaData2 = [9, 16, 6, 8, 3];
+const kateData2 = [10, 5, 6, 1, 4];
+checkDogs(juliaData2, kateData2);
+*/
+
+// Teacher's solution
+const checkDogs = function (dogsJulia, dogsKate) {
+  const dogsJuliaCorrected = dogsJulia.slice();
+  dogsJuliaCorrected.splice(0, 1);
+  dogsJuliaCorrected.splice(-2);
+  // dogsJulia.slice(1, 3);
+  const dogs = dogsJuliaCorrected.concat(dogsKate);
+  console.log(dogs);
+
+  dogs.forEach(function (dog, i) {
+    if (dog >= 3) {
+      console.log(`Dog number ${i + 1} is an adult, and is ${dog} years old`);
+    } else {
+      console.log(`Dog number ${i + 1} is still a puppy 🐶`);
+    }
+  });
+};
+// checkDogs([3, 5, 2, 12, 7], [4, 1, 15, 8, 3]);
+checkDogs([9, 16, 6, 8, 3], [10, 5, 6, 1, 4]);
