@@ -238,3 +238,5 @@ const movementsUSD = movements.map(function (mov) {
 });
 console.log(movements);
 console.log(movementsUSD);
+
+const movementsUSDfor = [];
