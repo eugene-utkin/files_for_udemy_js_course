@@ -237,9 +237,7 @@ const eurToUsd = 1.1;
 //   return mov * eurToUsd;
 // });
 
-const movementsUSD = movements.map(mov =>
-  mov * eurToUsd;
-);
+const movementsUSD = movements.map(mov => mov * eurToUsd);
 
 console.log(movements);
 console.log(movementsUSD);
