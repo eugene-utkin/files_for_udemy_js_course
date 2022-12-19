@@ -247,3 +247,4 @@ const movementsUSDarr = movements =>
   movements.map(function (mov) {
     return mov * eurToUsd;
   });
+console.log(movementsUSDarr(movements));
