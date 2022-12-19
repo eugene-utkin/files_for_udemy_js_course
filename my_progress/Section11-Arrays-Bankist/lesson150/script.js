@@ -248,8 +248,8 @@ console.log(movementsUSDfor);
 
 const movementsDescriptions = movements.map((mov, i, arr) => {
   if (mov > 0) {
-    console.log(`Movement ${i + 1}: You deposited ${mov}`);
+    return `Movement ${i + 1}: You deposited ${mov}`;
   } else {
-    console.log(`Movement ${i + 1}: You withdrew ${Math.abs(mov)}`);
+    return `Movement ${i + 1}: You withdrew ${Math.abs(mov)}`;
   }
 });
