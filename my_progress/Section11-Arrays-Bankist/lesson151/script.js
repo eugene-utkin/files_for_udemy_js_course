@@ -88,8 +88,8 @@ const createUsernames = function (user) {
     .split(' ')
     .map(name => name[0])
     .join('');
+  return username;
 };
-
 createUsernames('Steven Thomas Williams');
 
 /////////////////////////////////////////////////
