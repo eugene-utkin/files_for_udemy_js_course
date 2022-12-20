@@ -86,9 +86,7 @@ const user = 'Steven Thomas Williams'; // stw
 const username = user
   .toLowerCase()
   .split(' ')
-  .map(function (name) {
-    return name[0];
-  })
+  .map(name => name[0])
   .join('');
 
 console.log(username);
