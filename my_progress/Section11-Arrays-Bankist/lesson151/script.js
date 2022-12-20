@@ -90,7 +90,7 @@ const createUsernames = function (user) {
     .join('');
   return username;
 };
-createUsernames('Steven Thomas Williams');
+console.log(createUsernames('Steven Thomas Williams'));
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
