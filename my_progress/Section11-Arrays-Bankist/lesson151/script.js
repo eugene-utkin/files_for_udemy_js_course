@@ -88,7 +88,8 @@ const username = user
   .split(' ')
   .map(function (name) {
     return name[0];
-  });
+  })
+  .join('');
 
 console.log(username);
 
