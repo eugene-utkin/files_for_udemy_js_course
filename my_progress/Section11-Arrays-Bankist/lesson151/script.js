@@ -231,6 +231,7 @@ const checkDogs = function (dogsJulia, dogsKate) {
 checkDogs([9, 16, 6, 8, 3], [10, 5, 6, 1, 4]);
 */
 
+/*
 const eurToUsd = 1.1;
 
 // const movementsUSD = movements.map(function (mov) {
@@ -252,3 +253,4 @@ const movementsDescriptions = movements.map((mov, i) => {
   )}`;
 });
 console.log(movementsDescriptions);
+*/
