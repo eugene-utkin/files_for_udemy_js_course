@@ -84,7 +84,7 @@ displayMovements(account1.movements);
 
 const createUsernames = function (accs) {
   accs.forEach(function (acc) {
-    acc.username = user.owner
+    acc.username = acc.owner
       .toLowerCase()
       .split(' ')
       .map(name => name[0])
