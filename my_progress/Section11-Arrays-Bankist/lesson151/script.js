@@ -82,7 +82,7 @@ const displayMovements = function (movements) {
 };
 displayMovements(account1.movements);
 
-const createUsernames = function (accounts) {
+const createUsernames = function (accs) {
   const username = user
     .toLowerCase()
     .split(' ')
