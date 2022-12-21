@@ -83,12 +83,13 @@ const displayMovements = function (movements) {
 displayMovements(account1.movements);
 
 const createUsernames = function (accs) {
-  const username = user
-    .toLowerCase()
-    .split(' ')
-    .map(name => name[0])
-    .join('');
-  return username;
+  accs.forEach(function (acc) {
+    acc.username = user.owner
+      .toLowerCase()
+      .split(' ')
+      .map(name => name[0])
+      .join('');
+  });
 };
 createUsernames(accounts);
 
