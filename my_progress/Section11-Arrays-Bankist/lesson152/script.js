@@ -266,3 +266,5 @@ const movementsDescriptions = movements.map((mov, i) => {
 });
 console.log(movementsDescriptions);
 */
+
+const deposits = movements.filter(function () {});
