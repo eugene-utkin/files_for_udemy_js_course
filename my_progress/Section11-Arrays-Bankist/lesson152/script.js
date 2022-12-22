@@ -268,3 +268,4 @@ console.log(movementsDescriptions);
 */
 
 const deposits = movements.filter(function () {});
+console.log(movements);
