@@ -274,4 +274,4 @@ console.log(movements);
 console.log(deposits);
 
 const depositsFor = [];
-for (const mov of movements) if (mov > 0) depositsFor.push;
+for (const mov of movements) if (mov > 0) depositsFor.push(mov);
