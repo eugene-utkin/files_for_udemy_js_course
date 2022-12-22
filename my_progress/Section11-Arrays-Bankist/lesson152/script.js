@@ -272,3 +272,5 @@ const deposits = movements.filter(function (mov) {
 });
 console.log(movements);
 console.log(deposits);
+
+const depositsFor = [];
