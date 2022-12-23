@@ -284,4 +284,5 @@ console.log(withdrawals);
 
 console.log(movements);
 
+// accumilator -> SNOWBALL
 const balance = movements.reduce(function (acc, cur, i, arr) {});
