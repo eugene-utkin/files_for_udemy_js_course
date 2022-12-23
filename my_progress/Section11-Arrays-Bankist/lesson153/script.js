@@ -285,11 +285,11 @@ console.log(withdrawals);
 console.log(movements);
 
 // accumilator -> SNOWBALL
-const balance = movements.reduce(function (acc, cur, i, arr) {
-  console.log(`Iteration ${i}: ${acc}`);
-  return acc + cur;
-}, 0);
-console.log(balance);
+// const balance = movements.reduce(function (acc, cur, i, arr) {
+//   console.log(`Iteration ${i}: ${acc}`);
+//   return acc + cur;
+// }, 0);
+// console.log(balance);
 
 let balance2 = 0;
 for (const mov of movements) balance2 += mov;
