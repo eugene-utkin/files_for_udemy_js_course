@@ -281,3 +281,5 @@ console.log(depositsFor);
 const withdrawals = movements.filter(mov => mov < 0);
 console.log(withdrawals);
 */
+
+console.log(movements);
