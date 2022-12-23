@@ -267,6 +267,7 @@ const movementsDescriptions = movements.map((mov, i) => {
 console.log(movementsDescriptions);
 */
 
+/*
 const deposits = movements.filter(function (mov, i, arr) {
   return mov > 0;
 });
@@ -279,3 +280,4 @@ console.log(depositsFor);
 
 const withdrawals = movements.filter(mov => mov < 0);
 console.log(withdrawals);
+*/
