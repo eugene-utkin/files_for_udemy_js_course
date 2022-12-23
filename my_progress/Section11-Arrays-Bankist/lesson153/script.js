@@ -292,4 +292,4 @@ const balance = movements.reduce(function (acc, cur, i, arr) {
 console.log(balance);
 
 let balance2 = 0;
-for (const mov of movements) sum += mov;
+for (const mov of movements) balance2 += mov;
