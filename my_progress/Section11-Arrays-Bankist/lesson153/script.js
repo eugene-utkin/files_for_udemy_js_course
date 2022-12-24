@@ -93,7 +93,9 @@ const createUsernames = function (accs) {
 };
 createUsernames(accounts);
 
-const calcPrintBalance = function (movements) {};
+const calcPrintBalance = function (movements) {
+  const balance = movements.reduce((acc, mov) => acc + mov, 0);
+};
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
