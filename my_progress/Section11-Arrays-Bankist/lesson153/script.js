@@ -92,7 +92,8 @@ const createUsernames = function (accs) {
   });
 };
 createUsernames(accounts);
-console.log(accounts);
+
+const calcPrintBalance = function (movements) {};
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
