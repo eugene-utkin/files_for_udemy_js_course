@@ -318,3 +318,5 @@ const calcAverageHumanAge = function (ages) {
   });
   console.log(humanDogs);
 };
+
+const data1 = [5, 2, 4, 1, 15, 8, 3];
