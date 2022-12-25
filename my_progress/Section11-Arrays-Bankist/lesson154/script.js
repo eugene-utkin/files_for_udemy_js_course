@@ -320,3 +320,4 @@ const calcAverageHumanAge = function (ages) {
 };
 
 const data1 = [5, 2, 4, 1, 15, 8, 3];
+calcAverageHumanAge(data1);
