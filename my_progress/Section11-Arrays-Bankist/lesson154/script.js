@@ -309,3 +309,5 @@ const max = movements.reduce(
 );
 console.log(max);
 */
+
+// Coding Challenge #2
