@@ -313,10 +313,13 @@ console.log(max);
 // Coding Challenge #2
 // My solution
 const calcAverageHumanAge = function (ages) {
-  const humanAgesSum = ages
+  const humanAges = ages
     .map(age => (age <= 2 ? 2 * age : 16 + age * 4))
-    .filter(humanAge => humanAge >= 18)
-    .reduce((acc, filteredAge) => (acc += filteredAge), 0);
+    .filter(humanAge => humanAge >= 18);
+  const humanAgesSum = humanAges.reduce(
+    (acc, filteredAge) => (acc += filteredAge),
+    0
+  );
   console.log(humanAgesSum);
 };
 
