@@ -316,4 +316,5 @@ const calcAverageHumanAge = function (ages) {
   const humanDogs = ages.map(function (age) {
     return age <= 2 ? 2 * age : 16 + age * 4;
   });
+  console.log(humanDogs);
 };
