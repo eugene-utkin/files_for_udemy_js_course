@@ -312,4 +312,6 @@ console.log(max);
 
 // Coding Challenge #2
 // My solution
-const calcAverageHumanAge = function (ages) {};
+const calcAverageHumanAge = function (ages) {
+  const humanDogs = ages.map(function (age) {});
+};
