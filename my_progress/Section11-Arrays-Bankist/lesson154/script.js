@@ -315,9 +315,7 @@ console.log(max);
 const calcAverageHumanAge = function (ages) {
   const humanDogs = ages
     .map(age => (age <= 2 ? 2 * age : 16 + age * 4))
-    .filter(function (humanAge) {
-      return humanAge >= 18;
-    });
+    .filter(humanAge => humanAge >= 18);
   console.log(humanDogs);
 };
 
