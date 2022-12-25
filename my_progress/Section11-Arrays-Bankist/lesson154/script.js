@@ -286,7 +286,7 @@ console.log(depositsFor);
 const withdrawals = movements.filter(mov => mov < 0);
 console.log(withdrawals);
 */
-
+/*
 console.log(movements);
 
 // accumilator -> SNOWBALL
@@ -308,3 +308,4 @@ const max = movements.reduce(
   movements[0]
 );
 console.log(max);
+*/
