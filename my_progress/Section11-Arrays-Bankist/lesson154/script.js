@@ -332,4 +332,5 @@ console.log(calcAverageHumanAge(data2));
 // Teacher's solution
 const calcAverageHumanAge = function (ages) {
   const humanAges = ages.map(age => (age <= 2 ? 2 * age : 16 + age * 4));
+  console.log(humanAges);
 };
