@@ -310,6 +310,7 @@ const max = movements.reduce(
 console.log(max);
 */
 
+/*
 // Coding Challenge #2
 // My solution
 const calcAverageHumanAge = function (ages) {
@@ -327,3 +328,4 @@ console.log(calcAverageHumanAge(data1));
 
 const data2 = [16, 6, 10, 5, 6, 1, 4];
 console.log(calcAverageHumanAge(data2));
+*/
