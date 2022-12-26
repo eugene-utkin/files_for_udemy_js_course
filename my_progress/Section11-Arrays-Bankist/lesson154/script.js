@@ -330,3 +330,4 @@ const data2 = [16, 6, 10, 5, 6, 1, 4];
 console.log(calcAverageHumanAge(data2));
 */
 // Teacher's solution
+const calcAverageHumanAge = function (ages) {};
