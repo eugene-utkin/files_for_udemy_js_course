@@ -338,6 +338,8 @@ const calcAverageHumanAge = function (ages) {
 
   const average = adults.reduce((acc, age) => acc + age, 0) / adults.length;
 
+  // 2 3. (2 + 3) / 2 = 2.5. 2 / 2 + 2 / 3 = 2.5
+
   return average;
 };
 const avg1 = calcAverageHumanAge([5, 2, 4, 1, 15, 8, 3]);
