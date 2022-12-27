@@ -353,7 +353,7 @@ console.log(avg1, avg2);
 */
 
 const eurToUsd = 1.1;
-movements
+const totalDepositsUSD = movements
   .filter(mov => mov > 0)
   .map(mov => mov * eurToUsd)
   .reduce((acc, mov) => acc + mov, 0);
