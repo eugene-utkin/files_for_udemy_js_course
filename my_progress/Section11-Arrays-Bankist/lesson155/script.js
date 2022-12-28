@@ -89,6 +89,7 @@ const calcDisplayBalance = function (movements) {
 calcDisplayBalance(account1.movements);
 
 const calcDisplaySummary = function (movements) {};
+calcDisplaySummary(account1.movements);
 
 const createUsernames = function (accs) {
   accs.forEach(function (acc) {
