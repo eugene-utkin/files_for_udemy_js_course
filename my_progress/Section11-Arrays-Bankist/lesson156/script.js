@@ -374,7 +374,7 @@ const avg1 = calcAverageHumanAge([5, 2, 4, 1, 15, 8, 3]);
 const avg2 = calcAverageHumanAge([16, 6, 10, 5, 6, 1, 4]);
 console.log(avg1, avg2);
 */
-
+/*
 const eurToUsd = 1.1;
 
 // PIPELINE
@@ -387,3 +387,4 @@ const totalDepositsUSD = movements
   // .map(mov => mov * eurToUsd)
   .reduce((acc, mov) => acc + mov, 0);
 console.log(totalDepositsUSD);
+*/
