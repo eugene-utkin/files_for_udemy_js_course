@@ -388,3 +388,5 @@ const totalDepositsUSD = movements
   .reduce((acc, mov) => acc + mov, 0);
 console.log(totalDepositsUSD);
 */
+
+// Coding Challenge #3
