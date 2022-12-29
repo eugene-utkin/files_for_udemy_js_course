@@ -390,3 +390,4 @@ console.log(totalDepositsUSD);
 */
 
 // Coding Challenge #3
+// My solution
