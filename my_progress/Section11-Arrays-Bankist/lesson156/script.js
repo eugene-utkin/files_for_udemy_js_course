@@ -392,8 +392,9 @@ console.log(totalDepositsUSD);
 // Coding Challenge #3
 // My solution
 const calcAverageHumanAge = function (ages) {
-  const humanAges = ages.map(age => (age <= 2 ? 2 * age : 16 + age * 4));
-  const adults = humanAges.filter(age => age >= 18);
+  const adults = ages
+    .map(age => (age <= 2 ? 2 * age : 16 + age * 4))
+    .filter(age => age >= 18);
   console.log(humanAges);
   console.log(adults);
 
