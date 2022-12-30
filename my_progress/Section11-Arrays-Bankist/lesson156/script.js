@@ -401,4 +401,4 @@ const testData1 = [5, 2, 4, 1, 15, 8, 3];
 console.log(calcAverageHumanAge(testData1));
 
 const testData2 = [16, 6, 10, 5, 6, 1, 4];
-calcAverageHumanAge(testData2);
+console.log(calcAverageHumanAge(testData2));
