@@ -404,3 +404,4 @@ console.log(calcAverageHumanAge(testData1));
 const testData2 = [16, 6, 10, 5, 6, 1, 4];
 console.log(calcAverageHumanAge(testData2));
 */
+// Teacher's solution
