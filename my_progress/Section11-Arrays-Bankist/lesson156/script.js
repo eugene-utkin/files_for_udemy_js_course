@@ -398,4 +398,4 @@ const calcAverageHumanAge = ages =>
     .reduce((acc, age, i, arr) => acc + age / arr.length, 0);
 
 const testData1 = [5, 2, 4, 1, 15, 8, 3];
-calcAverageHumanAge(testData1);
+console.log(calcAverageHumanAge(testData1));
