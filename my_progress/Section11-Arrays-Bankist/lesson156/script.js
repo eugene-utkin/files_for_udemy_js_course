@@ -389,6 +389,7 @@ const totalDepositsUSD = movements
 console.log(totalDepositsUSD);
 */
 
+/*
 // Coding Challenge #3
 // My solution
 const calcAverageHumanAge = ages =>
@@ -402,3 +403,4 @@ console.log(calcAverageHumanAge(testData1));
 
 const testData2 = [16, 6, 10, 5, 6, 1, 4];
 console.log(calcAverageHumanAge(testData2));
+*/
