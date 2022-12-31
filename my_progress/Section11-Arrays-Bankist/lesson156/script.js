@@ -431,3 +431,4 @@ console.log(avg1, avg2);
 
 const firstWithdrawal = movements.find(mov => mov < 0);
 console.log(movements);
+console.log(firstWithdrawal);
