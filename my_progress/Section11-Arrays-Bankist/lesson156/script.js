@@ -429,4 +429,4 @@ const avg2 = calcAverageHumanAge([16, 6, 10, 5, 6, 1, 4]);
 console.log(avg1, avg2);
 */
 
-movements.find(mov => mov < 0);
+const firstWithdrawal = movements.find(mov => mov < 0);
