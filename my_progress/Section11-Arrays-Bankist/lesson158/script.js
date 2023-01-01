@@ -123,6 +123,7 @@ const createUsernames = function (accs) {
 createUsernames(accounts);
 
 // Event handler
+btnLogin.addEventListener('click', function () {});
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
