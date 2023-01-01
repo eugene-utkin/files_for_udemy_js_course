@@ -124,6 +124,7 @@ createUsernames(accounts);
 
 // Event handler
 btnLogin.addEventListener('click', function (e) {
+  e.preventDefault();
   console.log('LOGIN');
 });
 
