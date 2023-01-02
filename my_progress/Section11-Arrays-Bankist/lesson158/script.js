@@ -126,7 +126,8 @@ createUsernames(accounts);
 btnLogin.addEventListener('click', function (e) {
   // Prevent form from submitting
   e.preventDefault();
-  console.log('LOGIN');
+
+  accounts.find(acc => acc.owner === inputLoginUsername.value);
 });
 
 /////////////////////////////////////////////////
