@@ -129,7 +129,7 @@ btnLogin.addEventListener('click', function (e) {
   // Prevent form from submitting
   e.preventDefault();
 
-  accounts.find(acc => acc.owner === inputLoginUsername.value);
+  currentAccount = accounts.find(acc => acc.owner === inputLoginUsername.value);
 });
 
 /////////////////////////////////////////////////
