@@ -123,6 +123,8 @@ const createUsernames = function (accs) {
 createUsernames(accounts);
 
 // Event handler
+let currentAccount;
+
 btnLogin.addEventListener('click', function (e) {
   // Prevent form from submitting
   e.preventDefault();
