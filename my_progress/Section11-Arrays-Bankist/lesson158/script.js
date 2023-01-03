@@ -135,6 +135,7 @@ btnLogin.addEventListener('click', function (e) {
   console.log(currentAccount);
 
   if (currentAccount?.pin === Number(inputLoginPin.value)) {
+    // Display UI and message
     console.log('LOGIN');
   }
 });
