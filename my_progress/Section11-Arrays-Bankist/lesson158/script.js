@@ -138,6 +138,7 @@ btnLogin.addEventListener('click', function (e) {
     // Display UI and message
     // Display movements
     // Display balance
+    // Display summary
   }
 });
 
