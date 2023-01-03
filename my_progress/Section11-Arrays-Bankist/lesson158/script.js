@@ -137,6 +137,7 @@ btnLogin.addEventListener('click', function (e) {
   if (currentAccount?.pin === Number(inputLoginPin.value)) {
     // Display UI and message
     // Display movements
+    // Display balance
   }
 });
 
