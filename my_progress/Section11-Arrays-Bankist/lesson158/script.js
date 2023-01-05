@@ -138,6 +138,8 @@ btnLogin.addEventListener('click', function (e) {
     }`;
     containerApp.style.opacity = 100;
 
+    // Clear input fields
+
     // Display movements
     displayMovements(currentAccount.movements);
 
