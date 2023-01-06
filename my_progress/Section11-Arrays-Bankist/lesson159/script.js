@@ -153,7 +153,9 @@ btnLogin.addEventListener('click', function (e) {
   }
 });
 
-btnTransfer.addEventListener('click', function (e) {});
+btnTransfer.addEventListener('click', function (e) {
+  e.preventDefault();
+});
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
