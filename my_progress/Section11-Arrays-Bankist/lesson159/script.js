@@ -161,7 +161,11 @@ btnTransfer.addEventListener('click', function (e) {
   );
   console.log(amount, receiverAcc);
 
-  if (amount > 0 && currentAccount.balance >= amount) {
+  if (
+    amount > 0 &&
+    currentAccount.balance >= amount &&
+    receiverAcc !== currentAccount.username
+  ) {
   }
 });
 
