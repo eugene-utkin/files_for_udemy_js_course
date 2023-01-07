@@ -167,6 +167,7 @@ btnTransfer.addEventListener('click', function (e) {
     currentAccount.balance >= amount &&
     receiverAcc?.username !== currentAccount.username
   ) {
+    console.log('Transfer valid');
   }
 });
 
