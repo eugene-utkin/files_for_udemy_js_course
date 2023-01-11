@@ -184,6 +184,9 @@ btnTransfer.addEventListener('click', function (e) {
 btnClose.addEventListener('click', function (e) {
   e.preventDefault();
 
+  const closingAcc = accounts.find(
+    acc => acc.username === inputCloseUsername.value
+  );
   if (
     inputCloseUsername.value === currentAccount.username &&
     inputClosePin.value === currentAccount.pin
