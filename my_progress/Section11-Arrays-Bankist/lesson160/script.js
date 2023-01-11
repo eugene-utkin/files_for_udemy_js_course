@@ -188,8 +188,8 @@ btnClose.addEventListener('click', function (e) {
     inputCloseUsername.value === currentAccount.username &&
     inputClosePin.value === currentAccount.pin
   ) {
+    console.log('Delete');
   }
-  console.log('Delete');
 });
 
 /////////////////////////////////////////////////
