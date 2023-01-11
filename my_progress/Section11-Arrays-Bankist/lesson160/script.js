@@ -187,10 +187,7 @@ btnClose.addEventListener('click', function (e) {
   const closingAcc = accounts.find(
     acc => acc.username === inputCloseUsername.value
   );
-  if (
-    inputCloseUsername.value === currentAccount.username &&
-    inputClosePin.value === currentAccount.pin
-  ) {
+  if (closingAcc && inputClosePin.value === closingAcc.pin) {
     console.log('Delete');
   }
 });
