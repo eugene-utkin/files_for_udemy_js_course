@@ -193,7 +193,10 @@ btnClose.addEventListener('click', function (e) {
   // }
 
   // Teacher's solution
-  if (inputCloseUsername.value === currentAccount.username) {
+  if (
+    inputCloseUsername.value === currentAccount.username &&
+    Number(inputClosePin.value) === currentAccount.pin
+  ) {
   }
 });
 
