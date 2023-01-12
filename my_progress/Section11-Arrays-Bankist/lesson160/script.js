@@ -185,12 +185,12 @@ btnClose.addEventListener('click', function (e) {
   e.preventDefault();
 
   // My solution
-  const closingAcc = accounts.find(
-    acc => acc.username === inputCloseUsername.value
-  );
-  if (closingAcc && Number(inputClosePin.value) === closingAcc.pin) {
-    console.log('Delete');
-  }
+  // const closingAcc = accounts.find(
+  //   acc => acc.username === inputCloseUsername.value
+  // );
+  // if (closingAcc && Number(inputClosePin.value) === closingAcc.pin) {
+  //   console.log('Delete');
+  // }
 });
 
 /////////////////////////////////////////////////
