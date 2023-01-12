@@ -191,6 +191,8 @@ btnClose.addEventListener('click', function (e) {
   // if (closingAcc && Number(inputClosePin.value) === closingAcc.pin) {
   //   console.log('Delete');
   // }
+
+  // Teacher's solution
 });
 
 /////////////////////////////////////////////////
