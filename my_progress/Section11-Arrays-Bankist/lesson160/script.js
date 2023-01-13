@@ -201,6 +201,9 @@ btnClose.addEventListener('click', function (e) {
       acc => acc.username === currentAccount.username
     );
     console.log(index);
+
+    // .indexOf(23)
+
     // accounts.splice(index, 1);
   }
 });
