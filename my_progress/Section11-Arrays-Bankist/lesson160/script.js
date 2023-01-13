@@ -204,7 +204,7 @@ btnClose.addEventListener('click', function (e) {
 
     // .indexOf(23)
 
-    // accounts.splice(index, 1);
+    accounts.splice(index, 1);
   }
 });
 
