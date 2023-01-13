@@ -204,6 +204,7 @@ btnClose.addEventListener('click', function (e) {
 
     // .indexOf(23)
 
+    // Delete account
     accounts.splice(index, 1);
   }
 });
