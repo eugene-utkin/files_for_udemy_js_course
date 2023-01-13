@@ -200,6 +200,7 @@ btnClose.addEventListener('click', function (e) {
     const index = accounts.findIndex(
       acc => acc.username === currentAccount.username
     );
+    console.log(index);
     accounts.splice(index, 1);
   }
 });
