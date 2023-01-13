@@ -206,6 +206,8 @@ btnClose.addEventListener('click', function (e) {
 
     // Delete account
     accounts.splice(index, 1);
+
+    // Hide UI
   }
 });
 
