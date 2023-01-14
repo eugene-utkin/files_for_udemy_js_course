@@ -183,6 +183,7 @@ btnTransfer.addEventListener('click', function (e) {
 
 btnClose.addEventListener('click', function (e) {
   e.preventDefault();
+  inputTransferTo.value = '';
 
   // My solution
   // const closingAcc = accounts.find(
