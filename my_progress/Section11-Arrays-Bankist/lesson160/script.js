@@ -208,7 +208,7 @@ btnClose.addEventListener('click', function (e) {
     accounts.splice(index, 1);
 
     // Hide UI
-    containerApp.style.opacity = 100;
+    containerApp.style.opacity = 0;
   }
 });
 
