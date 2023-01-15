@@ -543,3 +543,4 @@ console.log(movements);
 console.log(movements.includes(-130));
 
 const anyDeposits = movements.some(mov => mov > 0);
+console.log(anyDeposits);
