@@ -183,7 +183,6 @@ btnTransfer.addEventListener('click', function (e) {
 
 btnClose.addEventListener('click', function (e) {
   e.preventDefault();
-  inputCloseUsername.value = inputClosePin.value = '';
 
   // My solution
   // const closingAcc = accounts.find(
@@ -211,6 +210,7 @@ btnClose.addEventListener('click', function (e) {
     // Hide UI
     containerApp.style.opacity = 0;
   }
+  inputCloseUsername.value = inputClosePin.value = '';
 });
 
 /////////////////////////////////////////////////
