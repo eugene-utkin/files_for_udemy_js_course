@@ -538,3 +538,5 @@ for (const acc of accounts) {
 
 console.log(account);
 */
+
+console.log(movements.includes(-130));
