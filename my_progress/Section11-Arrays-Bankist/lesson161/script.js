@@ -181,6 +181,8 @@ btnTransfer.addEventListener('click', function (e) {
   }
 });
 
+btnLoan.addEventListener('click', function (e) {});
+
 btnClose.addEventListener('click', function (e) {
   e.preventDefault();
 
