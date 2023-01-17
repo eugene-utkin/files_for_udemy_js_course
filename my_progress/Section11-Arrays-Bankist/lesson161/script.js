@@ -185,6 +185,9 @@ btnLoan.addEventListener('click', function (e) {
   e.preventDefault();
 
   const amount = Number(inputLoanAmount.value);
+
+  if (amount > 0) {
+  }
 });
 
 btnClose.addEventListener('click', function (e) {
