@@ -566,3 +566,4 @@ const anyDeposits = movements.some(mov => mov > 1500);
 console.log(anyDeposits);
 
 // EVERY
+console.log(movements.every(mov => mov > 0));
