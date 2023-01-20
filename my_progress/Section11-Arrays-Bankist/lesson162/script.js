@@ -576,3 +576,5 @@ console.log(movements.some(deposit));
 console.log(movements.every(deposit));
 console.log(movements.filter(deposit));
 */
+
+const arr = [[1, 2, 3], [4, 5, 6], 7, 8];
