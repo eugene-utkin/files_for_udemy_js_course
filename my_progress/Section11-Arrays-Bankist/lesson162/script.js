@@ -588,3 +588,4 @@ console.log(accountMovements);
 const allMovements = accountMovements.flat();
 console.log(allMovements);
 const overalBalance = allMovements.reduce((acc, mov) => acc + mov, 0);
+console.log(overalBalance);
