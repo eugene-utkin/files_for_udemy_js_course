@@ -598,6 +598,7 @@ const overalBalance2 = accounts
 console.log(overalBalance2);
 */
 
+// Strings
 const owners = ['Jonas', 'Zach', 'Adam', 'Martha'];
 console.log(owners.sort());
 console.log(owners);
