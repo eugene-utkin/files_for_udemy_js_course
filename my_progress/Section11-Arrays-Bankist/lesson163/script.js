@@ -577,6 +577,7 @@ console.log(movements.every(deposit));
 console.log(movements.filter(deposit));
 */
 
+/*
 const arr = [[1, 2, 3], [4, 5, 6], 7, 8];
 console.log(arr.flat());
 
@@ -595,3 +596,4 @@ const overalBalance2 = accounts
   .flatMap(acc => acc.movements)
   .reduce((acc, mov) => acc + mov, 0);
 console.log(overalBalance2);
+*/
