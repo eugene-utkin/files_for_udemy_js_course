@@ -597,3 +597,5 @@ const overalBalance2 = accounts
   .reduce((acc, mov) => acc + mov, 0);
 console.log(overalBalance2);
 */
+
+const owners = ['Jonas', 'Zach', 'Adam', 'Martha'];
