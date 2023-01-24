@@ -599,3 +599,4 @@ console.log(overalBalance2);
 */
 
 const owners = ['Jonas', 'Zach', 'Adam', 'Martha'];
+console.log(owners.sort());
