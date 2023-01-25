@@ -607,4 +607,5 @@ console.log(owners);
 console.log(movements);
 
 // return < 0, A, B
+// return > 0, B, A
 movements.sort((a, b) => {});
