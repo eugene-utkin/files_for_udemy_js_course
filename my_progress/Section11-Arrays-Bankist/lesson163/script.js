@@ -614,6 +614,7 @@ movements.sort((a, b) => {
   if (a > b) return 1;
   if (b > a) return -1;
 });
+console.log(movements);
 
 // Descending
 movements.sort((a, b) => {
