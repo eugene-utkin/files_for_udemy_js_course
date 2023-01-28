@@ -230,7 +230,9 @@ btnClose.addEventListener('click', function (e) {
   inputCloseUsername.value = inputClosePin.value = '';
 });
 
-btnSort.addEventListener('click', function (e) {});
+btnSort.addEventListener('click', function (e) {
+  e.preventDefault();
+});
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
