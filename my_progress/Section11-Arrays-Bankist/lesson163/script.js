@@ -63,7 +63,6 @@ const inputClosePin = document.querySelector('.form__input--pin');
 
 const displayMovements = function (movements, sort = false) {
   containerMovements.innerHTML = '';
-  // .textContent = 0
 
   const movs = sort ? movements.slice().sort((a, b) => a - b) : movements;
 
