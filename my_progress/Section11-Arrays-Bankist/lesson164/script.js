@@ -642,3 +642,4 @@ console.log(x);
 console.log(x.map(() => 5));
 
 x.fill(1);
+console.log(x);
