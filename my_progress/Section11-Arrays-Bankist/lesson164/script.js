@@ -643,3 +643,5 @@ console.log(x);
 // x.fill(1);
 x.fill(1, 3, 5);
 console.log(x);
+
+arr.fill(23, 4, 6);
