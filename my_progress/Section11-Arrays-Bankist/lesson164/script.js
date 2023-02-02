@@ -652,5 +652,5 @@ console.log(arr);
 const y = Array.from({ length: 7 }, () => 1);
 console.log(y);
 
-const z = Array.from({ length: 7 }, (cur, i) => i + 1);
+const z = Array.from({ length: 7 }, (_, i) => i + 1);
 console.log(z);
