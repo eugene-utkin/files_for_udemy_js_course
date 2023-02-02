@@ -656,3 +656,4 @@ const z = Array.from({ length: 7 }, (_, i) => i + 1);
 console.log(z);
 
 const rand = Array.from({ length: 100 }, () => Math.trunc(Math.random() * 100000000000 );
+console.log(rand);
