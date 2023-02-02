@@ -649,4 +649,4 @@ arr.fill(23, 2, 6);
 console.log(arr);
 
 // Array.from
-Array.from({ length: 7 }, () => 1);
+const y = Array.from({ length: 7 }, () => 1);
