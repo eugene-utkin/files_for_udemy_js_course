@@ -659,7 +659,9 @@ console.log(z);
 const rand = Array.from({ length: 100 }, () => Math.trunc(Math.random() * 100));
 console.log(rand);
 
-const movementsUI = Array.from(document.querySelectorAll('.movements__value'));
-console.log(movementsUI);
-
-labelBalance.addEventListener('click', function () {});
+labelBalance.addEventListener('click', function () {
+  const movementsUI = Array.from(
+    document.querySelectorAll('.movements__value')
+  );
+  console.log(movementsUI);
+});
