@@ -661,3 +661,5 @@ console.log(rand);
 
 const movementsUI = Array.from(document.querySelectorAll('.movements__value'));
 console.log(movementsUI);
+
+labelBalance.addEventListener('click', function () {});
