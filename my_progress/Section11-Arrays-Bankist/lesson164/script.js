@@ -655,5 +655,6 @@ console.log(y);
 const z = Array.from({ length: 7 }, (_, i) => i + 1);
 console.log(z);
 
+// My solution
 const rand = Array.from({ length: 100 }, () => Math.trunc(Math.random() * 100));
 console.log(rand);
