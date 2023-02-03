@@ -660,3 +660,4 @@ const rand = Array.from({ length: 100 }, () => Math.trunc(Math.random() * 100));
 console.log(rand);
 
 const movementsUI = Array.from(document.querySelectorAll('.movements__value'));
+console.log(movementsUI);
