@@ -661,8 +661,9 @@ console.log(rand);
 
 labelBalance.addEventListener('click', function () {
   const movementsUI = Array.from(
-    document.querySelectorAll('.movements__value')
+    document.querySelectorAll('.movements__value'),
+    el => Number(el.textContent.replace('€', ''))
   );
 
-  console.log(movementsUI.map(el => Number(el.textContent.replace('€', ''))));
+  console.log(movementsUI);
 });
