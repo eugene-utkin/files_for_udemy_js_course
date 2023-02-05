@@ -671,3 +671,5 @@ labelBalance.addEventListener('click', function () {
   const movementsUI2 = [...document.querySelectorAll('.movements__value')];
 });
 */
+
+// Array Methods Practice
