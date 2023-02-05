@@ -674,6 +674,6 @@ labelBalance.addEventListener('click', function () {
 
 // Array Methods Practice
 
-const bankDepositSum = accounts.map(acc => acc.movements);
+const bankDepositSum = accounts.map(acc => acc.movements).flat();
 
 console.log(bankDepositSum);
