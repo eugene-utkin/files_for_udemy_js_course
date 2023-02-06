@@ -683,3 +683,4 @@ const bankDepositSum = accounts
 console.log(bankDepositSum);
 
 // 2.
+const numDeposits1000 = accounts.flatMap(acc => acc.movements);
