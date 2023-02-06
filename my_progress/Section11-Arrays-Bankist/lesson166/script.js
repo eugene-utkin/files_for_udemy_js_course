@@ -681,3 +681,5 @@ const bankDepositSum = accounts
   .reduce((sum, cur) => sum + cur, 0);
 
 console.log(bankDepositSum);
+
+// 2.
