@@ -693,3 +693,5 @@ const numDeposits1000 = accounts
   .reduce((count, cur) => (cur >= 1000 ? count++ : count), 0);
 
 console.log(numDeposits1000);
+
+let a = 10;
