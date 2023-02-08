@@ -696,3 +696,4 @@ console.log(numDeposits1000);
 
 let a = 10;
 console.log(a++);
+consolg.log(a);
