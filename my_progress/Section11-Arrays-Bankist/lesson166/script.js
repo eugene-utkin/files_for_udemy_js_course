@@ -694,6 +694,7 @@ const numDeposits1000 = accounts
 
 console.log(numDeposits1000);
 
+// Prefixed ++ operator
 let a = 10;
 console.log(++a);
 console.log(a);
