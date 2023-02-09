@@ -699,3 +699,6 @@ console.log(++a);
 console.log(a);
 
 // 3.
+const sums = accounts
+  .flatMap(acc => acc.movements)
+  .reduce((sums, cur) => {}, { deposits: 0, withdrawals: 0 });
