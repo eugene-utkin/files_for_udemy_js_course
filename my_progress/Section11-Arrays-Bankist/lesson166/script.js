@@ -708,3 +708,5 @@ const sums = accounts
     },
     { deposits: 0, withdrawals: 0 }
   );
+
+console.log(sums);
