@@ -711,3 +711,5 @@ const { deposits, withdrawals } = accounts
   );
 
 console.log(deposits, withdrawals);
+
+// 4.
