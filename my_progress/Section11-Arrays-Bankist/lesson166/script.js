@@ -704,6 +704,7 @@ const { deposits, withdrawals } = accounts
   .reduce(
     (sums, cur) => {
       // cur > 0 ? (sums.deposits += cur) : (sums.withdrawals += cur);
+      sums[cur > 0 ? 'deposits' : 'withdrawals'] += cur;
       return sums;
     },
     { deposits: 0, withdrawals: 0 }
