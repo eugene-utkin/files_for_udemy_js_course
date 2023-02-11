@@ -715,3 +715,4 @@ console.log(deposits, withdrawals);
 // 4.
 // this is a nice title -> This Is a Nice Title
 const convertTitleCase = function (title) {};
+console.log(convertTitleCase('this is a nice title'));
