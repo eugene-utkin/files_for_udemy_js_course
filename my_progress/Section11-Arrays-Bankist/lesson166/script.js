@@ -724,7 +724,7 @@ const convertTitleCase = function (title) {
     .split(' ')
     .map(word => (exceptions.includes(word) ? word : capitalize(word)))
     .join(' ');
-  return titleCase;
+  return capitalize(titleCase);
 };
 console.log(convertTitleCase('this is a nice title'));
 console.log(convertTitleCase('this is a LONG title but not too long'));
