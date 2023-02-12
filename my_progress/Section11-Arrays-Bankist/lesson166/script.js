@@ -715,6 +715,8 @@ console.log(deposits, withdrawals);
 // 4.
 // this is a nice title -> This Is a Nice Title
 const convertTitleCase = function (title) {
+  const capitalize = str => str[0].toUpperCase() + str.slice(1);
+
   const exceptions = ['a', 'an', 'and', 'the', 'but', 'or', 'on', 'in', 'with'];
 
   const titleCase = title
