@@ -746,3 +746,4 @@ dogs.map(dog => {
 console.log(dogs);
 
 // 2.
+console.log(dogs.find(dog => dog.owners.some(owner => owner === 'Sarah')));
