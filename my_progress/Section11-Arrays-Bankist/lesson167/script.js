@@ -744,3 +744,5 @@ dogs.map(dog => {
   dog['recommendedFood'] = dog.weight ** 0.75 * 28;
 });
 console.log(dogs);
+
+// 2.
