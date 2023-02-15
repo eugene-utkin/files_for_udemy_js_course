@@ -759,4 +759,5 @@ const analyseDogFood = function (dog) {
 };
 
 // 2.
-console.log(dogs.find(dog => dog.owners.some(owner => owner === 'Sarah')));
+const sarahsDog = dogs.find(dog => dog.owners.some(owner => owner === 'Sarah'));
+console.log();
