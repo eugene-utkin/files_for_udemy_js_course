@@ -739,13 +739,17 @@ const dogs = [
   { weight: 32, curFood: 340, owners: ['Michael'] },
 ];
 
-const analyseDogFood = function (dog) {};
-
 // 1.
 dogs.map(dog => {
   dog['recommendedFood'] = dog.weight ** 0.75 * 28;
 });
 console.log(dogs);
+
+const analyseDogFood = function (dog) {
+  if (dog.curFood > dog.recommendedFood * 1.1) {
+    console.log('Food portion is too large');
+  }
+};
 
 // 2.
 console.log(dogs.find(dog => dog.owners.some(owner => owner === 'Sarah')));
