@@ -760,3 +760,5 @@ const analyseDogFood = function (dog) {
 };
 const sarahsDog = dogs.find(dog => dog.owners.some(owner => owner === 'Sarah'));
 analyseDogFood(sarahsDog);
+
+// 3.
