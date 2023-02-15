@@ -748,6 +748,11 @@ console.log(dogs);
 const analyseDogFood = function (dog) {
   if (dog.curFood > dog.recommendedFood * 1.1) {
     console.log('Food portion is too large');
+  } else if (
+    dog.curFood <= dog.recommendedFood * 1.1 &&
+    dog.curFood >= dog.recommendedFood
+  ) {
+    console.log('Food portion is OK');
   }
 };
 
