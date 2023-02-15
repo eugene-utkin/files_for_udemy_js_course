@@ -745,6 +745,7 @@ dogs.map(dog => {
 });
 console.log(dogs);
 
+// 2.
 const analyseDogFood = function (dog) {
   if (dog.curFood > dog.recommendedFood * 1.1) {
     console.log('Food portion is too large');
@@ -757,7 +758,5 @@ const analyseDogFood = function (dog) {
     console.log('Food portion is too small');
   }
 };
-
-// 2.
 const sarahsDog = dogs.find(dog => dog.owners.some(owner => owner === 'Sarah'));
-console.log();
+analyseDogFood(sarahsDog);
