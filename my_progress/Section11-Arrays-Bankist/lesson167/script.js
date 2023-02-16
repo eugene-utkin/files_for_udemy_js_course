@@ -767,3 +767,4 @@ analyseDogFood(sarahsDog);
 
 // 3.
 console.log(ownersEatTooMuch);
+console.log(ownersEatTooLittle);
