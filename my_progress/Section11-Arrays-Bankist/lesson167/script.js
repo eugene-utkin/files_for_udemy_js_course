@@ -750,7 +750,7 @@ const ownersEatTooMuch = [];
 const analyseDogFood = function (dog) {
   if (dog.curFood > dog.recommendedFood * 1.1) {
     console.log('Food portion is too large');
-    ownersEatTooMuch << dog.owners;
+    ownersEatTooMuch.push(dog.owners);
   } else if (
     dog.curFood <= dog.recommendedFood * 1.1 &&
     dog.curFood >= dog.recommendedFood * 0.9
