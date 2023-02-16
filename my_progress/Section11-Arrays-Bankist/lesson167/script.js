@@ -764,6 +764,4 @@ const sarahsDog = dogs.find(dog => dog.owners.some(owner => owner === 'Sarah'));
 analyseDogFood(sarahsDog);
 
 // 3.
-dogs.map(dog => {
-  dog['recommendedFood'] = dog.weight ** 0.75 * 28;
-});
+console.log(ownersEatTooMuch);
