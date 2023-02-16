@@ -759,6 +759,7 @@ const analyseDogFood = function (dog) {
     console.log('Food portion is OK');
   } else if (dog.curFood < dog.recommendedFood * 0.9) {
     console.log('Food portion is too small');
+    ownersEatTooLittle.push(...dog.owners);
   }
 };
 const sarahsDog = dogs.find(dog => dog.owners.some(owner => owner === 'Sarah'));
