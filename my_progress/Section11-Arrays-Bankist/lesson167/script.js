@@ -766,5 +766,5 @@ const sarahsDog = dogs.find(dog => dog.owners.some(owner => owner === 'Sarah'));
 analyseDogFood(sarahsDog);
 
 // 3.
-console.log(ownersEatTooMuch);
+console.log(ownersEatTooMuch.join(' and '));
 console.log(ownersEatTooLittle);
