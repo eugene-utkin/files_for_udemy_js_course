@@ -746,8 +746,8 @@ dogs.map(dog => {
 console.log(dogs);
 
 // 2.
-const ownersEatTooMuch = [];
-const ownersEatTooLittle = [];
+let ownersEatTooMuch = [];
+let ownersEatTooLittle = [];
 const analyseDogFood = function (dog) {
   if (dog.curFood > dog.recommendedFood * 1.1) {
     console.log('Food portion is too large');
@@ -766,5 +766,8 @@ const sarahsDog = dogs.find(dog => dog.owners.some(owner => owner === 'Sarah'));
 analyseDogFood(sarahsDog);
 
 // 3.
+ownersEatTooMuch = [];
+ownersEatTooLittle = [];
+dogs.forEach(dog => analyseDogFood(dog));
 console.log(`${ownersEatTooMuch.join(' and ')}'s dogs eat too much!`);
 console.log(ownersEatTooLittle);
