@@ -772,4 +772,4 @@ dogs.forEach(dog => analyseDogFood(dog));
 
 // 4.
 console.log(`${ownersEatTooMuch.join(' and ')}'s dogs eat too much!`);
-console.log(ownersEatTooLittle);
+console.log(`${ownersEatTooLittle.join(' and ')}'s dogs eat too much!`);
