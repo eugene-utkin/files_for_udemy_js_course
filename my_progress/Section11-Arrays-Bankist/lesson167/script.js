@@ -785,6 +785,7 @@ console.log(
       dog.curFood <= dog.recommendedFood * 1.1 &&
       dog.curFood >= dog.recommendedFood * 0.9
     ) {
+      okEatingDogs.push(dog);
       return true;
     }
   })
