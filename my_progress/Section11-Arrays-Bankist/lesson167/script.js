@@ -778,3 +778,5 @@ console.log(`${ownersEatTooLittle.join(' and ')}'s dogs eat too little!`);
 console.log(dogs.some(dog => dog.curFood === dog.recommendedFood));
 
 // 6.
+console.log(dogs.some(dog => dog.curFood <= dog.recommendedFood * 1.1 &&
+  dog.curFood >= dog.recommendedFood * 0.9);
