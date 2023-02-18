@@ -781,10 +781,12 @@ console.log(dogs.some(dog => dog.curFood === dog.recommendedFood));
 const okEatingDogs = [];
 console.log(
   dogs.some(dog => {
-    return (
+    if (
       dog.curFood <= dog.recommendedFood * 1.1 &&
       dog.curFood >= dog.recommendedFood * 0.9
-    );
+    ) {
+      return true;
+    }
   })
 );
 
