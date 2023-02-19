@@ -733,67 +733,67 @@ console.log(convertTitleCase('and here is another title with an EXAMPLE'));
 
 // Coding Challenge #4
 // My solution
-const dogs = [
-  { weight: 22, curFood: 250, owners: ['Alice', 'Bob'] },
-  { weight: 8, curFood: 200, owners: ['Matilda'] },
-  { weight: 13, curFood: 275, owners: ['Sarah', 'John'] },
-  { weight: 32, curFood: 340, owners: ['Michael'] },
-];
+// const dogs = [
+//   { weight: 22, curFood: 250, owners: ['Alice', 'Bob'] },
+//   { weight: 8, curFood: 200, owners: ['Matilda'] },
+//   { weight: 13, curFood: 275, owners: ['Sarah', 'John'] },
+//   { weight: 32, curFood: 340, owners: ['Michael'] },
+// ];
 
-// 1.
-dogs.map(dog => {
-  dog['recommendedFood'] = dog.weight ** 0.75 * 28;
-});
-console.log(dogs);
+// // 1.
+// dogs.map(dog => {
+//   dog['recommendedFood'] = dog.weight ** 0.75 * 28;
+// });
+// console.log(dogs);
 
-// 2.
-let ownersEatTooMuch = [];
-let ownersEatTooLittle = [];
-const analyseDogFood = function (dog) {
-  if (dog.curFood > dog.recommendedFood * 1.1) {
-    console.log('Food portion is too large');
-    ownersEatTooMuch.push(...dog.owners);
-  } else if (
-    dog.curFood <= dog.recommendedFood * 1.1 &&
-    dog.curFood >= dog.recommendedFood * 0.9
-  ) {
-    console.log('Food portion is OK');
-  } else if (dog.curFood < dog.recommendedFood * 0.9) {
-    console.log('Food portion is too small');
-    ownersEatTooLittle.push(...dog.owners);
-  }
-};
-const sarahsDog = dogs.find(dog => dog.owners.some(owner => owner === 'Sarah'));
-analyseDogFood(sarahsDog);
+// // 2.
+// let ownersEatTooMuch = [];
+// let ownersEatTooLittle = [];
+// const analyseDogFood = function (dog) {
+//   if (dog.curFood > dog.recommendedFood * 1.1) {
+//     console.log('Food portion is too large');
+//     ownersEatTooMuch.push(...dog.owners);
+//   } else if (
+//     dog.curFood <= dog.recommendedFood * 1.1 &&
+//     dog.curFood >= dog.recommendedFood * 0.9
+//   ) {
+//     console.log('Food portion is OK');
+//   } else if (dog.curFood < dog.recommendedFood * 0.9) {
+//     console.log('Food portion is too small');
+//     ownersEatTooLittle.push(...dog.owners);
+//   }
+// };
+// const sarahsDog = dogs.find(dog => dog.owners.some(owner => owner === 'Sarah'));
+// analyseDogFood(sarahsDog);
 
-// 3.
-ownersEatTooMuch = [];
-ownersEatTooLittle = [];
-dogs.forEach(dog => analyseDogFood(dog));
+// // 3.
+// ownersEatTooMuch = [];
+// ownersEatTooLittle = [];
+// dogs.forEach(dog => analyseDogFood(dog));
 
-// 4.
-console.log(`${ownersEatTooMuch.join(' and ')}'s dogs eat too much!`);
-console.log(`${ownersEatTooLittle.join(' and ')}'s dogs eat too little!`);
+// // 4.
+// console.log(`${ownersEatTooMuch.join(' and ')}'s dogs eat too much!`);
+// console.log(`${ownersEatTooLittle.join(' and ')}'s dogs eat too little!`);
 
-// 5.
-console.log(dogs.some(dog => dog.curFood === dog.recommendedFood));
+// // 5.
+// console.log(dogs.some(dog => dog.curFood === dog.recommendedFood));
 
-// 6.
-const okEatingDogs = [];
-console.log(
-  dogs.some(dog => {
-    if (
-      dog.curFood <= dog.recommendedFood * 1.1 &&
-      dog.curFood >= dog.recommendedFood * 0.9
-    ) {
-      okEatingDogs.push(dog);
-      return true;
-    }
-  })
-);
+// // 6.
+// const okEatingDogs = [];
+// console.log(
+//   dogs.some(dog => {
+//     if (
+//       dog.curFood <= dog.recommendedFood * 1.1 &&
+//       dog.curFood >= dog.recommendedFood * 0.9
+//     ) {
+//       okEatingDogs.push(dog);
+//       return true;
+//     }
+//   })
+// );
 
-// 7.
-console.log(okEatingDogs);
+// // 7.
+// console.log(okEatingDogs);
 
-// 8.
-console.log([...dogs].sort((a, b) => a.recommendedFood - b.recommendedFood));
+// // 8.
+// console.log([...dogs].sort((a, b) => a.recommendedFood - b.recommendedFood));
