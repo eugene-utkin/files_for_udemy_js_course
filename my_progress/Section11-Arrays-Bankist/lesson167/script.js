@@ -732,6 +732,7 @@ console.log(convertTitleCase('and here is another title with an EXAMPLE'));
 */
 
 // Coding Challenge #4
+// My solution
 const dogs = [
   { weight: 22, curFood: 250, owners: ['Alice', 'Bob'] },
   { weight: 8, curFood: 200, owners: ['Matilda'] },
