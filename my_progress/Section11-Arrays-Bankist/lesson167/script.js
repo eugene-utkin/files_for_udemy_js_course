@@ -797,3 +797,5 @@ console.log(convertTitleCase('and here is another title with an EXAMPLE'));
 
 // // 8.
 // console.log([...dogs].sort((a, b) => a.recommendedFood - b.recommendedFood));
+
+// Teacher's solution
