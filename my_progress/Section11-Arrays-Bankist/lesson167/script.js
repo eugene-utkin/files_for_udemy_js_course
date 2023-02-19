@@ -795,4 +795,4 @@ console.log(
 console.log(okEatingDogs);
 
 // 8.
-(...dog).sort((a, b) => a.recommendedFood - b.recommendedFood);
+console.log([...dogs].sort((a, b) => a.recommendedFood - b.recommendedFood));
