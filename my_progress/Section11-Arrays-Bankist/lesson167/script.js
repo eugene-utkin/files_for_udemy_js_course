@@ -809,7 +809,7 @@ const dogs = [
 ];
 
 // 1.
-dogs.forEach(dog => ((dog.recFood = Math), trunc(dog.weight ** 0.75 * 28)));
+dogs.forEach(dog => (dog.recFood = Math.trunc(dog.weight ** 0.75 * 28)));
 console.log(dogs);
 
 // 2.
