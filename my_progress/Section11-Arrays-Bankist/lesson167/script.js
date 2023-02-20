@@ -820,3 +820,5 @@ console.log(
     dogSarah.curFood > dogSarah.recFood ? 'much' : 'little'
   }`
 );
+
+// 3.
