@@ -833,3 +833,5 @@ const ownersEatTooLittle = dogs
   .flatMap(dog => dog.owners);
 // .flat();
 console.log(ownersEatTooLittle);
+
+// 4.
