@@ -822,5 +822,7 @@ console.log(
 );
 
 // 3.
-const ownersEatTooMuch = dogs.filter(dog => dog.curFood > dog.recFood);
+const ownersEatTooMuch = dogs
+  .filter(dog => dog.curFood > dog.recFood)
+  .map(dog => dog.owners);
 console.log(ownersEatTooMuch);
