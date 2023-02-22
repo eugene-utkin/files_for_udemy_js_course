@@ -849,3 +849,5 @@ console.log(
     dog => dog.curFood > dog.recFood * 0.9 && dog.curFood < dog.recFood * 1.1
   )
 );
+
+// 7.
