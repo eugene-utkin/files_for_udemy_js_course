@@ -855,3 +855,4 @@ console.log(dogs.filter(checkEatingOkay));
 
 // 8.
 // sort it by recommended food portion in an ascending order
+const dogsSorted = dogs.slice().sort((a, b) => a.recFood - b.recFood);
