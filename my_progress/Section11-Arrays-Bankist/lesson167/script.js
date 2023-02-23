@@ -854,3 +854,4 @@ console.log(dogs.some(checkEatingOkay));
 console.log(dogs.filter(checkEatingOkay));
 
 // 8.
+// sort it by recommended food portion in an ascending order
