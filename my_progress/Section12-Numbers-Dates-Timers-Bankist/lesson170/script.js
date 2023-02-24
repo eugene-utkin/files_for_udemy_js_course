@@ -256,3 +256,4 @@ console.log(23 === 23.0);
 
 // Base 10 - 0 to 9
 // Binary base 2 - 0 1
+console.log(0.1 + 0.2);
