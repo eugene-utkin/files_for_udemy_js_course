@@ -264,3 +264,4 @@ console.log(Number('23'));
 console.log(+'23');
 
 // Parsing
+console.log(Number.parseInt('30px'));
