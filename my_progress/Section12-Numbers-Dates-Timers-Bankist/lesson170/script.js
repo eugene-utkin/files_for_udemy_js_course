@@ -267,5 +267,5 @@ console.log(+'23');
 console.log(Number.parseInt('30px', 10));
 console.log(Number.parseInt('e23', 10));
 
-console.log(Number.parseFloat('2.5rem'));
-console.log(Number.parseInt('2.5rem'));
+console.log(Number.parseInt('  2.5rem  '));
+console.log(Number.parseFloat('  2.5rem  '));
