@@ -276,3 +276,5 @@ console.log(Number.isNaN(20));
 console.log(Number.isNaN('20'));
 console.log(Number.isNaN(+'20X'));
 console.log(Number.isNaN(23 / 0));
+
+console.log(Number.isFinite(20));
