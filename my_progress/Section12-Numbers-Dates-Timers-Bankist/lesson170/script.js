@@ -272,6 +272,7 @@ console.log(Number.parseFloat('  2.5rem  '));
 
 // console.log(parseFloat('  2.5rem  '));
 
+// Check if value is NaN
 console.log(Number.isNaN(20));
 console.log(Number.isNaN('20'));
 console.log(Number.isNaN(+'20X'));
