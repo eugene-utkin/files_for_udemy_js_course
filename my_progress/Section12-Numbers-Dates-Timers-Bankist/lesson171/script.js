@@ -291,3 +291,4 @@ console.log(Number.isInteger(23 / 0));
 */
 
 console.log(Math.sqrt(25));
+console.log(25 ** (1 / 2));
