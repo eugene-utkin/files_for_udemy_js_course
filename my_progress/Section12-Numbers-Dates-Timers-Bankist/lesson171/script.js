@@ -252,6 +252,7 @@ btnSort.addEventListener('click', function (e) {
 /////////////////////////////////////////////////
 // LECTURES
 
+/*
 console.log(23 === 23.0);
 
 // Base 10 - 0 to 9. 1/10 = 0.1. 3/10 = 3.3333333
@@ -287,3 +288,4 @@ console.log(Number.isFinite(23 / 0));
 console.log(Number.isInteger(23));
 console.log(Number.isInteger(23.0));
 console.log(Number.isInteger(23 / 0));
+*/
