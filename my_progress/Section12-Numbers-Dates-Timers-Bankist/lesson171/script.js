@@ -299,3 +299,5 @@ console.log(Math.max(5, 18, '23', 11, 2));
 console.log(Math.max(5, 18, '23px', 11, 2));
 
 console.log(Math.min(5, 18, 23, 11, 2));
+
+console.log(Math.PI);
