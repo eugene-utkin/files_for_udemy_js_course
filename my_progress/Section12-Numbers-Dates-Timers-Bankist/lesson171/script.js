@@ -307,3 +307,4 @@ console.log(Math.trunc(Math.random() * 6) + 1);
 const randomInt = (min, max) =>
   Math.trunc(Math.random() * (max - min) + 1) + min;
 // 0...1 -> 0...(max - min) -> min...max
+console.log(randomInt(10, 20));
