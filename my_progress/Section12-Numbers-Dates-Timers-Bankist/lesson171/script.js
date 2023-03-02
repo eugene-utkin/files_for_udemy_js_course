@@ -316,3 +316,4 @@ console.log(Math.round(23.3));
 console.log(Math.round(23.9));
 
 console.log(Math.ceil(23.3));
+console.log(Math.ceil(23.9));
