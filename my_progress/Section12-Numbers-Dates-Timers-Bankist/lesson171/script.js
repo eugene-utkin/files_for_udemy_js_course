@@ -311,3 +311,5 @@ const randomInt = (min, max) =>
 
 // Rounding integers
 console.log(Math.trunc(23.3));
+
+console.log(Math.round(23.3));
