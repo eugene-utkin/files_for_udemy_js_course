@@ -326,3 +326,4 @@ console.log(Math.floor(-23.3));
 
 // Rounding decimals
 console.log((2.7).toFixed(0));
+console.log((2.7).toFixed(3));
