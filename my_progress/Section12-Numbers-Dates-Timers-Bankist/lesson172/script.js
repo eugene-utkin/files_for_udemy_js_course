@@ -342,3 +342,4 @@ console.log(6 % 2);
 console.log(6 / 2);
 
 console.log(7 % 2);
+console.log(7 / 2);
