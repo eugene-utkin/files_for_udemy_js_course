@@ -336,3 +336,4 @@ console.log(5 % 2);
 console.log(5 / 2); // 5 = 2 * 2 + 1
 
 console.log(8 % 3);
+console.log(8 / 3);
