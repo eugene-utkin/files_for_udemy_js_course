@@ -343,3 +343,5 @@ console.log(6 / 2);
 
 console.log(7 % 2);
 console.log(7 / 2);
+
+const isEven = n => n % 2 === 0;
