@@ -359,3 +359,5 @@ labelBalance.addEventListener('click', function () {
   });
 });
 */
+
+const diameter = 287460000000;
