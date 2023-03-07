@@ -361,4 +361,4 @@ labelBalance.addEventListener('click', function () {
 */
 
 // 287,460,000,000
-const diameter = 287460000000;
+const diameter = 287_460_000_000;
