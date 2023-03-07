@@ -332,6 +332,7 @@ console.log((2.345).toFixed(2));
 console.log(+(2.345).toFixed(2));
 */
 
+/*
 console.log(5 % 2);
 console.log(5 / 2); // 5 = 2 * 2 + 1
 
@@ -357,3 +358,4 @@ labelBalance.addEventListener('click', function () {
     if (i % 3 === 0) row.style.backgroundColor = 'blue';
   });
 });
+*/
