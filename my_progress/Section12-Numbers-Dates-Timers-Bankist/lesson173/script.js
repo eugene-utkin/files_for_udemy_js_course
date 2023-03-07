@@ -366,3 +366,5 @@ console.log(diameter);
 
 const price = 345_99;
 console.log(price);
+
+const transferFee = 15_00;
