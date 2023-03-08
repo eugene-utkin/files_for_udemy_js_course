@@ -371,3 +371,4 @@ const transferFee1 = 15_00;
 const transferFee2 = 1_500;
 
 const PI = 3.14_15;
+console.log(PI);
