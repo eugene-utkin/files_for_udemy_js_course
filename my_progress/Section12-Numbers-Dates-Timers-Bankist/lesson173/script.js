@@ -372,3 +372,5 @@ const transferFee2 = 1_500;
 
 const PI = 3.1415;
 console.log(PI);
+
+console.log(Number('230000'));
