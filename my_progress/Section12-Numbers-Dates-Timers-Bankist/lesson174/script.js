@@ -360,6 +360,7 @@ labelBalance.addEventListener('click', function () {
 });
 */
 
+/*
 // 287,460,000,000
 const diameter = 287_460_000_000;
 console.log(diameter);
@@ -375,3 +376,4 @@ console.log(PI);
 
 console.log(Number('230_000'));
 console.log(parseInt('230_000'));
+*/
