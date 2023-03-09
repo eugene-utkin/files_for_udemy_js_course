@@ -377,3 +377,5 @@ console.log(PI);
 console.log(Number('230_000'));
 console.log(parseInt('230_000'));
 */
+
+console.log(2 ** 52 - 1);
