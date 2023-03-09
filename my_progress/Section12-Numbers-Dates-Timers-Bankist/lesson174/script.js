@@ -379,3 +379,4 @@ console.log(parseInt('230_000'));
 */
 
 console.log(2 ** 53 - 1);
+console.log(Number.MAX_SAFE_INTEGER);
