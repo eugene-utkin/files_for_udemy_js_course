@@ -384,3 +384,5 @@ console.log(2 ** 53 + 1);
 console.log(2 ** 53 + 2);
 console.log(2 ** 53 + 3);
 console.log(2 ** 53 + 4);
+
+console.log(4838430248342043823408394839483204);
