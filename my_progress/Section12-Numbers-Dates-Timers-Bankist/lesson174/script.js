@@ -378,4 +378,4 @@ console.log(Number('230_000'));
 console.log(parseInt('230_000'));
 */
 
-console.log(2 ** 52 - 1);
+console.log(2 ** 53 - 1);
