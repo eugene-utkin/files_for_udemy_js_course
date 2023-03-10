@@ -386,3 +386,4 @@ console.log(2 ** 53 + 3);
 console.log(2 ** 53 + 4);
 
 console.log(4838430248342043823408394839483204n);
+console.log(BigInt(48384302));
