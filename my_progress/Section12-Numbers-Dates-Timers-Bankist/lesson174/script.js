@@ -389,3 +389,4 @@ console.log(4838430248342043823408394839483204n);
 console.log(BigInt(48384302));
 
 // Operations
+console.log(10000n + 10000n);
