@@ -394,4 +394,4 @@ console.log(3628637263726376237263726372632n * 10000000n);
 
 const huge = 20289830237283728378237n;
 const num = 23;
-console.log(huge * num);
+console.log(huge * BigInt(num));
