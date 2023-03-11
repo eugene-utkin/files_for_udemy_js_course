@@ -397,3 +397,4 @@ const num = 23;
 console.log(huge * BigInt(num));
 
 console.log(20n > 15);
+console.log(20n === 20);
