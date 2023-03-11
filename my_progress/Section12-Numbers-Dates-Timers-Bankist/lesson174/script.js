@@ -398,3 +398,4 @@ console.log(huge * BigInt(num));
 
 console.log(20n > 15);
 console.log(20n === 20);
+console.log(typeof 20n);
