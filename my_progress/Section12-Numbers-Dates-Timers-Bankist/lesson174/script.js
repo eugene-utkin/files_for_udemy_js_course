@@ -391,7 +391,7 @@ console.log(BigInt(48384302));
 // Operations
 console.log(10000n + 10000n);
 console.log(3628637263726376237263726372632n * 10000000n);
-console.loh(Math.sqrt(16n));
+console.log(Math.sqrt(16n));
 
 const huge = 20289830237283728378237n;
 const num = 23;
