@@ -407,3 +407,4 @@ console.log(huge + ' is REALLY big!!!');
 
 // Divisions
 console.log(10n / 3n);
+console.log(10 / 3);
