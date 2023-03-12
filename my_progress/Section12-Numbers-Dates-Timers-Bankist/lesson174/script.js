@@ -404,3 +404,5 @@ console.log(typeof 20n);
 console.log(20n == 20);
 
 console.log(huge + ' is REALLY big!!!');
+
+// Divisions
