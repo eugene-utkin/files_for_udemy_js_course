@@ -406,3 +406,4 @@ console.log(20n == 20);
 console.log(huge + ' is REALLY big!!!');
 
 // Divisions
+console.log(10n / 3n);
