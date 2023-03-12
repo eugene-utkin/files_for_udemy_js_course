@@ -412,3 +412,4 @@ console.log(10 / 3);
 */
 
 // Create a date
+const now = new Date();
