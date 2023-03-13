@@ -415,4 +415,4 @@ console.log(10 / 3);
 const now = new Date();
 console.log(now);
 
-console.log(new Date('Mon Mar 13 2023 08:10:19 GMT+0600'));
+console.log(new Date('Mon Mar 13 2023 08:10:19'));
