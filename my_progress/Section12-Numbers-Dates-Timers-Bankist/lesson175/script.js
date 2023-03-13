@@ -416,3 +416,4 @@ const now = new Date();
 console.log(now);
 
 console.log(new Date('Mon Mar 13 2023 08:10:19'));
+console.log(new Date('December 24, 2015'));
