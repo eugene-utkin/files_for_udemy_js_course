@@ -154,6 +154,7 @@ const updateUI = function (acc) {
 ///////////////////////////////////////
 // Event handlers
 let currentAccount;
+updateUI(currentAccount);
 
 // FAKE ALWAYS LOGGED IN
 currentAccount = account1;
