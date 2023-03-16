@@ -156,6 +156,7 @@ const updateUI = function (acc) {
 let currentAccount;
 
 // FAKE ALWAYS LOGGED IN
+currentAccount = account1;
 
 btnLogin.addEventListener('click', function (e) {
   // Prevent form from submitting
