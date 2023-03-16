@@ -411,6 +411,7 @@ console.log(11n / 3n);
 console.log(10 / 3);
 */
 
+/*
 // Create a date
 const now = new Date();
 console.log(now);
@@ -444,3 +445,4 @@ console.log(Date.now());
 
 future.setFullYear(2040);
 console.log(future);
+*/
