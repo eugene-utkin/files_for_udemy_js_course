@@ -162,6 +162,8 @@ containerApp.style.opacity = 100;
 
 const now = new Date();
 const day = now.getDate();
+const month = now.getMonth() + 1;
+
 labelDate.textContent = now;
 
 // day/month/year
