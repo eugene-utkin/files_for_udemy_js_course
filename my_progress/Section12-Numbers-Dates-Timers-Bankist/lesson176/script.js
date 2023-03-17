@@ -165,6 +165,7 @@ const day = now.getDate();
 const month = now.getMonth() + 1;
 const year = now.getFullYear();
 const hour = now.getHours();
+const min = now.getMinutes();
 labelDate.textContent = now;
 
 // day/month/year
