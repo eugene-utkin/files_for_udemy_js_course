@@ -161,6 +161,7 @@ updateUI(currentAccount);
 containerApp.style.opacity = 100;
 
 const now = new Date();
+const day = now.getDate();
 labelDate.textContent = now;
 
 // day/month/year
