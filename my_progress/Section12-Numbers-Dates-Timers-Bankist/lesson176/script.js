@@ -243,7 +243,7 @@ btnLoan.addEventListener('click', function (e) {
 
     // Add loan date
     // Add transfer date
-    currentAccount.movementsDates.push(new Date().toISOString);
+    currentAccount.movementsDates.push(new Date().toISOString());
 
     // Update UI
     updateUI(currentAccount);
