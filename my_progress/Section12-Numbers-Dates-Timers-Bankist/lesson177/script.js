@@ -481,4 +481,4 @@ console.log(future);
 */
 
 const future = new Date(2037, 10, 19, 15, 23);
-console.log(Number(future));
+console.log(+future);
