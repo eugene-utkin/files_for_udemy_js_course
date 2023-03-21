@@ -486,3 +486,4 @@ console.log(+future);
 const calcDaysPassed = (date1, date2) => date2 - date1;
 
 const days1 = calcDaysPassed(new Date(2037, 3, 14), new Date(2037, 3, 24));
+console.log(days1);
