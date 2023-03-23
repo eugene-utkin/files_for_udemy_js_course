@@ -83,7 +83,7 @@ const inputClosePin = document.querySelector('.form__input--pin');
 
 const formatMovementDate = function (date) {
   const calcDaysPassed = (date1, date2) =>
-    Math.abs(date2 - date1) / (1000 * 60 * 60 * 24);
+    Math.round(Math.abs(date2 - date1) / (1000 * 60 * 60 * 24));
 
   const daysPassed = calcDaysPassed(new Date(), date);
   console.log(daysPassed);
