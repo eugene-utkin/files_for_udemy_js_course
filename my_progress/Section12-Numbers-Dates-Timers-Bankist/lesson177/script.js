@@ -86,6 +86,7 @@ const formatMovementDate = function (date) {
     Math.abs(date2 - date1) / (1000 * 60 * 60 * 24);
 
   const daysPassed = (new Date(), date);
+  console.log(daysPassed);
 
   const day = `${date.getDate()}`.padStart(2, 0);
   const month = `${date.getMonth() + 1}`.padStart(2, 0);
