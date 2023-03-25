@@ -186,6 +186,7 @@ containerApp.style.opacity = 100;
 const now = new Date();
 const options = {
   hour: 'numeric',
+  minute: 'numeric',
 };
 
 labelDate.textContent = new Intl.DateTimeFormat('en-US').format(now);
