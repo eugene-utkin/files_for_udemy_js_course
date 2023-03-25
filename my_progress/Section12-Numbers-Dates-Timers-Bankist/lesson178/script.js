@@ -183,6 +183,7 @@ updateUI(currentAccount);
 containerApp.style.opacity = 100;
 
 // day/month/year
+const now = new Date();
 
 btnLogin.addEventListener('click', function (e) {
   // Prevent form from submitting
