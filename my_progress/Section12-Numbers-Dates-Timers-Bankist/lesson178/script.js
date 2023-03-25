@@ -189,7 +189,7 @@ const options = {
   minute: 'numeric',
 };
 
-labelDate.textContent = new Intl.DateTimeFormat('en-US').format(now);
+labelDate.textContent = new Intl.DateTimeFormat('en-US', options).format(now);
 
 btnLogin.addEventListener('click', function (e) {
   // Prevent form from submitting
