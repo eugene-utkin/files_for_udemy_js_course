@@ -184,7 +184,9 @@ containerApp.style.opacity = 100;
 
 // Experimenting API
 const now = new Date();
-const options = {};
+const options = {
+  hour: 'numeric',
+};
 
 labelDate.textContent = new Intl.DateTimeFormat('en-US').format(now);
 
