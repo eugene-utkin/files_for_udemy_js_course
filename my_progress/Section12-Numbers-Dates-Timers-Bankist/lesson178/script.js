@@ -182,7 +182,7 @@ currentAccount = account1;
 updateUI(currentAccount);
 containerApp.style.opacity = 100;
 
-// day/month/year
+// Experimenting API
 const now = new Date();
 
 btnLogin.addEventListener('click', function (e) {
