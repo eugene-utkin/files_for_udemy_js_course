@@ -184,6 +184,7 @@ containerApp.style.opacity = 100;
 
 // Experimenting API
 const now = new Date();
+labelDate.textContent = new Intl.DateTimeFormat('en-US').format(now);
 
 btnLogin.addEventListener('click', function (e) {
   // Prevent form from submitting
