@@ -187,6 +187,7 @@ const now = new Date();
 const options = {
   hour: 'numeric',
   minute: 'numeric',
+  day: 'numeric',
 };
 
 labelDate.textContent = new Intl.DateTimeFormat('en-US', options).format(now);
