@@ -206,7 +206,7 @@ btnLogin.addEventListener('click', function (e) {
       day: 'numeric',
       month: 'numeric',
       year: 'numeric',
-      weekday: 'long',
+      // weekday: 'long',
     };
     // const locale = navigator.language;
     // console.log(locale);
