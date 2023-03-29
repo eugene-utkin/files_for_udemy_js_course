@@ -520,3 +520,5 @@ console.log(days1);
 */
 
 const num = 3884764.23;
+
+console.log(new Intl.NumberFormat('en-US').format(num));
