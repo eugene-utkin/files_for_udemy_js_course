@@ -521,7 +521,9 @@ console.log(days1);
 
 const num = 3884764.23;
 
-const options = {};
+const options = {
+  style: 'unit',
+};
 
 console.log('US:      ', new Intl.NumberFormat('en-US').format(num));
 console.log('Germany: ', new Intl.NumberFormat('de-DE').format(num));
