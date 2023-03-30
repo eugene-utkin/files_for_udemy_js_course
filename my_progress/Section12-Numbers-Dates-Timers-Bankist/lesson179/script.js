@@ -523,6 +523,7 @@ const num = 3884764.23;
 
 const options = {
   style: 'unit',
+  unit: 'mile-per-hour',
 };
 
 console.log('US:      ', new Intl.NumberFormat('en-US').format(num));
