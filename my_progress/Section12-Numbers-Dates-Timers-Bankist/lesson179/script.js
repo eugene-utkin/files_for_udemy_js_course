@@ -522,7 +522,7 @@ console.log(days1);
 const num = 3884764.23;
 
 const options = {
-  style: 'unit',
+  style: 'percent',
   unit: 'celsius',
 };
 
