@@ -524,6 +524,7 @@ const num = 3884764.23;
 const options = {
   style: 'currency',
   unit: 'celsius',
+  currency: 'EUR',
 };
 
 console.log('US:      ', new Intl.NumberFormat('en-US', options).format(num));
