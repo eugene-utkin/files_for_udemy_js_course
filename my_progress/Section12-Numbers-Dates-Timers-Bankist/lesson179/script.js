@@ -99,7 +99,7 @@ const formatMovementDate = function (date, locale) {
 };
 
 const formatCur = function (value, locale, currency) {
-  const formattedMov = new Intl.NumberFormat(acc.locale, {
+  return new Intl.NumberFormat(acc.locale, {
     style: 'currency',
     currency: acc.currency,
   }).format(mov);
