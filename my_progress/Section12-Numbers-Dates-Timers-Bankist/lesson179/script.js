@@ -111,6 +111,11 @@ const displayMovements = function (acc, sort = false) {
     const date = new Date(acc.movementsDates[i]);
     const displayDate = formatMovementDate(date, acc.locale);
 
+    const formattedMov = new Intl.NumberFormat(acc.locale, {
+      style: 'currency',
+      currency: 'USD',
+    });
+
     const html = `
       <div class="movements__row">
         <div class="movements__type movements__type--${type}">${
