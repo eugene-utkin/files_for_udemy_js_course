@@ -99,10 +99,10 @@ const formatMovementDate = function (date, locale) {
 };
 
 const formatCur = function (value, locale, currency) {
-  return new Intl.NumberFormat(acc.locale, {
+  return new Intl.NumberFormat(locale, {
     style: 'currency',
-    currency: acc.currency,
-  }).format(mov);
+    currency: currency,
+  }).format(value);
 };
 
 const displayMovements = function (acc, sort = false) {
