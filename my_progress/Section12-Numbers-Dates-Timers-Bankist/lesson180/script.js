@@ -546,3 +546,5 @@ console.log(
   new Intl.NumberFormat(navigator.language, options).format(num)
 );
 */
+
+setTimeout(() => console.log('Here is your pizza 🍕'));
