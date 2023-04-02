@@ -547,5 +547,5 @@ console.log(
 );
 */
 
-setTimeout(() => console.log('Here is your pizza 🍕'), 3000);
+setTimeout(() => console.log('Here is your pizza 🍕'), 3000, 'olives');
 console.log('Waiting...');
