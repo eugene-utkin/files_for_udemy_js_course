@@ -549,6 +549,7 @@ console.log(
 );
 */
 
+/*
 // setTimeout
 const ingredients = ['olives', 'spinach'];
 const pizzaTimer = setTimeout(
@@ -573,3 +574,4 @@ setInterval(function () {
     new Intl.DateTimeFormat(currentAccount.locale, options).format(now)
   );
 }, 1000);
+*/
