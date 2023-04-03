@@ -563,5 +563,13 @@ if (ingredients.includes('spinach')) clearTimeout(pizzaTimer);
 // setInterval
 setInterval(function () {
   const now = new Date();
-  console.log(now);
+  const options = {
+    hour: 'numeric',
+    minute: 'numeric',
+    second: 'numeric',
+  };
+
+  console.log(
+    new Intl.DateTimeFormat(currentAccount.locale, options).format(now)
+  );
 }, 1000);
