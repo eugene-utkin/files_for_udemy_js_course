@@ -561,3 +561,4 @@ console.log('Waiting...');
 if (ingredients.includes('spinach')) clearTimeout(pizzaTimer);
 
 // setInterval
+setInterval(function () {});
