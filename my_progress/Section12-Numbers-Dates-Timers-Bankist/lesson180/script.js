@@ -548,7 +548,7 @@ console.log(
 */
 
 setTimeout(
-  (ing1, ing2) => console.log('Here is your pizza 🍕'),
+  (ing1, ing2) => console.log(`Here is your pizza with ${ing1} and ${ing2}🍕`),
   3000,
   'olives',
   'spinach'
