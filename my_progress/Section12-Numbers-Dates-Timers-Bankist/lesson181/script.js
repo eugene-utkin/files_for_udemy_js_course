@@ -192,6 +192,7 @@ const startLogOutTimer = function () {
     labelTimer.textContent = time;
 
     // Decrese 1s
+    time--;
 
     // When 0 seconds, stop timer and log out user
   }, 1000);
