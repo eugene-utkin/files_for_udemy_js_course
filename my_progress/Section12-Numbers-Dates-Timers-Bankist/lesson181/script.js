@@ -185,6 +185,7 @@ const updateUI = function (acc) {
 
 const startLogOutTimer = function () {
   // Set time to 5 minutes
+  let time = 100;
   // Call the timer every second
   // In each call, print the remaining time to UI
   // Wnen 0 seconds. stop timer and log out user
