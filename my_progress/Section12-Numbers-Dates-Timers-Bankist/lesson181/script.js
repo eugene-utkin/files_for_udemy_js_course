@@ -189,6 +189,8 @@ const startLogOutTimer = function () {
   // Call the timer every second
   setInterval(function () {
     // In each call, print the remaining time to UI
+    labelTimer.textContent = time;
+
     // When 0 seconds, stop timer and log out user
   }, 1000);
 };
