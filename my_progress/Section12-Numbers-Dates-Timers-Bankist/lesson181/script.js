@@ -183,6 +183,8 @@ const updateUI = function (acc) {
   calcDisplaySummary(acc);
 };
 
+const startLogOutTimer = function () {};
+
 ///////////////////////////////////////
 // Event handlers
 let currentAccount;
