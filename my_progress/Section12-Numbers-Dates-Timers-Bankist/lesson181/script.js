@@ -190,7 +190,7 @@ const startLogOutTimer = function () {
   setInterval(function () {
     const min = time / 60;
     // In each call, print the remaining time to UI
-    labelTimer.textContent = time;
+    labelTimer.textContent = min;
 
     // Decrese 1s
     time--;
