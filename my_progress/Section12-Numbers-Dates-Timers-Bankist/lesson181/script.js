@@ -252,6 +252,8 @@ btnLogin.addEventListener('click', function (e) {
     inputLoginUsername.value = inputLoginPin.value = '';
     inputLoginPin.blur();
 
+    startLogOutTimer();
+
     // Update UI
     updateUI(currentAccount);
   }
