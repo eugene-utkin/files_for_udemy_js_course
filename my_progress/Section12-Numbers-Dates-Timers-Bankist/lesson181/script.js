@@ -201,6 +201,7 @@ const startLogOutTimer = function () {
     if (time === 0) {
       clearInterval(timer);
       labelWelcome.textContent = 'Log in to get started';
+      containerApp.style.opacity = 0;
     }
   }, 1000);
 };
