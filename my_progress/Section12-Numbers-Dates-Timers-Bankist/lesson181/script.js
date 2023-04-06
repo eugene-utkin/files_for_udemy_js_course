@@ -264,6 +264,7 @@ btnLogin.addEventListener('click', function (e) {
     inputLoginUsername.value = inputLoginPin.value = '';
     inputLoginPin.blur();
 
+    // Timer
     if (timer) clearInterval(timer);
     timer = startLogOutTimer();
 
