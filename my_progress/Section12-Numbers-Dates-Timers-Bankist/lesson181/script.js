@@ -191,15 +191,15 @@ const startLogOutTimer = function () {
     // In each call, print the remaining time to UI
     labelTimer.textContent = `${min}:${sec}`;
 
-    // Decrese 1s
-    time--;
-
     // When 0 seconds, stop timer and log out user
     if (time === 0) {
       clearInterval(timer);
       labelWelcome.textContent = 'Log in to get started';
       containerApp.style.opacity = 0;
     }
+
+    // Decrese 1s
+    time--;
   };
 
   // Set time to 5 minutes
