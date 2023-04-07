@@ -322,6 +322,7 @@ btnLoan.addEventListener('click', function (e) {
       updateUI(currentAccount);
 
       // Reset timer
+      clearInterval(timer);
     }, 2500);
   }
   inputLoanAmount.value = '';
