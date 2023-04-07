@@ -299,6 +299,7 @@ btnTransfer.addEventListener('click', function (e) {
     updateUI(currentAccount);
 
     // Reset timer
+    clearInterval(timer);
   }
 });
 
