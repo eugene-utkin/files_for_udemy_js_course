@@ -39,3 +39,4 @@ console.log(document.head);
 console.log(document.body);
 
 document.querySelector('.header');
+document.querySelectorAll('.section');
