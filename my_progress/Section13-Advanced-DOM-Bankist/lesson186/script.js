@@ -50,3 +50,4 @@ console.log(allButtons);
 console.log(document.getElementsByClassName('btn'));
 
 // Creating and inserting elements
+// .insertAdjacentHTML
