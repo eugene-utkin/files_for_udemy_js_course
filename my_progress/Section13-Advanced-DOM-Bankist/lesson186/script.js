@@ -51,3 +51,5 @@ console.log(document.getElementsByClassName('btn'));
 
 // Creating and inserting elements
 // .insertAdjacentHTML
+
+document.createElement('div');
