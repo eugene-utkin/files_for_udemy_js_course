@@ -50,7 +50,7 @@ console.log(allButtons);
 console.log(document.getElementsByClassName('btn'));
 
 // Creating and inserting elements
-// .insertAdjacentHTML
-
 const message = document.createElement('div');
 message.classList.add('cookie-message');
+message.textContent =
+  'We use cookies for inproved functionality and analytics.';
