@@ -48,3 +48,5 @@ const allButtons = document.getElementsByTagName('button');
 console.log(allButtons);
 
 console.log(document.getElementsByClassName('btn'));
+
+// Creating and inserting elements
