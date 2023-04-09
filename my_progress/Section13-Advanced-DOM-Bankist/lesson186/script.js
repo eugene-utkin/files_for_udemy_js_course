@@ -52,7 +52,7 @@ console.log(document.getElementsByClassName('btn'));
 // Creating and inserting elements
 const message = document.createElement('div');
 message.classList.add('cookie-message');
-message.textContent =
-  'We use cookies for inproved functionality and analytics.';
+// message.textContent =
+//   'We use cookies for inproved functionality and analytics.';
 message.innerHTML =
   'We use cookies for inproved functionality and analytics. <button class="btn btn--close-cookie"';
