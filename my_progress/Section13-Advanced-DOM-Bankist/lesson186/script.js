@@ -53,3 +53,4 @@ console.log(document.getElementsByClassName('btn'));
 // .insertAdjacentHTML
 
 const message = document.createElement('div');
+message.classList.add('cookie-message');
