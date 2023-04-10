@@ -60,3 +60,5 @@ message.innerHTML =
 // header.prepend(message);
 header.append(message);
 // header.append(message.cloneNode(true));
+
+header.before(message);
