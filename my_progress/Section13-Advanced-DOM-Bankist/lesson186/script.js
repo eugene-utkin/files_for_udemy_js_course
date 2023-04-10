@@ -62,3 +62,4 @@ header.append(message);
 // header.append(message.cloneNode(true));
 
 header.before(message);
+header.after(message);
