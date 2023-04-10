@@ -63,3 +63,5 @@ header.append(message);
 
 // header.before(message);
 // header.after(message);
+
+// Delete elements
