@@ -67,4 +67,6 @@ header.append(message);
 // Delete elements
 document
   .querySelector('btn--close-cookie')
-  .addEventListener('click', function () {});
+  .addEventListener('click', function () {
+    message.remove();
+  });
