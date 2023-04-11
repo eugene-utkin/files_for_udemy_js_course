@@ -71,3 +71,5 @@ document
     // message.remove();
     message.parentElement.removeChild(message);
   });
+
+// Styles
