@@ -73,3 +73,4 @@ document
   });
 
 // Styles
+message.style.backgroundColor = '#37383d';
