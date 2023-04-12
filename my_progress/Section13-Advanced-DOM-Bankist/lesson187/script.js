@@ -79,4 +79,4 @@ message.style.width = '120%';
 console.log(message.style.color);
 console.log(message.style.backgroundColor);
 
-console.log(getComputedStyle(message));
+console.log(getComputedStyle(message).color);
