@@ -92,4 +92,6 @@ const logo = document.querySelector('.nav__logo');
 console.log(logo.alt);
 console.log(logo.src);
 console.log(logo.className);
+
+// Non-standard
 console.log(logo.designer);
