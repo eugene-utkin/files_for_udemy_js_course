@@ -89,3 +89,4 @@ document.documentElement.style.setProperty('--color-primary', 'orangered');
 
 // Attributes
 const logo = document.querySelector('.nav__logo');
+console.log(logo.alt);
