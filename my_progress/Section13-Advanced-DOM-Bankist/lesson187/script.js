@@ -91,3 +91,4 @@ document.documentElement.style.setProperty('--color-primary', 'orangered');
 const logo = document.querySelector('.nav__logo');
 console.log(logo.alt);
 console.log(logo.src);
+console.log(logo.designer);
