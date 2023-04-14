@@ -101,3 +101,5 @@ logo.setAttribute('company', 'Bankist');
 
 console.log(logo.src);
 console.log(logo.getAttribute('src'));
+
+const link = document.querySelector('.twitter-link');
