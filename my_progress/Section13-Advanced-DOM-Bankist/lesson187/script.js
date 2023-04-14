@@ -99,3 +99,5 @@ logo.alt = 'Beautiful minimalist logo';
 console.log(logo.designer);
 console.log(logo.getAttribute('designer'));
 logo.setAttribute('company', 'Bankist');
+
+logo.getAttribute('src');
