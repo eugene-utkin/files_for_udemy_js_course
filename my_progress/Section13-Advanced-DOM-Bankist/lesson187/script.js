@@ -90,7 +90,6 @@ document.documentElement.style.setProperty('--color-primary', 'orangered');
 // Attributes
 const logo = document.querySelector('.nav__logo');
 console.log(logo.alt);
-console.log(logo.src);
 console.log(logo.className);
 
 logo.alt = 'Beautiful minimalist logo';
@@ -100,4 +99,5 @@ console.log(logo.designer);
 console.log(logo.getAttribute('designer'));
 logo.setAttribute('company', 'Bankist');
 
+console.log(logo.src);
 logo.getAttribute('src');
