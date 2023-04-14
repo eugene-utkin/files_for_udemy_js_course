@@ -100,4 +100,4 @@ console.log(logo.getAttribute('designer'));
 logo.setAttribute('company', 'Bankist');
 
 console.log(logo.src);
-logo.getAttribute('src');
+console.log(logo.getAttribute('src'));
