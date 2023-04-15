@@ -110,3 +110,4 @@ console.log(link.getAttribute('href'));
 console.log(logo.dataset.versionNumber);
 
 // Classes
+logo.classList.add();
