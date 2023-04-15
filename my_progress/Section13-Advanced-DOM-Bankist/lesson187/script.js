@@ -111,6 +111,6 @@ console.log(logo.dataset.versionNumber);
 
 // Classes
 logo.classList.add('c');
-logo.classList.remove();
+logo.classList.remove('c');
 logo.classList.toggle();
 logo.classList.contains();
