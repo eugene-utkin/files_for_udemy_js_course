@@ -113,3 +113,4 @@ console.log(logo.dataset.versionNumber);
 logo.classList.add();
 logo.classList.remove();
 logo.classList.toggle();
+logo.classList.contains();
