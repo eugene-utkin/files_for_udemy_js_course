@@ -114,4 +114,6 @@ logo.classList.add('c', 'j');
 logo.classList.remove('c', 'j');
 logo.classList.toggle('c');
 logo.classList.contains('c');
+
+// Don't use
 logo.className = 'jonas';
