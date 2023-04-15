@@ -113,4 +113,4 @@ console.log(logo.dataset.versionNumber);
 logo.classList.add('c');
 logo.classList.remove('c');
 logo.classList.toggle('c');
-logo.classList.contains();
+logo.classList.contains('c');
