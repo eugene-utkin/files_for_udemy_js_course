@@ -110,7 +110,7 @@ console.log(link.getAttribute('href'));
 console.log(logo.dataset.versionNumber);
 
 // Classes
-logo.classList.add('c');
+logo.classList.add('c', 'j');
 logo.classList.remove('c');
 logo.classList.toggle('c');
 logo.classList.contains('c');
