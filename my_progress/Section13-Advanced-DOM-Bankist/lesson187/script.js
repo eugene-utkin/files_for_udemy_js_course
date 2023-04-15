@@ -111,3 +111,4 @@ console.log(logo.dataset.versionNumber);
 
 // Classes
 logo.classList.add();
+logo.classList.remove();
