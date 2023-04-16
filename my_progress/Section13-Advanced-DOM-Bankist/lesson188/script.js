@@ -119,3 +119,5 @@ logo.classList.contains('c');
 // Don't use
 logo.className = 'jonas';
 */
+
+const btnScrollTo = document.querySelector('.btn--scroll-to');
