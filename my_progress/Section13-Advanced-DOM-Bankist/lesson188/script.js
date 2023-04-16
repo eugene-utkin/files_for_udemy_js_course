@@ -130,4 +130,10 @@ btnScrollTo.addEventListener('click', function (e) {
   console.log(e.target.getBoundingClientRect());
 
   console.log('Current scroll (X/Y)', window.pageXOffset, pageYOffset);
+
+  console.log(
+    'height/width viewport',
+    document.documentElement.clientHeight,
+    document.documentElement.clientWidth
+  );
 });
