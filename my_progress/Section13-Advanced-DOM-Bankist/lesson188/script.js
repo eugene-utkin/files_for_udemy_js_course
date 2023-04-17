@@ -138,5 +138,8 @@ btnScrollTo.addEventListener('click', function (e) {
   );
 
   // Scrolling
-  window.scrollTo(s1coords.left, s1coords.top + window.pageYOffset);
+  window.scrollTo(
+    s1coords.left + window.pageXOffset,
+    s1coords.top + window.pageYOffset
+  );
 });
