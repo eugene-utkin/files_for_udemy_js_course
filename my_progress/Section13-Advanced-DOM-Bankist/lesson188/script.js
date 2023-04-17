@@ -148,4 +148,6 @@ btnScrollTo.addEventListener('click', function (e) {
     top: s1coords.top + window.pageYOffset,
     behavior: 'smooth',
   });
+
+  section1.scrollIntoView({ behavior: 'smooth' });
 });
