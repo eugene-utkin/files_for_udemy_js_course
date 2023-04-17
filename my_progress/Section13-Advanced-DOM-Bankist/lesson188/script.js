@@ -146,5 +146,6 @@ btnScrollTo.addEventListener('click', function (e) {
   window.scrollTo({
     left: s1coords.left + window.pageXOffset,
     top: s1coords.top + window.pageYOffset,
+    behavior: 'smooth',
   });
 });
