@@ -138,5 +138,5 @@ btnScrollTo.addEventListener('click', function (e) {
   );
 
   // Scrolling
-  window.scrollTo(s1coords.left, s1coords.top);
+  window.scrollTo(s1coords.left, s1coords.top + window.pageYOffset);
 });
