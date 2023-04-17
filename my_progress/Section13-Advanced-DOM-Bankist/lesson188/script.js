@@ -138,4 +138,5 @@ btnScrollTo.addEventListener('click', function (e) {
   );
 
   // Scrolling
+  window.scrollTo(s1coords);
 });
