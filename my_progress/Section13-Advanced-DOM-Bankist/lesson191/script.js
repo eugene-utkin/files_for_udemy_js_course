@@ -167,3 +167,5 @@ setTimeout(() => h1.removeEventListener('mouseenter', alertH1), 3000);
 //   alert('onmouseenter: Great! You are reading the heading :D');
 // };
 */
+
+// rgb(255,255,255)
