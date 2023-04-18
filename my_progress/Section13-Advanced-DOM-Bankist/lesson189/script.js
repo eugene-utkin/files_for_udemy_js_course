@@ -159,5 +159,5 @@ h1.addEventListener('mouseenter', function (e) {
 });
 
 h1.onmouseenter = function (e) {
-  alert('addEventListener: Great! You are reading the heading :D');
+  alert('onmouseenter: Great! You are reading the heading :D');
 };
