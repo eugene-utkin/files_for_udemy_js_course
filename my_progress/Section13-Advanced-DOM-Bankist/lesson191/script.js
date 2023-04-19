@@ -175,7 +175,7 @@ const randomColor = () =>
   `rgb(${randomInt(0, 255)},${randomInt(0, 255)},${randomInt(0, 255)})`;
 
 document.querySelector('.nav__link').addEventListener('click', function (e) {
-  console.log('LINK');
+  this.style.backgroundColor = randomColor();
 });
 
 document.querySelector('.nav__links').addEventListener('click', function (e) {
