@@ -177,3 +177,7 @@ const randomColor = () =>
 document.querySelector('.nav__link').addEventListener('click', function (e) {
   console.log('LINK');
 });
+
+document.querySelector('.nav__links').addEventListener('click', function (e) {
+  console.log('LINK');
+});
