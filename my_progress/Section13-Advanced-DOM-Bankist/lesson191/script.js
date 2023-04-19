@@ -181,3 +181,7 @@ document.querySelector('.nav__link').addEventListener('click', function (e) {
 document.querySelector('.nav__links').addEventListener('click', function (e) {
   console.log('LINK');
 });
+
+document.querySelector('.nav').addEventListener('click', function (e) {
+  console.log('LINK');
+});
