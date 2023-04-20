@@ -180,6 +180,7 @@ document.querySelector('.nav__link').addEventListener('click', function (e) {
   console.log(e.currentTarget === this);
 
   // Stop propagation
+  e.stopPropagation();
 });
 
 document.querySelector('.nav__links').addEventListener('click', function (e) {
