@@ -168,6 +168,7 @@ setTimeout(() => h1.removeEventListener('mouseenter', alertH1), 3000);
 // };
 */
 
+/*
 // rgb(255,255,255)
 const randomInt = (min, max) =>
   Math.floor(Math.random() * (max - min + 1) + min);
@@ -192,3 +193,4 @@ document.querySelector('.nav').addEventListener('click', function (e) {
   this.style.backgroundColor = randomColor();
   console.log('NAV', e.target, e.currentTarget);
 });
+*/
