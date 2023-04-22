@@ -68,6 +68,7 @@ document.querySelectorAll('.nav__link').forEach(function (el) {
     e.preventDefault();
     console.log('LINK');
     const id = this.getAttribute('href');
+    console.log(id);
   });
 });
 
