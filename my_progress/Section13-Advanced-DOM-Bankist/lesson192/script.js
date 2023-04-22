@@ -77,6 +77,8 @@ btnScrollTo.addEventListener('click', function (e) {
 
 document.querySelector('.nav__links').addEventListener('click', function (e) {
   console.log(e.target);
+
+  // Matching strategy
 });
 
 ////////////////////////////////////////
