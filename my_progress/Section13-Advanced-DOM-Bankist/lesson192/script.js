@@ -79,6 +79,9 @@ document.querySelector('.nav__links').addEventListener('click', function (e) {
   console.log(e.target);
 
   // Matching strategy
+  if (e.target.classList.contains('nav__link')) {
+    console.log('LINK');
+  }
 });
 
 ////////////////////////////////////////
