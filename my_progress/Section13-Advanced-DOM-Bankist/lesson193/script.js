@@ -228,3 +228,4 @@ h1.firstElementChild.style.color = 'white';
 h1.lastElementChild.style.color = 'orangered';
 
 // Going upwards: parents
+console.log(h1.parentNode);
