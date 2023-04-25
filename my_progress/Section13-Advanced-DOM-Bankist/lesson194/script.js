@@ -89,6 +89,8 @@ document.querySelector('.nav__links').addEventListener('click', function (e) {
 ////////////////////////////////////////
 ////////////////////////////////////////
 
+// Tabbed component
+
 /*
 // Selecting elements
 console.log(document.documentElement);
