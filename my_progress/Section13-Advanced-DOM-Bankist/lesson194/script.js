@@ -90,6 +90,7 @@ document.querySelector('.nav__links').addEventListener('click', function (e) {
 ////////////////////////////////////////
 
 // Tabbed component
+const tabs = document.querySelectorAll('.operations__tab');
 
 /*
 // Selecting elements
