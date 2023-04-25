@@ -241,3 +241,5 @@ console.log(h1.nextElementSibling);
 
 console.log(h1.previousSibling);
 console.log(h1.nextSibling);
+
+console.log(h1.parentElement.children);
