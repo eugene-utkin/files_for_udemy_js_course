@@ -98,6 +98,7 @@ tabsContainer.addEventListener('click', function (e) {
   const clicked = e.target.closest('.operations__tab');
   console.log(clicked);
 
+  // Guard clause
   if (!clicked) return;
 
   clicked.classList.add('operations__tab--active');
