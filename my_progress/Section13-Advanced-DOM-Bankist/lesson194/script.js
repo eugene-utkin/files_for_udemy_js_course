@@ -96,6 +96,7 @@ const tabsContent = document.querySelectorAll('.operations__content');
 
 tabsContainer.addEventListener('click', function (e) {
   const clicked = e.target;
+  console.log(clicked);
 });
 
 /*
