@@ -113,6 +113,8 @@ tabsContainer.addEventListener('click', function (e) {
     .classList.add('operations__content--active');
 });
 
+// Menu fade animation
+
 /*
 // Selecting elements
 console.log(document.documentElement);
