@@ -115,6 +115,7 @@ tabsContainer.addEventListener('click', function (e) {
 });
 
 // Menu fade animation
+nav.addEventListener('mouseover', function (e) {});
 
 /*
 // Selecting elements
