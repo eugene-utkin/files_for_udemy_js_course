@@ -117,6 +117,8 @@ tabsContainer.addEventListener('click', function (e) {
 // Menu fade animation
 nav.addEventListener('mouseover', function (e) {});
 
+nav.addEventListener('mouseout', function (e) {});
+
 /*
 // Selecting elements
 console.log(document.documentElement);
