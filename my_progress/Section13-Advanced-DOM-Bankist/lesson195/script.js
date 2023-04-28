@@ -124,6 +124,7 @@ nav.addEventListener('mouseover', function (e) {
     siblings.forEach(el => {
       if (el !== link) el.style.opacity = 0.5;
     });
+    logo.style.opacity = 0.5;
   }
 });
 
