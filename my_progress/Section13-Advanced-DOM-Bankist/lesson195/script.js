@@ -115,7 +115,10 @@ tabsContainer.addEventListener('click', function (e) {
 });
 
 // Menu fade animation
-nav.addEventListener('mouseover', function (e) {});
+nav.addEventListener('mouseover', function (e) {
+  if (e.target.classList.contains('nav__link')) {
+  }
+});
 
 nav.addEventListener('mouseout', function (e) {});
 
