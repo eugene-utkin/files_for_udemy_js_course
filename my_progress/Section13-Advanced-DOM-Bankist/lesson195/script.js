@@ -120,6 +120,8 @@ nav.addEventListener('mouseover', function (e) {
     const link = e.target;
     const siblings = link.closest('.nav').querySelector('.nav__link');
     const logo = link.closest('.nav').querySelector('img');
+
+    siblings.forEach(el => {});
   }
 });
 
