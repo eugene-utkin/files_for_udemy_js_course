@@ -132,7 +132,9 @@ nav.addEventListener('mouseover', function (e) {
   handleHover(e, 0.5);
 });
 
-nav.addEventListener('mouseout', function (e) {});
+nav.addEventListener('mouseout', function (e) {
+  handleHover(e, 1);
+});
 
 /*
 // Selecting elements
