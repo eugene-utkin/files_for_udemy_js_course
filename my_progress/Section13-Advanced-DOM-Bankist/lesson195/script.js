@@ -115,9 +115,7 @@ tabsContainer.addEventListener('click', function (e) {
 });
 
 // Menu fade animation
-const handleHover = function () {};
-
-nav.addEventListener('mouseover', function (e) {
+const handleHover = function () {
   if (e.target.classList.contains('nav__link')) {
     const link = e.target;
     const siblings = link.closest('.nav').querySelectorAll('.nav__link');
@@ -128,7 +126,9 @@ nav.addEventListener('mouseover', function (e) {
     });
     logo.style.opacity = 0.5;
   }
-});
+};
+
+nav.addEventListener('mouseover', function (e) {});
 
 nav.addEventListener('mouseout', function (e) {
   if (e.target.classList.contains('nav__link')) {
