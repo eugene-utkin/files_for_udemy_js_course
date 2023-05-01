@@ -148,7 +148,9 @@ nav.addEventListener('mouseout', handleHover.bind(1));
 
 const obsCallback = function () {};
 
-const obsOptions = {};
+const obsOptions = {
+  root: null,
+};
 
 const observer = new IntersectionObserver(obsCallback, obsOptions);
 observer.observe(section1);
