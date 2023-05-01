@@ -146,6 +146,8 @@ nav.addEventListener('mouseout', handleHover.bind(1));
 
 // Sticky navigation: Intersection Observer API
 
+const obsCallback = function () {};
+
 const obsOptions = {};
 
 const observer = new IntersectionObserver();
