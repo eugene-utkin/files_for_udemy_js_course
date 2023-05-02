@@ -160,6 +160,8 @@ const obsOptions = {
 const observer = new IntersectionObserver(obsCallback, obsOptions);
 observer.observe(section1);
 
+const header = document.querySelector('.header');
+
 /*
 // Selecting elements
 console.log(document.documentElement);
