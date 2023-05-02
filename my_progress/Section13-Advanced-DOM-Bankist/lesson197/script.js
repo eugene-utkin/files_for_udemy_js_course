@@ -163,6 +163,7 @@ nav.addEventListener('mouseout', handleHover.bind(1));
 const header = document.querySelector('.header');
 
 const headerObserver = new IntersectionObserver();
+headerObserver.observe(header);
 
 /*
 // Selecting elements
