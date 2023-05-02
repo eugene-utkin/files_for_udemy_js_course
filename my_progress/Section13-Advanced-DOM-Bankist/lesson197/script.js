@@ -164,6 +164,7 @@ const header = document.querySelector('.header');
 
 const headerObserver = new IntersectionObserver(stickyNav, {
   root: null,
+  threshold: 0,
 });
 headerObserver.observe(header);
 
