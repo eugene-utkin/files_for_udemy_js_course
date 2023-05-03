@@ -162,6 +162,8 @@ nav.addEventListener('mouseout', handleHover.bind(1));
 
 const header = document.querySelector('.header');
 
+const stickyNav = function (entries) {};
+
 const headerObserver = new IntersectionObserver(stickyNav, {
   root: null,
   threshold: 0,
