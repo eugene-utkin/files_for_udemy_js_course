@@ -182,7 +182,7 @@ headerObserver.observe(header);
 // Reveal sections
 const revealSection = function (entries, observer) {};
 
-const sectionObserver = new IntersectionObserver();
+const sectionObserver = new IntersectionObserver(revealSection);
 
 ////////////////////////////////////////////
 ////////////////////////////////////////////
