@@ -180,6 +180,8 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 headerObserver.observe(header);
 
 // Reveal sections
+const revealSection = function (entries, observer) {};
+
 const sectionObserver = new IntersectionObserver();
 
 ////////////////////////////////////////////
