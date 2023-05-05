@@ -183,7 +183,9 @@ const allSections = document.querySelectorAll('.section');
 // Reveal sections
 const revealSection = function (entries, observer) {};
 
-const sectionObserver = new IntersectionObserver(revealSection, {});
+const sectionObserver = new IntersectionObserver(revealSection, {
+  root: null,
+});
 allSections.forEach(function (section) {
   sectionObserver.observe(section);
   section.classList.add('section--hidden');
