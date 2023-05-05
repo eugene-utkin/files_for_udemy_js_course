@@ -174,7 +174,7 @@ const stickyNav = function (entries) {
 const headerObserver = new IntersectionObserver(stickyNav, {
   root: null,
   threshold: 0,
-  rootMargin: `-${navHeight}`,
+  rootMargin: `-${navHeight}px`,
 });
 headerObserver.observe(header);
 const allSections = document.querySelectorAll('.section');
