@@ -183,6 +183,7 @@ const allSections = document.querySelectorAll('.section');
 // Reveal sections
 const revealSection = function (entries, observer) {
   const [entry] = entries;
+  console.log(entry);
 };
 
 const sectionObserver = new IntersectionObserver(revealSection, {
