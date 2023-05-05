@@ -181,7 +181,9 @@ headerObserver.observe(header);
 const allSections = document.querySelectorAll('.section');
 
 // Reveal sections
-const revealSection = function (entries, observer) {};
+const revealSection = function (entries, observer) {
+  const [entry] = entries;
+};
 
 const sectionObserver = new IntersectionObserver(revealSection, {
   root: null,
