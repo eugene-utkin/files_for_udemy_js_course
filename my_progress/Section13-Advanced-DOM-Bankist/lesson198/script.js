@@ -183,6 +183,8 @@ const allSections = document.querySelectorAll('.section');
 const revealSection = function (entries, observer) {
   const [entry] = entries;
   console.log(entry);
+
+  entry.target.classList.remove('section--hidden');
 };
 
 const sectionObserver = new IntersectionObserver(revealSection, {
