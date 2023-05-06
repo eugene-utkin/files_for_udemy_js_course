@@ -204,6 +204,8 @@ const imgTargets = document.querySelectorAll('img[data-src]');
 
 const imgObserver = new IntersectionObserver(loadImg, {});
 
+imgTargets.forEach(img => imgObserver.observe(img));
+
 ////////////////////////////////////////////
 ////////////////////////////////////////////
 ////////////////////////////////////////////
