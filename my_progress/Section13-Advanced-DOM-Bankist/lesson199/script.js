@@ -201,6 +201,7 @@ allSections.forEach(function (section) {
 
 // Lazy loading images
 const imgTargets = document.querySelectorAll('img[data-src]');
+console.log(imgTargets);
 
 ////////////////////////////////////////////
 ////////////////////////////////////////////
