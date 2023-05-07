@@ -209,6 +209,8 @@ const loadImg = function (entries, observer) {
 
   // Replace src with data-src
   entry.target.src = entry.target.dataset.src;
+
+  entry.target.addEventListener('load', function () {});
 };
 
 const imgObserver = new IntersectionObserver(loadImg, {
