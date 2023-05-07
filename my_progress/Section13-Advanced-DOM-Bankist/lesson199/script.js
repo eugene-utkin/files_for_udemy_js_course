@@ -206,6 +206,8 @@ const loadImg = function (entries, observer) {
   console.log(entry);
 
   if (!entry.isIntersecting) return;
+
+  // Replace src with data-src
 };
 
 const imgObserver = new IntersectionObserver(loadImg, {
