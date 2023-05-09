@@ -246,7 +246,7 @@ btnRight.addEventListener('click', function () {
     (s, i) => (s.style.transform = `translateX(${100 * (i - curSlide)}%)`)
   );
 });
-// -100%, 0%, 100%, 200%
+// curSlide = 1: -100%, 0%, 100%, 200%
 
 ////////////////////////////////////////////
 ////////////////////////////////////////////
