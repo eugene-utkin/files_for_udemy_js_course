@@ -244,6 +244,7 @@ btnRight.addEventListener('click', function () {
 
   slides.forEach((s, i) => (s.style.transform = `translateX(${100 * i}%)`));
 });
+// -100%, 0%, 100%, 200%
 
 ////////////////////////////////////////////
 ////////////////////////////////////////////
