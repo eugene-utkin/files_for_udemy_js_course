@@ -244,6 +244,7 @@ const goToSlide = function (slide) {
     (s, i) => (s.style.transform = `translateX(${100 * (i - slide)}%)`)
   );
 };
+goToSlide(0);
 
 // Next slide
 btnRight.addEventListener('click', function () {
