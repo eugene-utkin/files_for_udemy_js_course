@@ -253,9 +253,7 @@ btnRight.addEventListener('click', function () {
     curSlide++;
   }
 
-  slides.forEach(
-    (s, i) => (s.style.transform = `translateX(${100 * (i - curSlide)}%)`)
-  );
+  goToSlide(curSlide);
 });
 // curSlide = 1: -100%, 0%, 100%, 200%
 
