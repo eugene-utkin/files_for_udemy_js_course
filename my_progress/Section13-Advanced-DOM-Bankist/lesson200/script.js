@@ -256,7 +256,6 @@ btnRight.addEventListener('click', function () {
 
   goToSlide(curSlide);
 });
-// curSlide = 1: -100%, 0%, 100%, 200%
 
 ////////////////////////////////////////////
 ////////////////////////////////////////////
