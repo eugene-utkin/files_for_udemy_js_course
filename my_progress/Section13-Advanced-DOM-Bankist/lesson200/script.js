@@ -236,7 +236,6 @@ const slider = document.querySelector('.slider');
 slider.style.transform = 'scale(0.4) translateX(-800px)';
 slider.style.overflow = 'visible';
 
-slides.forEach((s, i) => (s.style.transform = `translateX(${100 * i}%)`));
 // 0%, 100%, 200%, 300%
 
 const goToSlide = function (slide) {
