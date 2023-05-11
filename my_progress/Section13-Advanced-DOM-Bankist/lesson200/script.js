@@ -256,6 +256,7 @@ const nextSlide = function () {
 
 const prevSlide = function () {
   if (curSlide === 0) {
+    curSlide = maxSlide - 1;
   }
   curSlide--;
   goToSlide(curSlide);
