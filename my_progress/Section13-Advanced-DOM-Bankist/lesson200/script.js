@@ -254,6 +254,8 @@ const nextSlide = function () {
   goToSlide(curSlide);
 };
 
+const prevSlide = function () {};
+
 btnRight.addEventListener('click', nextSlide);
 btnLeft.addEventListener('click', prevSlide);
 
