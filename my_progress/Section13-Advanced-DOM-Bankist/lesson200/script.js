@@ -255,6 +255,8 @@ const nextSlide = function () {
 };
 
 const prevSlide = function () {
+  if (curSlide === 0) {
+  }
   curSlide--;
   goToSlide(curSlide);
 };
