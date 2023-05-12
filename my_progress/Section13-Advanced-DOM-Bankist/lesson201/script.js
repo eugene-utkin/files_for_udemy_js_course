@@ -245,6 +245,7 @@ const createDots = function () {
     );
   });
 };
+createDots();
 
 const goToSlide = function (slide) {
   slides.forEach(
