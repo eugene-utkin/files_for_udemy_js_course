@@ -284,7 +284,7 @@ document.addEventListener('keydown', function (e) {
 
 dotContainer.addEventListener('click', function (e) {
   if (e.target.classList.contains('dots__dot')) {
-    const slide = e.target.dataset.slide;
+    const { slide } = e.target.dataset;
   }
 });
 
