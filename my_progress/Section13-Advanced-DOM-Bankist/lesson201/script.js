@@ -238,7 +238,12 @@ const maxSlide = slides.length;
 // slider.style.overflow = 'visible';
 
 const createDots = function () {
-  slides.forEach(function (_, i) {});
+  slides.forEach(function (_, i) {
+    dotContainer.insertAdjacentHTML(
+      'beforeend',
+      `<button class="dots__dot" data-slide="0"></button>
+    );
+  });
 };
 
 const goToSlide = function (slide) {
