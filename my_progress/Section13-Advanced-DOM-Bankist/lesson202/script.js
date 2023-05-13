@@ -471,3 +471,5 @@ console.log(h1.parentElement.children);
   if (el !== h1) el.style.transform = 'scale(0.5)';
 });
 */
+
+document.addEventListener('DOMContentLoaded', function (e) {});
