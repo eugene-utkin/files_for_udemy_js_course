@@ -261,7 +261,6 @@ const goToSlide = function (slide) {
     (s, i) => (s.style.transform = `translateX(${100 * (i - slide)}%)`)
   );
 };
-goToSlide(0);
 
 // Next slide
 const nextSlide = function () {
@@ -288,6 +287,7 @@ const prevSlide = function () {
 const init = function () {
   createDots();
   activateDot(0);
+  goToSlide(0);
 };
 
 // Event handlers
