@@ -237,6 +237,7 @@ const maxSlide = slides.length;
 // slider.style.transform = 'scale(0.4) translateX(-800px)';
 // slider.style.overflow = 'visible';
 
+// Functions
 const createDots = function () {
   slides.forEach(function (_, i) {
     dotContainer.insertAdjacentHTML(
@@ -285,9 +286,9 @@ const prevSlide = function () {
 };
 
 const init = function () {
+  goToSlide(0);
   createDots();
   activateDot(0);
-  goToSlide(0);
 };
 
 init();
