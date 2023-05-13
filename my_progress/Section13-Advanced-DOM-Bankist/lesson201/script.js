@@ -273,6 +273,7 @@ const nextSlide = function () {
   }
 
   goToSlide(curSlide);
+  activateDot(curSlide);
 };
 
 const prevSlide = function () {
