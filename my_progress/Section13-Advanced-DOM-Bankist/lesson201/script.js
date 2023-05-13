@@ -256,6 +256,7 @@ const activateDot = function (slide) {
     .querySelector(`.dots__dot[data-slide="${slide}"]`)
     .classList.add('dots__dot--active');
 };
+activateDot(0);
 
 const goToSlide = function (slide) {
   slides.forEach(
