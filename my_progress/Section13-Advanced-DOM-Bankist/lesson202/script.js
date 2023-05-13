@@ -479,3 +479,5 @@ document.addEventListener('DOMContentLoaded', function (e) {
 window.addEventListener('load', function (e) {
   console.log('Page fully loaded', e);
 });
+
+window.addEventListener('beforeunload', function (e) {});
