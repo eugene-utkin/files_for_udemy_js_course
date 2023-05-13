@@ -247,7 +247,11 @@ const createDots = function () {
 };
 createDots();
 
-const activateDot = function (slide) {};
+const activateDot = function (slide) {
+  document
+    .querySelectorAll('.dots__dot')
+    .forEach(dot => dot.classList.remove('dots__dot--active'));
+};
 
 const goToSlide = function (slide) {
   slides.forEach(
