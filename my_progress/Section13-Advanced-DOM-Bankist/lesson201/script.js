@@ -287,6 +287,7 @@ const prevSlide = function () {
   activateDot(curSlide);
 };
 
+// Event handlers
 btnRight.addEventListener('click', nextSlide);
 btnLeft.addEventListener('click', prevSlide);
 
