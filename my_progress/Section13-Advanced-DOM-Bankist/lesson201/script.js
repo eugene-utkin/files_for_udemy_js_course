@@ -245,7 +245,6 @@ const createDots = function () {
     );
   });
 };
-createDots();
 
 const activateDot = function (slide) {
   document
@@ -287,7 +286,9 @@ const prevSlide = function () {
   activateDot(curSlide);
 };
 
-const init = function () {};
+const init = function () {
+  createDots();
+};
 
 // Event handlers
 btnRight.addEventListener('click', nextSlide);
