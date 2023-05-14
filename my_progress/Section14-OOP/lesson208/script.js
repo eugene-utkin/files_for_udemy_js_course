@@ -1,7 +1,7 @@
 'use strict';
 
 const Person = function (firstName, birthYear) {
-  console.log(this);
+  this.firstName = firstName;
 };
 
 new Person('Jonas', 1991);
