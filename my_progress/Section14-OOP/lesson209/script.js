@@ -26,6 +26,8 @@ console.log(matilda, jack);
 console.log(jonas instanceof Person);
 
 // Prototypes
+console.log(Person.prototype);
+
 Person.prototype.calcAge = function () {
   console.log(2037 - this.birthYear);
 };
