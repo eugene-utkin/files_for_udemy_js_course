@@ -5,6 +5,7 @@ const Person = function (firstName, birthYear) {
   this.firstName = firstName;
   this.birthYear = birthYear;
 
+  // Never do this
   this.calcAge = function () {
     console.log(2037 - this.birthYear);
   };
