@@ -20,3 +20,4 @@ console.log(matilda, jack);
 const jay = 'Jay';
 
 console.log(jonas instanceof Person);
+console.log(jay instanceof Person);
