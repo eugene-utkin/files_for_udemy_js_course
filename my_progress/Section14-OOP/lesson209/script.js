@@ -31,3 +31,5 @@ console.log(Person.prototype);
 Person.prototype.calcAge = function () {
   console.log(2037 - this.birthYear);
 };
+
+jonas.calcAge();
