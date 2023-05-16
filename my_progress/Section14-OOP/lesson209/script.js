@@ -43,3 +43,5 @@ console.log(Person.prototype.isPrototypeOf(matilda));
 console.log(Person.prototype.isPrototypeOf(Person));
 
 // .prototypeOfLinkedObjects
+
+Person.prototype.species = 'Homo Sapiens';
