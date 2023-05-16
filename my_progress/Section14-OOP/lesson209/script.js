@@ -45,4 +45,4 @@ console.log(Person.prototype.isPrototypeOf(Person));
 // .prototypeOfLinkedObjects
 
 Person.prototype.species = 'Homo Sapiens';
-console.log(jonas, matilda);
+console.log(jonas.species, matilda);
