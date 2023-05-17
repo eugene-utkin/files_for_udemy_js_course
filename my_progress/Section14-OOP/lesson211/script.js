@@ -62,3 +62,7 @@ console.log(arr.__proto__);
 console.log(arr.__proto__ === Array.prototype);
 
 console.log(arr.__proto__.__proto__);
+
+Array.prototype.unique = function () {
+  return [...new Set(this)];
+};
