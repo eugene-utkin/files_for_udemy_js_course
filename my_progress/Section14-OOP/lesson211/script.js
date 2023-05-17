@@ -51,6 +51,6 @@ console.log(jonas.hasOwnProperty('firstName'));
 console.log(jonas.hasOwnProperty('species'));
 
 console.log(jonas.__proto__);
-// Object.prototype
+// Object.prototype (top of ptototype chain)
 console.log(jonas.__proto__.__proto__);
 console.log(jonas.__proto__.__proto__.__proto__);
