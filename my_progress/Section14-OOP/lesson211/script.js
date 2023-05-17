@@ -54,3 +54,5 @@ console.log(jonas.__proto__);
 // Object.prototype (top of ptototype chain)
 console.log(jonas.__proto__.__proto__);
 console.log(jonas.__proto__.__proto__.__proto__);
+
+console.log(Person.prototype.constructor);
