@@ -55,4 +55,4 @@ console.log(jonas.__proto__);
 console.log(jonas.__proto__.__proto__);
 console.log(jonas.__proto__.__proto__.__proto__);
 
-console.log(Person.prototype.constructor);
+console.dir(Person.prototype.constructor);
