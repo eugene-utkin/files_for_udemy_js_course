@@ -66,3 +66,5 @@ console.log(arr.__proto__.__proto__);
 Array.prototype.unique = function () {
   return [...new Set(this)];
 };
+
+console.log(arr.unique());
