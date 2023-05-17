@@ -59,3 +59,4 @@ console.dir(Person.prototype.constructor);
 
 const arr = [3, 6, 4, 5, 6, 9, 3];
 console.log(arr.__proto__);
+console.log(arr.__proto__ === Array.prototype);
