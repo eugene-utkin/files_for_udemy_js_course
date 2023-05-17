@@ -52,3 +52,4 @@ console.log(jonas.hasOwnProperty('species'));
 
 console.log(jonas.__proto__);
 console.log(jonas.__proto__.__proto__);
+console.log(jonas.__proto__.__proto__.__proto__);
