@@ -95,5 +95,6 @@ Car.prototype.brake = function () {
   console.log(this.speed);
 };
 
+// 4.
 const car = new Car('xyz', 50);
 car.accelerate();
