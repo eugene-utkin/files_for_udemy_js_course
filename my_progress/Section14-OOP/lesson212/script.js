@@ -86,13 +86,17 @@ const Car = function (make, speed) {
 // 2.
 Car.prototype.accelerate = function () {
   this.speed += 10;
-  console.log(this.speed);
+  console.log(
+    `${this.make} is accelerating! Current speed is ${this.speed} km/h`
+  );
 };
 
 // 3.
 Car.prototype.brake = function () {
   this.speed -= 5;
-  console.log(`${this.make} slows down! Current speed is ${this.speed} km/h`);
+  console.log(
+    `${this.make} is slowing down! Current speed is ${this.speed} km/h`
+  );
 };
 
 // 4.
