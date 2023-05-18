@@ -96,5 +96,5 @@ Car.prototype.brake = function () {
 };
 
 // 4.
-const car = new Car('xyz', 50);
+const car1 = new Car('BMW', 120);
 car.accelerate();
