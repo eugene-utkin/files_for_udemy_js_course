@@ -77,6 +77,7 @@ console.dir(x => x + 1);
 ////////////////////////////////
 // Coding Challenge #1
 
+// My solution
 // 1.
 const Car = function (make, speed) {
   this.make = make;
