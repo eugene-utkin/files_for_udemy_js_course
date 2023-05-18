@@ -92,10 +92,18 @@ Car.prototype.accelerate = function () {
 // 3.
 Car.prototype.brake = function () {
   this.speed -= 5;
-  console.log(`${this.name} slows down! Current speed is ${this.speed} km/h`);
+  console.log(`${this.make} slows down! Current speed is ${this.speed} km/h`);
 };
 
 // 4.
 const car1 = new Car('BMW', 120);
 const car2 = new Car('Mercedes', 95);
-car.accelerate();
+
+car1.brake();
+car1.brake();
+car1.brake();
+car1.brake();
+
+car2.brake();
+car2.brake();
+car2.brake();
