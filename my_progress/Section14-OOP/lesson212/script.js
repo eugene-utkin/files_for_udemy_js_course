@@ -88,3 +88,7 @@ Car.prototype.accelerate = function () {
   this.speed += 10;
   console.log(this.speed);
 };
+
+// 3.
+const car = new Car('xyz', 50);
+car.accelerate();
