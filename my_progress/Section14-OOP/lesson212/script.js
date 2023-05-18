@@ -77,42 +77,42 @@ console.dir(x => x + 1);
 ////////////////////////////////
 // Coding Challenge #1
 
-// My solution
-// 1.
-const Car = function (make, speed) {
-  this.make = make;
-  this.speed = speed;
-};
+// // My solution
+// // 1.
+// const Car = function (make, speed) {
+//   this.make = make;
+//   this.speed = speed;
+// };
 
-// 2.
-Car.prototype.accelerate = function () {
-  this.speed += 10;
-  console.log(
-    `${this.make} is accelerating! Current speed is ${this.speed} km/h`
-  );
-};
+// // 2.
+// Car.prototype.accelerate = function () {
+//   this.speed += 10;
+//   console.log(
+//     `${this.make} is accelerating! Current speed is ${this.speed} km/h`
+//   );
+// };
 
-// 3.
-Car.prototype.brake = function () {
-  this.speed -= 5;
-  console.log(
-    `${this.make} is slowing down! Current speed is ${this.speed} km/h`
-  );
-};
+// // 3.
+// Car.prototype.brake = function () {
+//   this.speed -= 5;
+//   console.log(
+//     `${this.make} is slowing down! Current speed is ${this.speed} km/h`
+//   );
+// };
 
-// 4.
-const car1 = new Car('BMW', 120);
-const car2 = new Car('Mercedes', 95);
+// // 4.
+// const car1 = new Car('BMW', 120);
+// const car2 = new Car('Mercedes', 95);
 
-car1.brake();
-car1.brake();
-car1.accelerate();
-car1.brake();
-car1.brake();
+// car1.brake();
+// car1.brake();
+// car1.accelerate();
+// car1.brake();
+// car1.brake();
 
-car2.accelerate();
-car2.brake();
-car2.brake();
-car2.accelerate();
-car2.accelerate();
-car2.accelerate();
+// car2.accelerate();
+// car2.brake();
+// car2.brake();
+// car2.accelerate();
+// car2.accelerate();
+// car2.accelerate();
