@@ -138,4 +138,5 @@ const mercedes = new Car('Mercedes', 95);
 
 bmw.accelerate();
 bmw.accelerate();
+bmw.brake();
 bmw.accelerate();
