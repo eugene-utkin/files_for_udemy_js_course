@@ -118,3 +118,7 @@ console.dir(x => x + 1);
 // car2.accelerate();
 
 // Teacher's solution
+const Car = function (make, speed) {
+  this.make = make;
+  this.speed = speed;
+};
