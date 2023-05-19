@@ -117,6 +117,7 @@ console.dir(x => x + 1);
 // car2.accelerate();
 // car2.accelerate();
 
+/*
 // Teacher's solution
 const Car = function (make, speed) {
   this.make = make;
@@ -140,3 +141,4 @@ bmw.accelerate();
 bmw.accelerate();
 bmw.brake();
 bmw.accelerate();
+*/
