@@ -116,3 +116,5 @@ console.dir(x => x + 1);
 // car2.accelerate();
 // car2.accelerate();
 // car2.accelerate();
+
+// Teacher's solution
