@@ -155,3 +155,4 @@ class PersonCl {
 }
 
 const jessica = new ProjectCl('Jessica', 1996);
+console.log(jessica);
