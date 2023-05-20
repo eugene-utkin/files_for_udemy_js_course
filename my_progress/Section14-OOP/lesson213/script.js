@@ -154,5 +154,5 @@ class PersonCl {
   }
 }
 
-const jessica = new ProjectCl('Jessica', 1996);
+const jessica = new PersonCl('Jessica', 1996);
 console.log(jessica);
