@@ -148,7 +148,9 @@ bmw.accelerate();
 
 // class declaration
 class PersonCl {
-  constructor(firstName, birthYear) {}
+  constructor(firstName, birthYear) {
+    this.firstName = firstName;
+  }
 }
 
 const jessica = new ProjectCl('Jessica', 1996);
