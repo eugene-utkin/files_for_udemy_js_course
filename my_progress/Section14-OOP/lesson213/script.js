@@ -144,6 +144,7 @@ bmw.accelerate();
 */
 
 // class expression
+const PersonCl = class {};
 
 // class declaration
 class PersonCl {}
