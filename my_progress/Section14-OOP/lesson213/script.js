@@ -143,4 +143,6 @@ bmw.brake();
 bmw.accelerate();
 */
 
+// class expression
+
 class PersonCl {}
