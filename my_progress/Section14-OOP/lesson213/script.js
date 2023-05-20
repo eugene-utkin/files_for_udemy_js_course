@@ -145,4 +145,5 @@ bmw.accelerate();
 
 // class expression
 
+// class declaration
 class PersonCl {}
