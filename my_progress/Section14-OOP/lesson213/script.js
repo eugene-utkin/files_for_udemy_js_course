@@ -147,4 +147,6 @@ bmw.accelerate();
 // const PersonCl = class {};
 
 // class declaration
-class PersonCl {}
+class PersonCl {
+  constructor(firstName, birthYear) {}
+}
