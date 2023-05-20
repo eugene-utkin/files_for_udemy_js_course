@@ -152,6 +152,10 @@ class PersonCl {
     this.firstName = firstName;
     this.birthYear = birthYear;
   }
+
+  calcAge() {
+    console.log(2037 - this.birthYear);
+  }
 }
 
 const jessica = new PersonCl('Jessica', 1996);
