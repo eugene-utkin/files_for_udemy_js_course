@@ -150,3 +150,5 @@ bmw.accelerate();
 class PersonCl {
   constructor(firstName, birthYear) {}
 }
+
+const jessica = new ProjectCl('Jessica', 1996);
