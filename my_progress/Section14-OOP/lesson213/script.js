@@ -150,6 +150,7 @@ bmw.accelerate();
 class PersonCl {
   constructor(firstName, birthYear) {
     this.firstName = firstName;
+    this.birthYear = birthYear;
   }
 }
 
