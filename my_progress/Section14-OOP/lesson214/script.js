@@ -177,3 +177,8 @@ jessica.greet();
 // 1. Classes are NOT hoisted
 // 2. Classes are first-class citizens
 // 3. Classes are executed in strict mode
+
+const account = {
+  owner: 'jonas',
+  movements: [200, 530, 120, 300],
+};
