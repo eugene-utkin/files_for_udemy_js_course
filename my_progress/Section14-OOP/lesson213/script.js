@@ -173,3 +173,5 @@ console.log(jessica.__proto__ === PersonCl.prototype);
 //   console.log(`Hey ${this.firstName}`);
 // };
 jessica.greet();
+
+// 1. Classes are NOT hoisted
