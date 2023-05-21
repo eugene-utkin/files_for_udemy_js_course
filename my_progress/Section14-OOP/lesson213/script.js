@@ -153,6 +153,7 @@ class PersonCl {
     this.birthYear = birthYear;
   }
 
+  // Methods will be added to .prototype property
   calcAge() {
     console.log(2037 - this.birthYear);
   }
