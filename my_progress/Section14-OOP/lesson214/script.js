@@ -193,6 +193,8 @@ jessica.greet();
 // 2. Classes are first-class citizens
 // 3. Classes are executed in strict mode
 
+const walter = new PersonCl('Walter', 19);
+
 const account = {
   owner: 'jonas',
   movements: [200, 530, 120, 300],
