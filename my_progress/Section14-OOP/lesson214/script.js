@@ -166,6 +166,7 @@ class PersonCl {
     return 2037 - this.birthYear;
   }
 
+  // Set a property that already exists
   set fullName(name) {
     console.log(name);
     if (name.includes(' ')) this._fullName = name;
