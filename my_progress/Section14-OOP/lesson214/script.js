@@ -148,7 +148,7 @@ bmw.accelerate();
 
 // class declaration
 class PersonCl {
-  constructor(firstName, birthYear) {
+  constructor(fullName, birthYear) {
     this.firstName = firstName;
     this.birthYear = birthYear;
   }
