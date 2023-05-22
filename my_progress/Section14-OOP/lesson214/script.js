@@ -185,6 +185,10 @@ const account = {
   get latest() {
     return this.movements.slice(-1).pop();
   },
+
+  set latest(mov) {
+    this.movements.push(mov);
+  },
 };
 
 console.log(account.latest);
