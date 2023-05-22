@@ -149,7 +149,7 @@ bmw.accelerate();
 // class declaration
 class PersonCl {
   constructor(fullName, birthYear) {
-    this.firstName = firstName;
+    this.fullName = fullName;
     this.birthYear = birthYear;
   }
 
@@ -164,6 +164,11 @@ class PersonCl {
 
   get age() {
     return 2037 - this.birthYear;
+  }
+
+  set fullName(name) {
+    if (name.includes(' ')) this.fullName = name;
+    else alert(`${name} is not a full name!`);
   }
 }
 
