@@ -177,6 +177,7 @@ console.log(jessica.__proto__ === PersonCl.prototype);
 //   console.log(`Hey ${this.firstName}`);
 // };
 jessica.greet();
+console.log(jessica.age);
 
 // 1. Classes are NOT hoisted
 // 2. Classes are first-class citizens
