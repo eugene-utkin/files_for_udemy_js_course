@@ -192,3 +192,5 @@ const account = {
 };
 
 console.log(account.latest);
+
+account.latest = 50;
