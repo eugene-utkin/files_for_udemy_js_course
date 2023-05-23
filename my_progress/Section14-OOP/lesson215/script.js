@@ -143,6 +143,7 @@ bmw.brake();
 bmw.accelerate();
 */
 
+/*
 // class expression
 // const PersonCl = class {};
 
@@ -212,3 +213,4 @@ console.log(account.latest);
 
 account.latest = 50;
 console.log(account.movements);
+*/
