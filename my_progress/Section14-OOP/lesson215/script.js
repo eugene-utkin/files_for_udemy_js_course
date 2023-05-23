@@ -31,6 +31,8 @@ Person.hey = function () {
   console.log('Hey there 👋');
 };
 
+Person.hey();
+
 ///////////////////////////////////////
 // Prototypes
 console.log(Person.prototype);
