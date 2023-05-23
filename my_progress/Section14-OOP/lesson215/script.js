@@ -27,6 +27,8 @@ console.log(matilda, jack);
 
 console.log(jonas instanceof Person);
 
+Person.hey = function () {};
+
 ///////////////////////////////////////
 // Prototypes
 console.log(Person.prototype);
