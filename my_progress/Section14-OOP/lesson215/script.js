@@ -29,8 +29,8 @@ console.log(jonas instanceof Person);
 
 Person.hey = function () {
   console.log('Hey there 👋');
+  console.log(this);
 };
-
 Person.hey();
 
 ///////////////////////////////////////
