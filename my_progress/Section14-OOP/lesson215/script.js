@@ -27,7 +27,9 @@ console.log(matilda, jack);
 
 console.log(jonas instanceof Person);
 
-Person.hey = function () {};
+Person.hey = function () {
+  console.log('Hey there 👋');
+};
 
 ///////////////////////////////////////
 // Prototypes
