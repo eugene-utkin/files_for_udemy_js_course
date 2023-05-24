@@ -261,3 +261,4 @@ sarah.calcAge();
 */
 
 //////////////////////////////////
+// Coding Challenge #2
