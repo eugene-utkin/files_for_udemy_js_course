@@ -242,3 +242,4 @@ const PersonProto = {
 };
 
 const steven = Object.create(PersonProto);
+console.log(steven);
