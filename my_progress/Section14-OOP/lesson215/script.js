@@ -208,6 +208,7 @@ jessica.greet();
 
 const walter = new PersonCl('Walter White', 19);
 
+/*
 //////////////////////////////////////
 // Setters and Getters
 const account = {
@@ -227,3 +228,4 @@ console.log(account.latest);
 
 account.latest = 50;
 console.log(account.movements);
+*/
