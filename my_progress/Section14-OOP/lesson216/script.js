@@ -1,5 +1,6 @@
 'use strict';
 
+/*
 ///////////////////////////////////////
 // Constructor Functions and the new Operator
 const Person = function (firstName, birthYear) {
@@ -80,6 +81,7 @@ console.log(arr.unique());
 
 const h1 = document.querySelector('h1');
 console.dir(x => x + 1);
+*/
 
 ////////////////////////////////
 // Coding Challenge #1
@@ -150,6 +152,7 @@ bmw.brake();
 bmw.accelerate();
 */
 
+/*
 // class expression
 // const PersonCl = class {};
 
@@ -209,6 +212,7 @@ jessica.greet();
 const walter = new PersonCl('Walter White', 19);
 
 PersonCl.hey();
+*/
 
 /*
 //////////////////////////////////////
