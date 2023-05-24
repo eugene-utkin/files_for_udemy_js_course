@@ -246,3 +246,5 @@ console.log(steven);
 steven.name = 'Steven';
 steven.birthYear = 2002;
 steven.calcAge();
+
+console.log(steven.__proto__);
