@@ -240,3 +240,5 @@ const PersonProto = {
     console.log(2037 - this.birthYear);
   },
 };
+
+const steven = Object.create(PersonProto);
