@@ -208,6 +208,7 @@ jessica.greet();
 
 const walter = new PersonCl('Walter White', 19);
 
+//////////////////////////////////////
 // Setters and Getters
 const account = {
   owner: 'jonas',
