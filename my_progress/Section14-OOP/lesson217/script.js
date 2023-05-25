@@ -308,3 +308,5 @@ car2.brake();
 car2.accelerate();
 car2.accelerate();
 car2.accelerate();
+
+const car3 = new Car('Ford', 120);
