@@ -286,3 +286,4 @@ class Car {
 }
 
 const car1 = new Car('BMW', 120);
+const car2 = new Car('Mercedes', 95);
