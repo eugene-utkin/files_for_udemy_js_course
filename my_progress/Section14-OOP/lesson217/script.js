@@ -263,6 +263,7 @@ sarah.calcAge();
 //////////////////////////////////
 // Coding Challenge #2
 
+// My solution
 // 1.
 class Car {
   constructor(make, speed) {
@@ -315,7 +316,7 @@ car3.brake();
 car3.accelerate();
 car3.accelerate();
 
-console.log(`The US speed is ${car3.speedUS} mi/h.`);
+console.log(`The US speed is ${car3.speedUS} mi/h.e`);
 
 car3.speedUS = 100;
 console.log(`The US speed is ${car3.speedUS} mi/h or ${car3.speed} km/h.`);
