@@ -314,3 +314,5 @@ car3.accelerate();
 car3.brake();
 car3.accelerate();
 car3.accelerate();
+
+console.log(`The US speed is ${car3.speedUS} mi/h`);
