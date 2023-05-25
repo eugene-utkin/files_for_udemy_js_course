@@ -287,3 +287,16 @@ class Car {
 
 const car1 = new Car('BMW', 120);
 const car2 = new Car('Mercedes', 95);
+
+car1.brake();
+car1.brake();
+car1.accelerate();
+car1.brake();
+car1.brake();
+
+car2.accelerate();
+car2.brake();
+car2.brake();
+car2.accelerate();
+car2.accelerate();
+car2.accelerate();
