@@ -283,6 +283,10 @@ class Car {
       `${this.make} is slowing down! Current speed is ${this.speed} km/h`
     );
   }
+
+  get speedUS() {
+    return this.speed / 1.6;
+  }
 }
 
 const car1 = new Car('BMW', 120);
