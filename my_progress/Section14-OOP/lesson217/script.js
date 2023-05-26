@@ -330,10 +330,10 @@ class CarCl {
     this.speed = speed;
   }
 
-Car.prototype.accelerate = function () {
-  this.speed += 10;
-  console.log(`${this.make} is going at ${this.speed} km/h`);
-};
+  accelerate() {
+    this.speed += 10;
+    console.log(`${this.make} is going at ${this.speed} km/h`);
+  };
 
 Car.prototype.brake = function () {
   this.speed -= 5;
