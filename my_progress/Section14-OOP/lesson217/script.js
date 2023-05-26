@@ -264,7 +264,7 @@ sarah.calcAge();
 // Coding Challenge #2
 
 // My solution
-// 1.
+// 1, 2, 3
 class Car {
   constructor(make, speed) {
     this.make = make;
