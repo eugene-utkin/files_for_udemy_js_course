@@ -344,3 +344,5 @@ class CarCl {
     return this.speed / 1.6;
   }
 }
+
+const ford = new CarCl('Ford', 120);
