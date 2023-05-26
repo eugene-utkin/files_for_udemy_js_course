@@ -339,4 +339,8 @@ class CarCl {
     this.speed -= 5;
     console.log(`${this.make} is going at ${this.speed} km/h`);
   }
+
+  get speedUs() {
+    return this.speed / 1.6;
+  }
 }
