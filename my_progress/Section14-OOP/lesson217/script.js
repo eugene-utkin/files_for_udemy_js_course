@@ -322,3 +322,5 @@ console.log(`The US speed is ${car3.speedUS} mi/h.e`);
 car3.speedUS = 100;
 console.log(`The US speed is ${car3.speedUS} mi/h or ${car3.speed} km/h.`);
 */
+
+// Teacher's solution
