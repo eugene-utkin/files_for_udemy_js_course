@@ -310,6 +310,7 @@ car2.accelerate();
 car2.accelerate();
 car2.accelerate();
 
+// 4.
 const car3 = new Car('Ford', 120);
 car3.accelerate();
 car3.brake();
