@@ -343,6 +343,10 @@ class CarCl {
   get speedUs() {
     return this.speed / 1.6;
   }
+
+  set speedUS(speed) {
+    this.speed = speed * 1.6;
+  }
 }
 
 const ford = new CarCl('Ford', 120);
