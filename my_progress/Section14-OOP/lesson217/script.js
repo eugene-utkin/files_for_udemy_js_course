@@ -348,3 +348,4 @@ class CarCl {
 const ford = new CarCl('Ford', 120);
 console.log(ford.speedUs);
 ford.accelerate();
+ford.accelerate();
