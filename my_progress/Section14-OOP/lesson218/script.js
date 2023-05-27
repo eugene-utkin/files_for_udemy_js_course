@@ -369,3 +369,9 @@ const Person = function (firstName, birthYear) {
 Person.prototype.calcAge = function () {
   console.log(2037 - this.birthYear);
 };
+
+const Student = function (firstName, birthYear, course) {
+  this.firstName = firstName;
+  this.birthYear = birthYear;
+  this.course = course;
+};
