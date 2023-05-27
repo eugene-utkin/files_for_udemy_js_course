@@ -359,7 +359,7 @@ console.log(ford);
 */
 
 /////////////////////////////
-// Inheritance Between "Classes": Constructor
+// Inheritance Between "Classes": Constructor Functions
 
 const Person = function (firstName, birthYear) {
   this.firstName = firstName;
