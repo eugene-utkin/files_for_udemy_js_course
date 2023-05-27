@@ -375,3 +375,5 @@ const Student = function (firstName, birthYear, course) {
   this.birthYear = birthYear;
   this.course = course;
 };
+
+const mike = new Student('Mike', 2020, 'Computer Science');
