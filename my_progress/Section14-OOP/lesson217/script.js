@@ -340,7 +340,7 @@ class CarCl {
     console.log(`${this.make} is going at ${this.speed} km/h`);
   }
 
-  get speedUs() {
+  get speedUS() {
     return this.speed / 1.6;
   }
 
@@ -350,7 +350,7 @@ class CarCl {
 }
 
 const ford = new CarCl('Ford', 120);
-console.log(ford.speedUs);
+console.log(ford.speedUS);
 ford.accelerate();
 ford.accelerate();
 ford.brake();
