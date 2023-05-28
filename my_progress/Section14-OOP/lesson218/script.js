@@ -388,3 +388,5 @@ mike.calcAge();
 
 console.log(mike.__proto__);
 console.log(mike.__proto__.__proto__);
+
+console.dir(Student.prototype.constructor);
