@@ -390,6 +390,7 @@ console.log(mike.__proto__);
 console.log(mike.__proto__.__proto__);
 
 console.log(mike instanceof Student);
+console.log(mike instanceof Person);
 
 Student.prototype.constructor = Student;
 console.dir(Student.prototype.constructor);
