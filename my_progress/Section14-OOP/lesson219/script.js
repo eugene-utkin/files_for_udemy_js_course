@@ -421,3 +421,8 @@ Car.prototype.brake = function () {
     `${this.make} is slowing down! Current speed is ${this.speed} km/h`
   );
 };
+
+const EV = function (make, speed, charge) {
+  Car.call(this, make, speed);
+  this.charge = charge;
+};
