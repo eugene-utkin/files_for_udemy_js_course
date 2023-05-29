@@ -358,6 +358,7 @@ ford.speedUS = 50;
 console.log(ford);
 */
 
+/*
 /////////////////////////////
 // Inheritance Between "Classes": Constructor Functions
 
@@ -395,3 +396,4 @@ console.log(mike instanceof Object);
 
 Student.prototype.constructor = Student;
 console.dir(Student.prototype.constructor);
+*/
