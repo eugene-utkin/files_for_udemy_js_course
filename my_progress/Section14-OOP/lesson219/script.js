@@ -444,3 +444,4 @@ EV.prototype.accelerate = function () {
 };
 
 // 4.
+const electricCar1 = new EV('Tesla', 120, 23);
