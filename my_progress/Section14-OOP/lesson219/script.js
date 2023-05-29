@@ -430,4 +430,5 @@ const EV = function (make, speed, charge) {
 // 2.
 EV.prototype.chargeBattery = function (chargeTo) {
   this.charge = chargeTo;
+  console.log(`Battery charge is set to ${this.charge} %.`);
 };
