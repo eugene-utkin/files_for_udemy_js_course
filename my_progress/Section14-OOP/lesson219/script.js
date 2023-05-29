@@ -431,7 +431,7 @@ EV.prototype.constructor = EV;
 // 2.
 EV.prototype.chargeBattery = function (chargeTo) {
   this.charge = chargeTo;
-  console.log(`Battery charge is set to ${this.charge} %.`);
+  console.log(`Battery charge is set to ${this.charge}%.`);
 };
 
 // 3.
@@ -439,6 +439,6 @@ EV.prototype.accelerate = function () {
   this.speed += 20;
   this.charge--;
   console.log(
-    `${this.make} is accelerating! Current speed is ${this.speed} km/h, charge is ${this.charge} %.`
+    `${this.make} is going at ${this.speed} km/h, with a charge of ${this.charge}%.`
   );
 };
