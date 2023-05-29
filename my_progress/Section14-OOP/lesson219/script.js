@@ -402,3 +402,4 @@ console.dir(Student.prototype.constructor);
 // Coding Challenge #3
 
 // My solution
+// 1.
