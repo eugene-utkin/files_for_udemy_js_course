@@ -433,3 +433,5 @@ EV.prototype.chargeBattery = function (chargeTo) {
   this.charge = chargeTo;
   console.log(`Battery charge is set to ${this.charge} %.`);
 };
+
+// 3.
