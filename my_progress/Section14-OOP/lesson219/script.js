@@ -442,3 +442,5 @@ EV.prototype.accelerate = function () {
     `${this.make} is going at ${this.speed} km/h, with a charge of ${this.charge}%.`
   );
 };
+
+// 4.
