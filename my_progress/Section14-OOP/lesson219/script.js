@@ -480,3 +480,4 @@ EV.prototype.chargeBattery = function (chargeTo) {
 };
 
 const tesla = new EV('Tesla', 120, 23);
+tesla.chargeBattery(90);
