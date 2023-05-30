@@ -473,4 +473,6 @@ const EV = function (make, speed, charge) {
   this.charge = charge;
 };
 
+// Link the prototypes
+
 const tesla = new EV('Tesla', 120, 23);
