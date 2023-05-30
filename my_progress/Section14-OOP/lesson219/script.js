@@ -400,7 +400,7 @@ console.dir(Student.prototype.constructor);
 
 ////////////////////////////////
 // Coding Challenge #3
-
+/*
 // My solution
 // 1.
 const Car = function (make, speed) {
@@ -450,3 +450,4 @@ electricCar1.accelerate();
 electricCar1.brake();
 electricCar1.chargeBattery(90);
 electricCar1.accelerate();
+*/
