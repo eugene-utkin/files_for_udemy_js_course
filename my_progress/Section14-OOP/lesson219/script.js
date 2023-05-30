@@ -474,5 +474,6 @@ const EV = function (make, speed, charge) {
 };
 
 // Link the prototypes
+EV.prototype = Object.create(Car.prototype);
 
 const tesla = new EV('Tesla', 120, 23);
