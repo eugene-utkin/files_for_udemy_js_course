@@ -451,3 +451,5 @@ electricCar1.brake();
 electricCar1.chargeBattery(90);
 electricCar1.accelerate();
 */
+
+// Teacher's solution
