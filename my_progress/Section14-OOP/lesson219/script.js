@@ -472,3 +472,5 @@ const EV = function (make, speed, charge) {
   Car.call(this, make, speed);
   this.charge = charge;
 };
+
+const tesla = new EV('Tesla', 120, 23);
