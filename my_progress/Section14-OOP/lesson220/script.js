@@ -531,3 +531,5 @@ class PersonCl {
     console.log('Hey there 👋');
   }
 }
+
+class StudentCl extends PersonCl {}
