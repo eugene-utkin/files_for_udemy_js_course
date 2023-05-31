@@ -526,8 +526,8 @@ class PersonCl {
     return this._fullName;
   }
 
+  // Static method
   static hey() {
     console.log('Hey there 👋');
-    console.log(this);
   }
 }
