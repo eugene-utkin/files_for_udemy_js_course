@@ -536,5 +536,6 @@ class StudentCl extends PersonCl {
   constructor(fullName, birthYear, course) {
     // Always needs to happen first!
     super(fullName, birthYear);
+    this.course = course;
   }
 }
