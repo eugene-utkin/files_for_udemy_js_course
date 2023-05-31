@@ -532,4 +532,8 @@ class PersonCl {
   }
 }
 
-class StudentCl extends PersonCl {}
+class StudentCl extends PersonCl {
+  constructor(fullName, birthYear, course) {
+    super(fullName, birthYear);
+  }
+}
