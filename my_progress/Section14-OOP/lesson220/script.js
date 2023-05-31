@@ -540,7 +540,7 @@ class StudentCl extends PersonCl {
   }
 
   introduce() {
-    console.log(`My name is ${this.firstName} and I study ${this.course}`);
+    console.log(`My name is ${this.fullName} and I study ${this.course}`);
   }
 }
 
