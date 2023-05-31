@@ -545,3 +545,4 @@ class StudentCl extends PersonCl {
 }
 
 const martha = new StudentCl('Martha Jones', 2012, 'Computer Science');
+martha.introduce();
