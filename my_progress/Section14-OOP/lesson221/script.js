@@ -577,4 +577,9 @@ const PersonProto = {
 const steven = Object.create(PersonProto);
 
 const StudentProto = Object.create(PersonProto);
+StudentProto.init = function (firstName, birthYear, course) {
+  PersonProto.init.call(this, firstName, birthYear);
+  this.course = course;
+};
+
 const jay = Object.create(StudentProto);
