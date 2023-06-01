@@ -560,6 +560,7 @@ martha.introduce();
 martha.calcAge();
 */
 
+/*
 /////////////////////////////////
 // Inheritance Between "Classes": Object.create
 
@@ -590,3 +591,4 @@ const jay = Object.create(StudentProto);
 jay.init('Jay', 2010, 'Computer Science');
 jay.introduce();
 jay.calcAge();
+*/
