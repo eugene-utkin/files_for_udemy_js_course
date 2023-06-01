@@ -583,3 +583,4 @@ StudentProto.init = function (firstName, birthYear, course) {
 };
 
 const jay = Object.create(StudentProto);
+jay.init('Jay', 2010, 'Computer Science');
