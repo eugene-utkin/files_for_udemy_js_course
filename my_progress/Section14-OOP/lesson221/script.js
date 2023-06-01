@@ -561,3 +561,4 @@ martha.calcAge();
 */
 
 /////////////////////////////////
+// Inheritance Between "Classes": Object.create
