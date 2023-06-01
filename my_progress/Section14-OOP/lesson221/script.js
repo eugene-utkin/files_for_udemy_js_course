@@ -582,5 +582,9 @@ StudentProto.init = function (firstName, birthYear, course) {
   this.course = course;
 };
 
+StudentProto.introduce = function () {
+  console.log(`My name is ${this.fullName} and I study ${this.course}`);
+};
+
 const jay = Object.create(StudentProto);
 jay.init('Jay', 2010, 'Computer Science');
