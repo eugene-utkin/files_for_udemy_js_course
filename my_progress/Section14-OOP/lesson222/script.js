@@ -600,6 +600,8 @@ class Account {
     this.pin = pin;
     this.movements = [];
     this.locale = navigator.language;
+
+    console.log(`Thanks for opening an account, ${owner}`);
   }
 }
 
