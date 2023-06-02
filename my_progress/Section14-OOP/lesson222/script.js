@@ -600,3 +600,5 @@ class Account {
     this.pin = pin;
   }
 }
+
+const acc1 = new Account('Jonas', 'EUR', 1111);
