@@ -609,3 +609,4 @@ const acc1 = new Account('Jonas', 'EUR', 1111);
 console.log(acc1);
 
 acc1.movements.push(250);
+acc1.movements.push(-140);
