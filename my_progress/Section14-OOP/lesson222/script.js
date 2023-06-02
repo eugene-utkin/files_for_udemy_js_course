@@ -612,6 +612,8 @@ class Account {
   withdraw(vol) {
     this.deposit(-val);
   }
+
+  requestLoan(val) {}
 }
 
 const acc1 = new Account('Jonas', 'EUR', 1111);
