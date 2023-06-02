@@ -599,6 +599,7 @@ class Account {
     this.currency = currency;
     this.pin = pin;
     this.movements = [];
+    this.locale = navigator.language;
   }
 }
 
