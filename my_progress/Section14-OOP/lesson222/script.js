@@ -617,4 +617,6 @@ const acc1 = new Account('Jonas', 'EUR', 1111);
 
 // acc1.movements.push(250);
 // acc1.movements.push(-140);
+acc1.deposit(250);
+
 console.log(acc1);
