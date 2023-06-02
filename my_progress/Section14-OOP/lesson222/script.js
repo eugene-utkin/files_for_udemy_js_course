@@ -603,6 +603,10 @@ class Account {
 
     console.log(`Thanks for opening an account, ${owner}`);
   }
+
+  deposit(val) {
+    this.movements.push(val);
+  }
 }
 
 const acc1 = new Account('Jonas', 'EUR', 1111);
