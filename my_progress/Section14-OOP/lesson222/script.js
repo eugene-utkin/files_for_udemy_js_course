@@ -613,6 +613,10 @@ class Account {
     this.deposit(-val);
   }
 
+  approveLoan(val) {
+    return true;
+  }
+
   requestLoan(val) {}
 }
 
