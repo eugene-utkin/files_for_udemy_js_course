@@ -598,6 +598,7 @@ class Account {
     this.owner = owner;
     this.currency = currency;
     this.pin = pin;
+    this.movements = [];
   }
 }
 
