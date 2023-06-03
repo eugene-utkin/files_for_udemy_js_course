@@ -609,7 +609,7 @@ class Account {
     this.movements.push(val);
   }
 
-  withdraw(vol) {
+  withdraw(val) {
     this.deposit(-val);
   }
 
