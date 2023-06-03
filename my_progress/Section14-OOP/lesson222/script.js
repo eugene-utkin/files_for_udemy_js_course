@@ -619,6 +619,7 @@ class Account {
 
   requestLoan(val) {
     if (this.approveLoan(val)) {
+      this.deposit(val);
     }
   }
 }
