@@ -598,7 +598,7 @@ class Account {
     this.owner = owner;
     this.currency = currency;
     this.pin = pin;
-    this.movements = [];
+    this._movements = [];
     this.locale = navigator.language;
 
     console.log(`Thanks for opening an account, ${owner}`);
@@ -606,7 +606,7 @@ class Account {
 
   // Public interface
   deposit(val) {
-    this.movements.push(val);
+    this._movements.push(val);
   }
 
   withdraw(val) {
