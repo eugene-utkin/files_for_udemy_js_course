@@ -598,7 +598,7 @@ class Account {
     this.owner = owner;
     this.currency = currency;
     this.pin = pin;
-    // protected
+    // Protected property
     this._movements = [];
     this.locale = navigator.language;
 
