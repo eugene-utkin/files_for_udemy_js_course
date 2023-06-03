@@ -617,7 +617,10 @@ class Account {
     return true;
   }
 
-  requestLoan(val) {}
+  requestLoan(val) {
+    if (this.approveLoan(val)) {
+    }
+  }
 }
 
 const acc1 = new Account('Jonas', 'EUR', 1111);
