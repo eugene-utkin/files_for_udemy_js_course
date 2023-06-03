@@ -606,6 +606,10 @@ class Account {
   }
 
   // Public interface
+  getMovements() {
+    return this._movements;
+  }
+
   deposit(val) {
     this._movements.push(val);
   }
