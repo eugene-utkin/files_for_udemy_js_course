@@ -596,6 +596,7 @@ jay.calcAge();
 // Public fields
 // Private fields
 // Public methods
+// Private methods
 
 class Account {
   constructor(owner, currency, pin) {
