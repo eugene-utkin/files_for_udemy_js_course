@@ -599,7 +599,7 @@ jay.calcAge();
 // Private methods
 
 class Account {
-  // Public fields
+  // Public fields (instances)
   locale = navigator.language;
   _movements = [];
 
