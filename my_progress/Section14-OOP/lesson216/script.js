@@ -593,6 +593,8 @@ jay.introduce();
 jay.calcAge();
 */
 
+// Public fields
+
 class Account {
   constructor(owner, currency, pin) {
     this.owner = owner;
