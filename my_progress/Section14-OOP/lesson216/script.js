@@ -608,7 +608,7 @@ class Account {
     // Protected property
     this._pin = pin;
     this._movements = [];
-    this.locale = navigator.language;
+    // this.locale = navigator.language;
 
     console.log(`Thanks for opening an account, ${owner}`);
   }
