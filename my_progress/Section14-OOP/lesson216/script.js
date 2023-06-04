@@ -603,6 +603,8 @@ class Account {
   locale = navigator.language;
   _movements = [];
 
+  // 2) Private fields
+
   constructor(owner, currency, pin) {
     this.owner = owner;
     this.currency = currency;
