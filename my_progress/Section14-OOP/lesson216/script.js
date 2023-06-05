@@ -635,7 +635,7 @@ class Account {
   requestLoan(val) {
     if (this._approveLoan(val)) {
       this.deposit(val);
-      console.log(`Loan aproved`);
+      console.log(`Loan approved`);
     }
   }
 
