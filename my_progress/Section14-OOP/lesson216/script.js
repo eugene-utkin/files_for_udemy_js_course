@@ -610,7 +610,7 @@ class Account {
     this.owner = owner;
     this.currency = currency;
     // Protected property
-    this._pin = pin;
+    this.#pin = pin;
     // this._movements = [];
     // this.locale = navigator.language;
 
