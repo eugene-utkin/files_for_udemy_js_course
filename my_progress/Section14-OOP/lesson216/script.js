@@ -604,6 +604,7 @@ class Account {
 
   // 2) Private fields
   #movements = [];
+  #pin;
 
   constructor(owner, currency, pin) {
     this.owner = owner;
