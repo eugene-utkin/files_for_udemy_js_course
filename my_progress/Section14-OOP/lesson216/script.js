@@ -602,7 +602,7 @@ class Account {
   // 1) Public fields (instances)
   locale = navigator.language;
 
-  // 2) Private fields
+  // 2) Private fields (instances)
   #movements = [];
   #pin;
 
