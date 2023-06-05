@@ -597,6 +597,7 @@ jay.calcAge();
 // 2) Private fields
 // 3) Public methods
 // 4) Private methods
+// (there is also the static version)
 
 class Account {
   // 1) Public fields (instances)
