@@ -654,4 +654,4 @@ console.log(acc1.getMovements());
 console.log(acc1);
 console.log(acc1.pin);
 
-console.log(acc1.#movements);
+// console.log(acc1.#movements);
