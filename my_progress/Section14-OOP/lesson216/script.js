@@ -633,14 +633,15 @@ class Account {
   }
 
   requestLoan(val) {
-    if (this.#approveLoan(val)) {
+    if (this._approveLoan(val)) {
       this.deposit(val);
       console.log(`Loan aproved`);
     }
   }
 
   // 4) Private methods
-  #approveLoan(val) {
+  // #approveLoan(val) {
+  _approveLoan(val) {
     return true;
   }
 }
