@@ -642,6 +642,8 @@ class Account {
       console.log(`Loan aproved`);
     }
   }
+
+  // 4) Private methods
 }
 
 const acc1 = new Account('Jonas', 'EUR', 1111);
