@@ -632,10 +632,6 @@ class Account {
     this.deposit(-val);
   }
 
-  _approveLoan(val) {
-    return true;
-  }
-
   requestLoan(val) {
     if (this._approveLoan(val)) {
       this.deposit(val);
@@ -644,6 +640,9 @@ class Account {
   }
 
   // 4) Private methods
+  _approveLoan(val) {
+    return true;
+  }
 }
 
 const acc1 = new Account('Jonas', 'EUR', 1111);
