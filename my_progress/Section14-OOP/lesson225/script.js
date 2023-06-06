@@ -632,6 +632,7 @@ class Account {
 
   withdraw(val) {
     this.deposit(-val);
+    return this;
   }
 
   requestLoan(val) {
