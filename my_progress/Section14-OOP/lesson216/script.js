@@ -640,6 +640,10 @@ class Account {
     }
   }
 
+  static helper() {
+    console.log('Helper');
+  }
+
   // 4) Private methods
   // #approveLoan(val) {
   _approveLoan(val) {
