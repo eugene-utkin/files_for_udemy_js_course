@@ -235,6 +235,7 @@ console.log(account.latest);
 account.latest = 50;
 console.log(account.movements);
 */
+/*
 const PersonProto = {
   calcAge() {
     console.log(2037 - this.birthYear);
@@ -257,3 +258,237 @@ console.log(steven.__proto__ === PersonProto);
 const sarah = Object.create(PersonProto);
 sarah.init('Sarah', 1979);
 sarah.calcAge();
+*/
+
+//////////////////////////////////
+// Coding Challenge #2
+/*
+// My solution
+// 1, 2, 3
+class Car {
+  constructor(make, speed) {
+    this.make = make;
+    this.speed = speed;
+  }
+
+  accelerate() {
+    this.speed += 10;
+    console.log(
+      `${this.make} is accelerating! Current speed is ${this.speed} km/h`
+    );
+  }
+
+  brake() {
+    this.speed -= 5;
+    console.log(
+      `${this.make} is slowing down! Current speed is ${this.speed} km/h`
+    );
+  }
+
+  get speedUS() {
+    return this.speed / 1.6;
+  }
+
+  set speedUS(speedUS) {
+    this.speed = speedUS * 1.6;
+  }
+}
+
+const car1 = new Car('BMW', 120);
+const car2 = new Car('Mercedes', 95);
+
+car1.brake();
+car1.brake();
+car1.accelerate();
+car1.brake();
+car1.brake();
+
+car2.accelerate();
+car2.brake();
+car2.brake();
+car2.accelerate();
+car2.accelerate();
+car2.accelerate();
+
+// 4.
+const car3 = new Car('Ford', 120);
+car3.accelerate();
+car3.brake();
+car3.accelerate();
+car3.accelerate();
+
+console.log(`The US speed is ${car3.speedUS} mi/h.e`);
+
+car3.speedUS = 100;
+console.log(`The US speed is ${car3.speedUS} mi/h or ${car3.speed} km/h.`);
+*/
+/*
+// Teacher's solution
+class CarCl {
+  constructor(make, speed) {
+    this.make = make;
+    this.speed = speed;
+  }
+
+  accelerate() {
+    this.speed += 10;
+    console.log(`${this.make} is going at ${this.speed} km/h`);
+  }
+
+  brake() {
+    this.speed -= 5;
+    console.log(`${this.make} is going at ${this.speed} km/h`);
+  }
+
+  get speedUS() {
+    return this.speed / 1.6;
+  }
+
+  set speedUS(speed) {
+    this.speed = speed * 1.6;
+  }
+}
+
+const ford = new CarCl('Ford', 120);
+console.log(ford.speedUS);
+ford.accelerate();
+ford.accelerate();
+ford.brake();
+ford.speedUS = 50;
+console.log(ford);
+*/
+
+/*
+/////////////////////////////
+// Inheritance Between "Classes": Constructor Functions
+
+const Person = function (firstName, birthYear) {
+  this.firstName = firstName;
+  this.birthYear = birthYear;
+};
+
+Person.prototype.calcAge = function () {
+  console.log(2037 - this.birthYear);
+};
+
+const Student = function (firstName, birthYear, course) {
+  Person.call(this, firstName, birthYear);
+  this.course = course;
+};
+
+// Linking prototypes
+Student.prototype = Object.create(Person.prototype);
+
+Student.prototype.introduce = function () {
+  console.log(`My name is ${this.firstName} and I study ${this.course}`);
+};
+
+const mike = new Student('Mike', 2020, 'Computer Science');
+mike.introduce();
+mike.calcAge();
+
+console.log(mike.__proto__);
+console.log(mike.__proto__.__proto__);
+
+console.log(mike instanceof Student);
+console.log(mike instanceof Person);
+console.log(mike instanceof Object);
+
+Student.prototype.constructor = Student;
+console.dir(Student.prototype.constructor);
+*/
+
+////////////////////////////////
+// Coding Challenge #3
+/*
+// My solution
+// 1.
+const Car = function (make, speed) {
+  this.make = make;
+  this.speed = speed;
+};
+
+Car.prototype.accelerate = function () {
+  this.speed += 10;
+  console.log(
+    `${this.make} is accelerating! Current speed is ${this.speed} km/h`
+  );
+};
+
+Car.prototype.brake = function () {
+  this.speed -= 5;
+  console.log(
+    `${this.make} is slowing down! Current speed is ${this.speed} km/h`
+  );
+};
+
+const EV = function (make, speed, charge) {
+  Car.call(this, make, speed);
+  this.charge = charge;
+};
+EV.prototype = Object.create(Car.prototype);
+EV.prototype.constructor = EV;
+
+// 2.
+EV.prototype.chargeBattery = function (chargeTo) {
+  this.charge = chargeTo;
+  console.log(`Battery charge is set to ${this.charge}%.`);
+};
+
+// 3.
+EV.prototype.accelerate = function () {
+  this.speed += 20;
+  this.charge--;
+  console.log(
+    `${this.make} is going at ${this.speed} km/h, with a charge of ${this.charge}%.`
+  );
+};
+
+// 4.
+const electricCar1 = new EV('Tesla', 120, 23);
+electricCar1.accelerate();
+electricCar1.brake();
+electricCar1.chargeBattery(90);
+electricCar1.accelerate();
+*/
+
+// Teacher's solution
+const Car = function (make, speed) {
+  this.make = make;
+  this.speed = speed;
+};
+
+Car.prototype.accelerate = function () {
+  this.speed += 10;
+  console.log(`${this.make} is going at ${this.speed} km/h`);
+};
+
+Car.prototype.brake = function () {
+  this.speed -= 5;
+  console.log(`${this.make} is going at ${this.speed} km/h`);
+};
+
+const EV = function (make, speed, charge) {
+  Car.call(this, make, speed);
+  this.charge = charge;
+};
+
+// Link the prototypes
+EV.prototype = Object.create(Car.prototype);
+EV.prototype.chargeBattery = function (chargeTo) {
+  this.charge = chargeTo;
+};
+
+EV.prototype.accelerate = function () {
+  this.speed += 20;
+  this.charge--;
+  console.log(
+    `${this.make} is going at ${this.speed} km/h, with a charge of ${this.charge}`
+  );
+};
+
+const tesla = new EV('Tesla', 120, 23);
+tesla.chargeBattery(90);
+console.log(tesla);
+tesla.brake();
+tesla.accelerate();
