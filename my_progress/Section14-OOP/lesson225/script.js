@@ -639,6 +639,7 @@ class Account {
     if (this._approveLoan(val)) {
       this.deposit(val);
       console.log(`Loan approved`);
+      return this;
     }
   }
 
