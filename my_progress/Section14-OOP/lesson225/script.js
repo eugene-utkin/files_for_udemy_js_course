@@ -669,3 +669,4 @@ Account.helper();
 // console.log(acc1.approveLoan(100));
 
 // Chaining
+acc1.deposit(300);
