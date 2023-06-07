@@ -733,3 +733,5 @@ class EVCl extends CarCl {
     return this;
   }
 }
+
+const car = new EVCl('Rivian', 120, 23);
