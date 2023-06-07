@@ -729,5 +729,6 @@ class EVCl extends CarCl {
         this.#charge
       }`
     );
+    return this;
   }
 }
