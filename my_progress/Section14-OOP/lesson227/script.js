@@ -678,6 +678,7 @@ console.log(acc1.getMovements());
 */
 
 // Coding Challenge #4
+// My solution
 
 class CarCl {
   constructor(make, speed) {
