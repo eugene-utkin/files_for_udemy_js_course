@@ -698,6 +698,7 @@ class CarCl {
     console.log(
       `${this.make} is slowing down! Current speed is ${this.speed} km/h`
     );
+    return this;
   }
 
   get speedUS() {
