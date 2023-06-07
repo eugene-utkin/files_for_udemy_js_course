@@ -599,6 +599,7 @@ jay.calcAge();
 // 4) Private methods
 // (there is also the static version)
 
+/*
 class Account {
   // 1) Public fields (instances)
   locale = navigator.language;
@@ -674,3 +675,4 @@ Account.helper();
 // Chaining
 acc1.deposit(300).deposit(500).withdraw(35).requestLoan(25000).withdraw(4000);
 console.log(acc1.getMovements());
+*/
