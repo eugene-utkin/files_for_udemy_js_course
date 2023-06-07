@@ -676,3 +676,32 @@ Account.helper();
 acc1.deposit(300).deposit(500).withdraw(35).requestLoan(25000).withdraw(4000);
 console.log(acc1.getMovements());
 */
+
+class CarCl {
+  constructor(make, speed) {
+    this.make = make;
+    this.speed = speed;
+  }
+
+  accelerate() {
+    this.speed += 10;
+    console.log(
+      `${this.make} is accelerating! Current speed is ${this.speed} km/h`
+    );
+  }
+
+  brake() {
+    this.speed -= 5;
+    console.log(
+      `${this.make} is slowing down! Current speed is ${this.speed} km/h`
+    );
+  }
+
+  get speedUS() {
+    return this.speed / 1.6;
+  }
+
+  set speedUS(speedUS) {
+    this.speed = speedUS * 1.6;
+  }
+}
