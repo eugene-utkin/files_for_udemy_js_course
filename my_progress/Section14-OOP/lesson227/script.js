@@ -705,3 +705,22 @@ class CarCl {
     this.speed = speedUS * 1.6;
   }
 }
+
+class EVCl extends CarCl {
+  constructor(fullName, birthYear, course) {
+    super(fullName, birthYear);
+    this.course = course;
+  }
+
+  chargeBattery(chargeTo) {
+    this.charge = chargeTo;
+  }
+
+  accelerate() {
+    this.speed += 20;
+    this.charge--;
+    console.log(
+      `${this.make} is going at ${this.speed} km/h, with a charge of ${this.charge}`
+    );
+  }
+}
