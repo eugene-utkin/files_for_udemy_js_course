@@ -679,6 +679,7 @@ console.log(acc1.getMovements());
 
 ///////////////////////////////////////
 // Coding Challenge #4
+/*
 // My solution
 
 class CarCl {
@@ -737,3 +738,4 @@ class EVCl extends CarCl {
 
 const car = new EVCl('Rivian', 120, 23);
 car.accelerate().accelerate().chargeBattery(50).brake().accelerate();
+*/
