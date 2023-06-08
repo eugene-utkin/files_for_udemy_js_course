@@ -771,4 +771,8 @@ class EVCl extends CarCl {
     super(make, speed);
     this.charge = charge;
   }
+
+  chargeBattery(chargeTo) {
+    this.charge = chargeTo;
+  }
 }
