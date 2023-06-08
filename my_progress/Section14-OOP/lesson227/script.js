@@ -767,6 +767,8 @@ class CarCl {
 }
 
 class EVCl extends CarCl {
+  #charge;
+
   constructor(make, speed, charge) {
     super(make, speed);
     this.charge = charge;
