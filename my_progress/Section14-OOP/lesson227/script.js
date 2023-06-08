@@ -765,3 +765,10 @@ class CarCl {
     this.speed = speed * 1.6;
   }
 }
+
+class EVCl extends CarCl {
+  constructor(make, speed, charge) {
+    super(make, speed);
+    this.charge = charge;
+  }
+}
