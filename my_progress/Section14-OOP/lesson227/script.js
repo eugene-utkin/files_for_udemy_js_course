@@ -786,3 +786,5 @@ class EVCl extends CarCl {
     );
   }
 }
+
+const rivian = new EVCl('Rivian', 120, 23);
