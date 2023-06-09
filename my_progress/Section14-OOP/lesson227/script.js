@@ -802,3 +802,5 @@ rivian
   .brake()
   .chargeBattery(50)
   .accelerate();
+
+console.log(rivian.speedUS);
