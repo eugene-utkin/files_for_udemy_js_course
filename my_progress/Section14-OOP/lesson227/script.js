@@ -777,6 +777,7 @@ class EVCl extends CarCl {
 
   chargeBattery(chargeTo) {
     this.#charge = chargeTo;
+    return this;
   }
 
   accelerate() {
