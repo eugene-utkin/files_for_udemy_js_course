@@ -16,7 +16,7 @@ if (navigator.geolocation) {
     function (position) {
       const { latitude } = position.coords;
       const { longitude } = position.coords;
-      console.log(latitude, longitude);
+      console.log(`https://www.google.com/maps/@${latitude},${longitude}z`);
     },
     function () {
       alert('Could not get your position');
