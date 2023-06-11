@@ -35,3 +35,5 @@ if (navigator.geolocation) {
     }
   );
 }
+
+console.log(firstName);
