@@ -32,7 +32,14 @@ if (navigator.geolocation) {
         console.log(mapEvent);
         const { lat, lng } = mapEvent.latlng;
 
-        L.marker([lat, lng]).addTo(map).bindPopup(L.popup({})).openPopup();
+        L.marker([lat, lng])
+          .addTo(map)
+          .bindPopup(
+            L.popup({
+              maxWidth: 250,
+            })
+          )
+          .openPopup();
       });
     },
     function () {
