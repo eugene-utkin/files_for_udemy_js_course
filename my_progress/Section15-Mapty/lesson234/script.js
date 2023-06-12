@@ -21,6 +21,7 @@ if (navigator.geolocation) {
       const coords = [latitude, longitude];
 
       const map = L.map('map').setView(coords, 13);
+      console.log(map);
 
       L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
         attribution:
