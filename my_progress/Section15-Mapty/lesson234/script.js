@@ -38,6 +38,7 @@ if (navigator.geolocation) {
             L.popup({
               maxWidth: 250,
               minWidth: 100,
+              autoClose: false,
             })
           )
           .openPopup();
