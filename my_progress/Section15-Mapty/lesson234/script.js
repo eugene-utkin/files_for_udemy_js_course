@@ -32,10 +32,7 @@ if (navigator.geolocation) {
         console.log(mapEvent);
         const { lat, lng } = mapEvent.latlng;
 
-        L.marker([lat, lng])
-          .addTo(map)
-          .bindPopup('A pretty CSS popup.<br> Easily customizable.')
-          .openPopup();
+        L.marker([lat, lng]).addTo(map).bindPopup('Workout').openPopup();
       });
     },
     function () {
