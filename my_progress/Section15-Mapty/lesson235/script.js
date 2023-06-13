@@ -45,6 +45,8 @@ if (navigator.geolocation) {
   form.addEventListener('submit', function (e) {
     e.preventDefault();
 
+    // Clear input fields
+
     // Display marker
     console.log(mapEvent);
     const { lat, lng } = mapEvent.latlng;
