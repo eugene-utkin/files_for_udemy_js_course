@@ -30,6 +30,7 @@ if (navigator.geolocation) {
           '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       }).addTo(map);
 
+      // Handling clicks on map
       map.on('click', function (mapEvent) {
         form.classList.remove('hidden');
         inputDistance.focus();
