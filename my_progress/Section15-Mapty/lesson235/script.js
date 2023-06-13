@@ -53,4 +53,6 @@ if (navigator.geolocation) {
       alert('Could not get your position');
     }
   );
+
+  form.addEventListener('submit', function () {});
 }
