@@ -54,5 +54,7 @@ if (navigator.geolocation) {
     }
   );
 
-  form.addEventListener('submit', function () {});
+  form.addEventListener('submit', function () {
+    // Display marker
+  });
 }
