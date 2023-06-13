@@ -32,6 +32,7 @@ if (navigator.geolocation) {
 
       // Handling clicks on map
       map.on('click', function (mapE) {
+        mapEvent = mapE;
         form.classList.remove('hidden');
         inputDistance.focus();
       });
