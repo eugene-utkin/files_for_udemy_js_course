@@ -29,6 +29,8 @@ if (navigator.geolocation) {
       }).addTo(map);
 
       map.on('click', function (mapEvent) {
+        form.classList.remove('hidden');
+
         // console.log(mapEvent);
         // const { lat, lng } = mapEvent.latlng;
         // L.marker([lat, lng])
