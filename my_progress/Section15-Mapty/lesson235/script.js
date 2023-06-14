@@ -69,4 +69,6 @@ if (navigator.geolocation) {
       .setPopupContent('Workout')
       .openPopup();
   });
+
+  inputType.addEventListener('change', function () {});
 }
