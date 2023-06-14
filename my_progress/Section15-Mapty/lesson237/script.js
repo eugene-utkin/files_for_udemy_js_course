@@ -14,13 +14,14 @@ const inputElevation = document.querySelector('.form__input--elevation');
 let map, mapEvent;
 
 class App {
+  #map;
   constructor() {
     this._getPosition();
   }
 
   _getPosition() {
     if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(this._loadMap(), function () {
+      navigator.geolocation.getCurrentPosition(this._loadMap, function () {
         alert('Could not get your position');
       });
     }
