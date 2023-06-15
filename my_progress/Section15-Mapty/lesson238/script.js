@@ -15,6 +15,8 @@ class Workout {
   date = new Date();
 
   constructor(coords, distance, duration) {
+    // this.date = ...
+    // this.id = ...
     this.coords = coords;
     this.distance = distance; // in km
     this.duration = duration; // in min
