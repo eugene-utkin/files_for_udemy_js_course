@@ -20,7 +20,7 @@ class App {
   constructor() {
     this._getPosition();
 
-    form.addEventListener('submit', this._newWorkout);
+    form.addEventListener('submit', this._newWorkout.bind(this));
 
     inputType.addEventListener('change', function () {
       inputElevation
