@@ -14,7 +14,7 @@ const inputElevation = document.querySelector('.form__input--elevation');
 class Workout {
   constructor(coords, distance, duration) {
     this.coords = coords;
-    this.distance = distance;
+    this.distance = distance; // in km
     this.duration = duration;
   }
 }
