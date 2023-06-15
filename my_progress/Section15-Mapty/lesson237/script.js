@@ -36,6 +36,7 @@ class App {
 
     const coords = [latitude, longitude];
 
+    console.log(this);
     this.#map = L.map('map').setView(coords, 13);
     // console.log(map);
 
