@@ -24,6 +24,8 @@ class Workout {
   }
 }
 
+class Running extends Workout {}
+
 class App {
   #map;
   #mapEvent;
