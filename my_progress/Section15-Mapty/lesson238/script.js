@@ -44,7 +44,9 @@ class Cycling extends Workout {
     this.elevation = elevation;
   }
 
-  calcSpeed() {}
+  calcSpeed() {
+    // km/h
+  }
 }
 
 class App {
