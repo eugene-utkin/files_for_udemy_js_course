@@ -21,6 +21,7 @@ class Workout {
     this.coords = coords;
     this.distance = distance; // in km
     this.duration = duration; // in min
+    this.calcPace();
   }
 }
 
