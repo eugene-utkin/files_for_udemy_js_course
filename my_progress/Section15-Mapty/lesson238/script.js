@@ -26,6 +26,8 @@ class Workout {
 
 class Running extends Workout {}
 
+class Cycling extends Workout {}
+
 class App {
   #map;
   #mapEvent;
