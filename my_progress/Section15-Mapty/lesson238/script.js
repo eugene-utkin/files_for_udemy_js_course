@@ -29,6 +29,8 @@ class Running extends Workout {
     super(coords, distance, duration);
     this.cadence = cadence;
   }
+
+  calcPace() {}
 }
 
 class Cycling extends Workout {
