@@ -31,7 +31,12 @@ class Running extends Workout {
   }
 }
 
-class Cycling extends Workout {}
+class Cycling extends Workout {
+  constructor(coords, distance, duration, elevation) {
+    super(coords, distance, duration);
+    this.elevation = elevation;
+  }
+}
 
 class App {
   #map;
