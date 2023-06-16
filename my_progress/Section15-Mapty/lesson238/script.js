@@ -45,7 +45,6 @@ class Cycling extends Workout {
     this.calcSpeed();
   }
 
-  // APPLICATION ARCHITECTURE
   calcSpeed() {
     // km/h
     this.speed = this.distance / (this.duration / 60);
@@ -53,6 +52,8 @@ class Cycling extends Workout {
   }
 }
 
+///////////////////////////////////////
+// APPLICATION ARCHITECTURE
 class App {
   #map;
   #mapEvent;
