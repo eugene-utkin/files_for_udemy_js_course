@@ -24,7 +24,9 @@ class Workout {
   }
 }
 
-class Running extends Workout {}
+class Running extends Workout {
+  constructor(coords, distance, duration, cadence) {}
+}
 
 class Cycling extends Workout {}
 
