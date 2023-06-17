@@ -117,6 +117,8 @@ class App {
 
     // Check if data is valid
 
+    // If activity running, create running object
+
     // Clear input fields
     inputDistance.value =
       inputDuration.value =
