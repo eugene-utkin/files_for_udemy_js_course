@@ -119,6 +119,8 @@ class App {
 
     // If activity running, create running object
 
+    // If activity cycling, create cycling object
+
     // Clear input fields
     inputDistance.value =
       inputDuration.value =
