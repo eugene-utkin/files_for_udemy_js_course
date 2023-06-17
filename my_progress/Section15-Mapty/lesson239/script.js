@@ -127,7 +127,7 @@ class App {
 
     // Render workout on list
 
-    // Clear input fields
+    // Hide form + clear input fields
     inputDistance.value =
       inputDuration.value =
       inputCadence.value =
