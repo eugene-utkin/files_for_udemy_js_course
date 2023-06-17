@@ -115,6 +115,8 @@ class App {
 
     // Get data from form
 
+    // Check if data is valid
+
     // Clear input fields
     inputDistance.value =
       inputDuration.value =
