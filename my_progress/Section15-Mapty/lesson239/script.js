@@ -117,9 +117,9 @@ class App {
 
     // Check if data is valid
 
-    // If activity running, create running object
+    // If workout running, create running object
 
-    // If activity cycling, create cycling object
+    // If workout cycling, create cycling object
 
     // Add new object to workout array
 
