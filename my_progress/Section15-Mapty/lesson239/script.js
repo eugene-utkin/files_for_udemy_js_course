@@ -121,6 +121,8 @@ class App {
 
     // If activity cycling, create cycling object
 
+    // Add new object to workout array
+
     // Clear input fields
     inputDistance.value =
       inputDuration.value =
