@@ -53,6 +53,7 @@ class Cycling extends Workout {
 }
 
 const run1 = new Running([43, 75], 5.2, 24, 178);
+const cycling1 = new Cycling([43, 75], 27, 95, 523);
 
 ///////////////////////////////////////
 // APPLICATION ARCHITECTURE
