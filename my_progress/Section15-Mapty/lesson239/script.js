@@ -125,6 +125,8 @@ class App {
 
     // Render workout on map as marker
 
+    // Render workout on list
+
     // Clear input fields
     inputDistance.value =
       inputDuration.value =
