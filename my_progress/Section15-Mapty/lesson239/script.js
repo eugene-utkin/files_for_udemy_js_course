@@ -127,6 +127,9 @@ class App {
     }
 
     // If workout cycling, create cycling object
+    if (type === 'cycling') {
+      const elevation = +inputElevation.value;
+    }
 
     // Add new object to workout array
 
