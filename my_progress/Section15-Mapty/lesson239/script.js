@@ -116,6 +116,7 @@ class App {
 
     // Get data from form
     const type = inputType.value;
+    const distance = +inputDistance.value;
 
     // Check if data is valid
 
