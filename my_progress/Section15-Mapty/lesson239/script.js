@@ -147,8 +147,6 @@ class App {
       inputCadence.value =
       inputElevation.value =
         '';
-
-    // Display marker
   }
 }
 
