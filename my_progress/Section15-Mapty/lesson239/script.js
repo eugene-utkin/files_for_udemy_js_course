@@ -139,12 +139,7 @@ class App {
     if (type === 'cycling') {
       const elevation = +inputElevation.value;
 
-      if (
-        // !Number.isFinite(distance) ||
-        // !Number.isFinite(duration) ||
-        // !Number.isFinite(cadence)
-        !validInputs(distance, duration, elevation)
-      )
+      if (!validInputs(distance, duration, elevation))
         return alert('Inputs have to be positive numbers');
     }
 
