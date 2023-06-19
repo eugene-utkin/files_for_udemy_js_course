@@ -152,7 +152,7 @@ class App {
       )
         return alert('Inputs have to be positive numbers');
 
-      workout = new Running([lat, lng], distance, duration, elevation);
+      workout = new Cycling([lat, lng], distance, duration, elevation);
     }
 
     // Add new object to workout array
