@@ -160,6 +160,7 @@ class App {
     console.log(workout);
 
     // Render workout on map as marker
+    this.renderWorkoutMarker(workout);
 
     // Render workout on list
 
