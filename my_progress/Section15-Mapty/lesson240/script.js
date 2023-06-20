@@ -195,7 +195,7 @@ class App {
 
   _renderWorkout(workout) {
     const html = `
-      <li class="workout workout--running" data-id="1234567890">
+      <li class="workout workout--running" data-id="${workout.id}">
         <h2 class="workout__title">Running on April 14</h2>
         <div class="workout__details">
           <span class="workout__icon">🏃‍♂️</span>
