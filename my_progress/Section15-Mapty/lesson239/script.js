@@ -173,7 +173,7 @@ class App {
   }
 
   renderWorkoutMarker(workout) {
-    L.marker([lat, lng])
+    L.marker(workout.coords)
       .addTo(this.#map)
       .bindPopup(
         L.popup({
