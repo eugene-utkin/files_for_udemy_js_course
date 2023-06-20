@@ -192,6 +192,8 @@ class App {
       .setPopupContent('workout')
       .openPopup();
   }
+
+  _renderWorkout(workout) {}
 }
 
 const app = new App();
