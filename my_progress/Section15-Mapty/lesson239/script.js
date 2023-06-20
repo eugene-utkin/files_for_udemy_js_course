@@ -160,6 +160,18 @@ class App {
     console.log(workout);
 
     // Render workout on map as marker
+
+    // Render workout on list
+
+    // Hide form + clear input fields
+    inputDistance.value =
+      inputDuration.value =
+      inputCadence.value =
+      inputElevation.value =
+        '';
+  }
+
+  renderWorkoutMarker(workout) {
     L.marker([lat, lng])
       .addTo(this.#map)
       .bindPopup(
@@ -171,17 +183,8 @@ class App {
           className: `${type}-popup`,
         })
       )
-      .setPopupContent('Workout')
+      .setPopupContent(workout.distance)
       .openPopup();
-
-    // Render workout on list
-
-    // Hide form + clear input fields
-    inputDistance.value =
-      inputDuration.value =
-      inputCadence.value =
-      inputElevation.value =
-        '';
   }
 }
 
