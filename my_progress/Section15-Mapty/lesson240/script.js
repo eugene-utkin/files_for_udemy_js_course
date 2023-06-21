@@ -198,7 +198,9 @@ class App {
       <li class="workout workout--${workout.type}" data-id="${workout.id}">
         <h2 class="workout__title">Running on April 14</h2>
         <div class="workout__details">
-          <span class="workout__icon">🏃‍♂️</span>
+          <span class="workout__icon">${
+            workout.type === 'running' ? '🏃‍♂️' : '🚴‍♀️'
+          }</span>
           <span class="workout__value">${workout.distance}</span>
           <span class="workout__unit">km</span>
         </div>
