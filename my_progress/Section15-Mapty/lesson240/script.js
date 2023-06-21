@@ -243,7 +243,7 @@ class App {
           </div>
           <div class="workout__details">
             <span class="workout__icon">⛰</span>
-            <span class="workout__value">223</span>
+            <span class="workout__value">${workout.elevation}</span>
             <span class="workout__unit">m</span>
           </div>
         </li>
