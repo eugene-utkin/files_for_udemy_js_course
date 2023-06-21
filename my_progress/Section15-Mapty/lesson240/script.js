@@ -14,6 +14,8 @@ class Workout {
     this.distance = distance; // in km
     this.duration = duration; // in min
   }
+
+  _setDescription() {}
 }
 
 class Running extends Workout {
