@@ -47,6 +47,7 @@ class Cycling extends Workout {
     this.elevation = elevation;
     // this.type = 'cycling';
     this.calcSpeed();
+    this._setDescription();
   }
 
   calcSpeed() {
