@@ -184,6 +184,7 @@ class App {
       inputCadence.value =
       inputElevation.value =
         '';
+    this._hideForm();
   }
 
   _renderWorkoutMarker(workout) {
