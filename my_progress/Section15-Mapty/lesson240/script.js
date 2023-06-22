@@ -235,7 +235,7 @@ class App {
             </li>
           `;
 
-    if (workout.type === 'running')
+    if (workout.type === 'cycling')
       html += `
             <div class="workout__details">
             <span class="workout__icon">⚡️</span>
