@@ -121,6 +121,7 @@ class App {
   }
 
   _hideForm() {
+    // Empty inputs
     inputDistance.value =
       inputDuration.value =
       inputCadence.value =
