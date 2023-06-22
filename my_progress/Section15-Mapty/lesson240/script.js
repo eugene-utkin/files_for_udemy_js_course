@@ -129,6 +129,7 @@ class App {
         '';
     form.computedStyleMap.display = 'none';
     form.classList.add('hidden');
+    setTimeout(() => (form.computedStyleMap.display = 'grid'), 1000);
   }
 
   _toggleElevationField() {
