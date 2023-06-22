@@ -263,6 +263,8 @@ class App {
 
     form.insertAdjacentHTML('afterend', html);
   }
+
+  _moveToPopup(e) {}
 }
 
 const app = new App();
