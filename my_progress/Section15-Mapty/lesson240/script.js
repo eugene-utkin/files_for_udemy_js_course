@@ -248,6 +248,8 @@ class App {
           </div>
         </li>
       `;
+
+    form.insertAdjacentHTML('afterend', html);
   }
 }
 
