@@ -127,6 +127,7 @@ class App {
       inputCadence.value =
       inputElevation.value =
         '';
+    form.computedStyleMap.display = 'none';
     form.classList.add('hidden');
   }
 
