@@ -176,6 +176,7 @@ class App {
     this._renderWorkoutMarker(workout);
 
     // Render workout on list
+    this._renderWorkout(workout);
 
     // Hide form + clear input fields
     inputDistance.value =
