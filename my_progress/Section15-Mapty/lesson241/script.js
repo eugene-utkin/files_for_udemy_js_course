@@ -264,7 +264,9 @@ class App {
     form.insertAdjacentHTML('afterend', html);
   }
 
-  _moveToPopup(e) {}
+  _moveToPopup(e) {
+    const workoutEl = e.target.closest('.workout');
+  }
 }
 
 const app = new App();
