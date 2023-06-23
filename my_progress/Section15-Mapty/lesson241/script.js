@@ -74,6 +74,7 @@ const inputElevation = document.querySelector('.form__input--elevation');
 
 class App {
   #map;
+  #mapZoomlevel = 13;
   #mapEvent;
   #workouts = [];
 
@@ -274,6 +275,8 @@ class App {
       work => work.id === workoutEl.dataset.id
     );
     console.log(workout);
+
+    this.#map.setView(workout.coords);
   }
 }
 
