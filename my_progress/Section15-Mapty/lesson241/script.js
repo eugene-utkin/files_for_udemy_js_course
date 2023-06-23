@@ -104,7 +104,7 @@ class App {
     const coords = [latitude, longitude];
 
     console.log(this);
-    this.#map = L.map('map').setView(coords, 13);
+    this.#map = L.map('map').setView(coords, this.#mapZoomlevel);
     // console.log(map);
 
     L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
