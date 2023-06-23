@@ -273,6 +273,7 @@ class App {
     const workout = this.#workouts.find(
       work => work.id === workoutEl.dataset.id
     );
+    console.log(workout);
   }
 }
 
