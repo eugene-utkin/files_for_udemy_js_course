@@ -276,7 +276,7 @@ class App {
     );
     console.log(workout);
 
-    this.#map.setView(workout.coords);
+    this.#map.setView(workout.coords, this.#mapZoomlevel);
   }
 }
 
