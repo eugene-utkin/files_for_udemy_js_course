@@ -276,7 +276,12 @@ class App {
     );
     console.log(workout);
 
-    this.#map.setView(workout.coords, this.#mapZoomlevel);
+    this.#map.setView(workout.coords, this.#mapZoomlevel, {
+      animate: true,
+      pan: {
+        duration: 1,
+      },
+    });
   }
 }
 
