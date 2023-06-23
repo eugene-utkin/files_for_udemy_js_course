@@ -21,6 +21,10 @@ class Workout {
       months[this.date.getMonth()]
     } ${this.date.getDate()}`;
   }
+
+  click() {
+    this.click++;
+  }
 }
 
 class Running extends Workout {
