@@ -310,6 +310,8 @@ class App {
     console.log(data);
 
     if (!data) return;
+
+    this.#workouts = data;
   }
 }
 
