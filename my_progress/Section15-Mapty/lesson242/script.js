@@ -295,7 +295,9 @@ class App {
     workout.click();
   }
 
-  _setLocalStorage() {}
+  _setLocalStorage() {
+    localStorage.setItem('workouts');
+  }
 }
 
 const app = new App();
