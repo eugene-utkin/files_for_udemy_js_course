@@ -201,6 +201,7 @@ class App {
     this._hideForm();
 
     // Set local storage to all workouts
+    this._setLocalStorage();
   }
 
   _renderWorkoutMarker(workout) {
