@@ -305,7 +305,9 @@ class App {
     localStorage.setItem('workouts', JSON.stringify(this.#workouts));
   }
 
-  _getLocalStorage() {}
+  _getLocalStorage() {
+    const data = localStorage.getItem('workouts');
+  }
 }
 
 const app = new App();
