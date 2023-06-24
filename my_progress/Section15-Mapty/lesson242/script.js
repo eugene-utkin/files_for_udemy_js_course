@@ -87,6 +87,8 @@ class App {
     // Get user's position
     this._getPosition();
 
+    // Get data from local storage
+
     // Attach event handlers
     form.addEventListener('submit', this._newWorkout.bind(this));
     inputType.addEventListener('change', this._toggleElevationField);
