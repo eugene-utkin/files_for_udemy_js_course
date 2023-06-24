@@ -84,6 +84,7 @@ class App {
   #workouts = [];
 
   constructor() {
+    // Get user's position
     this._getPosition();
 
     // Attach event handlers
