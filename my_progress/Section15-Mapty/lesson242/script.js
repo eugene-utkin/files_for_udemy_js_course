@@ -315,6 +315,8 @@ class App {
       this._renderWorkout(work);
     });
   }
+
+  reset() {}
 }
 
 const app = new App();
