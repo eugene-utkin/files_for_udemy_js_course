@@ -316,7 +316,9 @@ class App {
     });
   }
 
-  reset() {}
+  reset() {
+    localStorage.removeItem('workouts');
+  }
 }
 
 const app = new App();
