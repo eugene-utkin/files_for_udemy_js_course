@@ -5,4 +5,4 @@ const countriesContainer = document.querySelector('.countries');
 
 ///////////////////////////////////////
 
-new XMLHttpRequest();
+const request = new XMLHttpRequest();
