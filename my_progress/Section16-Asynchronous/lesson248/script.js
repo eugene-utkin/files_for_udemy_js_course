@@ -11,7 +11,6 @@ request.send();
 console.log(request.responseText);
 
 request.addEventListener('load', function () {
-  console.log(this.responseText);
-
   const data = JSON.parse(this.responseText);
+  console.log(data);
 });
