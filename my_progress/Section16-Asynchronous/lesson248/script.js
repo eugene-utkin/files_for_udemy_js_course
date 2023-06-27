@@ -19,7 +19,9 @@ request.addEventListener('load', function () {
     <div class="country__data">
         <h3 class="country__name">${data.name}</h3>
         <h4 class="country__region">${data.region}</h4>
-        <p class="country__row"><span>👫</span>${data.population} people</p>
+        <p class="country__row"><span>👫</span>${(
+          +data.population / 1000000
+        ).toFixed(1)} people</p>
         <p class="country__row"><span>🗣️</span>LANG</p>
         <p class="country__row"><span>💰</span>CUR</p>
     </div>
