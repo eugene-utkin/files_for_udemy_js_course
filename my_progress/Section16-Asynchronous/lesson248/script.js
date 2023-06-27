@@ -9,7 +9,7 @@ const getCountryData = function (country) {
   const request = new XMLHttpRequest();
   request.open(
     'GET',
-    'https://countries-api-836d.onrender.com/countries/name/portugal'
+    `https://countries-api-836d.onrender.com/countries/name/${country}`
   );
   request.send();
 
