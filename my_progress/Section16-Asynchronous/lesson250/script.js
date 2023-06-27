@@ -74,3 +74,5 @@ const getCountryAndNeighbour = function (country) {
     renderCountry(data);
   });
 };
+
+getCountryAndNeighbour('portugal');
