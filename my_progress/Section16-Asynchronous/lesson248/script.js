@@ -5,18 +5,19 @@ const countriesContainer = document.querySelector('.countries');
 
 ///////////////////////////////////////
 
-const request = new XMLHttpRequest();
-request.open(
-  'GET',
-  'https://countries-api-836d.onrender.com/countries/name/portugal'
-);
-request.send();
+const getCountryData = function (country) {
+  const request = new XMLHttpRequest();
+  request.open(
+    'GET',
+    'https://countries-api-836d.onrender.com/countries/name/portugal'
+  );
+  request.send();
 
-request.addEventListener('load', function () {
-  const [data] = JSON.parse(this.responseText);
-  console.log(data);
+  request.addEventListener('load', function () {
+    const [data] = JSON.parse(this.responseText);
+    console.log(data);
 
-  const html = `
+    const html = `
   <article class="country">
     <img class="country__img" src="${data.flag}" />
     <div class="country__data">
@@ -30,6 +31,7 @@ request.addEventListener('load', function () {
     </div>
   </article>
   `;
-  countriesContainer.insertAdjacentHTML('beforeend', html);
-  countriesContainer.style.opacity = 1;
-});
+    countriesContainer.insertAdjacentHTML('beforeend', html);
+    countriesContainer.style.opacity = 1;
+  });
+};
