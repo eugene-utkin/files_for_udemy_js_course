@@ -41,7 +41,7 @@ getCountryData('usa');
 getCountryData('germany');
 */
 
-const getCountryData = function (country) {
+const getCountryAndNeighbour = function (country) {
   const request = new XMLHttpRequest();
   request.open(
     'GET',
