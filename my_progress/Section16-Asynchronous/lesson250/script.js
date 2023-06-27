@@ -56,9 +56,8 @@ const renderCountry = function(data) {
     </div>
   </article>
   `;
-    countriesContainer.insertAdjacentHTML('beforeend', html);
-    countriesContainer.style.opacity = 1;
-  });
+  countriesContainer.insertAdjacentHTML('beforeend', html);
+  countriesContainer.style.opacity = 1;
 }
 
 const getCountryAndNeighbour = function (country) {
