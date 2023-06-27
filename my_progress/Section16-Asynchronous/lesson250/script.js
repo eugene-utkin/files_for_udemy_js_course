@@ -41,19 +41,8 @@ getCountryData('usa');
 getCountryData('germany');
 */
 
-const getCountryAndNeighbour = function (country) {
-  const request = new XMLHttpRequest();
-  request.open(
-    'GET',
-    `https://countries-api-836d.onrender.com/countries/name/${country}`
-  );
-  request.send();
-
-  request.addEventListener('load', function () {
-    const [data] = JSON.parse(this.responseText);
-    console.log(data);
-
-    const html = `
+const renderCountry = function(data) {
+  const html = `
   <article class="country">
     <img class="country__img" src="${data.flag}" />
     <div class="country__data">
@@ -70,4 +59,17 @@ const getCountryAndNeighbour = function (country) {
     countriesContainer.insertAdjacentHTML('beforeend', html);
     countriesContainer.style.opacity = 1;
   });
+}
+
+const getCountryAndNeighbour = function (country) {
+  const request = new XMLHttpRequest();
+  request.open(
+    'GET',
+    `https://countries-api-836d.onrender.com/countries/name/${country}`
+  );
+  request.send();
+
+  request.addEventListener('load', function () {
+    const [data] = JSON.parse(this.responseText);
+    console.log(data);
 };
