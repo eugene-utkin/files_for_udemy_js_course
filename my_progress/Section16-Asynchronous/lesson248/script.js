@@ -28,4 +28,5 @@ request.addEventListener('load', function () {
   </article>
   `;
   countriesContainer.insertAdjacentHTML('beforeend', html);
+  countriesContainer.style.opacity = 1;
 });
