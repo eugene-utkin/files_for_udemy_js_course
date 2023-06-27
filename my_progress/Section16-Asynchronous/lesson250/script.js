@@ -4,7 +4,7 @@ const btn = document.querySelector('.btn-country');
 const countriesContainer = document.querySelector('.countries');
 
 ///////////////////////////////////////
-
+/*
 const getCountryData = function (country) {
   const request = new XMLHttpRequest();
   request.open(
@@ -39,6 +39,7 @@ const getCountryData = function (country) {
 getCountryData('portugal');
 getCountryData('usa');
 getCountryData('germany');
+*/
 
 const getCountryData = function (country) {
   const request = new XMLHttpRequest();
