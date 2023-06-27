@@ -41,7 +41,7 @@ getCountryData('usa');
 getCountryData('germany');
 */
 
-const renderCountry = function(data) {
+const renderCountry = function (data) {
   const html = `
   <article class="country">
     <img class="country__img" src="${data.flag}" />
@@ -58,7 +58,7 @@ const renderCountry = function(data) {
   `;
   countriesContainer.insertAdjacentHTML('beforeend', html);
   countriesContainer.style.opacity = 1;
-}
+};
 
 const getCountryAndNeighbour = function (country) {
   const request = new XMLHttpRequest();
@@ -71,4 +71,5 @@ const getCountryAndNeighbour = function (country) {
   request.addEventListener('load', function () {
     const [data] = JSON.parse(this.responseText);
     console.log(data);
+  });
 };
