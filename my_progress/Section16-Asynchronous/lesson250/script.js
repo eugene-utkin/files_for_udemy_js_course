@@ -87,6 +87,8 @@ const getCountryAndNeighbour = function (country) {
       `https://countries-api-836d.onrender.com/countries/alpha/${neighbour}`
     );
     request2.send();
+
+    request2.addEventListener('load', function () {});
   });
 };
 
