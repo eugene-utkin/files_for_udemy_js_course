@@ -89,7 +89,7 @@ const getCountryAndNeighbour = function (country) {
     request2.send();
 
     request2.addEventListener('load', function () {
-      console.log(this.responseText);
+      const [data2] = JSON.parse(this.responseText);
     });
   });
 };
