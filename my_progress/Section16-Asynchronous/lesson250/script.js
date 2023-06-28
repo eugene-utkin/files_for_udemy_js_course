@@ -81,12 +81,12 @@ const getCountryAndNeighbour = function (country) {
 
     if (!neighbour) return;
 
-    const request = new XMLHttpRequest();
-    request.open(
+    const request2 = new XMLHttpRequest();
+    request2.open(
       'GET',
       `https://countries-api-836d.onrender.com/countries/alpha/${neighbour}`
     );
-    request.send();
+    request2.send();
   });
 };
 
