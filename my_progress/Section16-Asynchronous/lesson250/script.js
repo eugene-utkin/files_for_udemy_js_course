@@ -78,6 +78,8 @@ const getCountryAndNeighbour = function (country) {
 
     // Get neighbour country (2)
     const neighbour = data.borders?.[0];
+
+    if (!neighbour) return;
   });
 };
 
