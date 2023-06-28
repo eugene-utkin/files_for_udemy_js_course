@@ -41,7 +41,7 @@ getCountryData('usa');
 getCountryData('germany');
 */
 
-const renderCountry = function (data) {
+const renderCountry = function (data, className = '') {
   const html = `
   <article class="country">
     <img class="country__img" src="${data.flag}" />
