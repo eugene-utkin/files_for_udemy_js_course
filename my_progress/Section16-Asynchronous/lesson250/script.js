@@ -77,6 +77,7 @@ const getCountryAndNeighbour = function (country) {
     renderCountry(data);
 
     // Get neighbour country (2)
+    const neighbour = data.borders?.[0];
   });
 };
 
