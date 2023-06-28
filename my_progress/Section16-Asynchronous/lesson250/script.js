@@ -60,6 +60,7 @@ const renderCountry = function (data) {
   countriesContainer.style.opacity = 1;
 };
 
+// AJAX call country 1
 const getCountryAndNeighbour = function (country) {
   const request = new XMLHttpRequest();
   request.open(
