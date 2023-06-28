@@ -71,6 +71,8 @@ const getCountryAndNeighbour = function (country) {
   request.addEventListener('load', function () {
     const [data] = JSON.parse(this.responseText);
     console.log(data);
+
+    // Render country 1
     renderCountry(data);
 
     // Get neighbour country
