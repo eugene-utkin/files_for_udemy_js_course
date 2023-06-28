@@ -88,7 +88,9 @@ const getCountryAndNeighbour = function (country) {
     );
     request2.send();
 
-    request2.addEventListener('load', function () {});
+    request2.addEventListener('load', function () {
+      console.log(this.responseText);
+    });
   });
 };
 
