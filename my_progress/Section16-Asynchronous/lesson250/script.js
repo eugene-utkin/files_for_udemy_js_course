@@ -80,6 +80,13 @@ const getCountryAndNeighbour = function (country) {
     const neighbour = data.borders?.[0];
 
     if (!neighbour) return;
+
+    const request = new XMLHttpRequest();
+    request.open(
+      'GET',
+      `https://countries-api-836d.onrender.com/countries/alpha/${neighbour}`
+    );
+    request.send();
   });
 };
 
