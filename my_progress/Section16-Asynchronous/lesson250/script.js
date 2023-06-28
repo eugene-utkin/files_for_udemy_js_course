@@ -81,6 +81,7 @@ const getCountryAndNeighbour = function (country) {
 
     if (!neighbour) return;
 
+    // AJAX call country 2
     const request2 = new XMLHttpRequest();
     request2.open(
       'GET',
