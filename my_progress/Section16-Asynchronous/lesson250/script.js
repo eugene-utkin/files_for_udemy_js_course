@@ -72,6 +72,8 @@ const getCountryAndNeighbour = function (country) {
     const [data] = JSON.parse(this.responseText);
     console.log(data);
     renderCountry(data);
+
+    // Get neighbour country
   });
 };
 
