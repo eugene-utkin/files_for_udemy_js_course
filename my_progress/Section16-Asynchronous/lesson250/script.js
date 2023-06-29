@@ -98,5 +98,5 @@ const getCountryAndNeighbour = function (country) {
   });
 };
 
-getCountryAndNeighbour('portugal');
+// getCountryAndNeighbour('portugal');
 getCountryAndNeighbour('usa');
