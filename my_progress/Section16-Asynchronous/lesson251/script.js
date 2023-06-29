@@ -40,7 +40,7 @@ getCountryData('portugal');
 getCountryData('usa');
 getCountryData('germany');
 */
-/*
+
 const renderCountry = function (data, className = '') {
   const html = `
   <article class="country ${className}">
@@ -60,6 +60,7 @@ const renderCountry = function (data, className = '') {
   countriesContainer.style.opacity = 1;
 };
 
+/*
 // AJAX call country 1
 const getCountryAndNeighbour = function (country) {
   const request = new XMLHttpRequest();
