@@ -115,3 +115,10 @@ setTimeout(() => {
   }, 1000);
 }, 1000);
 */
+
+const request = new XMLHttpRequest();
+request.open(
+  'GET',
+  `https://countries-api-836d.onrender.com/countries/name/${country}`
+);
+request.send();
