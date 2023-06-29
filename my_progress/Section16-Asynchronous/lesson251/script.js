@@ -40,7 +40,7 @@ getCountryData('portugal');
 getCountryData('usa');
 getCountryData('germany');
 */
-
+/*
 const renderCountry = function (data, className = '') {
   const html = `
   <article class="country ${className}">
@@ -113,3 +113,4 @@ setTimeout(() => {
     }, 1000);
   }, 1000);
 }, 1000);
+*/
