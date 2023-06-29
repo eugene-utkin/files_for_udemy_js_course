@@ -100,3 +100,7 @@ const getCountryAndNeighbour = function (country) {
 
 // getCountryAndNeighbour('portugal');
 getCountryAndNeighbour('usa');
+
+setTimeout(() => {
+  console.log('1 second passed');
+}, 1000);
