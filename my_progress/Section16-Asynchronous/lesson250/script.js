@@ -99,3 +99,4 @@ const getCountryAndNeighbour = function (country) {
 };
 
 getCountryAndNeighbour('portugal');
+getCountryAndNeighbour('usa');
