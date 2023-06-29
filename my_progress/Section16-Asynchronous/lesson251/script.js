@@ -123,4 +123,6 @@ setTimeout(() => {
 // );
 // request.send();
 
-fetch('https://countries-api-836d.onrender.com/countries/name/portugal');
+const request = fetch(
+  'https://countries-api-836d.onrender.com/countries/name/portugal'
+);
