@@ -121,6 +121,7 @@ const getCountryData = function (country) {
     `https://countries-api-836d.onrender.com/countries/name/${country}`
   ).then(function (response) {
     console.log(response);
+    response.json();
   });
 };
 getCountryData('portugal');
