@@ -127,3 +127,5 @@ const request = fetch(
   'https://countries-api-836d.onrender.com/countries/name/portugal'
 );
 console.log(request);
+
+const getCountryData = function (country) {};
