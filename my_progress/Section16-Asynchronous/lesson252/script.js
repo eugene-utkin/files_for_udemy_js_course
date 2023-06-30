@@ -128,4 +128,6 @@ const request = fetch(
 );
 console.log(request);
 
-const getCountryData = function (country) {};
+const getCountryData = function (country) {
+  fetch(`https://countries-api-836d.onrender.com/countries/name/${country}`);
+};
