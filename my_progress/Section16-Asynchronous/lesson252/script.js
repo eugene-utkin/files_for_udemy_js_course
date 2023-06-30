@@ -116,18 +116,6 @@ setTimeout(() => {
 }, 1000);
 */
 
-// const request = new XMLHttpRequest();
-// request.open(
-//   'GET',
-//   `https://countries-api-836d.onrender.com/countries/name/${country}`
-// );
-// request.send();
-
-const request = fetch(
-  'https://countries-api-836d.onrender.com/countries/name/portugal'
-);
-console.log(request);
-
 const getCountryData = function (country) {
   fetch(
     `https://countries-api-836d.onrender.com/countries/name/${country}`
