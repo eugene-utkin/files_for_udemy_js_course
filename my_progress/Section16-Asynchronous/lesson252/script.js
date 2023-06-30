@@ -117,11 +117,11 @@ setTimeout(() => {
 */
 
 const getCountryData = function (country) {
-  fetch(
-    `https://countries-api-836d.onrender.com/countries/name/${country}`
-  ).then(function (response) {
-    console.log(response);
-    return response.json();
-  });
+  fetch(`https://countries-api-836d.onrender.com/countries/name/${country}`)
+    .then(function (response) {
+      console.log(response);
+      return response.json();
+    })
+    .then(function (data) {});
 };
 getCountryData('portugal');
