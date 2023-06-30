@@ -127,4 +127,10 @@ setTimeout(() => {
 //       renderCountry(data[0]);
 //     });
 // };
+const getCountryData = function (country) {
+  fetch(`https://countries-api-836d.onrender.com/countries/name/${country}`)
+    .then(response => response.json())
+    .then(data => renderCountry(data[0]));
+};
+
 getCountryData('portugal');
