@@ -135,3 +135,4 @@ const getCountryData = function (country) {
     console.log(response);
   });
 };
+getCountryData('portugal');
