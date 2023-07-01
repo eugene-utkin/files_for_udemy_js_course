@@ -138,7 +138,7 @@ const getCountryData = function (country) {
       if (!neighbour) return;
 
       // Country 2
-      fetch(
+      return fetch(
         `https://countries-api-836d.onrender.com/countries/alpha/${neighbour}`
       );
     });
