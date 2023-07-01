@@ -128,7 +128,9 @@ setTimeout(() => {
 //     });
 // };
 
-const renderError = function (msg) {};
+const renderError = function (msg) {
+  countriesContainer.insertAdjacentText('beforeend', msg);
+};
 
 const getCountryData = function (country) {
   // Country 1
