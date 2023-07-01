@@ -127,6 +127,9 @@ setTimeout(() => {
 //       renderCountry(data[0]);
 //     });
 // };
+
+const renderError = function (msg) {};
+
 const getCountryData = function (country) {
   // Country 1
   fetch(`https://countries-api-836d.onrender.com/countries/name/${country}`)
@@ -144,7 +147,9 @@ const getCountryData = function (country) {
     })
     .then(response => response.json())
     .then(data => renderCountry(data, 'neighbour'))
-    .catch(err => console.error(`${err} 💥💥💥`));
+    .catch(err => {
+      console.error(`${err} 💥💥💥`);
+    });
 };
 
 btn.addEventListener('click', function () {
