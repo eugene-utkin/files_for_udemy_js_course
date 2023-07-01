@@ -135,6 +135,10 @@ const getCountryData = function (country) {
       const neighbour = data[0].borders?.[0];
 
       if (!neighbour) return;
+
+      fetch(
+        `https://countries-api-836d.onrender.com/countries/alpha/${neighbour}`
+      );
     });
 };
 
