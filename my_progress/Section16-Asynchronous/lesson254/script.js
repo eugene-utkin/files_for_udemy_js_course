@@ -144,7 +144,7 @@ const getCountryData = function (country) {
     })
     .then(response => response.json())
     .then(data => renderCountry(data, 'neighbour'))
-    .catch(err => alert(err));
+    .catch(err => console.error(`${err} 💥💥💥`));
 };
 
 btn.addEventListener('click', function () {
