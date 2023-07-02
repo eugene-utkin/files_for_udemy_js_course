@@ -138,6 +138,9 @@ const getCountryData = function (country) {
   fetch(`https://countries-api-836d.onrender.com/countries/name/${country}`)
     .then(response => {
       console.log(response);
+
+      if (!response.ok)
+        throw new Error(`Country not found (${response.status})`);
       return response.json();
     })
     .then(data => {
