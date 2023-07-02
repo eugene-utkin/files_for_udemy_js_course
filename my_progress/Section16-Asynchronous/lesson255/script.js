@@ -170,4 +170,4 @@ btn.addEventListener('click', function () {
   getCountryData('portugal');
 });
 
-getCountryData('dsfddsfsdf');
+// getCountryData('dsfddsfsdf');
