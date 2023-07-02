@@ -138,7 +138,7 @@ const getCountryData = function (country) {
   fetch(`https://countries-api-836d.onrender.com/countries/name/${country}`)
     .then(response => {
       console.log(response);
-      response.json();
+      return response.json();
     })
     .then(data => {
       renderCountry(data[0]);
