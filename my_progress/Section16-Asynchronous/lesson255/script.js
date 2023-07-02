@@ -141,6 +141,7 @@ const getCountryData = function (country) {
 
       if (!response.ok)
         throw new Error(`Country not found (${response.status})`);
+
       return response.json();
     })
     .then(data => {
@@ -166,5 +167,5 @@ const getCountryData = function (country) {
 };
 
 btn.addEventListener('click', function () {
-  getCountryData('portugal');
+  getCountryData('dsfddsfsdf');
 });
