@@ -19,7 +19,7 @@ const renderCountry = function (data, className = '') {
   </article>
   `;
   countriesContainer.insertAdjacentHTML('beforeend', html);
-  countriesContainer.style.opacity = 1;
+  // countriesContainer.style.opacity = 1;
 };
 
 const renderError = function (msg) {
@@ -153,7 +153,8 @@ const getCountryData = function (country) {
     .catch(err => {
       console.error(`${err} 💥💥💥`);
       renderError(`Something went wrong 💥💥 ${err.message}. Try again!`);
-    });
+    })
+    .finally(() => {});
 };
 
 btn.addEventListener('click', function () {
