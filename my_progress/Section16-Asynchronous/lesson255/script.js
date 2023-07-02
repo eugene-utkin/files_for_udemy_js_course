@@ -167,7 +167,7 @@ const getCountryData = function (country) {
 };
 
 btn.addEventListener('click', function () {
-  getCountryData('dsfddsfsdf');
+  getCountryData('portugal');
 });
 
 getCountryData('dsfddsfsdf');
