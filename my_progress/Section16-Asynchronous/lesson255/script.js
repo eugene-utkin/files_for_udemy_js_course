@@ -191,7 +191,7 @@ const getCountryData = function (country) {
       const neighbour = data[0].borders?.[0];
       console.log(neighbour);
 
-      if (!neighbour) return;
+      if (!neighbour) throw new Error('No neighbour found!');
 
       // Country 2
       getJSON(
