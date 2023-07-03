@@ -141,44 +141,46 @@ const getJSON = function (url, errorMsg = 'Something went wrong') {
   });
 };
 
-// const getCountryData = function (country) {
-//   // Country 1
-//   fetch(`https://countries-api-836d.onrender.com/countries/name/${country}`)
-//     .then(response => {
-//       console.log(response);
+//
 
-//       if (!response.ok)
-//         throw new Error(`Country not found (${response.status})`);
+const getCountryData = function (country) {
+  // Country 1
+  fetch(`https://countries-api-836d.onrender.com/countries/name/${country}`)
+    .then(response => {
+      console.log(response);
 
-//       return response.json();
-//     })
-//     .then(data => {
-//       renderCountry(data[0]);
-//       // const neighbour = data[0].borders?.[0];
-//       const neighbour = 'dfsdfdef';
+      if (!response.ok)
+        throw new Error(`Country not found (${response.status})`);
 
-//       if (!neighbour) return;
+      return response.json();
+    })
+    .then(data => {
+      renderCountry(data[0]);
+      // const neighbour = data[0].borders?.[0];
+      const neighbour = 'dfsdfdef';
 
-//       // Country 2
-//       return fetch(
-//         `https://countries-api-836d.onrender.com/countries/alpha/${neighbour}`
-//       );
-//     })
-//     .then(response => {
-//       if (!response.ok)
-//         throw new Error(`Country not found (${response.status})`);
+      if (!neighbour) return;
 
-//       return response.json();
-//     })
-//     .then(data => renderCountry(data, 'neighbour'))
-//     .catch(err => {
-//       console.error(`${err} 💥💥💥`);
-//       renderError(`Something went wrong 💥💥 ${err.message}. Try again!`);
-//     })
-//     .finally(() => {
-//       countriesContainer.style.opacity = 1;
-//     });
-// };
+      // Country 2
+      return fetch(
+        `https://countries-api-836d.onrender.com/countries/alpha/${neighbour}`
+      );
+    })
+    .then(response => {
+      if (!response.ok)
+        throw new Error(`Country not found (${response.status})`);
+
+      return response.json();
+    })
+    .then(data => renderCountry(data, 'neighbour'))
+    .catch(err => {
+      console.error(`${err} 💥💥💥`);
+      renderError(`Something went wrong 💥💥 ${err.message}. Try again!`);
+    })
+    .finally(() => {
+      countriesContainer.style.opacity = 1;
+    });
+};
 
 btn.addEventListener('click', function () {
   getCountryData('portugal');
