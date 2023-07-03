@@ -199,12 +199,6 @@ const getCountryData = function (country) {
         'Country not found'
       );
     })
-    .then(response => {
-      if (!response.ok)
-        throw new Error(`Country not found (${response.status})`);
-
-      return response.json();
-    })
     .then(data => renderCountry(data, 'neighbour'))
     .catch(err => {
       console.error(`${err} 💥💥💥`);
