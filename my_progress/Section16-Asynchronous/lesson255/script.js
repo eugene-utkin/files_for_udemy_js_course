@@ -133,6 +133,8 @@ setTimeout(() => {
 //     });
 // };
 
+const getJSON = function (url) {};
+
 const getCountryData = function (country) {
   // Country 1
   fetch(`https://countries-api-836d.onrender.com/countries/name/${country}`)
