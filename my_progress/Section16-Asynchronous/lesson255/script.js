@@ -133,7 +133,9 @@ setTimeout(() => {
 //     });
 // };
 
-const getJSON = function (url) {};
+const getJSON = function (url) {
+  fetch(url);
+};
 
 const getCountryData = function (country) {
   // Country 1
