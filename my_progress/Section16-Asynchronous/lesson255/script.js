@@ -182,6 +182,11 @@ const getJSON = function (url, errorMsg = 'Something went wrong') {
 
 const getCountryData = function (country) {
   // Country 1
+  getJSON(
+    `https://countries-api-836d.onrender.com/countries/name/${country}`,
+    'Country not found'
+  );
+
   fetch(`https://countries-api-836d.onrender.com/countries/name/${country}`)
     .then(response => {
       console.log(response);
