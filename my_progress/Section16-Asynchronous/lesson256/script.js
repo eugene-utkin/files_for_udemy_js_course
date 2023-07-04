@@ -215,3 +215,5 @@ btn.addEventListener('click', function () {
 
 getCountryData('Australia');
 */
+
+const whereAmI = function (lat, lng) {};
