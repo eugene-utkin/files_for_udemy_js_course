@@ -121,17 +121,17 @@ setTimeout(() => {
 }, 1000);
 */
 
-// const getCountryData = function (country) {
-//   fetch(`https://countries-api-836d.onrender.com/countries/name/${country}`)
-//     .then(function (response) {
-//       console.log(response);
-//       return response.json();
-//     })
-//     .then(function (data) {
-//       console.log(data);
-//       renderCountry(data[0]);
-//     });
-// };
+const getCountryData = function (country) {
+  fetch(`https://countries-api-836d.onrender.com/countries/name/${country}`)
+    .then(function (response) {
+      console.log(response);
+      return response.json();
+    })
+    .then(function (data) {
+      console.log(data);
+      renderCountry(data[0]);
+    });
+};
 
 const getJSON = function (url, errorMsg = 'Something went wrong') {
   return fetch(url).then(response => {
@@ -228,6 +228,7 @@ const whereAmI = function (lat, lng) {
     })
     .then(data => {
       console.log(`You are in ${data.city}, ${data.countryName}`);
+      renderCountry(data.countryName);
     })
     .catch(err => {
       console.error(err);
