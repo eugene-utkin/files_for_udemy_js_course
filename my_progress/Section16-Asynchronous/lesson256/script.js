@@ -221,6 +221,9 @@ const whereAmI = function (lat, lng) {
     `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lng}&localityLanguage=en`
   )
     .then(response => {
+      if (!response.ok)
+        throw new Error(`Something went wrong: ${response.status}`);
+
       return response.json();
     })
     .then(data => {
