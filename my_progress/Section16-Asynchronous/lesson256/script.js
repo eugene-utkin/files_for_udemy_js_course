@@ -217,7 +217,9 @@ getCountryData('Australia');
 */
 
 const whereAmI = function (lat, lng) {
-  fetch(`https://geocode.xyz/${lat},${lng}?geoit=json`)
+  fetch(
+    `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lng}&localityLanguage=en`
+  )
     .then(response => response.json())
     .then(data => {
       console.log(data);
