@@ -222,7 +222,7 @@ const whereAmI = function (lat, lng) {
   )
     .then(response => response.json())
     .then(data => {
-      console.log(data);
+      console.log(`You are in ${data.city}, ${data.countryName}`);
     });
 };
 
