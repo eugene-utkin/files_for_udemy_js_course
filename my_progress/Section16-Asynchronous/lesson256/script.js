@@ -217,5 +217,7 @@ getCountryData('Australia');
 */
 
 const whereAmI = function (lat, lng) {
-  fetch(`https://geocode.xyz/${lat},${lng}?geoit=json`);
+  fetch(`https://geocode.xyz/${lat},${lng}?geoit=json`).then(response =>
+    response.json()
+  );
 };
