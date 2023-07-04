@@ -216,4 +216,6 @@ btn.addEventListener('click', function () {
 getCountryData('Australia');
 */
 
-const whereAmI = function (lat, lng) {};
+const whereAmI = function (lat, lng) {
+  fetch(`https://geocode.xyz/${lat},${lng}?geoit=json`);
+};
