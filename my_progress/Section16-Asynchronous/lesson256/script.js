@@ -216,6 +216,7 @@ btn.addEventListener('click', function () {
 getCountryData('Australia');
 */
 
+// Coding Challenge #1
 const btn = document.querySelector('.btn-country');
 const countriesContainer = document.querySelector('.countries');
 
