@@ -264,7 +264,7 @@ const whereAmI = function (lat, lng) {
     })
     .then(data => {
       console.log(`You are in ${data.city}, ${data.countryName}`);
-      return getCountryData(data.countryName.toLowerCase());
+      getCountryData(data.countryName.toLowerCase());
     })
     .catch(err => {
       console.error(err);
