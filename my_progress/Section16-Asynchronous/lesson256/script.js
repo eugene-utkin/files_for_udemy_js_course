@@ -217,6 +217,7 @@ getCountryData('Australia');
 */
 
 // Coding Challenge #1
+// My solution
 const btn = document.querySelector('.btn-country');
 const countriesContainer = document.querySelector('.countries');
 
