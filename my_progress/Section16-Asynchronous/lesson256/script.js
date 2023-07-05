@@ -234,7 +234,7 @@ const renderCountry = function (data, className = '') {
   // countriesContainer.style.opacity = 1;
 };
 
-getCountryData = function (country) {
+const getCountryData = function (country) {
   // Country 1
   getJSON(
     `https://countries-api-836d.onrender.com/countries/name/${country}`,
