@@ -309,4 +309,8 @@ whereAmI(52.508, 13.381);
 */
 
 // Teacher's solution
-const whereAmI = function (lat, lng) {};
+const whereAmI = function (lat, lng) {
+  fetch(
+    `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lng}&localityLanguage=en`
+  );
+};
