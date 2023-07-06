@@ -194,7 +194,7 @@ const getCountryData = function (country) {
       if (!neighbour) throw new Error('No neighbour found!');
 
       // Country 2
-      getJSON(
+      return getJSON(
         `https://countries-api-836d.onrender.com/countries/alpha/${neighbour}`,
         'Country not found'
       );
