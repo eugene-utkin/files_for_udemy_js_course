@@ -309,3 +309,4 @@ whereAmI(52.508, 13.381);
 */
 
 // Teacher's solution
+const whereAmI = function (lat, lng) {};
