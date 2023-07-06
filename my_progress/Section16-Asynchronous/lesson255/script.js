@@ -4,6 +4,7 @@ const btn = document.querySelector('.btn-country');
 const countriesContainer = document.querySelector('.countries');
 
 const renderCountry = function (data, className = '') {
+  console.log(data);
   const html = `
   <article class="country ${className}">
     <img class="country__img" src="${data.flag}" />
@@ -188,13 +189,14 @@ const getCountryData = function (country) {
   )
     .then(data => {
       renderCountry(data[0]);
-      const neighbour = data[0].borders;
+      const neighbour = data[0].borders?.[0];
+      console.log(neighbour);
 
       if (!neighbour) throw new Error('No neighbour found!');
 
       // Country 2
-      getJSON(
-        `https://countries-api-836d.onrender.com/countries/alpha/${neighbour[0]}`,
+      return getJSON(
+        `https://countries-api-836d.onrender.com/countries/alpha/${neighbour}`,
         'Country not found'
       );
     })
@@ -212,4 +214,4 @@ btn.addEventListener('click', function () {
   getCountryData('portugal');
 });
 
-getCountryData('portugal');
+getCountryData('Australia');
