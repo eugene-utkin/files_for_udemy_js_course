@@ -188,7 +188,7 @@ const getCountryData = function (country) {
   )
     .then(data => {
       renderCountry(data[0]);
-      const neighbour = data[0].borders?.[0];
+      const neighbour = data[0].borders;
 
       if (!neighbour) throw new Error('No neighbour found!');
 
@@ -212,4 +212,4 @@ btn.addEventListener('click', function () {
   getCountryData('portugal');
 });
 
-getCountryData('Australia');
+getCountryData('portugal');
