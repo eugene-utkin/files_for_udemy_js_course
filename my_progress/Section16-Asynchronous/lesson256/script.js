@@ -324,11 +324,10 @@ const whereAmI = function (lat, lng) {
         `https://countries-api-836d.onrender.com/countries/name/${data.countryName}`
       );
     })
-    .then(response => {
-      if (!response.ok)
-        throw new Error(`Country not found (${response.status})`);
+    .then(res => {
+      if (!res.ok) throw new Error(`Country not found (${res.status})`);
 
-      return response.json();
+      return res.json();
     })
     .then(data => renderCountry(data))
     .catch(err => console.error(`${err.message} 💥`));
