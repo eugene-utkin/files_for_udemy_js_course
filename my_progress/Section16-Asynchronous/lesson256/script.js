@@ -320,8 +320,16 @@ const whereAmI = function (lat, lng) {
     .then(data => {
       console.log(data);
       console.log(`You are in ${data.city}, ${data.countryName}`);
+      return fetch(`https://countries-api-836d.onrender.com/countries/name/${country}`)
     })
-    .then(response => {})
+    .then(response => {
+              if (!response.ok)
+                throw new Error(`Country not found (${response.status})`);
+        
+              return response.json();
+            })
+            .then(data => renderCountry(data, 'neighbour'))
+    })
     .catch(err => console.error(`${err.message} 💥`));
 };
 whereAmI(52.508, 13.381);
