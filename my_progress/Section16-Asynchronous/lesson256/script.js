@@ -320,7 +320,7 @@ const whereAmI = function (lat, lng) {
     .then(data => {
       console.log(data);
       console.log(`You are in ${data.city}, ${data.countryName}`);
-      return fetch(`https://countries-api-836d.onrender.com/countries/name/${country}`)
+      return fetch(`https://countries-api-836d.onrender.com/countries/name/${data.countryName}`)
     })
     .then(response => {
               if (!response.ok)
