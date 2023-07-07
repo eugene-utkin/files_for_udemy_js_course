@@ -318,3 +318,4 @@ const whereAmI = function (lat, lng) {
       console.log(data);
     });
 };
+whereAmI(52.508, 13.381);
