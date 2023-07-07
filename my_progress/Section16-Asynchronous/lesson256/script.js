@@ -316,7 +316,7 @@ const whereAmI = function (lat, lng) {
     .then(res => res.json())
     .then(data => {
       console.log(data);
-      console.log(`You are in ${data.city}, ${data.country}`);
+      console.log(`You are in ${data.city}, ${data.countryName}`);
     });
 };
 whereAmI(52.508, 13.381);
