@@ -314,7 +314,7 @@ const whereAmI = function (lat, lng) {
     `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lng}&localityLanguage=en`
   )
     .then(res => {
-      console.log(res);
+      if (!res.ok) throw new Error(`Problem with geocoding ${res.status}`);
       return res.json();
     })
     .then(data => {
