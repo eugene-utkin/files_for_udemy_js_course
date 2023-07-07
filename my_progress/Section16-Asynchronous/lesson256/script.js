@@ -330,7 +330,7 @@ const whereAmI = function (lat, lng) {
 
       return response.json();
     })
-    .then(data => renderCountry(data, 'neighbour'))
+    .then(data => renderCountry(data))
     .catch(err => console.error(`${err.message} 💥`));
 };
 whereAmI(52.508, 13.381);
