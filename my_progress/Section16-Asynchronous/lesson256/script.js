@@ -321,6 +321,7 @@ const whereAmI = function (lat, lng) {
       console.log(data);
       console.log(`You are in ${data.city}, ${data.countryName}`);
     })
+    .then(response => {})
     .catch(err => console.error(`${err.message} 💥`));
 };
 whereAmI(52.508, 13.381);
