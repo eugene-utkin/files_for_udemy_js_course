@@ -313,7 +313,9 @@ const whereAmI = function (lat, lng) {
   fetch(
     `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lng}&localityLanguage=en`
   )
-    .then(res => res.json())
+    .then(res => {
+      return res.json();
+    })
     .then(data => {
       console.log(data);
       console.log(`You are in ${data.city}, ${data.countryName}`);
