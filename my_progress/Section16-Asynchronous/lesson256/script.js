@@ -329,7 +329,7 @@ const whereAmI = function (lat, lng) {
 
       return res.json();
     })
-    .then(data => renderCountry(data))
+    .then(data => renderCountry(data[0]))
     .catch(err => console.error(`${err.message} 💥`));
 };
 whereAmI(52.508, 13.381);
