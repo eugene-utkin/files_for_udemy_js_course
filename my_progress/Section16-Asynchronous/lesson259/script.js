@@ -357,4 +357,4 @@ const lotteryPromise = new Promise(function (resolve, reject) {
   }
 });
 
-lotteryPromise.then(res => console.log(res));
+lotteryPromise.then(res => console.log(res)).catch();
