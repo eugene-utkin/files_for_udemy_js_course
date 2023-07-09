@@ -356,3 +356,5 @@ const lotteryPromise = new Promise(function (resolve, reject) {
     reject('You lost your money 💩');
   }
 });
+
+lotteryPromise.then();
