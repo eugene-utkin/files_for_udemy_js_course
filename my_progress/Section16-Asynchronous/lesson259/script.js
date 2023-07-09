@@ -349,4 +349,4 @@ Promise.resolve('Resolved promise 2').then(res => {
 console.log('Test end');
 */
 
-new Promise(function (resolve, reject) {});
+const lotteryPromise = new Promise(function (resolve, reject) {});
