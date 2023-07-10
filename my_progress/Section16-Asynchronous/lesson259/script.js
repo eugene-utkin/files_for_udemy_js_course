@@ -368,3 +368,5 @@ const wait = function (seconds) {
     setTimeout(resolve, seconds * 1000);
   });
 };
+
+wait(2);
