@@ -371,4 +371,5 @@ const wait = function (seconds) {
 
 wait(2).then(() => {
   console.log('I waited for 2 seconds');
+  return wait(1);
 });
