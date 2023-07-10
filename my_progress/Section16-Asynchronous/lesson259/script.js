@@ -350,6 +350,7 @@ console.log('Test end');
 */
 
 const lotteryPromise = new Promise(function (resolve, reject) {
+  console.log('Lottery draw is happening 🔮');
   setTimeout(function () {
     if (Math.random() >= 0.5) {
       resolve('You WIN 💰');
