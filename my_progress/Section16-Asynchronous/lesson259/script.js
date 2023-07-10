@@ -375,7 +375,7 @@ wait(1)
     return wait(1);
   })
   .then(() => {
-    console.log('2 second passed');
+    console.log('2 seconds passed');
     return wait(1);
   })
   .then(() => console.log('I waited for 1 second'));
