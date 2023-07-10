@@ -382,7 +382,7 @@ wait(1)
     console.log('3 seconds passed');
     return wait(1);
   })
-  .then(() => console.log('I waited for 1 second'));
+  .then(() => console.log('4 seconds passed'));
 
 // setTimeout(() => {
 //   console.log('1 second passed');
