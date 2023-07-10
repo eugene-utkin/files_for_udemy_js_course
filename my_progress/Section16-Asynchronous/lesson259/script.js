@@ -374,6 +374,10 @@ wait(1)
     console.log('1 second passed');
     return wait(1);
   })
+  .then(() => {
+    console.log('2 second passed');
+    return wait(1);
+  })
   .then(() => console.log('I waited for 1 second'));
 
 // setTimeout(() => {
