@@ -363,4 +363,6 @@ const lotteryPromise = new Promise(function (resolve, reject) {
 lotteryPromise.then(res => console.log(res)).catch(err => console.error(err));
 
 // Promisifying setTimeout
-const wait = function (seconds) {};
+const wait = function (seconds) {
+  return new Promise(function (resolve) {});
+};
