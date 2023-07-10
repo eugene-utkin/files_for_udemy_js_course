@@ -369,4 +369,4 @@ const wait = function (seconds) {
   });
 };
 
-wait(2);
+wait(2).then();
