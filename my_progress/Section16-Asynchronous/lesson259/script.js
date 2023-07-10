@@ -369,9 +369,9 @@ const wait = function (seconds) {
   });
 };
 
-wait(2)
+wait(1)
   .then(() => {
-    console.log('I waited for 2 seconds');
+    console.log('1 second passed');
     return wait(1);
   })
   .then(() => console.log('I waited for 1 second'));
