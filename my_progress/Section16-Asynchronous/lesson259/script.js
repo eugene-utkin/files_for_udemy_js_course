@@ -374,4 +374,4 @@ wait(2)
     console.log('I waited for 2 seconds');
     return wait(1);
   })
-  .then();
+  .then(() => console.log('I waited for 1 second'));
