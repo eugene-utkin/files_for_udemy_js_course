@@ -369,4 +369,6 @@ const wait = function (seconds) {
   });
 };
 
-wait(2).then();
+wait(2).then(() => {
+  console.log('I waited for 2 seconds');
+});
