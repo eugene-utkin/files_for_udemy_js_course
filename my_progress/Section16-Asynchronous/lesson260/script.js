@@ -403,10 +403,10 @@ Promise.reject(new Error('Problem!')).catch(x => console.error(x));
 
 const getPosition = function () {
   return new Promise(function (resolve, reject) {
-    navigator.geolocation.getCurrentPosition(
-      position => resolve(position),
-      err => reject(err)
-    );
+    // navigator.geolocation.getCurrentPosition(
+    //   position => resolve(position),
+    //   err => reject(err)
+    // );
     navigator.geolocation.getCurrentPosition(resolve, reject);
   });
 };
