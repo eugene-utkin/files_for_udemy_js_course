@@ -348,7 +348,7 @@ Promise.resolve('Resolved promise 2').then(res => {
 });
 console.log('Test end');
 */
-
+/*
 const lotteryPromise = new Promise(function (resolve, reject) {
   console.log('Lottery draw is happening 🔮');
   setTimeout(function () {
@@ -396,7 +396,7 @@ wait(1)
 //     }, 1000);
 //   }, 1000);
 // }, 1000);
-// */
 
 Promise.resolve('abc').then(x => console.log(x));
 Promise.reject(new Error('Problem!')).catch(x => console.error(x));
+*/
