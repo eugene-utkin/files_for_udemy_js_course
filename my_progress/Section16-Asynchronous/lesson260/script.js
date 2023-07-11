@@ -405,4 +405,5 @@ navigator.geolocation.getCurrentPosition(
   position => console.log(position),
   err => console.error(err)
 );
-console.log('Getting position');
+
+const getPosition = function () {};
