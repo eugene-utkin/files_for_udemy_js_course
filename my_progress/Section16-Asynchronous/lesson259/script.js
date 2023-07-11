@@ -398,4 +398,4 @@ wait(1)
 // }, 1000);
 // */
 
-Promise.resolve('abc');
+Promise.resolve('abc').then(x => console.log(x));
