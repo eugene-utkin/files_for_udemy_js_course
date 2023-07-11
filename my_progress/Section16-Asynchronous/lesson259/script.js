@@ -399,4 +399,4 @@ wait(1)
 // */
 
 Promise.resolve('abc').then(x => console.log(x));
-Promise;
+Promise.reject('abc');
