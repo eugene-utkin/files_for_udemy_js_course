@@ -398,4 +398,4 @@ wait(1)
 // }, 1000);
 // */
 
-Promise;
+Promise.resolve('abc');
