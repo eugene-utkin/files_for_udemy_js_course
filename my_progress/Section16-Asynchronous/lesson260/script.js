@@ -406,4 +406,6 @@ navigator.geolocation.getCurrentPosition(
   err => console.error(err)
 );
 
-const getPosition = function () {};
+const getPosition = function () {
+  return new Promise(function (resolve, reject) {});
+};
