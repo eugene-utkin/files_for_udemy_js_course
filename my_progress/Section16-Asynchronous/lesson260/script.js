@@ -440,3 +440,5 @@ const whereAmI = function () {
     .then(data => renderCountry(data[0]))
     .catch(err => console.error(`${err.message} 💥`));
 };
+
+btn.addEventListener('click', whereAmI);
