@@ -444,3 +444,4 @@ btn.addEventListener('click', whereAmI);
 */
 
 //////////////////////////////
+// Coding Challenge #2
