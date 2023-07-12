@@ -411,4 +411,4 @@ const getPosition = function () {
   });
 };
 
-getPosition();
+getPosition().then(pos => console.log(pos));
