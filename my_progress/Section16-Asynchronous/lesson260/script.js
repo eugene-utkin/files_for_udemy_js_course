@@ -414,6 +414,8 @@ const getPosition = function () {
 getPosition().then(pos => console.log(pos));
 
 const whereAmI = function () {
+  getPosition();
+
   fetch(
     `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lng}&localityLanguage=en`
   )
