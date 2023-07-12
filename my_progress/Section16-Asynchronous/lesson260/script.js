@@ -415,7 +415,7 @@ getPosition().then(pos => console.log(pos));
 
 const whereAmI = function () {
   getPosition().then(pos => {
-    console.log(pos.coords);
+    const { lat = latitude, lng = longitude } = pos.coords;
   });
 
   fetch(
