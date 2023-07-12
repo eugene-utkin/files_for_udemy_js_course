@@ -414,13 +414,13 @@ const getPosition = function () {
 getPosition().then(pos => console.log(pos));
 
 const whereAmI = function () {
-  getPosition().then(pos => {
-    const { lat = latitude, lng = longitude } = pos.coords;
-  });
-
-  fetch(
-    `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lng}&localityLanguage=en`
-  )
+  getPosition()
+    .then(pos => {
+      const { lat = latitude, lng = longitude } = pos.coords;
+      return fetch(
+        `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lng}&localityLanguage=en`
+      );
+    })
     .then(res => {
       if (!res.ok) throw new Error(`Problem with geocoding ${res.status}`);
       return res.json();
