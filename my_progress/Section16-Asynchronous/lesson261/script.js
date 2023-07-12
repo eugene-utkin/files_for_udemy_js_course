@@ -445,3 +445,4 @@ btn.addEventListener('click', whereAmI);
 
 //////////////////////////////
 // Coding Challenge #2
+// My solution
