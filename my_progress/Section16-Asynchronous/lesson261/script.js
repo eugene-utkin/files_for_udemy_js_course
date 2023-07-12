@@ -400,7 +400,7 @@ wait(1)
 Promise.resolve('abc').then(x => console.log(x));
 Promise.reject(new Error('Problem!')).catch(x => console.error(x));
 */
-
+/*
 const getPosition = function () {
   return new Promise(function (resolve, reject) {
     // navigator.geolocation.getCurrentPosition(
@@ -441,3 +441,4 @@ const whereAmI = function () {
 };
 
 btn.addEventListener('click', whereAmI);
+*/
