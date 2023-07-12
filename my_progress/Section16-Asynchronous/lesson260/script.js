@@ -410,8 +410,7 @@ const getPosition = function () {
     navigator.geolocation.getCurrentPosition(resolve, reject);
   });
 };
-
-getPosition().then(pos => console.log(pos));
+// getPosition().then(pos => console.log(pos));
 
 const whereAmI = function () {
   getPosition()
