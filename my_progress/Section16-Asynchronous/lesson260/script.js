@@ -410,3 +410,5 @@ const getPosition = function () {
     navigator.geolocation.getCurrentPosition(resolve, reject);
   });
 };
+
+getPosition();
