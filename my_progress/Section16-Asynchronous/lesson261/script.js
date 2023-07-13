@@ -461,4 +461,6 @@ const createImage = function (imgPath) {
   });
 };
 
-createImage('img/img-1.jpgdsas');
+createImage('img/img-1.jpgdsas').catch(err =>
+  console.error(`${err.message} 💥`)
+);
