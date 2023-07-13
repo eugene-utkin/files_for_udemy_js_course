@@ -455,8 +455,9 @@ const createImage = function (imgPath) {
       console.log(this);
       const images = document.querySelector('.images');
       images.append(this);
+      resolve(this);
     });
   });
 };
 
-createImage('img/img-1.jpg');
+console.log(createImage('img/img-1.jpg'));
