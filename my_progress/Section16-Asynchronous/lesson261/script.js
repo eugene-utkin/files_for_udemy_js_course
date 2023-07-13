@@ -447,5 +447,7 @@ btn.addEventListener('click', whereAmI);
 // Coding Challenge #2
 // My solution
 const createImage = function (imgPath) {
-  return new Promise(function (resolve, reject) {});
+  return new Promise(function (resolve, reject) {
+    const img = document.createElement('img');
+  });
 };
