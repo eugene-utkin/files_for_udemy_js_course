@@ -447,11 +447,11 @@ btn.addEventListener('click', whereAmI);
 // Coding Challenge #2
 // My solution
 const createImage = function (imgPath) {
-  return new Promise(function (resolve) {
+  return new Promise(function (resolve, reject) {
     const img = document.createElement('img');
     img.src = imgPath;
     img.addEventListener('error', function (e) {
-      console.log('error');
+      reject(new Error('There is no such file'));
     });
     img.addEventListener('load', function () {
       const images = document.querySelector('.images');
@@ -461,4 +461,4 @@ const createImage = function (imgPath) {
   });
 };
 
-createImage('img/img-1.jpg');
+createImage('img/img-1.jpgdsas');
