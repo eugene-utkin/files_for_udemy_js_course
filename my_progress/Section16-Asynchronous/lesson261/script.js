@@ -453,7 +453,7 @@ const createImage = function (imgPath) {
     img.addEventListener('error', function (e) {
       console.log('error');
     });
-    img.addEventListener('load', function (e) {
+    img.addEventListener('load', function () {
       console.log(e);
       console.log(this);
       const images = document.querySelector('.images');
