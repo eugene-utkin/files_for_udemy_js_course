@@ -452,6 +452,9 @@ const createImage = function (imgPath) {
     img.src = imgPath;
     img.addEventListener('load', function (e) {
       console.log(e);
+      console.log(this);
     });
   });
 };
+
+createImage('img/img-1.jpg');
