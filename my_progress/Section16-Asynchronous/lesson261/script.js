@@ -454,8 +454,6 @@ const createImage = function (imgPath) {
       console.log('error');
     });
     img.addEventListener('load', function () {
-      console.log(e);
-      console.log(this);
       const images = document.querySelector('.images');
       images.append(this);
       resolve(this);
