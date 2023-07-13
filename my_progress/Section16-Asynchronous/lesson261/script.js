@@ -464,3 +464,9 @@ const createImage = function (imgPath) {
 createImage('img/img-1.jpgdsas')
   .then(img => {})
   .catch(err => console.error(`${err.message} 💥`));
+
+const wait = function (seconds) {
+  return new Promise(function (resolve) {
+    setTimeout(resolve, seconds * 1000);
+  });
+};
