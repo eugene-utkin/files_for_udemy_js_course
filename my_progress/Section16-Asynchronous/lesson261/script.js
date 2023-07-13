@@ -446,6 +446,8 @@ btn.addEventListener('click', whereAmI);
 //////////////////////////////
 // Coding Challenge #2
 // My solution
+let currentImage;
+
 const createImage = function (imgPath) {
   return new Promise(function (resolve, reject) {
     const img = document.createElement('img');
@@ -462,7 +464,9 @@ const createImage = function (imgPath) {
 };
 
 createImage('img/img-1.jpgdsas')
-  .then(img => {})
+  .then(img => {
+    return wait(2);
+  })
   .catch(err => console.error(`${err.message} 💥`));
 
 const wait = function (seconds) {
