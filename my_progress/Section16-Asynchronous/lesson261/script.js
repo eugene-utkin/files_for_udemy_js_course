@@ -450,6 +450,9 @@ const createImage = function (imgPath) {
   return new Promise(function (resolve) {
     const img = document.createElement('img');
     img.src = imgPath;
+    img.addEventListener('error', function (e) {
+      console.log('error');
+    });
     img.addEventListener('load', function (e) {
       console.log(e);
       console.log(this);
