@@ -447,7 +447,7 @@ btn.addEventListener('click', whereAmI);
 // Coding Challenge #2
 // My solution
 const createImage = function (imgPath) {
-  return new Promise(function (resolve, reject) {
+  return new Promise(function (resolve) {
     const img = document.createElement('img');
     img.src = imgPath;
     img.addEventListener('load', function (e) {
@@ -460,4 +460,4 @@ const createImage = function (imgPath) {
   });
 };
 
-console.log(createImage('img/img-1.jpg'));
+createImage('img/img-1.jpg');
