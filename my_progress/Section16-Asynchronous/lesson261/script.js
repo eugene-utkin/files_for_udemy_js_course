@@ -461,6 +461,6 @@ const createImage = function (imgPath) {
   });
 };
 
-createImage('img/img-1.jpgdsas').catch(err =>
-  console.error(`${err.message} 💥`)
-);
+createImage('img/img-1.jpgdsas')
+  .then(img => {})
+  .catch(err => console.error(`${err.message} 💥`));
