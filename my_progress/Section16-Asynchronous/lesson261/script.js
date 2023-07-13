@@ -453,6 +453,7 @@ const createImage = function (imgPath) {
     img.addEventListener('load', function (e) {
       console.log(e);
       console.log(this);
+      const images = document.querySelector('.images');
     });
   });
 };
