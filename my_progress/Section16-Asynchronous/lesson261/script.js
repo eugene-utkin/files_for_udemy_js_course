@@ -454,6 +454,7 @@ const createImage = function (imgPath) {
       console.log(e);
       console.log(this);
       const images = document.querySelector('.images');
+      images.append(this);
     });
   });
 };
