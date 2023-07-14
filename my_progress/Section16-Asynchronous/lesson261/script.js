@@ -458,7 +458,6 @@ const createImage = function (imgPath) {
     img.addEventListener('load', function () {
       const images = document.querySelector('.images');
       images.append(this);
-      currentImage = this;
       resolve(this);
     });
   });
@@ -466,6 +465,7 @@ const createImage = function (imgPath) {
 
 createImage('img/img-1.jpg')
   .then(img => {
+    currentImage = this;
     return wait(2);
   })
   .then(res => {})
