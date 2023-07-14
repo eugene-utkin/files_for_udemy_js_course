@@ -472,6 +472,10 @@ createImage('img/img-1.jpg')
     currentImage.style.display = 'none';
     return createImage('img/img-2.jpg');
   })
+  .then(img => {
+    currentImage = img;
+    return wait(2);
+  })
   .catch(err => console.error(`${err.message} 💥`));
 
 const wait = function (seconds) {
