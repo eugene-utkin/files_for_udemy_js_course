@@ -477,7 +477,7 @@ createImageAndWait('img/img-1.jpg')
   })
   .then(img => {
     currentImage.style.display = 'none';
-    createImageAndWait('img/img-3.jpg');
+    return createImageAndWait('img/img-3.jpg');
   })
   .catch(err => console.error(`${err.message} 💥`));
 
