@@ -477,10 +477,7 @@ const hideImageAndCreateNew = function (src) {
 
 createImageAndWait('img/img-1.jpg')
   .then(res => hideImageAndCreateNew('img/img-2.jpg'))
-  .then(img => {
-    currentImage.style.display = 'none';
-    return createImageAndWait('img/img-3.jpg');
-  })
+  .then(img => hideImageAndCreateNew('img/img-3.jpg'))
   .catch(err => console.error(`${err.message} 💥`));
 
 const wait = function (seconds) {
