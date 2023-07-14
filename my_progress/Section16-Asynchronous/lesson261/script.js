@@ -463,11 +463,13 @@ const createImage = function (imgPath) {
   });
 };
 
-createImage('img/img-1.jpg')
-  .then(img => {
+const createImageAndWait = function (src) {
+  return createImage(src).then(img => {
     currentImage = img;
     return wait(2);
-  })
+  });
+}
+
   .then(res => {
     currentImage.style.display = 'none';
     return createImage('img/img-2.jpg');
