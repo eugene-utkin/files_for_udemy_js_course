@@ -464,7 +464,7 @@ const createImage = function (imgPath) {
   });
 };
 
-createImage('img/img-1.jpgdsas')
+createImage('img/img-1.jpg')
   .then(img => {
     return wait(2);
   })
