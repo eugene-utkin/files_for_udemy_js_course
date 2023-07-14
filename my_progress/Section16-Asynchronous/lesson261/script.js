@@ -470,6 +470,8 @@ const createImageAndWait = function (src) {
   });
 };
 
+const hideImageAndCreateNew = function (src) {};
+
 createImageAndWait('img/img-1.jpg')
   .then(res => {
     currentImage.style.display = 'none';
