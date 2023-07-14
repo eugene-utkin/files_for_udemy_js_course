@@ -476,10 +476,7 @@ const hideImageAndCreateNew = function (src) {
 };
 
 createImageAndWait('img/img-1.jpg')
-  .then(res => {
-    currentImage.style.display = 'none';
-    return createImageAndWait('img/img-2.jpg');
-  })
+  .then(res => hideImageAndCreateNew('img/img-2.jpg'))
   .then(img => {
     currentImage.style.display = 'none';
     return createImageAndWait('img/img-3.jpg');
