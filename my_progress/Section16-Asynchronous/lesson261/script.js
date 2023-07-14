@@ -472,7 +472,7 @@ const createImageAndWait = function (src) {
 
 const hideImageAndCreateNew = function (src) {
   currentImage.style.display = 'none';
-  return createImageAndWait('img/img-2.jpg');
+  return createImageAndWait(src);
 };
 
 createImageAndWait('img/img-1.jpg')
