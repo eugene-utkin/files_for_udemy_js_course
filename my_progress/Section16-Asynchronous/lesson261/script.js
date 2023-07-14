@@ -468,6 +468,7 @@ createImage('img/img-1.jpg')
   .then(img => {
     return wait(2);
   })
+  .then(res => {})
   .catch(err => console.error(`${err.message} 💥`));
 
 const wait = function (seconds) {
