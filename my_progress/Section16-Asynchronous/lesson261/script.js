@@ -465,10 +465,10 @@ const createImage = function (imgPath) {
 
 createImage('img/img-1.jpg')
   .then(img => {
-    currentImage = this;
+    currentImage = img;
     return wait(2);
   })
-  .then(res => {})
+  .then(res => (currentImage.style.display = 'none'))
   .catch(err => console.error(`${err.message} 💥`));
 
 const wait = function (seconds) {
