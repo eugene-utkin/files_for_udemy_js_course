@@ -473,7 +473,11 @@ const createImageAndWait = function (src) {
 createImageAndWait('img/img-1.jpg')
   .then(res => {
     currentImage.style.display = 'none';
-    createImageAndWait('img/img-2.jpg');
+    return createImageAndWait('img/img-2.jpg');
+  })
+  .then(img => {
+    currentImage.style.display = 'none';
+    createImageAndWait('img/img-3.jpg');
   })
   .catch(err => console.error(`${err.message} 💥`));
 
