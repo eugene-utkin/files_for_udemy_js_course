@@ -470,7 +470,10 @@ const createImageAndWait = function (src) {
   });
 };
 
-const hideImageAndCreateNew = function (src) {};
+const hideImageAndCreateNew = function (src) {
+  currentImage.style.display = 'none';
+  return createImageAndWait('img/img-2.jpg');
+};
 
 createImageAndWait('img/img-1.jpg')
   .then(res => {
