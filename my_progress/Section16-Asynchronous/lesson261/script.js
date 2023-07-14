@@ -468,15 +468,12 @@ const createImageAndWait = function (src) {
     currentImage = img;
     return wait(2);
   });
-}
+};
 
+createImageAndWait('img/img-1.jpg')
   .then(res => {
     currentImage.style.display = 'none';
-    return createImage('img/img-2.jpg');
-  })
-  .then(img => {
-    currentImage = img;
-    return wait(2);
+    createImageAndWait('img/img-2.jpg');
   })
   .catch(err => console.error(`${err.message} 💥`));
 
