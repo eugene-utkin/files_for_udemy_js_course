@@ -446,6 +446,7 @@ btn.addEventListener('click', whereAmI);
 //////////////////////////////
 // Coding Challenge #2
 // My solution
+/*
 let currentImage;
 
 const createImage = function (imgPath) {
@@ -485,3 +486,4 @@ const wait = function (seconds) {
     setTimeout(resolve, seconds * 1000);
   });
 };
+*/
