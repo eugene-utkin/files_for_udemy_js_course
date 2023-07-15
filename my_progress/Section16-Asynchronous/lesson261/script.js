@@ -500,5 +500,7 @@ const createImage = function (imgPath) {
       imgContainer.append(img);
       resolve(img);
     });
+
+    img.addEventListener('error', function () {});
   });
 };
