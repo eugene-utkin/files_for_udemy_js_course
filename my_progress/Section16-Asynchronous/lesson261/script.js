@@ -496,6 +496,8 @@ const createImage = function (imgPath) {
     const img = document.createElement('img');
     img.src = imgPath;
 
-    img.addEventListener('load', function () {});
+    img.addEventListener('load', function () {
+      imgContainer.append(img);
+    });
   });
 };
