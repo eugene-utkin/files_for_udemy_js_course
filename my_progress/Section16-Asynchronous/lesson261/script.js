@@ -488,6 +488,9 @@ const wait = function (seconds) {
 };
 */
 // Teacher's solution
+
+const imgContainer = document.querySelector('.images');
+
 const createImage = function (imgPath) {
   return new Promise(function (resolve, reject) {
     const img = document.createElement('img');
