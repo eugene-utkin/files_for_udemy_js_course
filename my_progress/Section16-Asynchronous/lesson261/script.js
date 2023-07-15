@@ -507,4 +507,4 @@ const createImage = function (imgPath) {
   });
 };
 
-createImage();
+createImage().then(img => {});
