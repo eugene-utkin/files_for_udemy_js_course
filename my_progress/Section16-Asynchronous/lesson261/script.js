@@ -487,3 +487,4 @@ const wait = function (seconds) {
   });
 };
 */
+// Teacher's solution
