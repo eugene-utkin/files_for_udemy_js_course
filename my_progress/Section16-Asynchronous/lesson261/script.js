@@ -501,6 +501,8 @@ const createImage = function (imgPath) {
       resolve(img);
     });
 
-    img.addEventListener('error', function () {});
+    img.addEventListener('error', function () {
+      reject(new Error('Image not found'));
+    });
   });
 };
