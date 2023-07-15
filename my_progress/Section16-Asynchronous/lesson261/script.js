@@ -488,3 +488,4 @@ const wait = function (seconds) {
 };
 */
 // Teacher's solution
+const createImage = function (imgPath) {};
