@@ -507,4 +507,6 @@ const createImage = function (imgPath) {
   });
 };
 
-createImage().then(img => {});
+createImage().then(img => {
+  console.log('Image 1 loaded');
+});
