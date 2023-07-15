@@ -489,5 +489,7 @@ const wait = function (seconds) {
 */
 // Teacher's solution
 const createImage = function (imgPath) {
-  return new Promise(function (resolve, reject) {});
+  return new Promise(function (resolve, reject) {
+    const img = document.createElement('img');
+  });
 };
