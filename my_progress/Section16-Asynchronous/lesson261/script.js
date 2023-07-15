@@ -506,3 +506,5 @@ const createImage = function (imgPath) {
     });
   });
 };
+
+createImage();
