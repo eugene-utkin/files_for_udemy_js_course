@@ -498,6 +498,7 @@ const createImage = function (imgPath) {
 
     img.addEventListener('load', function () {
       imgContainer.append(img);
+      resolve(img);
     });
   });
 };
