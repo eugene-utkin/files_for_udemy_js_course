@@ -523,6 +523,6 @@ createImage('img/img-1.jpg')
   })
   .then(() => {
     currentImg.style.display = 'none';
-    createImage('img/ing-2.jpg');
+    return createImage('img/ing-2.jpg');
   })
   .catch(err => console.error(err));
