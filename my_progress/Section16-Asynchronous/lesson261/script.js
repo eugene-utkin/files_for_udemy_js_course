@@ -523,7 +523,7 @@ createImage('img/img-1.jpg')
   })
   .then(() => {
     currentImg.style.display = 'none';
-    return createImage('img/ing-2.jpg');
+    return createImage('img/img-2.jpg');
   })
   .then(img => {
     currentImg = img;
