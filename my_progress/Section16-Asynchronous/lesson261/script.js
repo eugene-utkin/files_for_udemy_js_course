@@ -527,5 +527,6 @@ createImage('img/img-1.jpg')
   })
   .then(img => {
     currentImg = img;
+    console.log('Image 2 loaded');
   })
   .catch(err => console.error(err));
