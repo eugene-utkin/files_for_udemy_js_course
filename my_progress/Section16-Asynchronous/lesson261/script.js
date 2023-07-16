@@ -518,4 +518,5 @@ createImage('img/img-1.jpg')
     console.log('Image 1 loaded');
     return wait(2);
   })
+  .then()
   .catch(err => console.error(err));
