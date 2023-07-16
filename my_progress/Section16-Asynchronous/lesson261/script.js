@@ -517,6 +517,7 @@ let currentImg;
 
 createImage('img/img-1.jpg')
   .then(img => {
+    currentImg = img;
     console.log('Image 1 loaded');
     return wait(2);
   })
