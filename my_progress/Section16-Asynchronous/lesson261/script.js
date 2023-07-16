@@ -516,6 +516,6 @@ const createImage = function (imgPath) {
 createImage('img/img-1.jpg')
   .then(img => {
     console.log('Image 1 loaded');
-    wait(2);
+    return wait(2);
   })
   .catch(err => console.error(err));
