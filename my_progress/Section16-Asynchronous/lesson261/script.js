@@ -525,4 +525,5 @@ createImage('img/img-1.jpg')
     currentImg.style.display = 'none';
     return createImage('img/ing-2.jpg');
   })
+  .then(img => {})
   .catch(err => console.error(err));
