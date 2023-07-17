@@ -536,4 +536,4 @@ createImage('img/img-1.jpg')
   .catch(err => console.error(err));
 */
 
-const whereAmI = function (country) {};
+const whereAmI = async function (country) {};
