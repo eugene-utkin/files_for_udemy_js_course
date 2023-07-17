@@ -544,7 +544,7 @@ const whereAmI = async function (country) {
   const res = await fetch(
     `https://countries-api-836d.onrender.com/countries/name/${country}`
   );
-  await res.json();
+  const data = await res.json();
 };
 whereAmI('portugal');
 console.log('FIRST');
