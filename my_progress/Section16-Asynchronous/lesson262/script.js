@@ -537,11 +537,11 @@ createImage('img/img-1.jpg')
 */
 
 const whereAmI = async function (country) {
+  fetch(`https://countries-api-836d.onrender.com/countries/name/${country}`);
   const res = await fetch(
     `https://countries-api-836d.onrender.com/countries/name/${country}`
   );
   console.log(res);
 };
-
 whereAmI('portugal');
 console.log('FIRST');
