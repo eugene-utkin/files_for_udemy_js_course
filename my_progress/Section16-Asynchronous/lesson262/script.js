@@ -540,10 +540,11 @@ const whereAmI = async function (country) {
   // fetch(
   //   `https://countries-api-836d.onrender.com/countries/name/${country}`
   // ).then(res => console.log(res));
+
   const res = await fetch(
     `https://countries-api-836d.onrender.com/countries/name/${country}`
   );
-  console.log(res);
+  res.json();
 };
 whereAmI('portugal');
 console.log('FIRST');
