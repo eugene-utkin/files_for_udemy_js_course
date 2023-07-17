@@ -542,3 +542,5 @@ const whereAmI = async function (country) {
   );
   console.log(res);
 };
+
+whereAmI('portugal');
