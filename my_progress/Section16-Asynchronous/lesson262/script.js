@@ -544,3 +544,4 @@ const whereAmI = async function (country) {
 };
 
 whereAmI('portugal');
+console.log('FIRST');
