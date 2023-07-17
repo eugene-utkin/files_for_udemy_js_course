@@ -488,7 +488,7 @@ const wait = function (seconds) {
 };
 */
 // Teacher's solution
-
+/*
 const wait = function (seconds) {
   return new Promise(function (resolve) {
     setTimeout(resolve, seconds * 1000);
@@ -534,3 +534,4 @@ createImage('img/img-1.jpg')
     currentImg.style.display = 'none';
   })
   .catch(err => console.error(err));
+*/
