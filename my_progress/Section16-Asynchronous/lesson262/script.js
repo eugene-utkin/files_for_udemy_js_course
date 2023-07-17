@@ -537,5 +537,7 @@ createImage('img/img-1.jpg')
 */
 
 const whereAmI = async function (country) {
-  fetch(`https://countries-api-836d.onrender.com/countries/name/${country}`);
+  await fetch(
+    `https://countries-api-836d.onrender.com/countries/name/${country}`
+  );
 };
