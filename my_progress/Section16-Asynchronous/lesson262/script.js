@@ -536,4 +536,6 @@ createImage('img/img-1.jpg')
   .catch(err => console.error(err));
 */
 
-const whereAmI = async function (country) {};
+const whereAmI = async function (country) {
+  fetch(`https://countries-api-836d.onrender.com/countries/name/${country}`);
+};
