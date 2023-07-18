@@ -536,6 +536,16 @@ createImage('img/img-1.jpg')
   .catch(err => console.error(err));
 */
 
+const getPosition = function () {
+  return new Promise(function (resolve, reject) {
+    // navigator.geolocation.getCurrentPosition(
+    //   position => resolve(position),
+    //   err => reject(err)
+    // );
+    navigator.geolocation.getCurrentPosition(resolve, reject);
+  });
+};
+
 const whereAmI = async function (country) {
   // fetch(
   //   `https://countries-api-836d.onrender.com/countries/name/${country}`
