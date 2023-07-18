@@ -543,12 +543,14 @@ const getPosition = function () {
 };
 
 const whereAmI = async function (country) {
+  // Geolocation
   const pos = await getPosition();
   const { latitude: lat, longitude: lng } = pos.coords;
   const resGeo = await fetch(
     `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lng}&localityLanguage=en`
   );
   const dataGeo = await resGeo.json();
+
   // fetch(
   //   `https://countries-api-836d.onrender.com/countries/name/${country}`
   // ).then(res => console.log(res));
