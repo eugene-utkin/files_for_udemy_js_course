@@ -543,7 +543,7 @@ const getPosition = function () {
 };
 
 const whereAmI = async function (country) {
-  getPosition();
+  await getPosition();
 
   // fetch(
   //   `https://countries-api-836d.onrender.com/countries/name/${country}`
