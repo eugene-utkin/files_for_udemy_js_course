@@ -553,6 +553,7 @@ const whereAmI = async function (country) {
   );
   const dataGeo = await resGeo.json();
 
+  // Country data
   // fetch(
   //   `https://countries-api-836d.onrender.com/countries/name/${country}`
   // ).then(res => console.log(res));
