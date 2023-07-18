@@ -548,7 +548,7 @@ const whereAmI = async function (country) {
   const resGeo = await fetch(
     `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lng}&localityLanguage=en`
   );
-  await resGeo.json();
+  const dataGeo = await resGeo.json();
   // fetch(
   //   `https://countries-api-836d.onrender.com/countries/name/${country}`
   // ).then(res => console.log(res));
