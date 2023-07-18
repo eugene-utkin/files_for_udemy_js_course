@@ -544,6 +544,7 @@ const getPosition = function () {
 
 const whereAmI = async function (country) {
   const pos = await getPosition();
+  const { latitude: lat, longitude: lng } = pos.coords;
 
   // fetch(
   //   `https://countries-api-836d.onrender.com/countries/name/${country}`
