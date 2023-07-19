@@ -566,5 +566,5 @@ const whereAmI = async function (country) {
   console.log(data);
   renderCountry(data[0]);
 };
-whereAmI('portugal');
+whereAmI();
 console.log('FIRST');
