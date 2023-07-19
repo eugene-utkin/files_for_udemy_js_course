@@ -566,7 +566,9 @@ const whereAmI = async function (country) {
     const data = await res.json();
     console.log(data);
     renderCountry(data[0]);
-  } catch (err) {}
+  } catch (err) {
+    console.error(err);
+  }
 };
 whereAmI();
 console.log('FIRST');
