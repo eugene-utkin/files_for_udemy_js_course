@@ -568,6 +568,7 @@ const whereAmI = async function (country) {
     renderCountry(data[0]);
   } catch (err) {
     console.error(err);
+    renderError(`Something went wrong 💥`);
   }
 };
 whereAmI();
