@@ -570,4 +570,5 @@ whereAmI();
 console.log('FIRST');
 
 try {
+  let y = 1;
 }
