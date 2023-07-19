@@ -548,25 +548,25 @@ const getPosition = function () {
 
 const whereAmI = async function (country) {
   try {
-  // Geolocation
-  const pos = await getPosition();
-  const { latitude: lat, longitude: lng } = pos.coords;
+    // Geolocation
+    const pos = await getPosition();
+    const { latitude: lat, longitude: lng } = pos.coords;
 
-  // Reverse geocoding
-  const resGeo = await fetch(
-    `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lng}&localityLanguage=en`
-  );
-  const dataGeo = await resGeo.json();
-  console.log(dataGeo);
+    // Reverse geocoding
+    const resGeo = await fetch(
+      `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lng}&localityLanguage=en`
+    );
+    const dataGeo = await resGeo.json();
+    console.log(dataGeo);
 
-  // Country data
-  const res = await fetch(
-    `https://countries-api-836d.onrender.com/countries/name/${dataGeo.countryName}`
-  );
-  const data = await res.json();
-  console.log(data);
-  renderCountry(data[0]);
-  }
+    // Country data
+    const res = await fetch(
+      `https://countries-api-836d.onrender.com/countries/name/${dataGeo.countryName}`
+    );
+    const data = await res.json();
+    console.log(data);
+    renderCountry(data[0]);
+  } catch (err) {}
 };
 whereAmI();
 console.log('FIRST');
