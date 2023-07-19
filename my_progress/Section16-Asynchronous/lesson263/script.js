@@ -573,4 +573,6 @@ try {
   let y = 1;
   const x = 2;
   x = 3;
-} catch (err) {}
+} catch (err) {
+  alert(err.message);
+}
