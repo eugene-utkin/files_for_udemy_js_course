@@ -568,3 +568,6 @@ const whereAmI = async function (country) {
 };
 whereAmI();
 console.log('FIRST');
+
+try {
+}
