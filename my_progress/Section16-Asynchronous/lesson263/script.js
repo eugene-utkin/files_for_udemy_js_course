@@ -547,6 +547,7 @@ const getPosition = function () {
 // ).then(res => console.log(res));
 
 const whereAmI = async function (country) {
+  try {
   // Geolocation
   const pos = await getPosition();
   const { latitude: lat, longitude: lng } = pos.coords;
@@ -565,6 +566,7 @@ const whereAmI = async function (country) {
   const data = await res.json();
   console.log(data);
   renderCountry(data[0]);
+  }
 };
 whereAmI();
 console.log('FIRST');
