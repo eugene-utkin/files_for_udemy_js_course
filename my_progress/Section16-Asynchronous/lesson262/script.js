@@ -542,6 +542,10 @@ const getPosition = function () {
   });
 };
 
+// fetch(
+//   `https://countries-api-836d.onrender.com/countries/name/${country}`
+// ).then(res => console.log(res));
+
 const whereAmI = async function (country) {
   // Geolocation
   const pos = await getPosition();
@@ -555,10 +559,6 @@ const whereAmI = async function (country) {
   console.log(dataGeo);
 
   // Country data
-  // fetch(
-  //   `https://countries-api-836d.onrender.com/countries/name/${country}`
-  // ).then(res => console.log(res));
-
   const res = await fetch(
     `https://countries-api-836d.onrender.com/countries/name/${dataGeo.countryName}`
   );
