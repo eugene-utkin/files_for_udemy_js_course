@@ -567,7 +567,7 @@ const whereAmI = async function (country) {
     console.log(data);
     renderCountry(data[0]);
   } catch (err) {
-    console.error(err);
+    console.error(`${err} 💥`);
     renderError(`Something went wrong 💥 ${err.message}`);
   }
 };
