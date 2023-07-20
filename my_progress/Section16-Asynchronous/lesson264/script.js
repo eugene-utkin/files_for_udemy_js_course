@@ -578,4 +578,4 @@ const whereAmI = async function (country) {
 
 console.log('1: Will get location');
 whereAmI();
-console.log('2: Finished getting location');
+console.log('3: Finished getting location');
