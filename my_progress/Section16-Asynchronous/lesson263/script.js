@@ -564,6 +564,7 @@ const whereAmI = async function (country) {
     const res = await fetch(
       `https://countries-api-836d.onrender.com/countries/name/${dataGeo.countryName}`
     );
+    if (!res.ok) throw new Error('Problem getting location data');
     const data = await res.json();
     console.log(data);
     renderCountry(data[0]);
