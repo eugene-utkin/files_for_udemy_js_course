@@ -556,6 +556,7 @@ const whereAmI = async function (country) {
     const resGeo = await fetch(
       `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lng}&localityLanguage=en`
     );
+    if (!resGeo.ok) throw new Error('Problem getting location data');
     const dataGeo = await resGeo.json();
     console.log(dataGeo);
 
