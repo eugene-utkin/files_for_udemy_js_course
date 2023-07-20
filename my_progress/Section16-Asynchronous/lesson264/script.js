@@ -577,6 +577,6 @@ const whereAmI = async function (country) {
 };
 
 console.log('1: Will get location');
-const city = whereAmI();
-console.log(city);
+// const city = whereAmI();
+// console.log(city);
 console.log('3: Finished getting location');
