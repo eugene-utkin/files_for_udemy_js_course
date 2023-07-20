@@ -577,11 +577,3 @@ const whereAmI = async function (country) {
 };
 whereAmI();
 console.log('FIRST');
-
-// try {
-//   let y = 1;
-//   const x = 2;
-//   y = 3;
-// } catch (err) {
-//   alert(err.message);
-// }
