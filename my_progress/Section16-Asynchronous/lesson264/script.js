@@ -567,7 +567,6 @@ const whereAmI = async function (country) {
     if (!res.ok) throw new Error('Problem getting country');
 
     const data = await res.json();
-    console.log(data);
     renderCountry(data[0]);
   } catch (err) {
     console.error(`${err} 💥`);
