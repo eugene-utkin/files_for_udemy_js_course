@@ -575,5 +575,7 @@ const whereAmI = async function (country) {
     renderError(`💥 ${err.message}`);
   }
 };
+
+console.log('1: Will get location');
 whereAmI();
 console.log('FIRST');
