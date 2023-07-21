@@ -569,7 +569,7 @@ const whereAmI = async function (country) {
     const data = await res.json();
     renderCountry(data[0]);
 
-    return `You are in ${dataGeo.city}, ${dataGeo.country}`;
+    return `You are in ${dataGeo.city}, ${dataGeo.countryName}`;
   } catch (err) {
     console.error(`${err} 💥`);
     renderError(`💥 ${err.message}`);
