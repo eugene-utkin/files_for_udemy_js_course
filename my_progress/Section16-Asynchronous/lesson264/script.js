@@ -594,5 +594,6 @@ console.log('1: Will get location');
     console.log(`2: ${result}`);
   } catch (err) {
     err => console.error(`2: ${err.message} 💥`);
+  } finally {
   }
 })();
