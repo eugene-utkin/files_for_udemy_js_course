@@ -575,6 +575,7 @@ const whereAmI = async function (country) {
     renderError(`💥 ${err.message}`);
 
     // Reject promise returned from async function
+    throw err;
   }
 };
 
