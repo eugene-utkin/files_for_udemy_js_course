@@ -562,7 +562,7 @@ const whereAmI = async function (country) {
 
     // Country data
     const res = await fetch(
-      `https://countries-api-836d.onrender.com/countries/name/${dataGeo.countryName}`
+      `https://countries-api-836d.onrender.com/countries/name/${dataGeo.countryNameqqqqq}`
     );
     if (!res.ok) throw new Error('Problem getting country');
 
@@ -579,5 +579,7 @@ const whereAmI = async function (country) {
 console.log('1: Will get location');
 // const city = whereAmI();
 // console.log(city);
-whereAmI().then(city => console.log(city));
+whereAmI()
+  .then(city => console.log(city))
+  .catch();
 console.log('3: Finished getting location');
