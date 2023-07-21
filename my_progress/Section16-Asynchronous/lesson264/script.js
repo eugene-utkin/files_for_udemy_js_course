@@ -584,5 +584,6 @@ console.log('1: Will get location');
 // console.log(city);
 whereAmI()
   .then(city => console.log(`2: ${city}`))
-  .catch(err => console.error(`2: ${err.message} 💥`));
+  .catch(err => console.error(`2: ${err.message} 💥`))
+  .finally();
 console.log('3: Finished getting location');
