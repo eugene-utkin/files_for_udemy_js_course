@@ -608,4 +608,5 @@ console.log('1: Will get location');
   } catch (err) {
     console.error(`2: ${err.message} 💥`);
   }
+  console.log('3: Finished getting location');
 })();
