@@ -589,13 +589,13 @@ console.log('1: Will get location');
 //   .finally(() => console.log('3: Finished getting location'));
 
 // My solution
-(async function () {
-  try {
-    const result = await whereAmI();
-    console.log(`2: ${result}`);
-  } catch (err) {
-    err => console.error(`2: ${err.message} 💥`);
-  } finally {
-    console.log('3: Finished getting location');
-  }
-})();
+// (async function () {
+//   try {
+//     const result = await whereAmI();
+//     console.log(`2: ${result}`);
+//   } catch (err) {
+//     err => console.error(`2: ${err.message} 💥`);
+//   } finally {
+//     console.log('3: Finished getting location');
+//   }
+// })();
