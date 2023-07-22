@@ -588,6 +588,7 @@ console.log('1: Will get location');
 //   .catch(err => console.error(`2: ${err.message} 💥`))
 //   .finally(() => console.log('3: Finished getting location'));
 
+// My solution
 (async function () {
   try {
     const result = await whereAmI();
