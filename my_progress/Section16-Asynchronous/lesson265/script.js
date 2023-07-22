@@ -536,6 +536,7 @@ createImage('img/img-1.jpg')
   .catch(err => console.error(err));
 */
 
+/*
 const getPosition = function () {
   return new Promise(function (resolve, reject) {
     navigator.geolocation.getCurrentPosition(resolve, reject);
@@ -610,3 +611,4 @@ console.log('1: Will get location');
   }
   console.log('3: Finished getting location');
 })();
+*/
