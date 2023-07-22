@@ -601,3 +601,4 @@ console.log('1: Will get location');
 // })();
 
 // Teacher's solution
+(async function () {})();
