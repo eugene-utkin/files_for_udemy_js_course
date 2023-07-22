@@ -615,6 +615,5 @@ console.log('1: Will get location');
 
 const get3Countries = async function (c1, c2, c3) {
   try {
-    
-  }
+  } catch (err) {}
 };
