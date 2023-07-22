@@ -603,6 +603,7 @@ console.log('1: Will get location');
 // Teacher's solution
 (async function () {
   try {
+    await whereAmI();
   } catch (err) {
     console.error(`2: ${err.message} 💥`);
   }
