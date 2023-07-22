@@ -603,5 +603,7 @@ console.log('1: Will get location');
 // Teacher's solution
 (async function () {
   try {
-  } catch (err) {}
+  } catch (err) {
+    console.error(`2: ${err.message} 💥`);
+  }
 })();
