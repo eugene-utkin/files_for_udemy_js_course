@@ -623,6 +623,9 @@ const get3Countries = async function (c1, c2, c3) {
     const [data2] = await getJSON(
       `https://countries-api-836d.onrender.com/countries/name/${c2}`
     );
+    const [data3] = await getJSON(
+      `https://countries-api-836d.onrender.com/countries/name/${c3}`
+    );
   } catch (err) {
     console.error(err);
   }
