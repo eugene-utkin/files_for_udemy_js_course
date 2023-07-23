@@ -627,7 +627,7 @@ const get3Countries = async function (c1, c2, c3) {
       `https://countries-api-836d.onrender.com/countries/name/${c3}`
     );
 
-    Promise.all([
+    const data = Promise.all([
       getJSON(`https://countries-api-836d.onrender.com/countries/name/${c1}`),
       getJSON(`https://countries-api-836d.onrender.com/countries/name/${c2}`),
       getJSON(`https://countries-api-836d.onrender.com/countries/name/${c3}`),
