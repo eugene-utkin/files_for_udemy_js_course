@@ -274,6 +274,7 @@ const getCountryData = function (country) {
       countriesContainer.style.opacity = 1;
     });
 };
+*/
 
 const getJSON = function (url, errorMsg = 'Something went wrong') {
   return fetch(url).then(response => {
@@ -284,6 +285,7 @@ const getJSON = function (url, errorMsg = 'Something went wrong') {
   });
 };
 
+/*
 const whereAmI = function (lat, lng) {
   fetch(
     `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lng}&localityLanguage=en`
