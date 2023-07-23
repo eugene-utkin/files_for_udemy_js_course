@@ -617,15 +617,15 @@ console.log('1: Will get location');
 
 const get3Countries = async function (c1, c2, c3) {
   try {
-    const [data1] = await getJSON(
-      `https://countries-api-836d.onrender.com/countries/name/${c1}`
-    );
-    const [data2] = await getJSON(
-      `https://countries-api-836d.onrender.com/countries/name/${c2}`
-    );
-    const [data3] = await getJSON(
-      `https://countries-api-836d.onrender.com/countries/name/${c3}`
-    );
+    // const [data1] = await getJSON(
+    //   `https://countries-api-836d.onrender.com/countries/name/${c1}`
+    // );
+    // const [data2] = await getJSON(
+    //   `https://countries-api-836d.onrender.com/countries/name/${c2}`
+    // );
+    // const [data3] = await getJSON(
+    //   `https://countries-api-836d.onrender.com/countries/name/${c3}`
+    // );
 
     const data = Promise.all([
       getJSON(`https://countries-api-836d.onrender.com/countries/name/${c1}`),
