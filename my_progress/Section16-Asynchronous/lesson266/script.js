@@ -644,5 +644,6 @@ get3Countries('portugal', 'canada', 'tanzania');
 (async function () {
   const res = await Promise.race([
     getJSON(`https://countries-api-836d.onrender.com/countries/name/italy`),
+    getJSON(`https://countries-api-836d.onrender.com/countries/name/egypt`),
   ]);
 })();
