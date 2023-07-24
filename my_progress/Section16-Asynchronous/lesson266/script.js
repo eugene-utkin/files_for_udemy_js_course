@@ -650,6 +650,8 @@ get3Countries('portugal', 'canada', 'tanzania');
   console.log(res[0]);
 })();
 
-const timeout = function (s) {
-  return new Promise(function (_, reject) {});
+const timeout = function (sec) {
+  return new Promise(function (_, reject) {
+    setTimeout(function () {}, sec);
+  });
 };
