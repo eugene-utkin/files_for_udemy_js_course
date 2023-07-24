@@ -658,4 +658,6 @@ const timeout = function (sec) {
   });
 };
 
-Promise.race([]);
+Promise.race([
+  getJSON(`https://countries-api-836d.onrender.com/countries/name/tanzania`),
+]);
