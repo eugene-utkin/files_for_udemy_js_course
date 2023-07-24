@@ -641,4 +641,6 @@ get3Countries('portugal', 'canada', 'tanzania');
 */
 
 // Promise.race
-(async function () {})();
+(async function () {
+  Promise.race();
+})();
