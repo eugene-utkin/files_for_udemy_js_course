@@ -657,3 +657,5 @@ const timeout = function (sec) {
     }, sec);
   });
 };
+
+Promise.race([]);
