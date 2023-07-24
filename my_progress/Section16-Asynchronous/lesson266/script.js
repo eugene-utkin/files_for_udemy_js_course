@@ -613,7 +613,7 @@ console.log('1: Will get location');
   console.log('3: Finished getting location');
 })();
 */
-
+/*
 const get3Countries = async function (c1, c2, c3) {
   try {
     // const [data1] = await getJSON(
@@ -638,3 +638,4 @@ const get3Countries = async function (c1, c2, c3) {
 };
 
 get3Countries('portugal', 'canada', 'tanzania');
+*/
