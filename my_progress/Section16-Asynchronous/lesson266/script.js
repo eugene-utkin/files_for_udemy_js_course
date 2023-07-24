@@ -647,4 +647,5 @@ get3Countries('portugal', 'canada', 'tanzania');
     getJSON(`https://countries-api-836d.onrender.com/countries/name/egypt`),
     getJSON(`https://countries-api-836d.onrender.com/countries/name/mexico`),
   ]);
+  console.log(res[0]);
 })();
