@@ -666,3 +666,4 @@ Promise.race([
   .catch(err => console.error(err));
 
 // Promise.allSettled
+Promise.allSettled();
