@@ -666,4 +666,8 @@ Promise.race([
   .catch(err => console.error(err));
 
 // Promise.allSettled
-Promise.allSettled([Promise.resolve('Success'), Promise.reject('ERROR')]);
+Promise.allSettled([
+  Promise.resolve('Success'),
+  Promise.reject('ERROR'),
+  Promise.resolve('Another success'),
+]);
