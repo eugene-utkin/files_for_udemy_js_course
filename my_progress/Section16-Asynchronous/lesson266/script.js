@@ -678,4 +678,4 @@ Promise.all([
   Promise.resolve('Another success'),
 ])
   .then(res => console.log(res))
-  .catch();
+  .catch(err => console.error(err));
