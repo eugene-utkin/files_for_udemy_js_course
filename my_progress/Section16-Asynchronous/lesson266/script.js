@@ -661,4 +661,4 @@ const timeout = function (sec) {
 Promise.race([
   getJSON(`https://countries-api-836d.onrender.com/countries/name/tanzania`),
   timeout(1),
-]).then(res => console.log(res));
+]).then(res => console.log(res[0]));
