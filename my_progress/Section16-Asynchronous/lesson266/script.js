@@ -663,4 +663,4 @@ Promise.race([
   timeout(1),
 ])
   .then(res => console.log(res[0]))
-  .catch();
+  .catch(err => console.error(err));
