@@ -694,3 +694,4 @@ Promise.any([
 // Coding Challenge #3
 
 // My solution
+const loadNPause = async function () {};
