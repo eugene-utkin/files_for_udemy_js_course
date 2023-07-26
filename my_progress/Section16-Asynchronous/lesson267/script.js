@@ -697,7 +697,7 @@ Promise.any([
 let currentImage;
 
 const loadNPause = async function (imgPath) {
-  const createdImage = await new Promise(function (resolve, reject) {
+  let currentImage = await new Promise(function (resolve, reject) {
     const img = document.createElement('img');
     img.src = imgPath;
     img.addEventListener('error', function (e) {
