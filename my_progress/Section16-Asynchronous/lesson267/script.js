@@ -696,7 +696,20 @@ Promise.any([
 // My solution
 let currentImage;
 
-const loadNPause = async function () {};
+const loadNPause = async function () {
+  const createdImage = await new Promise(function (resolve, reject) {
+    const img = document.createElement('img');
+    img.src = imgPath;
+    img.addEventListener('error', function (e) {
+      reject(new Error('There is no such file'));
+    });
+    img.addEventListener('load', function () {
+      const images = document.querySelector('.images');
+      images.append(this);
+      resolve(this);
+    });
+  });
+};
 
 /*
 let currentImage;
