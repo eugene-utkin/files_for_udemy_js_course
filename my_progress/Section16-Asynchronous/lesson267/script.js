@@ -717,6 +717,21 @@ const loadNPause = async function () {
   });
   await wait(2);
   currentImage.style.display = 'none';
+
+  currentImage = await new Promise(function (resolve, reject) {
+    const img = document.createElement('img');
+    img.src = 'img/img-2.jpg';
+    img.addEventListener('error', function (e) {
+      reject(new Error('There is no such file'));
+    });
+    img.addEventListener('load', function () {
+      const images = document.querySelector('.images');
+      images.append(this);
+      resolve(this);
+    });
+  });
+  await wait(2);
+  currentImage.style.display = 'none';
 };
 
 loadNPause();
