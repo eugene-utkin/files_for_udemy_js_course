@@ -694,6 +694,8 @@ Promise.any([
 // Coding Challenge #3
 
 // My solution
+let currentImage;
+
 const loadNPause = async function () {};
 
 /*
