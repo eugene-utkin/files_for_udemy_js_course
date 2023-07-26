@@ -715,6 +715,7 @@ const loadNPause = async function (imgPath) {
       resolve(this);
     });
   });
+  await wait(2);
 };
 
 /*
