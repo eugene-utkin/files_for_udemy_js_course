@@ -696,6 +696,12 @@ Promise.any([
 // My solution
 let currentImage;
 
+const wait = function (seconds) {
+  return new Promise(function (resolve) {
+    setTimeout(resolve, seconds * 1000);
+  });
+};
+
 const loadNPause = async function (imgPath) {
   let currentImage = await new Promise(function (resolve, reject) {
     const img = document.createElement('img');
