@@ -716,7 +716,10 @@ const loadNPause = async function (imgPath) {
     });
   });
   await wait(2);
+  currentImage.style.display = 'none';
 };
+
+loadNPause('img/img-1.jpg');
 
 /*
 let currentImage;
