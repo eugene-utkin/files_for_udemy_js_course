@@ -702,10 +702,10 @@ const wait = function (seconds) {
   });
 };
 
-const loadNPause = async function (imgPath) {
+const loadNPause = async function () {
   let currentImage = await new Promise(function (resolve, reject) {
     const img = document.createElement('img');
-    img.src = imgPath;
+    img.src = 'img/img-1.jpg';
     img.addEventListener('error', function (e) {
       reject(new Error('There is no such file'));
     });
@@ -719,7 +719,7 @@ const loadNPause = async function (imgPath) {
   currentImage.style.display = 'none';
 };
 
-loadNPause('img/img-1.jpg');
+loadNPause();
 
 /*
 let currentImage;
