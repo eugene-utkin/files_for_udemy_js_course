@@ -696,7 +696,7 @@ Promise.any([
 // My solution
 let currentImage;
 
-const loadNPause = async function () {
+const loadNPause = async function (imgPath) {
   const createdImage = await new Promise(function (resolve, reject) {
     const img = document.createElement('img');
     img.src = imgPath;
