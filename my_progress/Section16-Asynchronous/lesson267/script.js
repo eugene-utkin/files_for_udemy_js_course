@@ -735,7 +735,7 @@ const loadNPause = async function () {
   currentImage.style.display = 'none';
 };
 
-loadNPause();
+// loadNPause();
 
 // Part 2
 
