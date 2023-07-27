@@ -755,8 +755,9 @@ const loadNPause = async function () {
 // Part 2
 const images = ['img/img-1.jpg', 'img/img-2.jpg', 'img/img-3.jpg'];
 const loadAll = async function (imgArr) {
-  const imgs = imgArr.map(img => createImage(img));
-  console.log(imgs);
+  Promise.all(imgArr.map(img => createImage(img)))
+    .then(res => console.log(res))
+    .catch(err => console.error(err));
 };
 
 loadAll(images);
