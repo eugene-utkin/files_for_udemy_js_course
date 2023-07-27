@@ -694,6 +694,7 @@ Promise.any([
 // Coding Challenge #3
 
 // My solution
+/*
 // Part 1
 let currentImage;
 
@@ -761,5 +762,6 @@ const loadAll = async function (imgArr) {
 };
 
 loadAll(images);
+*/
 
 // Teacher's solution
