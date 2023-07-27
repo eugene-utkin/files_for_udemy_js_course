@@ -703,6 +703,22 @@ const wait = function (seconds) {
   });
 };
 
+const createImage = function (imgPath) {
+  return new Promise(function (resolve, reject) {
+    const img = document.createElement('img');
+    img.src = imgPath;
+
+    img.addEventListener('load', function () {
+      imgContainer.append(img);
+      resolve(img);
+    });
+
+    img.addEventListener('error', function () {
+      reject(new Error('Image not found'));
+    });
+  });
+};
+
 const loadNPause = async function () {
   let currentImage = await new Promise(function (resolve, reject) {
     const img = document.createElement('img');
@@ -739,7 +755,9 @@ const loadNPause = async function () {
 
 // Part 2
 const images = ['img/img-1.jpg', 'img/img-2.jpg', 'img/img3.jpg'];
-const loadAll = async function (imgArr) {};
+const loadAll = async function (imgArr) {
+  imgArr.map(img => )
+};
 
 loadAll(images);
 
