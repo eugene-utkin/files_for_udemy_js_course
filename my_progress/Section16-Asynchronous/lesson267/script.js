@@ -707,14 +707,13 @@ const createImage = function (imgPath) {
   return new Promise(function (resolve, reject) {
     const img = document.createElement('img');
     img.src = imgPath;
-
-    img.addEventListener('load', function () {
-      imgContainer.append(img);
-      resolve(img);
+    img.addEventListener('error', function (e) {
+      reject(new Error('There is no such file'));
     });
-
-    img.addEventListener('error', function () {
-      reject(new Error('Image not found'));
+    img.addEventListener('load', function () {
+      const images = document.querySelector('.images');
+      images.append(this);
+      resolve(this);
     });
   });
 };
@@ -757,6 +756,7 @@ const loadNPause = async function () {
 const images = ['img/img-1.jpg', 'img/img-2.jpg', 'img/img3.jpg'];
 const loadAll = async function (imgArr) {
   const imgs = imgArr.map(img => createImage(img));
+  console.log(imgs);
 };
 
 loadAll(images);
