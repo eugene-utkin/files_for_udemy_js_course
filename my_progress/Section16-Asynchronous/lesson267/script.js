@@ -762,6 +762,8 @@ const loadAll = async function (imgArr) {
 
 loadAll(images);
 
+// Teacher's solution
+
 /*
 let currentImage;
 
