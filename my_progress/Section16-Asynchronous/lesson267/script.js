@@ -741,6 +741,8 @@ const loadNPause = async function () {
 const images = ['img/img-1.jpg', 'img/img-2.jpg', 'img/img3.jpg'];
 const loadAll = async function (imgArr) {};
 
+loadAll(images);
+
 /*
 let currentImage;
 
