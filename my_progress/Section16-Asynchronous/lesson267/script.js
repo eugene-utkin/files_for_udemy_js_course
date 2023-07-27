@@ -694,6 +694,7 @@ Promise.any([
 // Coding Challenge #3
 
 // My solution
+// Part 1
 let currentImage;
 
 const wait = function (seconds) {
