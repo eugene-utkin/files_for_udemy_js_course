@@ -737,6 +737,8 @@ const loadNPause = async function () {
 
 loadNPause();
 
+// Part 2
+
 /*
 let currentImage;
 
