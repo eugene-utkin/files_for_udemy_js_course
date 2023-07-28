@@ -772,3 +772,18 @@ const wait = function (seconds) {
 };
 
 const imgContainer = document.querySelector('.images');
+
+const createImage = function (imgPath) {
+  return new Promise(function (resolve, reject) {
+    const img = document.createElement('img');
+    img.src = imgPath;
+    img.addEventListener('error', function (e) {
+      reject(new Error('There is no such file'));
+    });
+    img.addEventListener('load', function () {
+      const images = document.querySelector('.images');
+      images.append(this);
+      resolve(this);
+    });
+  });
+};
