@@ -770,3 +770,5 @@ const wait = function (seconds) {
     setTimeout(resolve, seconds * 1000);
   });
 };
+
+const imgContainer = document.querySelector('.images');
