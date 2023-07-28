@@ -812,5 +812,7 @@ createImage('img/img-1.jpg')
 
 const loadNPause = async function () {
   try {
-  } catch (err) {}
+  } catch (err) {
+    console.log(err);
+  }
 };
