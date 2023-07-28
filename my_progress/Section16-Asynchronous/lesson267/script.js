@@ -787,3 +787,5 @@ const createImage = function (imgPath) {
     });
   });
 };
+
+let currentImg;
