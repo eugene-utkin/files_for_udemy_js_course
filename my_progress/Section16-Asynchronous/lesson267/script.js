@@ -823,5 +823,6 @@ const loadNPause = async function () {
     console.log('Image 2 loaded');
   } catch (err) {
     console.log(err);
+    wait(2);
   }
 };
