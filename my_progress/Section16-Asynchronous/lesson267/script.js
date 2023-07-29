@@ -830,3 +830,5 @@ const loadNPause = async function () {
 };
 
 loadNPause();
+
+// PART 2
