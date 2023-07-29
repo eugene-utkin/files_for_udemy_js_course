@@ -825,7 +825,7 @@ const loadNPause = async function () {
     await wait(2);
     img.style.display = 'none';
   } catch (err) {
-    console.log(err);
+    console.error(err);
   }
 };
 
