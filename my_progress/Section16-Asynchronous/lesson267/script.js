@@ -832,3 +832,4 @@ const loadNPause = async function () {
 loadNPause();
 
 // PART 2
+const loadAll = async function (imgArr) {};
