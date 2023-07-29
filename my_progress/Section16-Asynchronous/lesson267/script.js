@@ -827,3 +827,5 @@ const loadNPause = async function () {
     console.log(err);
   }
 };
+
+loadNPause();
