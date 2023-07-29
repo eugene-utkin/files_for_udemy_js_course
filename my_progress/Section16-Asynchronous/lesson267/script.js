@@ -834,5 +834,7 @@ loadNPause();
 // PART 2
 const loadAll = async function (imgArr) {
   try {
-  } catch (err) {}
+  } catch (err) {
+    console.error(err);
+  }
 };
