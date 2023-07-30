@@ -829,7 +829,7 @@ const loadNPause = async function () {
   }
 };
 
-loadNPause();
+// loadNPause();
 
 // PART 2
 const loadAll = async function (imgArr) {
