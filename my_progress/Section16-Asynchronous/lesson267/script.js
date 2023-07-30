@@ -837,7 +837,7 @@ const loadAll = async function (imgArr) {
     const imgs = imgArr.map(async img => await createImage(img));
     console.log(imgs);
 
-    await Promise.all(imgs);
+    const imgsEl = await Promise.all(imgs);
   } catch (err) {
     console.error(err);
   }
