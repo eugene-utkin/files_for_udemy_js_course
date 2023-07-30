@@ -835,6 +835,7 @@ const loadNPause = async function () {
 const loadAll = async function (imgArr) {
   try {
     const imgs = imgArr.map(async img => await createImage(img));
+    console.log(imgs);
   } catch (err) {
     console.error(err);
   }
