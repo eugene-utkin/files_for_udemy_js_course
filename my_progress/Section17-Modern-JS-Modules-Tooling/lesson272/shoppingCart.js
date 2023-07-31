@@ -10,3 +10,4 @@ export const addToCart = function (product, quantity) {
 };
 
 const totalPrice = 237;
+const totalQuantity = 23;
