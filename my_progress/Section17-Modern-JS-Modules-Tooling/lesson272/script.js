@@ -11,3 +11,4 @@ console.log('Importing module');
 // console.log(ShoppingCart.totalPrice);
 
 import add from './shoppingCart.js';
+add('pizza', 2);
