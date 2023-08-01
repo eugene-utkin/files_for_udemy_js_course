@@ -3,7 +3,7 @@
 // addToCart('bread', 5);
 // console.log(price, tq);
 
-import * as ShoppingCart from './shoppingCart';
-
 console.log('Importing module');
 // console.log(shippingCost);
+
+import * as ShoppingCart from './shoppingCart';
