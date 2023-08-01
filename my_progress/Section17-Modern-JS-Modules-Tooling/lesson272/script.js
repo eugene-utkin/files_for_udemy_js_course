@@ -6,4 +6,4 @@
 console.log('Importing module');
 // console.log(shippingCost);
 
-import * as ShoppingCart from './shoppingCart';
+import * as ShoppingCart from './shoppingCart.js';
