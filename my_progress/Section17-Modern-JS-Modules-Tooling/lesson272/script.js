@@ -15,3 +15,4 @@ console.log('Importing module');
 
 import add from './shoppingCart.js';
 add('pizza', 2);
+add('bread', 5);
