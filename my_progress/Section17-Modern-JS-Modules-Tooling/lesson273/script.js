@@ -20,4 +20,4 @@ add('apples', 4);
 
 console.log(cart);
 
-fetch('https://jsonplaceholder.typicode.com/posts');
+await fetch('https://jsonplaceholder.typicode.com/posts');
