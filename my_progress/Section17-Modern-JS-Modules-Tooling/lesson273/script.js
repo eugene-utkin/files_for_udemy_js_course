@@ -40,4 +40,4 @@ console.log(lastPost);
 // Not very clean
 // lastPost.then(last => console.log(last));
 
-getLastPost();
+await getLastPost();
