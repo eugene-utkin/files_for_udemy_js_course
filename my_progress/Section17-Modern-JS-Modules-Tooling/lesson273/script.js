@@ -38,4 +38,4 @@ const lastPost = getLastPost();
 console.log(lastPost);
 
 // Not very clean
-lastPost.then(last => console.log(last));
+// lastPost.then(last => console.log(last));
