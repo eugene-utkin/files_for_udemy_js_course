@@ -34,4 +34,4 @@ const getLastPost = async function () {
   return { title: data.at(-1).title, text: data.at(-1).body };
 };
 
-getLastPost();
+const lastPost = getLastPost();
