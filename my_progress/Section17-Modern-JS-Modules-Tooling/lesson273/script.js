@@ -25,3 +25,5 @@ console.log(cart);
 // const data = await res.json();
 // console.log(data);
 // console.log('Something');
+
+const getLastPost = async function () {};
