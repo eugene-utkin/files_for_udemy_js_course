@@ -37,4 +37,4 @@ const getLastPost = async function () {
 const lastPost = getLastPost();
 console.log(lastPost);
 
-lastPost.then();
+lastPost.then(last => console.log(last));
