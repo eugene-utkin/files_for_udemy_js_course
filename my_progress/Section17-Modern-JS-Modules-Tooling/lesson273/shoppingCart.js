@@ -1,6 +1,8 @@
 // Exporting module
 console.log('Exporting module');
 
+// Blocking code
+
 const shippingCost = 10;
 export const cart = [];
 
