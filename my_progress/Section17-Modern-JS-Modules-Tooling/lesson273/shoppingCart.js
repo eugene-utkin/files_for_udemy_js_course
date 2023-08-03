@@ -2,6 +2,7 @@
 console.log('Exporting module');
 
 // Blocking code
+console.log('Start fetch');
 
 const shippingCost = 10;
 export const cart = [];
