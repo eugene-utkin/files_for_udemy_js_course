@@ -62,5 +62,6 @@ console.log(lastPost2);
   return {
     addToCart,
     cart,
+    totalPrice,
   };
 })();
