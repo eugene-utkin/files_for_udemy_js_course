@@ -59,5 +59,7 @@ console.log(lastPost2);
     console.log(`${quantity} ${product} ordered from supplier`);
   };
 
-  return {};
+  return {
+    addToCart,
+  };
 })();
