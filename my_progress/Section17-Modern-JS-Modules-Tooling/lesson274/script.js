@@ -54,4 +54,8 @@ console.log(lastPost2);
     cart.push({ product, quantity });
     console.log(`${quantity} ${product} added to cart`);
   };
+
+  const orderStock = function (product, quantity) {
+    console.log(`${quantity} ${product} ordered from supplier`);
+  };
 })();
