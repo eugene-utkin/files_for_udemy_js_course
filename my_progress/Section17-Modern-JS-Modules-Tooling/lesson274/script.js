@@ -44,4 +44,6 @@ const lastPost2 = await getLastPost();
 console.log(lastPost2);
 */
 
-(function () {})();
+(function () {
+  const cart = [];
+})();
