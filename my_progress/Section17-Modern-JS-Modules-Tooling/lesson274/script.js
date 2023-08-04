@@ -2,7 +2,7 @@
 // import { addToCart, totalPrice as price, tq } from './shoppingCart.js';
 // addToCart('bread', 5);
 // console.log(price, tq);
-
+/*
 console.log('Importing module');
 // console.log(shippingCost);
 
@@ -42,3 +42,4 @@ console.log(lastPost);
 
 const lastPost2 = await getLastPost();
 console.log(lastPost2);
+*/
