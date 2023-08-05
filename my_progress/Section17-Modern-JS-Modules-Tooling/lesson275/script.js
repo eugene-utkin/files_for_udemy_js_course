@@ -85,3 +85,4 @@ export.addTocart = function (product, quantity) {
 };
 
 // Import
+const { addToCart } = require('./shoppingCart.js');
