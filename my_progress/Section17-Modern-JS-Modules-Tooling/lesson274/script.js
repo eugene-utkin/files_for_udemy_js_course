@@ -52,7 +52,9 @@ const ShoppingCart2 = (function () {
 
   const addToCart = function (product, quantity) {
     cart.push({ product, quantity });
-    console.log(`${quantity} ${product} added to cart`);
+    console.log(
+      `${quantity} ${product} added to cart (shipping cost is ${shippingCost})`
+    );
   };
 
   const orderStock = function (product, quantity) {
