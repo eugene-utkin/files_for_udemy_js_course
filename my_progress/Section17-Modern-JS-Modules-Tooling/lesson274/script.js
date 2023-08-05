@@ -66,3 +66,5 @@ const ShoppingCart2 = (function () {
     totalQuantity,
   };
 })();
+
+ShoppingCart2.addToCart('apple', 4);
