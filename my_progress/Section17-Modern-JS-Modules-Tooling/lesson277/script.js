@@ -90,3 +90,5 @@ const { addToCart } = require('./shoppingCart.js');
 */
 
 import cloneDeep from './node_modules/lodash-es/cloneDeep.js';
+
+const state = {};
