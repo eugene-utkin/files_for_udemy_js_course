@@ -100,3 +100,4 @@ const state = {
 };
 const stateClone = Object.assign({}, state);
 console.log(stateClone);
+state.user.loggedIn = false;
