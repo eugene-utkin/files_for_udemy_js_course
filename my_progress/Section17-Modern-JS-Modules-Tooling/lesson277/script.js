@@ -98,3 +98,4 @@ const state = {
   ],
   user: { loggedIn: true },
 };
+const stateClone = Object.assign({}, state);
