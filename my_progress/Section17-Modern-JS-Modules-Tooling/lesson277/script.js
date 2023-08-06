@@ -103,3 +103,4 @@ state.user.loggedIn = false;
 console.log(stateClone);
 
 const stateDeepClone = cloneDeep(state);
+console.log(stateDeepClone);
