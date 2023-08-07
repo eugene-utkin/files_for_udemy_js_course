@@ -40,8 +40,8 @@ console.log(lastPost);
 // Not very clean
 // lastPost.then(last => console.log(last));
 
-const lastPost2 = await getLastPost();
-console.log(lastPost2);
+// const lastPost2 = await getLastPost();
+// console.log(lastPost2);
 
 /*
 const ShoppingCart2 = (function () {
