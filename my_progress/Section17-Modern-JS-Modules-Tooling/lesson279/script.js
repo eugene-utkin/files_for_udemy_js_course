@@ -111,10 +111,10 @@ if (module.hot) {
 }
 
 class Person {
-  greeting = 'Hey';
+  #greeting = 'Hey';
   constructor(name) {
     this.name = name;
-    console.log(`${this.greeting}, ${this.name}`);
+    console.log(`${this.#greeting}, ${this.name}`);
   }
 }
 
