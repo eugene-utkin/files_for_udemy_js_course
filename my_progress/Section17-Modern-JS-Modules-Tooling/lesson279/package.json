@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "build-babel": "babel src build"
   },
   "author": "Jonas",
   "license": "ISC",
@@ -13,8 +14,8 @@
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
+    "@babel/core": "^7.22.10",
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
     "parcel": "^2.9.3"
   }
 }
