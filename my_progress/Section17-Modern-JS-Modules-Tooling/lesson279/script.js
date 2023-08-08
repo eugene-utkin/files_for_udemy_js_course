@@ -110,4 +110,6 @@ if (module.hot) {
   module.hot.accept();
 }
 
-class Person {}
+class Person {
+  greeting = 'Hey';
+}
