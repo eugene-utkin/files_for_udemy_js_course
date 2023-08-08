@@ -13,6 +13,7 @@
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
+    "@babel/core": "^7.22.10",
     "@babel/preset-env": "^7.22.10",
     "npm": "^9.8.1",
     "parcel": "^2.9.3"
