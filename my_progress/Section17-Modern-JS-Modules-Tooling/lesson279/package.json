@@ -11,7 +11,8 @@
   "dependencies": {
     "core-js": "^3.32.0",
     "leaflet": "^1.9.4",
-    "lodash-es": "^4.17.21"
+    "lodash-es": "^4.17.21",
+    "regenerator-runtime": "^0.14.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
