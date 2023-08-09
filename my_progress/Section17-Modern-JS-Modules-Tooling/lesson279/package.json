@@ -12,7 +12,5 @@
     "leaflet": "^1.9.4",
     "lodash-es": "^4.17.21"
   },
-  "devDependencies": {
-    "parcel": "^2.9.3"
-  }
+  "devDependencies": {}
 }
