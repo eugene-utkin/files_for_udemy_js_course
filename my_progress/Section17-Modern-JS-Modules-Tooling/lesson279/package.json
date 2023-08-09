@@ -9,6 +9,7 @@
   "author": "Jonas",
   "license": "ISC",
   "dependencies": {
+    "core-js": "^3.32.0",
     "leaflet": "^1.9.4",
     "lodash-es": "^4.17.21"
   },
