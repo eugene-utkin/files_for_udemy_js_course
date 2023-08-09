@@ -122,4 +122,4 @@ const jonas = new Person('Jonas');
 
 console.log('Jonas' ?? null);
 
-cart.find(el => el.quantity >= 2);
+console.log(cart.find(el => el.quantity >= 2));
