@@ -18,7 +18,7 @@ const addExpense = function (value, description, user) {
   if (!user) user = 'jonas';
   user = user.toLowerCase();
 
-  var lim;
+  let lim;
   if (limits[user]) {
     lim = limits[user];
   } else {
