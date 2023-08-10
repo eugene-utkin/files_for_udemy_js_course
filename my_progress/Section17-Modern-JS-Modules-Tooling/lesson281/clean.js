@@ -31,7 +31,7 @@ var addExpense = function (value, description, user) {
 };
 addExpense(10, 'Pizza 🍕');
 addExpense(100, 'Going to movies 🍿', 'Matilda');
-add(200, 'Stuff', 'Jay');
+addExpense(200, 'Stuff', 'Jay');
 console.log(budget);
 
 var check = function () {
