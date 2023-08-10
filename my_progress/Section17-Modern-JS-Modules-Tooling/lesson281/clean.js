@@ -54,7 +54,7 @@ console.log(budget);
 
 const bigExpenses = function (limit) {
   let output = '';
-  for (var el of budget) {
+  for (let el of budget) {
     if (el.value <= -limit) {
       output += el.description.slice(-2) + ' / '; // Emojis are 2 chars
     }
