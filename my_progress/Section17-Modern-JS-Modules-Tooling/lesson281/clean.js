@@ -36,7 +36,7 @@ console.log(budget);
 
 const check = function () {
   for (let el of budget) {
-    var lim;
+    let lim;
     if (limits[el.user]) {
       lim = limits[el.user];
     } else {
