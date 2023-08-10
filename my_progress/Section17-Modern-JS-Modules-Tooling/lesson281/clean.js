@@ -52,7 +52,7 @@ check();
 
 console.log(budget);
 
-var bigExpenses = function (limit) {
+const bigExpenses = function (limit) {
   var output = '';
   for (var el of budget) {
     if (el.value <= -limit) {
