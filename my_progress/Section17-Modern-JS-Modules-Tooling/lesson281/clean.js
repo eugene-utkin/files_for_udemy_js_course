@@ -19,7 +19,7 @@ const addExpense = function (value, description, user) {
   user = user.toLowerCase();
 
   let lim;
-  if (limits[user]) {
+  if (spendingLimits[user]) {
     lim = limits[user];
   } else {
     lim = 0;
