@@ -9,7 +9,7 @@ const budget = [
   { value: -1800, description: 'New Laptop 💻', user: 'jonas' },
 ];
 
-const limits = {
+const spendingLimits = {
   jonas: 1500,
   matilda: 100,
 };
