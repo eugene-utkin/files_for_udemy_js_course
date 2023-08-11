@@ -20,7 +20,7 @@ const addExpense = function (value, description, user) {
 
   let lim;
   if (spendingLimits[user]) {
-    lim = limits[user];
+    lim = spendingLimits[user];
   } else {
     lim = 0;
   }
