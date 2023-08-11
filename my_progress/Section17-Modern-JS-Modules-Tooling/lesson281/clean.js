@@ -38,7 +38,7 @@ const checkExpenses = function () {
     }
 
     if (entry.value < -lim) {
-      el.flag = 'limit';
+      entry.flag = 'limit';
     }
   }
 };
