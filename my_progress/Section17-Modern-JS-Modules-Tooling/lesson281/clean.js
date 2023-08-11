@@ -14,8 +14,7 @@ const spendingLimits = {
   matilda: 100,
 };
 
-const addExpense = function (value, description, user) {
-  if (!user) user = 'jonas';
+const addExpense = function (value, description, user = 'jonas') {
   user = user.toLowerCase();
 
   let lim;
