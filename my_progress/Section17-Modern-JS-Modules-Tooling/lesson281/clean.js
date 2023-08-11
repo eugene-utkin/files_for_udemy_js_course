@@ -38,7 +38,7 @@ const check = function () {
   for (let el of budget) {
     let lim;
     if (spendingLimits[el.user]) {
-      lim = limits[el.user];
+      lim = spendingLimits[el.user];
     } else {
       lim = 0;
     }
