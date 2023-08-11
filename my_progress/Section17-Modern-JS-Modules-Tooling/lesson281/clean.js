@@ -42,7 +42,7 @@ const checkExpenses = function () {
     }
   }
 };
-check();
+checkExpenses();
 
 console.log(budget);
 
