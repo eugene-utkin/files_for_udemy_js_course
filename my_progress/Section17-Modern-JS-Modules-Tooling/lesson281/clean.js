@@ -35,7 +35,7 @@ const checkExpenses = function () {
 };
 checkExpenses();
 
-const bigExpenses = function (limit) {
+const logBigExpenses = function (limit) {
   let output = '';
   for (let el of budget) {
     if (el.value <= -limit) {
