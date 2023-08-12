@@ -31,11 +31,10 @@ addExpense(200, 'Stuff', 'Jay');
 console.log(budget);
 
 const checkExpenses = function () {
-  for (const entry of budget) {
+  for (const entry of budget)
     if (entry.value < -getLimit(entry.user)) {
       entry.flag = 'limit';
     }
-  }
 };
 checkExpenses();
 
