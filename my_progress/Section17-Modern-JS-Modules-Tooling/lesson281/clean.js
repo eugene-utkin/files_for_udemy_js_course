@@ -35,8 +35,6 @@ const checkExpenses = function () {
 };
 checkExpenses();
 
-console.log(budget);
-
 const bigExpenses = function (limit) {
   let output = '';
   for (let el of budget) {
@@ -47,4 +45,6 @@ const bigExpenses = function (limit) {
   output = output.slice(0, -2); // Remove last '/ '
   console.log(output);
 };
+
+console.log(budget);
 bigExpenses(1000);
