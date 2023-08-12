@@ -37,7 +37,7 @@ const checkExpenses = function () {
       lim = 0;
     }
 
-    const limit = spendingLimits?.[user] ?? 0;
+    const limit = spendingLimits?.[entry.user] ?? 0;
 
     if (entry.value < -lim) {
       entry.flag = 'limit';
