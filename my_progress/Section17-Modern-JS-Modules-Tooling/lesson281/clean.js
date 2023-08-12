@@ -32,9 +32,7 @@ console.log(budget);
 
 const checkExpenses = function () {
   for (const entry of budget) {
-    const limit = getLimit(entry.user);
-
-    if (entry.value < -limit) {
+    if (entry.value < -getLimit(entry.user)) {
       entry.flag = 'limit';
     }
   }
