@@ -37,10 +37,9 @@ checkExpenses();
 
 const logBigExpenses = function (bigLimit) {
   let output = '';
-  for (const entry of budget) {
+  for (const entry of budget)
     output +=
       entry.value <= -bigLimit ? `${entry.description.slice(-2)} / ` : '';
-  }
   output = output.slice(0, -2); // Remove last '/ '
   console.log(output);
 };
