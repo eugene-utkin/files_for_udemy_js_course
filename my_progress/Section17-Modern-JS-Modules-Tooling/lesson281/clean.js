@@ -40,9 +40,6 @@ const logBigExpenses = function (bigLimit) {
   for (const entry of budget) {
     output +=
       entry.value <= -bigLimit ? `${entry.description.slice(-2)} / ` : '';
-    if (entry.value <= -bigLimit) {
-      output += `${entry.description.slice(-2)} / `; // Emojis are 2 chars
-    }
   }
   output = output.slice(0, -2); // Remove last '/ '
   console.log(output);
