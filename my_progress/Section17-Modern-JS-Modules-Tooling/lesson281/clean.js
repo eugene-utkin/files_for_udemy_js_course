@@ -38,7 +38,7 @@ checkExpenses();
 const logBigExpenses = function (bigLimit) {
   let output = '';
   for (let el of budget) {
-    if (el.value <= -limit) {
+    if (el.value <= -bigLimit) {
       output += el.description.slice(-2) + ' / '; // Emojis are 2 chars
     }
   }
