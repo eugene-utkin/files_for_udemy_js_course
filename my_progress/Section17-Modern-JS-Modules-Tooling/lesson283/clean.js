@@ -12,6 +12,7 @@ const budget = Object.freeze([
 ]);
 
 budget[0].value = 10000;
+budget[9] = 'jonas';
 
 const spendingLimits = Object.freeze({
   jonas: 1500,
