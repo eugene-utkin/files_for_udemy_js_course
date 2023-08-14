@@ -11,6 +11,8 @@ const budget = Object.freeze([
   { value: -1800, description: 'New Laptop 💻', user: 'jonas' },
 ]);
 
+budget[0].value = 10000;
+
 const spendingLimits = Object.freeze({
   jonas: 1500,
   matilda: 100,
