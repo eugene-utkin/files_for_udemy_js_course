@@ -16,6 +16,7 @@ const spendingLimits = Object.freeze({
   matilda: 100,
 });
 spendingLimits.jay = 200;
+console.log(spendingLimits);
 
 const getLimit = user => spendingLimits?.[user] ?? 0;
 
