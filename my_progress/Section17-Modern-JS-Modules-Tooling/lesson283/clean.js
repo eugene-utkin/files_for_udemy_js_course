@@ -26,7 +26,7 @@ const addExpense = function (
   description,
   user = 'jonas'
 ) {
-  user = user.toLowerCase();
+  const cleanUser = user.toLowerCase();
 
   // const limit = spendingLimits[user] ? spendingLimits[user] : 0;
 
