@@ -32,7 +32,7 @@ const addExpense = function (
     return [...state, { value: -value, description, cleanUser }];
   }
 };
-addExpense(budget, spendingLimits, 10, 'Pizza 🍕');
+const newBudget1 = addExpense(budget, spendingLimits, 10, 'Pizza 🍕');
 addExpense(budget, spendingLimits, 100, 'Going to movies 🍿', 'Matilda');
 addExpense(budget, spendingLimits, 200, 'Stuff', 'Jay');
 
