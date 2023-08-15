@@ -28,9 +28,9 @@ const addExpense = function (
   user = 'jonas'
 ) {
   const cleanUser = user.toLowerCase();
-  if (value <= getLimit(cleanUser)) {
-    return [...state, { value: -value, description, cleanUser }];
-  }
+  return value <= getLimit(cleanUser)
+    ? [...state, { value: -value, description, cleanUser }]
+    : state;
 };
 const newBudget1 = addExpense(budget, spendingLimits, 10, 'Pizza 🍕');
 console.log(newBudget1);
