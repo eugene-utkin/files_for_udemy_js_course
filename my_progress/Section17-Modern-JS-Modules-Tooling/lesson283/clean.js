@@ -20,6 +20,7 @@ const spendingLimits = Object.freeze({
 // const limit = spendingLimits[user] ? spendingLimits[user] : 0;
 const getLimit = user => spendingLimits?.[user] ?? 0;
 
+// Pure function :D
 const addExpense = function (
   state,
   limits,
@@ -28,6 +29,7 @@ const addExpense = function (
   user = 'jonas'
 ) {
   const cleanUser = user.toLowerCase();
+
   return value <= getLimit(cleanUser)
     ? [...state, { value: -value, description, cleanUser }]
     : state;
