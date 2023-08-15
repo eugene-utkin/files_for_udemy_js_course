@@ -29,7 +29,7 @@ const addExpense = function (
 ) {
   const cleanUser = user.toLowerCase();
   if (value <= getLimit(cleanUser)) {
-    budget.push({ value: -value, description, cleanUser });
+    // budget.push({ value: -value, description, cleanUser });
   }
 };
 addExpense(budget, spendingLimits, 10, 'Pizza 🍕');
