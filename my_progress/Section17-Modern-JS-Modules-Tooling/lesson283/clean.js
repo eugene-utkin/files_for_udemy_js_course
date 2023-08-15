@@ -17,6 +17,7 @@ const spendingLimits = Object.freeze({
 });
 // spendingLimits.jay = 200;
 
+// const limit = spendingLimits[user] ? spendingLimits[user] : 0;
 const getLimit = user => spendingLimits?.[user] ?? 0;
 
 const addExpense = function (
@@ -27,9 +28,6 @@ const addExpense = function (
   user = 'jonas'
 ) {
   const cleanUser = user.toLowerCase();
-
-  // const limit = spendingLimits[user] ? spendingLimits[user] : 0;
-
   if (value <= getLimit(cleanUser)) {
     budget.push({ value: -value, description, cleanUser });
   }
