@@ -34,7 +34,7 @@ const addExpense = function (
     budget.push({ value: -value, description, user });
   }
 };
-addExpense(budget, 10, 'Pizza 🍕');
+addExpense(budget, spendingLimits, 10, 'Pizza 🍕');
 addExpense(budget, 100, 'Going to movies 🍿', 'Matilda');
 addExpense(budget, 200, 'Stuff', 'Jay');
 
