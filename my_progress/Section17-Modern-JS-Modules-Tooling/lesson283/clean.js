@@ -29,6 +29,8 @@ const addExpense = function (
 ) {
   const cleanUser = user.toLowerCase();
   if (value <= getLimit(cleanUser)) {
+    return [...state];
+
     // budget.push({ value: -value, description, cleanUser });
   }
 };
