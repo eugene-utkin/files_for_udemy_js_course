@@ -36,7 +36,7 @@ const addExpense = function (
 };
 addExpense(budget, spendingLimits, 10, 'Pizza 🍕');
 addExpense(budget, spendingLimits, 100, 'Going to movies 🍿', 'Matilda');
-addExpense(budget, 200, 'Stuff', 'Jay');
+addExpense(budget, spendingLimits, 200, 'Stuff', 'Jay');
 
 const checkExpenses = function () {
   for (const entry of budget)
