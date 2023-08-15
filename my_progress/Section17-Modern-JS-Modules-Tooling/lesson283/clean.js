@@ -30,7 +30,7 @@ const addExpense = function (
 
   // const limit = spendingLimits[user] ? spendingLimits[user] : 0;
 
-  if (value <= getLimit(user)) {
+  if (value <= getLimit(cleanUser)) {
     budget.push({ value: -value, description, cleanUser });
   }
 };
