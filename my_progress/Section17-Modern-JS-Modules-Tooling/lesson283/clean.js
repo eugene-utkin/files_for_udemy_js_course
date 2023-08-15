@@ -33,6 +33,8 @@ const addExpense = function (
   }
 };
 const newBudget1 = addExpense(budget, spendingLimits, 10, 'Pizza 🍕');
+console.log(newBudget1);
+
 addExpense(budget, spendingLimits, 100, 'Going to movies 🍿', 'Matilda');
 addExpense(budget, spendingLimits, 200, 'Stuff', 'Jay');
 
