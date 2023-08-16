@@ -43,7 +43,7 @@ const newBudget2 = addExpense(
   'Matilda'
 );
 const newBudget3 = addExpense(newBudget2, spendingLimits, 200, 'Stuff', 'Jay');
-console.log(newBudget2);
+
 console.log(newBudget3);
 
 const checkExpenses = function () {
