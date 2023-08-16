@@ -30,7 +30,7 @@ const addExpense = function (
 ) {
   const cleanUser = user.toLowerCase();
 
-  return value <= getLimit(cleanUser)
+  return value <= getLimit(limits, cleanUser)
     ? [...state, { value: -value, description, cleanUser }]
     : state;
 };
