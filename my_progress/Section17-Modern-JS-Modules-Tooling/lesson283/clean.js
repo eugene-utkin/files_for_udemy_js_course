@@ -42,7 +42,7 @@ const newBudget2 = addExpense(
   'Going to movies 🍿',
   'Matilda'
 );
-const newBudget3 = addExpense(budget, spendingLimits, 200, 'Stuff', 'Jay');
+const newBudget3 = addExpense(newBudget2, spendingLimits, 200, 'Stuff', 'Jay');
 console.log(newBudget1);
 console.log(newBudget2);
 
