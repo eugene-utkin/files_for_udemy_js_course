@@ -45,6 +45,7 @@ const newBudget2 = addExpense(
 const newBudget3 = addExpense(newBudget2, spendingLimits, 200, 'Stuff', 'Jay');
 console.log(newBudget1);
 console.log(newBudget2);
+console.log(newBudget3);
 
 const checkExpenses = function () {
   for (const entry of budget)
