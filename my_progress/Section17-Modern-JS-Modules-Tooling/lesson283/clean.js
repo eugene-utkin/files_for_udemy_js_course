@@ -43,8 +43,8 @@ const newBudget2 = addExpense(
   'Matilda'
 );
 addExpense(budget, spendingLimits, 200, 'Stuff', 'Jay');
-
 console.log(newBudget1);
+console.log(newBudget2);
 
 const checkExpenses = function () {
   for (const entry of budget)
