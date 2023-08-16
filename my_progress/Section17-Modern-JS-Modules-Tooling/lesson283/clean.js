@@ -18,7 +18,7 @@ const spendingLimits = Object.freeze({
 // spendingLimits.jay = 200;
 
 // const limit = spendingLimits[user] ? spendingLimits[user] : 0;
-const getLimit = (limits, user) => spendingLimits?.[user] ?? 0;
+const getLimit = (limits, user) => limits?.[user] ?? 0;
 
 // Pure function :D
 const addExpense = function (
