@@ -36,7 +36,7 @@ const addExpense = function (
 };
 const newBudget1 = addExpense(budget, spendingLimits, 10, 'Pizza 🍕');
 const newBudget2 = addExpense(
-  budget,
+  newBudget1,
   spendingLimits,
   100,
   'Going to movies 🍿',
