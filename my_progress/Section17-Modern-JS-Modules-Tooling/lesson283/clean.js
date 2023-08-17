@@ -67,6 +67,9 @@ console.log(finalBudget);
 
 const logBigExpenses = function (bigLimit) {
   const bigExpenses = state.filter(entry => entry.value <= -bigLimit);
+
+  console.log(bigExpenses);
+
   // let output = '';
   // for (const entry of budget)
   //   output +=
