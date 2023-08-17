@@ -46,7 +46,7 @@ const newBudget2 = addExpense(
 const newBudget3 = addExpense(newBudget2, spendingLimits, 200, 'Stuff', 'Jay');
 
 const checkExpenses = function (state, limits) {
-  return state.map();
+  return state.map(entry => {});
   //   for (const entry of newBudget3)
   //     if (entry.value < -getLimit(limits, entry.user)) entry.flag = 'limit';
 };
