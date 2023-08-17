@@ -78,4 +78,4 @@ const logBigExpenses = function (state, bigLimit) {
   // console.log(output);
 };
 
-logBigExpenses(500);
+logBigExpenses(finalBudget, 500);
