@@ -55,7 +55,7 @@ const checkExpenses = function (state, limits) {
   //     if (entry.value < -getLimit(limits, entry.user)) entry.flag = 'limit';
 };
 const finalBudget = checkExpenses(newBudget3, spendingLimits);
-console.log(newBudget3);
+console.log(finalBudget);
 
 const logBigExpenses = function (bigLimit) {
   let output = '';
