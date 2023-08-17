@@ -61,8 +61,6 @@ const checkExpenses = function (state, limits) {
       ? { ...entry, flag: 'limit' }
       : entry;
   });
-  //   for (const entry of newBudget3)
-  //     if (entry.value < -getLimit(limits, entry.user)) entry.flag = 'limit';
 };
 
 const finalBudget = checkExpenses(newBudget3, spendingLimits);
