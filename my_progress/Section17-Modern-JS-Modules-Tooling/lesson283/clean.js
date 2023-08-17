@@ -66,6 +66,7 @@ const finalBudget = checkExpenses(newBudget3, spendingLimits);
 console.log(finalBudget);
 
 const logBigExpenses = function (bigLimit) {
+  const bigExpenses = state.filter();
   // let output = '';
   // for (const entry of budget)
   //   output +=
