@@ -68,7 +68,7 @@ console.log(finalBudget);
 const logBigExpenses = function (state, bigLimit) {
   const bigExpenses = state
     .filter(entry => entry.value <= -bigLimit)
-    .map(entry => entry);
+    .map(entry => entry.description.slice(-2));
 
   console.log(bigExpenses);
 
