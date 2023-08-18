@@ -70,7 +70,7 @@ const logBigExpenses = function (state, bigLimit) {
     .filter(entry => entry.value <= -bigLimit)
     // .map(entry => entry.description.slice(-2))
     // .join(' / ');
-    .reduce((str, cur) => , '');
+    .reduce((str, cur) => `${str}`, '');
 
   console.log(bigExpenses);
 
