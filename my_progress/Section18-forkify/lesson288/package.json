@@ -7,5 +7,8 @@
     "build": "parcel build index.html"
   },
   "author": "Evgeniy Utkin",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
 }
