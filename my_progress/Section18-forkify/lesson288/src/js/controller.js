@@ -17,5 +17,5 @@ const showRecipe = async function () {
     const res = await fetch(
       'https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886'
     );
-  }
+  } catch (err) {}
 };
