@@ -25,6 +25,7 @@ const showRecipe = async function () {
     let { recipe } = data.data;
     recipe = {
       id: recipe.id,
+      title: recipe.title,
     };
   } catch (err) {
     alert(err);
