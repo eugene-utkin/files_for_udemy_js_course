@@ -24,3 +24,4 @@ const showRecipe = async function () {
     alert(err);
   }
 };
+showRecipe();
