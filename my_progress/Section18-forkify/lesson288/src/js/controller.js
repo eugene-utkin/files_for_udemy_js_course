@@ -27,6 +27,7 @@ const showRecipe = async function () {
       id: recipe.id,
       title: recipe.title,
       publisher: recipe.publisher,
+      sourceUrl: recipe.source_url,
     };
   } catch (err) {
     alert(err);
