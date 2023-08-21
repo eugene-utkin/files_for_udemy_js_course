@@ -41,7 +41,7 @@ const showRecipe = async function () {
     // 2) Rendering recipe
     const markup = `
       <figure class="recipe__fig">
-        <img src="src/img/test-1.jpg" alt="Tomato" class="recipe__img" />
+        <img src="${recipe.image}" alt="Tomato" class="recipe__img" />
         <h1 class="recipe__title">
           <span>Pasta with tomato cream sauce</span>
         </h1>
