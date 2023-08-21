@@ -31,6 +31,7 @@ const showRecipe = async function () {
       image: recipe.image_url,
       servings: recipe.servings,
       cookingTime: recipe.cooking_time,
+      ingredients: recipe.ingredients,
     };
   } catch (err) {
     alert(err);
