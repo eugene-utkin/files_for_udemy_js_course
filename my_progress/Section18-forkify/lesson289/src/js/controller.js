@@ -124,7 +124,7 @@ const showRecipe = async function () {
         </p>
         <a
           class="btn--small recipe__btn"
-          href="http://thepioneerwoman.com/cooking/pasta-with-tomato-cream-sauce/"
+          href="${recipe.sourceUrl}"
           target="_blank"
         >
           <span>Directions</span>
