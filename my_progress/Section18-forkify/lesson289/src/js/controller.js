@@ -39,6 +39,7 @@ const showRecipe = async function () {
     console.log(recipe);
 
     // 2) Rendering recipe
+    const markup = ``;
   } catch (err) {
     alert(err);
   }
