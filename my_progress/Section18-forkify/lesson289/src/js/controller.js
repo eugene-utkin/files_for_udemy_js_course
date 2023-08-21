@@ -37,6 +37,8 @@ const showRecipe = async function () {
       ingredients: recipe.ingredients,
     };
     console.log(recipe);
+
+    // 2) Rendering recipe
   } catch (err) {
     alert(err);
   }
