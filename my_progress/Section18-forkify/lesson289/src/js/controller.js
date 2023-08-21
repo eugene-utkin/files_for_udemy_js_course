@@ -119,7 +119,7 @@ const showRecipe = async function () {
         <h2 class="heading--2">How to cook it</h2>
         <p class="recipe__directions-text">
           This recipe was carefully designed and tested by
-          <span class="recipe__publisher">The Pioneer Woman</span>. Please check out
+          <span class="recipe__publisher">${recipe.publisher}</span>. Please check out
           directions at their website.
         </p>
         <a
