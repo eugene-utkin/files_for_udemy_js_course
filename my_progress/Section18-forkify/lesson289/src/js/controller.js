@@ -62,7 +62,7 @@ const showRecipe = async function () {
         </div>
         <div class="recipe__info">
           <svg class="recipe__info-icon">
-            <use href="src/img/icons.svg#icon-users"></use>
+            <use href="${icons}#icon-users"></use>
           </svg>
           <span class="recipe__info-data recipe__info-data--people">${
             recipe.servings
