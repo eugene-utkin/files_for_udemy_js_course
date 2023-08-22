@@ -1,4 +1,4 @@
-import icons from '../img/icons.svg';
+import icons from '../img/icons.svg'; // Parcel 1
 
 const recipeContainer = document.querySelector('.recipe');
 
