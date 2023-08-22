@@ -72,7 +72,7 @@ const showRecipe = async function () {
           <div class="recipe__info-buttons">
             <button class="btn--tiny btn--increase-servings">
               <svg>
-                <use href="src/img/icons.svg#icon-minus-circle"></use>
+                <use href="${icons}#icon-minus-circle"></use>
               </svg>
             </button>
             <button class="btn--tiny btn--increase-servings">
