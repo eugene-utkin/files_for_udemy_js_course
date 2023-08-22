@@ -97,20 +97,20 @@ const showRecipe = async function () {
         <ul class="recipe__ingredient-list">
           ${recipe.ingredients.map(ing => {
             return `
-            
+              <li class="recipe__ingredient">
+                <svg class="recipe__icon">
+                  <use href="src/img/icons.svg#icon-check"></use>
+                </svg>
+                <div class="recipe__quantity">1000</div>
+                <div class="recipe__description">
+                  <span class="recipe__unit">g</span>
+                  pasta
+                </div>
+              </li>
             `;
           })}
 
-          <li class="recipe__ingredient">
-            <svg class="recipe__icon">
-              <use href="src/img/icons.svg#icon-check"></use>
-            </svg>
-            <div class="recipe__quantity">1000</div>
-            <div class="recipe__description">
-              <span class="recipe__unit">g</span>
-              pasta
-            </div>
-          </li>
+          
 
           <li class="recipe__ingredient">
             <svg class="recipe__icon">
