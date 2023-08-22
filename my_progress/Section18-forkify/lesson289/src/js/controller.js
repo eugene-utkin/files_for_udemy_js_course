@@ -103,7 +103,7 @@ const showRecipe = async function () {
                 </svg>
                 <div class="recipe__quantity">${ing.quantity}</div>
                 <div class="recipe__description">
-                  <span class="recipe__unit">g</span>
+                  <span class="recipe__unit">${ing.unit}</span>
                   pasta
                 </div>
               </li>
