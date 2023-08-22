@@ -1,6 +1,5 @@
 // import icons from '../img/icons.svg'; // Parcel 1
 import icons from 'url:../img/icons.svg'; // Parcel 2
-console.log(icons);
 
 const recipeContainer = document.querySelector('.recipe');
 
@@ -54,7 +53,7 @@ const showRecipe = async function () {
       <div class="recipe__details">
         <div class="recipe__info">
           <svg class="recipe__info-icon">
-            <use href="src/img/icons.svg#icon-clock"></use>
+            <use href="${icons}#icon-clock"></use>
           </svg>
           <span class="recipe__info-data recipe__info-data--minutes">${
             recipe.cookingTime
