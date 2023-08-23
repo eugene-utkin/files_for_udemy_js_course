@@ -16,7 +16,13 @@ const timeout = function (s) {
 ///////////////////////////////////////
 
 const renderSpinner = function (parentEl) {
-  const markup = ``;
+  const markup = `
+    <div class="spinner">
+      <svg>
+        <use href="src/img/icons.svg#icon-loader"></use>
+      </svg>
+    </div
+  `;
 };
 
 const showRecipe = async function () {
