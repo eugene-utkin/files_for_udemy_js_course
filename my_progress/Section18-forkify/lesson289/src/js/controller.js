@@ -15,6 +15,8 @@ const timeout = function (s) {
 
 ///////////////////////////////////////
 
+const renderSpinner = function () {};
+
 const showRecipe = async function () {
   try {
     // 1) Loading recipe
