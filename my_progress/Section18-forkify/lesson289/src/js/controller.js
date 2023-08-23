@@ -90,7 +90,7 @@ const showRecipe = async function () {
         </div>
         <button class="btn--round">
           <svg class="">
-            <use href="src/img/icons.svg#icon-bookmark-fill"></use>
+            <use href="${icons}#icon-bookmark-fill"></use>
           </svg>
         </button>
       </div>
