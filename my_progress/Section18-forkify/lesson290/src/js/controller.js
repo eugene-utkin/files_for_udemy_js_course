@@ -161,4 +161,4 @@ const showRecipe = async function () {
 };
 showRecipe();
 
-window.addEventListener();
+window.addEventListener('hashchange');
