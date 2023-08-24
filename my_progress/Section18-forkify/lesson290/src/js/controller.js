@@ -159,6 +159,5 @@ const showRecipe = async function () {
     alert(err);
   }
 };
-showRecipe();
 
 window.addEventListener('hashchange', showRecipe);
