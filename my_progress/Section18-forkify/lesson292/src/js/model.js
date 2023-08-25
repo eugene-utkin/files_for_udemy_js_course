@@ -13,7 +13,7 @@ export const loadRecipe = async function (id) {
 
   console.log(res, data);
   let { recipe } = data.data;
-  recipe = {
+  state.recipe = {
     id: recipe.id,
     title: recipe.title,
     publisher: recipe.publisher,
