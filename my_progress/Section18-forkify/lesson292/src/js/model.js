@@ -2,4 +2,4 @@ export const state = {
   recipe: {},
 };
 
-const loadRecipe = async function () {};
+export const loadRecipe = async function () {};
