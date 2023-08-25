@@ -1,1 +1,3 @@
-const state = {};
+const state = {
+  recipe: {},
+};
