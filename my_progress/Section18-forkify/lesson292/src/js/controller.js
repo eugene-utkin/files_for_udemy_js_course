@@ -37,9 +37,9 @@ const showRecipe = async function () {
     console.log(id);
 
     if (!id) return;
+    renderSpinner(recipeContainer);
 
     // 1) Loading recipe
-    renderSpinner(recipeContainer);
 
     // 2) Rendering recipe
     const markup = `
