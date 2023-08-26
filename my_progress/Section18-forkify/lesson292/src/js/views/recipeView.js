@@ -1,7 +1,7 @@
 class RecipeView {
   #parentElement = document.querySelector('.recipe');
 
-  render() {}
+  render(data) {}
 }
 
 export default new RecipeView();
