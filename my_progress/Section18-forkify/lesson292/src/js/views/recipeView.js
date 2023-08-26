@@ -1,1 +1,3 @@
-class RecipeView {}
+class RecipeView {
+  #parentElement = document.querySelector('.recipe');
+}
