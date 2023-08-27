@@ -9,7 +9,9 @@ class RecipeView {
     recipeContainer.insertAdjacentHTML('afterbegin', markup);
   }
 
-  #clear() {}
+  #clear() {
+    this.#parentElement.innerHTML = '';
+  }
 
   #generateMarkup() {
     return `
