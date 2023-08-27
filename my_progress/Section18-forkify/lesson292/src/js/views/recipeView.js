@@ -9,6 +9,8 @@ class RecipeView {
     recipeContainer.insertAdjacentHTML('afterbegin', markup);
   }
 
+  #clear() {}
+
   #generateMarkup() {
     return `
       <figure class="recipe__fig">
