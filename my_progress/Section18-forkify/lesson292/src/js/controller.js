@@ -32,7 +32,7 @@ const renderSpinner = function (parentEl) {
   parentEl.insertAdjacentHTML('afterbegin', markup);
 };
 
-const showRecipe = async function () {
+const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
     console.log(id);
