@@ -7,7 +7,7 @@ class RecipeView {
   }
 
   #generateMarkup() {
-    const markup = `
+    return `
       <figure class="recipe__fig">
         <img src="${recipe.image}" alt="${recipe.title}" class="recipe__img" />
         <h1 class="recipe__title">
