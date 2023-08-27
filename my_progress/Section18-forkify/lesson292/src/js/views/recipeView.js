@@ -95,7 +95,7 @@ class RecipeView {
         </p>
         <a
           class="btn--small recipe__btn"
-          href="${recipe.sourceUrl}"
+          href="${this.#data.sourceUrl}"
           target="_blank"
         >
           <span>Directions</span>
