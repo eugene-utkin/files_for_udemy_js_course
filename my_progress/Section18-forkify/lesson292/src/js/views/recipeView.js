@@ -4,7 +4,7 @@ class RecipeView {
 
   render(data) {
     this.#data = data;
-    this.#generateMarkup;
+    const markup = this.#generateMarkup;
     recipeContainer.innerHTML = '';
     recipeContainer.insertAdjacentHTML('afterbegin', markup);
   }
