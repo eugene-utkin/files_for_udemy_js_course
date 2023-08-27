@@ -32,7 +32,7 @@ class RecipeView {
             <use href="${icons}#icon-users"></use>
           </svg>
           <span class="recipe__info-data recipe__info-data--people">${
-            recipe.servings
+            this.#data.servings
           }</span>
           <span class="recipe__info-text">servings</span>
 
