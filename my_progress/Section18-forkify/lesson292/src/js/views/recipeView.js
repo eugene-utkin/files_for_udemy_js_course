@@ -9,7 +9,9 @@ class RecipeView {
   #generateMarkup() {
     return `
       <figure class="recipe__fig">
-        <img src="${recipe.image}" alt="${recipe.title}" class="recipe__img" />
+        <img src="${this.#data.image}" alt="${
+      recipe.title
+    }" class="recipe__img" />
         <h1 class="recipe__title">
           <span>${recipe.title}</span>
         </h1>
