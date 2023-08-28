@@ -133,6 +133,8 @@ class RecipeView {
       </div>
     `;
   }
+
+  #generateMarkupIngredients() {}
 }
 
 export default new RecipeView();
