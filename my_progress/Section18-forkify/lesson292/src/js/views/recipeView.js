@@ -22,7 +22,7 @@ class RecipeView {
       </div
     `;
     this.#parentElement.innerHTML = '';
-    parentEl.insertAdjacentHTML('afterbegin', markup);
+    this.#parentElement.insertAdjacentHTML('afterbegin', markup);
   };
 
   #generateMarkup() {
