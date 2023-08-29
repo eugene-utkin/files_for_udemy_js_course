@@ -7,7 +7,7 @@ export const state = {
 
 export const loadRecipe = async function (id) {
   try {
-    const res = await fetch(`${id}`);
+    const res = await fetch(`${API_URL}/${id}`);
 
     const data = await res.json();
 
