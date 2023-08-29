@@ -1,4 +1,4 @@
-const getJSON = function() {
+const getJSON = function(url) {
   const res = await fetch(`${API_URL}/${id}`);
   const data = await res.json();
 
