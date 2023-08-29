@@ -1,4 +1,4 @@
-const getJSON = async function (url) {
+export const getJSON = async function (url) {
   const res = await fetch(`${API_URL}/${id}`);
   const data = await res.json();
 
