@@ -8,7 +8,7 @@ export const state = {
 
 export const loadRecipe = async function (id) {
   try {
-    getJSON(`${API_URL}/${id}`);
+    await getJSON(`${API_URL}/${id}`);
 
     const { recipe } = data.data;
     state.recipe = {
