@@ -29,3 +29,4 @@ const controlRecipes = async function () {
 };
 
 const init = function () {};
+init();
