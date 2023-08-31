@@ -27,3 +27,5 @@ const controlRecipes = async function () {
     alert(err);
   }
 };
+
+const init = function () {};
