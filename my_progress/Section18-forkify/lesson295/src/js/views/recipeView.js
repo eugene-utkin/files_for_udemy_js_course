@@ -41,6 +41,7 @@ class RecipeView {
       </div>
     `;
     this.#clear();
+    this.#parentElement.insertAdjacentHTML('afterbegin', markup);
   }
 
   addHandlerRender(handler) {
