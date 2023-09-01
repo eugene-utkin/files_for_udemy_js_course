@@ -47,7 +47,7 @@ class RecipeView {
 
   renderMessage(message = this.#errorMessage) {
     const markup = `
-      <div class="error">
+      <div class="message">
         <div>
           <svg>
             <use href="${icons}#icon-alert-triangle"></use>
