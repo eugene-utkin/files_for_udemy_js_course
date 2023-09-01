@@ -28,8 +28,6 @@ const controlRecipes = async function () {
 };
 
 const init = function () {
-  recipeView.addHandlerRender(
-    'We could not find that recipe. Please try another one!'
-  );
+  recipeView.addHandlerRender();
 };
 init();
