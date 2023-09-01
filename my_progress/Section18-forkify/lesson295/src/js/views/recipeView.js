@@ -25,7 +25,7 @@ class RecipeView {
         </svg>
       </div
     `;
-    this.#parentElement.innerHTML = '';
+    this.#clear();
     this.#parentElement.insertAdjacentHTML('afterbegin', markup);
   }
 
