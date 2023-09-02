@@ -30,7 +30,7 @@ export const loadRecipe = async function (id) {
 
 export const loadSearchResults = async function (query) {
   try {
-    getJSON(`${API_URL}?search=pizza`);
+    getJSON(`${API_URL}?search=${query}`);
   } catch (err) {
     console.error(`${err} 💥💥💥💥`);
     throw err;
