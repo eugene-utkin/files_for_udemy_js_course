@@ -30,6 +30,7 @@ export const loadRecipe = async function (id) {
 
 export const loadSearchResults = async function (query) {
   try {
+    getJSON(`https://forkify-api.herokuapp.com/api/v2/recipes?search=pizza`);
   } catch (err) {
     console.error(`${err} 💥💥💥💥`);
     throw err;
