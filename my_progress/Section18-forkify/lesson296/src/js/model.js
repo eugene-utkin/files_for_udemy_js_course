@@ -28,4 +28,4 @@ export const loadRecipe = async function (id) {
   }
 };
 
-const loadSearchResults = async function () {};
+export const loadSearchResults = async function () {};
