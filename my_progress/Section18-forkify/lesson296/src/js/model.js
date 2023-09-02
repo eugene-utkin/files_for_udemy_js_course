@@ -28,4 +28,8 @@ export const loadRecipe = async function (id) {
   }
 };
 
-export const loadSearchResults = async function (query) {};
+export const loadSearchResults = async function (query) {
+  try {
+    
+  }
+};
