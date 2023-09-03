@@ -34,7 +34,16 @@ export const loadSearchResults = async function (query) {
     console.log(data);
 
     data.data.recipes.map(rec => {
-      return {};
+      return {
+        id: recipe.id,
+        title: recipe.title,
+        publisher: recipe.publisher,
+        sourceUrl: recipe.source_url,
+        image: recipe.image_url,
+        servings: recipe.servings,
+        cookingTime: recipe.cooking_time,
+        ingredients: recipe.ingredients,
+      };
     });
   } catch (err) {
     console.error(`${err} 💥💥💥💥`);
