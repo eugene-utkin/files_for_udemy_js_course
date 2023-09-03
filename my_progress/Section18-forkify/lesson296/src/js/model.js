@@ -53,4 +53,3 @@ export const loadSearchResults = async function (query) {
     throw err;
   }
 };
-loadSearchResults('pizza');
