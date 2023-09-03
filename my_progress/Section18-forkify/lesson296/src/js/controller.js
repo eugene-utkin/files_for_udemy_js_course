@@ -28,8 +28,8 @@ const controlRecipes = async function () {
 };
 
 const controlSearchResults = async function () {
-  try {}
-  
+  try {
+  } catch (err) {}
 };
 
 const init = function () {
