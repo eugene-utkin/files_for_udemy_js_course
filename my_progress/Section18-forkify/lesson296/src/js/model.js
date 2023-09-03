@@ -6,6 +6,7 @@ export const state = {
   recipe: {},
   search: {
     query: '',
+    results: [],
   },
 };
 
