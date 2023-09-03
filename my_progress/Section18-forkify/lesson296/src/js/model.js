@@ -38,7 +38,7 @@ export const loadSearchResults = async function (query) {
         id: rec.id,
         title: rec.title,
         publisher: rec.publisher,
-        sourceUrl: recipe.source_url,
+        sourceUrl: rec.source_url,
         image: recipe.image_url,
       };
     });
