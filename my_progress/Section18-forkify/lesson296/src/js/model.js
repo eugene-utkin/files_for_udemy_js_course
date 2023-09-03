@@ -4,6 +4,7 @@ import { getJSON } from './helpers.js';
 
 export const state = {
   recipe: {},
+  search: {},
 };
 
 export const loadRecipe = async function (id) {
