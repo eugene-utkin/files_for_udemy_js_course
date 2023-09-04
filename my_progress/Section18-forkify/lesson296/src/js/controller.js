@@ -29,7 +29,9 @@ const controlRecipes = async function () {
 
 const controlSearchResults = async function () {
   try {
-  } catch (err) {}
+  } catch (err) {
+    console.log(err);
+  }
 };
 
 const init = function () {
