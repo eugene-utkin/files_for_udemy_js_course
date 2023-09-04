@@ -30,7 +30,7 @@ const controlRecipes = async function () {
 const controlSearchResults = async function () {
   try {
     await model.loadSearchResults('pizza');
-    console.log(state.search.results);
+    console.log(model.state.search.results);
   } catch (err) {
     console.log(err);
   }
