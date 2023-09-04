@@ -25,6 +25,8 @@ const controlRecipes = async function () {
 
 const controlSearchResults = async function () {
   try {
+    const query = searchView.getQuery();
+
     await model.loadSearchResults('pizza');
     console.log(model.state.search.results);
   } catch (err) {
