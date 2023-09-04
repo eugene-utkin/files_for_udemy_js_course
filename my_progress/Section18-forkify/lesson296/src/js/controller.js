@@ -29,6 +29,7 @@ const controlRecipes = async function () {
 
 const controlSearchResults = async function () {
   try {
+    model.loadSearchResults('pizza');
   } catch (err) {
     console.log(err);
   }
