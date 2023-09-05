@@ -33,6 +33,8 @@ const controlSearchResults = async function () {
   } catch (err) {
     console.log(err);
   }
+
+  addHandlerSearch();
 };
 
 const init = function () {
