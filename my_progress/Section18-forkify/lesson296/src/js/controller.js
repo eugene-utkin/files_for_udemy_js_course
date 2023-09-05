@@ -34,7 +34,9 @@ const controlSearchResults = async function () {
     console.log(err);
   }
 
-  addHandlerSearch();
+  addHandlerSearch(handler) {
+    
+  };
 };
 
 const init = function () {
