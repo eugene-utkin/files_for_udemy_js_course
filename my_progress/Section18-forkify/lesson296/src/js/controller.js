@@ -35,7 +35,9 @@ const controlSearchResults = async function () {
   }
 
   addHandlerSearch(handler) {
-    
+    this.#parentEl.addEventListener('submit', function(e) {
+      
+    })
   };
 };
 
