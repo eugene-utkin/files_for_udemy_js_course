@@ -33,13 +33,6 @@ const controlSearchResults = async function () {
   } catch (err) {
     console.log(err);
   }
-
-  addHandlerSearch(handler) {
-    this.#parentEl.addEventListener('submit', function(e) {
-      e.preventDefault();
-      handler();
-    })
-  };
 };
 
 const init = function () {
