@@ -5,10 +5,10 @@ import icons from 'url:../../img/icons.svg'; // Parcel 2
 import { Fraction } from 'fractional';
 
 class RecipeView {
-  #parentElement = document.querySelector('.recipe');
-  #data;
-  #errorMessage = 'We could not find that recipe. Please try another one!';
-  #message = '';
+  _parentElement = document.querySelector('.recipe');
+  _data;
+  _errorMessage = 'We could not find that recipe. Please try another one!';
+  _message = '';
 
   render(data) {
     this._data = data;
