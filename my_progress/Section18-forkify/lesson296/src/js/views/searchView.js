@@ -5,7 +5,9 @@ class SearchView {
     return this.#parentEl.querySelector('.search__field').value;
   }
 
-  clearInput() {}
+  clearInput() {
+    this.#parentEl.querySelector('.search__field').value = '';
+  }
 
   addHandlerSearch(handler) {
     this.#parentEl.addEventListener('submit', function (e) {
