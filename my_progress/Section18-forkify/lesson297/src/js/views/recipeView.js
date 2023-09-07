@@ -9,21 +9,6 @@ class RecipeView {
   _errorMessage = 'We could not find that recipe. Please try another one!';
   _message = '';
 
-  renderMessage(message = this._message) {
-    const markup = `
-      <div class="message">
-        <div>
-          <svg>
-            <use href="${icons}#icon-smile"></use>
-          </svg>
-        </div>
-        <p>${message}</p>
-      </div>
-    `;
-    this._clear();
-    this._parentElement.insertAdjacentHTML('afterbegin', markup);
-  }
-
   addHandlerRender(handler) {
     ['hashchange', 'load'].forEach(ev => window.addEventListener(ev, handler));
   }
