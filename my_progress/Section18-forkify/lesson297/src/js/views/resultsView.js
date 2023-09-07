@@ -1,3 +1,3 @@
 import View from './View.js';
 
-class ResultsView {}
+class ResultsView extends View {}
