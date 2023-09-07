@@ -9,10 +9,6 @@ class RecipeView {
   _errorMessage = 'We could not find that recipe. Please try another one!';
   _message = '';
 
-  _clear() {
-    this._parentElement.innerHTML = '';
-  }
-
   renderSpinner() {
     const markup = `
       <div class="spinner">
