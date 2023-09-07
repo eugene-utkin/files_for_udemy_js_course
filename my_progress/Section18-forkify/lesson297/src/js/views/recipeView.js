@@ -9,13 +9,6 @@ class RecipeView {
   _errorMessage = 'We could not find that recipe. Please try another one!';
   _message = '';
 
-  render(data) {
-    this._data = data;
-    const markup = this._generateMarkup();
-    this._clear();
-    this._parentElement.insertAdjacentHTML('afterbegin', markup);
-  }
-
   _clear() {
     this._parentElement.innerHTML = '';
   }
