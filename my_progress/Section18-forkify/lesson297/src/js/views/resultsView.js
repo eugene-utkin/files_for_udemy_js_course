@@ -8,7 +8,7 @@ class ResultsView extends View {
     return this._data.map(this._generateMarkupPreview).join('');
   }
 
-  _generateMarkupPreview() {
+  _generateMarkupPreview(result) {
     return `
       <li class="preview">
         <a class="preview__link preview__link--active" href="#23456">
