@@ -16,7 +16,7 @@ class ResultsView extends View {
             <img src="${result.image}" alt="Test" />
           </figure>
           <div class="preview__data">
-            <h4 class="preview__title">Pasta with Tomato Cream ...</h4>
+            <h4 class="preview__title">${result.title}</h4>
             <p class="preview__publisher">The Pioneer Woman</p>
             <div class="preview__user-generated">
               <svg>
