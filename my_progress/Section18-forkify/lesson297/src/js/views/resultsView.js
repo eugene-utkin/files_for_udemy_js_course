@@ -5,7 +5,7 @@ class ResultsView extends View {
 
   _generateMarkup() {
     console.log(this._data);
-    this._data.map().join('');
+    return this._data.map().join('');
     return `
       <li class="preview">
         <a class="preview__link preview__link--active" href="#23456">
