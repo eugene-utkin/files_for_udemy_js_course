@@ -54,5 +54,5 @@ export const loadSearchResults = async function (query) {
 };
 
 export const getSearchResultsPage = function (page) {
-  state.search.results.slice(0, 9);
+  return state.search.results.slice(0, 9);
 };
