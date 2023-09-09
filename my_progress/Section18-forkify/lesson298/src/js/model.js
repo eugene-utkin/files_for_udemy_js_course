@@ -53,4 +53,4 @@ export const loadSearchResults = async function (query) {
   }
 };
 
-export const getSearchResultsPage = function () {};
+export const getSearchResultsPage = function (page) {};
