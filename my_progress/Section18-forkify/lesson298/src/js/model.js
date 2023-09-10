@@ -54,7 +54,7 @@ export const loadSearchResults = async function (query) {
 };
 
 export const getSearchResultsPage = function (page) {
-  const start = // 0;
+  const start = (page -1) * 10// 0;
   const end = // 9;
 
   return state.search.results.slice(start, end);
