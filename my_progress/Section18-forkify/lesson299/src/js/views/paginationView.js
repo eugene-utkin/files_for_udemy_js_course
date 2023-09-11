@@ -6,5 +6,6 @@ class PaginationView extends View {
 
   _generateMarkup() {
     // Page 1, and there are other pages
+    // Page 1, and there are NO other pages
   }
 }
