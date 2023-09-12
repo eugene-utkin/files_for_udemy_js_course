@@ -21,6 +21,7 @@ class PaginationView extends View {
     }
     // Other page
     if (this._data.page < numPages) {
+      return 'other page';
     }
   }
 }
