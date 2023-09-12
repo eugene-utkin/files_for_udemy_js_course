@@ -16,7 +16,7 @@ class PaginationView extends View {
       return 'page1, others';
     }
     // Last page
-    if (this._data.page === numPages && numPages > 1) {
+    if (curPage === numPages && numPages > 1) {
       return `
         <button class="btn--inline pagination__btn--prev">
           <svg class="search__icon">
