@@ -13,7 +13,7 @@ class PaginationView extends View {
 
     // Page 1, and there are other pages
     if (curPage === 1 && numPages > 1) {
-      return _generateMarkupButton('next');
+      return _generateMarkupButton('next', curPage + 1);
     }
     // Last page
     if (curPage === numPages && numPages > 1) {
