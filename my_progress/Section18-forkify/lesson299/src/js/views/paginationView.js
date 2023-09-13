@@ -15,7 +15,7 @@ class PaginationView extends View {
     if (curPage === 1 && numPages > 1) {
       return `
         <button class="btn--inline pagination__btn--next">
-          <span>Page 3</span>
+          <span>Page ${curPage + 1}</span>
           <svg class="search__icon">
             <use href="src/img/icons.svg#icon-arrow-right"></use>
           </svg>
