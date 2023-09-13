@@ -60,7 +60,9 @@ class PaginationView extends View {
       <button class="btn--inline pagination__btn--${direction}">
         <span>Page ${pageNumber}</span>
         <svg class="search__icon">
-          <use href="${icons}#icon-arrow-right"></use>
+          <use href="${icons}#icon-arrow-${
+      direction === 'next' ? 'right' : 'left'
+    }"></use>
         </svg>
       </button>
     `;
