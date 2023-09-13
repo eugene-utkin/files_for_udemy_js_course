@@ -17,14 +17,7 @@ class PaginationView extends View {
     }
     // Last page
     if (curPage === numPages && numPages > 1) {
-      return `
-        <button class="btn--inline pagination__btn--prev">
-          <svg class="search__icon">
-            <use href="${icons}#icon-arrow-left"></use>
-          </svg>
-          <span>Page ${curPage - 1}</span>
-        </button>
-      `;
+      return this._generateMarkupButton('prev', curPage - 1);
     }
     // Other page
     if (curPage < numPages) {
