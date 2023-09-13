@@ -55,7 +55,11 @@ class PaginationView extends View {
     return '';
   }
 
-  _generateMarkupButton(direction, pageNumber) {}
+  _generateMarkupButton(direction, pageNumber) {
+    return `
+    
+    `;
+  }
 }
 
 export default new PaginationView();
