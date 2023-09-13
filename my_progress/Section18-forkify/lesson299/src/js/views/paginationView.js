@@ -54,6 +54,8 @@ class PaginationView extends View {
     // Page 1, and there are NO other pages
     return '';
   }
+
+  _generateMarkupButton(direction, pageNumber) {}
 }
 
 export default new PaginationView();
