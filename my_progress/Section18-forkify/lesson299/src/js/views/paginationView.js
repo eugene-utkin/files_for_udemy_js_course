@@ -33,7 +33,7 @@ class PaginationView extends View {
     return '';
   }
 
-  _generateMarkupButton(direction, pageNumber) {
+  generateMarkupButton(direction, pageNumber) {
     return `
       <button class="btn--inline pagination__btn--${direction}">
         <span>Page ${pageNumber}</span>
