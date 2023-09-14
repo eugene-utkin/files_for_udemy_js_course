@@ -41,7 +41,7 @@ class PaginationView extends View {
 
   generateMarkupButton(direction, pageNumber) {
     return `
-      <button class="btn--inline pagination__btn--${direction}">
+      <button data-goto="${pageNumber}" class="btn--inline pagination__btn--${direction}">
         <span>Page ${pageNumber}</span>
         <svg class="search__icon">
           <use href="${icons}#icon-arrow-${
