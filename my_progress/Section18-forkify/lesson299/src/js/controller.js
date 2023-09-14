@@ -58,5 +58,6 @@ const controlPagination = function () {
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
   searchView.addHandlerSearch(controlSearchResults);
+  paginationView.addHandlerClick();
 };
 init();
