@@ -52,7 +52,7 @@ const controlSearchResults = async function () {
 };
 
 const controlPagination = function (goToPage) {
-  console.log('Pag controller');
+  console.log(goToPage);
 };
 
 const init = function () {
