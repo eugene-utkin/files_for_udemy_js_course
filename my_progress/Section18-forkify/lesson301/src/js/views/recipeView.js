@@ -13,6 +13,8 @@ class RecipeView extends View {
     ['hashchange', 'load'].forEach(ev => window.addEventListener(ev, handler));
   }
 
+  addHandlerUpdateServings() {}
+
   _generateMarkup() {
     return `
       <figure class="recipe__fig">
