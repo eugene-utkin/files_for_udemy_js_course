@@ -65,5 +65,7 @@ export const getSearchResultsPage = function (page = state.search.page) {
 };
 
 export const updateServings = function (newServings) {
-  state.recipe.ingredients.foreach(ing => {});
+  state.recipe.ingredients.foreach(ing => {
+    // newQt = oldQt * newServings / oldServings
+  });
 };
