@@ -64,4 +64,4 @@ export const getSearchResultsPage = function (page = state.search.page) {
   return state.search.results.slice(start, end);
 };
 
-const updateServings = function (newServings) {};
+export const updateServings = function (newServings) {};
