@@ -69,4 +69,6 @@ export const updateServings = function (newServings) {
     ing.quantity = (ing.quantity * newServings) / state.recipe.servings;
     // newQt = oldQt * newServings / oldServings // 2 * 8 / 4 = 4
   });
+
+  state.recipe.servings = newServings;
 };
