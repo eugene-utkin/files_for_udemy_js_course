@@ -20,7 +20,7 @@ class RecipeView extends View {
       console.log(btn);
       const { updateTo } = btn.dataset;
 
-      handler();
+      handler(updateTo);
     });
   }
 
