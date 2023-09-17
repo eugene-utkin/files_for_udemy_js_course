@@ -13,7 +13,9 @@ class RecipeView extends View {
     ['hashchange', 'load'].forEach(ev => window.addEventListener(ev, handler));
   }
 
-  addHandlerUpdateServings(handler) {}
+  addHandlerUpdateServings(handler) {
+    this._parentElement.addEventListener('click', function (e) {});
+  }
 
   _generateMarkup() {
     return `
