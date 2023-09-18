@@ -13,7 +13,7 @@ export default class View {
     this._parentElement.insertAdjacentHTML('afterbegin', markup);
   }
 
-  update() {}
+  update(data) {}
 
   _clear() {
     this._parentElement.innerHTML = '';
