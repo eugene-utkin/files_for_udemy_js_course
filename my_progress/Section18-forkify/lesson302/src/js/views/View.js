@@ -19,6 +19,8 @@ export default class View {
 
     this._data = data;
     const newMarkup = this._generateMarkup();
+
+    const newDOM = document.createRange();
   }
 
   _clear() {
