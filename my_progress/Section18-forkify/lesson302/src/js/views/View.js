@@ -26,7 +26,9 @@ export default class View {
     console.log(curElements);
     console.log(newElements);
 
-    newElements.forEach((newEl, i) => {});
+    newElements.forEach((newEl, i) => {
+      const curEl = curElements[i];
+    });
   }
 
   _clear() {
