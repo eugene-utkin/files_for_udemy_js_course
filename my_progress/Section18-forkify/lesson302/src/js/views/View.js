@@ -28,7 +28,7 @@ export default class View {
       const curEl = curElements[i];
       console.log(curEl, newEl.isEqualNode(curEl));
 
-      if (newEl.isEqualNode(curEl)) {
+      if (!newEl.isEqualNode(curEl)) {
         curEl.textContent = newEl.textContent;
       }
     });
