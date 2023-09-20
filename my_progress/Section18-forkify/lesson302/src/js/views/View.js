@@ -37,6 +37,7 @@ export default class View {
         curEl.textContent = newEl.textContent;
       }
 
+      // Updates changed ATTRIBUTES
       if (!newEl.isEqualNode(curEl)) {
       }
     });
