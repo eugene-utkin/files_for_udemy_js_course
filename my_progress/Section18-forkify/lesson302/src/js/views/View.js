@@ -36,6 +36,9 @@ export default class View {
         curEl.textContent = newEl.textContent;
       }
     });
+
+    if (!newEl.isEqualNode(curEl)) {
+    }
   }
 
   _clear() {
