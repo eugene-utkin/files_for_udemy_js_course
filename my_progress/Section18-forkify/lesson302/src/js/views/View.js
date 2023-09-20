@@ -39,7 +39,7 @@ export default class View {
 
       // Updates changed ATTRIBUTES
       if (!newEl.isEqualNode(curEl)) {
-        newEl.attributes.forEach();
+        Array.from(newEl.attributes).forEach();
       }
     });
   }
