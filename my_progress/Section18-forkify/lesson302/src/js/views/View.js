@@ -35,10 +35,10 @@ export default class View {
         console.log('💥', newEl.firstChild.nodeValue.trim());
         curEl.textContent = newEl.textContent;
       }
-    });
 
-    if (!newEl.isEqualNode(curEl)) {
-    }
+      if (!newEl.isEqualNode(curEl)) {
+      }
+    });
   }
 
   _clear() {
