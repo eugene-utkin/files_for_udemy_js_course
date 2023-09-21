@@ -14,8 +14,6 @@ export default class View {
   }
 
   update(data) {
-    return this.renderError();
-
     this._data = data;
     const newMarkup = this._generateMarkup();
 
