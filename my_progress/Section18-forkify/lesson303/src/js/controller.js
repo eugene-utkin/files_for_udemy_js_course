@@ -34,6 +34,7 @@ const controlRecipes = async function () {
 
 const controlSearchResults = async function () {
   try {
+    model.state.search.page = 1;
     resultsView.renderSpinner();
 
     // 1) Get search query
