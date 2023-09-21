@@ -76,5 +76,6 @@ export const updateServings = function (newServings) {
 };
 
 export const addBookmark = function (recipe) {
+  // Add bookmark
   state.bookmarks.push(recipe);
 };
