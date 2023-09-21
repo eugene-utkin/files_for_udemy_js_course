@@ -80,5 +80,5 @@ export const addBookmark = function (recipe) {
   state.bookmarks.push(recipe);
 
   // Mark current recipe as bookmark
-  if (recipe.id === state.recipe.id) 
+  if (recipe.id === state.recipe.id) state.recipe.bookmarked = true;
 };
