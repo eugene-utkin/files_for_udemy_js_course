@@ -74,4 +74,4 @@ export const updateServings = function (newServings) {
   state.recipe.servings = newServings;
 };
 
-const addBookmark = function (recipe) {};
+export const addBookmark = function (recipe) {};
