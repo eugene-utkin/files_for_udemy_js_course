@@ -22,7 +22,7 @@ class RecipeView extends View {
     });
   }
 
-  addHandlerAddBookmark() {}
+  addHandlerAddBookmark(handler) {}
 
   _generateMarkup() {
     return `
