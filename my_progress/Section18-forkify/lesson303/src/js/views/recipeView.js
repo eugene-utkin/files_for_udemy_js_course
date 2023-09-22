@@ -22,6 +22,8 @@ class RecipeView extends View {
     });
   }
 
+  addHandlerAddBookmark() {}
+
   _generateMarkup() {
     return `
       <figure class="recipe__fig">
