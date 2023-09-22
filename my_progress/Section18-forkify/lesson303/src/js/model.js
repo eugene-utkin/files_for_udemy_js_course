@@ -28,6 +28,8 @@ export const loadRecipe = async function (id) {
       cookingTime: recipe.cooking_time,
       ingredients: recipe.ingredients,
     };
+
+    if (state.bookmarks.some(bookmark => bookmark.id === id))
   } catch (err) {
     // Temp error handling
     console.error(`${err} 💥💥💥💥`);
