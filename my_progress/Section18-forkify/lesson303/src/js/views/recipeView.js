@@ -22,7 +22,9 @@ class RecipeView extends View {
     });
   }
 
-  addHandlerAddBookmark(handler) {}
+  addHandlerAddBookmark(handler) {
+    this._parentElement.addEventListener('click', function (e) {});
+  }
 
   _generateMarkup() {
     return `
