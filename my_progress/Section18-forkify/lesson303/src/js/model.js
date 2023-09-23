@@ -87,4 +87,4 @@ export const addBookmark = function (recipe) {
   if (recipe.id === state.recipe.id) state.recipe.bookmarked = true;
 };
 
-const deleteBookmark = function (id) {};
+export const deleteBookmark = function (id) {};
