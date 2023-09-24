@@ -32,4 +32,4 @@ class PreviewView extends View {
   }
 }
 
-export default new ResultsView();
+export default new PreviewView();
