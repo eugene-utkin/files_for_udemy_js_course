@@ -81,6 +81,7 @@ const controlAddBookmark = function () {
   recipeView.update(model.state.recipe);
 
   // 3) Render bookmarks
+  bookmarksView.render();
 };
 
 const init = function () {
