@@ -2,7 +2,7 @@ import View from './View.js';
 import icons from 'url:../../img/icons.svg'; // Parcel 2
 
 class BookmarksView extends View {
-  _parentElement = document.querySelector('.results');
+  _parentElement = document.querySelector('.bookmarks__list');
   _errorMessage = 'No recipes found for your query! Please try again ;)';
   _message = '';
 
