@@ -10,7 +10,7 @@ class PreviewView extends View {
     return `
       <li class="preview">
         <a class="preview__link ${
-          result.id === id ? 'preview__link--active' : ''
+          this._data.id === id ? 'preview__link--active' : ''
         }" href="#${result.id}">
           <figure class="preview__fig">
             <img src="${result.image}" alt="${result.title}" />
