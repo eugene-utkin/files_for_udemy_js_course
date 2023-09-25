@@ -9,7 +9,7 @@ class PreviewView extends View {
     return this._data.map(this._generateMarkupPreview).join('');
   }
 
-  _generateMarkupPreview(result) {
+  _generateMarkup(result) {
     const id = window.location.hash.slice(1);
 
     return `
