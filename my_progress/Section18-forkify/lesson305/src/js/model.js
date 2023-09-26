@@ -105,6 +105,6 @@ export const deleteBookmark = function (id) {
 };
 
 const init = function () {
-  localStorage.getItem('bookmarks');
+  const storage = localStorage.getItem('bookmarks');
 };
 init();
