@@ -105,3 +105,4 @@ export const deleteBookmark = function (id) {
 };
 
 const init = function () {};
+init();
