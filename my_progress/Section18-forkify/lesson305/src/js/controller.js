@@ -26,7 +26,7 @@ const controlRecipes = async function () {
     // 1) Updating bookmarks view
     bookmarksView.update(model.state.bookmarks);
 
-    // 1) Loading recipe
+    // 2) Loading recipe
     await model.loadRecipe(id);
 
     // 2) Rendering recipe
