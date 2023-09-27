@@ -30,6 +30,7 @@ const controlRecipes = async function () {
     recipeView.render(model.state.recipe);
 
     // 3) Updating bookmarks view
+    debugger;
     bookmarksView.update(model.state.bookmarks);
   } catch (err) {
     recipeView.renderError();
