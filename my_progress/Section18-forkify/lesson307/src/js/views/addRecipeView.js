@@ -30,7 +30,9 @@ class AddRecipeView extends View {
   }
 
   _addHandlerUpload() {
-    this._parentElement.addEventListener('submit', function (e) {});
+    this._parentElement.addEventListener('submit', function (e) {
+      e.preventDefault();
+    });
   }
 
   _generateMarkup() {}
