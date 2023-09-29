@@ -29,6 +29,8 @@ class AddRecipeView extends View {
     this._overlay.addEventListener('click', this.toggleWindow.bind(this));
   }
 
+  _addHandlerUpload() {}
+
   _generateMarkup() {}
 }
 
