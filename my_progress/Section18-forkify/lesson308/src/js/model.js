@@ -116,5 +116,6 @@ const clearBookmarks = function () {
 // clearBookmarks();
 
 export const uploadRecipe = async function (newRecipe) {
+  console.log(Object.entries(newRecipe));
   // const ingredients = Object.entries(newRecipe).filter(entry => );
 };
