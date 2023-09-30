@@ -1,7 +1,7 @@
 import { async } from 'regenerator-runtime';
 import { API_URL, RES_PER_PAGE } from './config.js';
 import { getJSON } from './helpers.js';
-import { startsWith } from 'core-js/core/string';
+import { startsWith } from 'core-js/./es/string';
 
 export const state = {
   recipe: {},
