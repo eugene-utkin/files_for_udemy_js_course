@@ -115,4 +115,4 @@ const clearBookmarks = function () {
 };
 // clearBookmarks();
 
-const uploadRecipe = async function (newRecipe) {};
+export const uploadRecipe = async function (newRecipe) {};
