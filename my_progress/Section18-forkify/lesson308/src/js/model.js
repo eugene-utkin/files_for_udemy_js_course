@@ -114,3 +114,5 @@ const clearBookmarks = function () {
   localStorage.clear('bookmarks');
 };
 // clearBookmarks();
+
+const uploadRecipe = function (newRecipe) {};
