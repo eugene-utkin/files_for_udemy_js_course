@@ -1,6 +1,7 @@
 import { async } from 'regenerator-runtime';
 import { API_URL, RES_PER_PAGE } from './config.js';
 import { getJSON } from './helpers.js';
+import { startsWith } from 'core-js/core/string';
 
 export const state = {
   recipe: {},
@@ -117,5 +118,7 @@ const clearBookmarks = function () {
 
 export const uploadRecipe = async function (newRecipe) {
   console.log(Object.entries(newRecipe));
-  // const ingredients = Object.entries(newRecipe).filter(entry => );
+  const ingredients = Object.entries(newRecipe).filter(
+    entry => entry[0].startsWith('ingredient') && entry[1] !== ''
+  );
 };
