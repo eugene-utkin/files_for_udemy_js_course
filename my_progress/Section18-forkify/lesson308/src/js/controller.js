@@ -96,7 +96,7 @@ const controlBookmarks = function () {
 const controlAddRecipe = function (newRecipe) {
   try {
     // Upload the new recipe data
-    model.uploadRecipe(newRecipe);
+    await model.uploadRecipe(newRecipe);
   } catch (err) {
     console.error('💥', err);
     addRecipeView.renderError(err.message);
