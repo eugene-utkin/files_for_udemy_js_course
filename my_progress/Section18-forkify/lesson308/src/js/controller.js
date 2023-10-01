@@ -99,6 +99,7 @@ const controlAddRecipe = function (newRecipe) {
     model.uploadRecipe(newRecipe);
   } catch (err) {
     console.error('💥', err);
+    addRecipeView.renderError(err.message);
   }
 };
 
