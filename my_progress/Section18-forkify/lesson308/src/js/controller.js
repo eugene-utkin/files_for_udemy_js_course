@@ -97,7 +97,7 @@ const controlAddRecipe = function (newRecipe) {
   try {
     // Upload the new recipe data
     model.uploadRecipe(newRecipe);
-  }
+  } catch (err) {}
 };
 
 const init = function () {
