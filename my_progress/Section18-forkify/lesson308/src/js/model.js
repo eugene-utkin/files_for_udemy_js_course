@@ -132,5 +132,7 @@ export const uploadRecipe = async function (newRecipe) {
         return { quantity: quantity ? +quantity : null, unit, description };
       });
     console.log(ingredients);
-  } catch (err) {}
+  } catch (err) {
+    throw err;
+  }
 };
