@@ -121,6 +121,7 @@ export const uploadRecipe = async function (newRecipe) {
     .filter(entry => entry[0].startsWith('ingredient') && entry[1] !== '')
     .map(ing => {
       const ingArr = ing[1].replaceAll(' ', '').split(',');
+      if (ingArr.length !== 3)
 
       const [quantity, unit, description] = ingArr;
 
