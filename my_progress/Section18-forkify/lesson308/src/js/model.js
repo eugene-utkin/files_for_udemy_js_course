@@ -142,5 +142,6 @@ export const uploadRecipe = async function (newRecipe) {
     image_url: newRecipe.image,
     publisher: newRecipe.publisher,
     cooking_time: newRecipe.cookingTime,
+    servings: newRecipe.servings,
   };
 };
