@@ -29,6 +29,7 @@ export const sendJSON = async function (url) {
       headers: {
         'Content-Type': 'application/json',
       },
+      body: JSON.stringify(),
     });
     const res = await Promise.race([fetchPro, timeout(TIMEOUT_SEC)]);
     const data = await res.json();
