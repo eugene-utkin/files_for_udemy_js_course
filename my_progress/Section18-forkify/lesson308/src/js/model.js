@@ -140,7 +140,7 @@ export const uploadRecipe = async function (newRecipe) {
       servings: +newRecipe.servings,
       ingredients,
     };
-    console.log(ingredients);
+    console.log(recipe);
   } catch (err) {
     throw err;
   }
