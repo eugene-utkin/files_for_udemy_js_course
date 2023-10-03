@@ -140,7 +140,7 @@ export const uploadRecipe = async function (newRecipe) {
       servings: +newRecipe.servings,
       ingredients,
     };
-    const data = sendJSON(`${API_URL}?key=${KEY}`);
+    const data = await sendJSON(`${API_URL}?key=${KEY}`);
   } catch (err) {
     throw err;
   }
