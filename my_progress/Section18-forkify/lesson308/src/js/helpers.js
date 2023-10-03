@@ -29,10 +29,10 @@ export const sendJSON = async function (url, uploadData) {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(),
+      body: JSON.stringify(uploadData),
     });
     const res = await Promise.race([fetchPro, timeout(TIMEOUT_SEC)]);
-    const data = await res.json(uploadData);
+    const data = await res.json();
 
     if (!res.ok) throw new Error(`${data.message} (${res.status})`);
     return data;
