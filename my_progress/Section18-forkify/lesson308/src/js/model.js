@@ -14,6 +14,8 @@ export const state = {
   bookmarks: [],
 };
 
+const createRecipeObject = function (data) {};
+
 export const loadRecipe = async function (id) {
   try {
     const data = await getJSON(`${API_URL}${id}`);
