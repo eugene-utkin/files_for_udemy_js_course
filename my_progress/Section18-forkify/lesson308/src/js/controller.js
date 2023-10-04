@@ -100,6 +100,7 @@ const controlAddRecipe = async function (newRecipe) {
     console.log(model.state.recipe);
 
     // Render recipe
+    recipeView.render(model.state.recipe);
   } catch (err) {
     console.error('💥', err);
     addRecipeView.renderError(err.message);
