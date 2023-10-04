@@ -103,6 +103,7 @@ const controlAddRecipe = async function (newRecipe) {
     recipeView.render(model.state.recipe);
 
     // Close form window
+    setTimeout(function () {}, 2500);
   } catch (err) {
     console.error('💥', err);
     addRecipeView.renderError(err.message);
