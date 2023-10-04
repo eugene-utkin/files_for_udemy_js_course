@@ -98,6 +98,8 @@ const controlAddRecipe = async function (newRecipe) {
     // Upload the new recipe data
     await model.uploadRecipe(newRecipe);
     console.log(model.state.recipe);
+
+    // Render recipe
   } catch (err) {
     console.error('💥', err);
     addRecipeView.renderError(err.message);
