@@ -9,7 +9,17 @@ const timeout = function (s) {
   });
 };
 
-export const AJAX = async function (url, uploadData = undefined) {};
+export const AJAX = async function (url, uploadData = undefined) {
+  const fetchPro = uploadData
+    ? fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(uploadData),
+      })
+    : fetch(url);
+};
 
 export const getJSON = async function (url) {
   try {
