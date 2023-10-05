@@ -9,7 +9,7 @@ const timeout = function (s) {
   });
 };
 
-export const AJAX = async function () {};
+export const AJAX = async function (url) {};
 
 export const getJSON = async function (url) {
   try {
