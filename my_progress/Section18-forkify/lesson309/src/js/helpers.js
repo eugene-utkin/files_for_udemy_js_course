@@ -9,6 +9,8 @@ const timeout = function (s) {
   });
 };
 
+const AJAX = function () {};
+
 export const getJSON = async function (url) {
   try {
     const fetchPro = fetch(url);
