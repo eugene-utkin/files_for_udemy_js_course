@@ -5,7 +5,7 @@ export default class View {
 
   /**
    * Render the received object to the DOM
-   * @param {*} data
+   * @param {Object} data
    * @param {*} render
    * @returns
    */
