@@ -4,7 +4,7 @@ export default class View {
   _data;
 
   /**
-   *
+   * Render the received object to the DOM
    * @param {*} data
    * @param {*} render
    * @returns
