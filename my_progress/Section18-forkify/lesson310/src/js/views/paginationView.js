@@ -26,14 +26,16 @@ class PaginationView extends View {
     }
     // Last page
     if (curPage === numPages && numPages > 1) {
-      return this.generateMarkupButton('prev', curPage - 1);
+      return (
+        this.generateMarkupButton('prev', curPage - 1) +
+        this.generateMarkupNumberOfPages(numPages)
+      );
     }
     // Other page
     if (curPage < numPages) {
       return (
         this.generateMarkupButton('prev', curPage - 1) +
-        this.generateMarkupButton('next', curPage + 1) +
-        this.generateMarkupNumberOfPages(numPages)
+        this.generateMarkupButton('next', curPage + 1)
       );
     }
 
