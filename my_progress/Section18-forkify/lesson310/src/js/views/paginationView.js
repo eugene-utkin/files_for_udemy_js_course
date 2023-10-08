@@ -31,10 +31,9 @@ class PaginationView extends View {
     }
     // Other page
     if (curPage < numPages) {
-      return (
+      markup =
         this.generateMarkupButton('prev', curPage - 1) +
-        this.generateMarkupButton('next', curPage + 1)
-      );
+        this.generateMarkupButton('next', curPage + 1);
     }
 
     // Page 1, and there are NO other pages
