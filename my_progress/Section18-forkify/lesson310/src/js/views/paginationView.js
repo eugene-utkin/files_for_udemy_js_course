@@ -23,7 +23,7 @@ class PaginationView extends View {
     let markup;
     // Page 1, and there are other pages
     if (curPage === 1 && numPages > 1) {
-      return this.generateMarkupButton('next', curPage + 1);
+      markup = this.generateMarkupButton('next', curPage + 1);
     }
     // Last page
     if (curPage === numPages && numPages > 1) {
