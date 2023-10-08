@@ -58,7 +58,7 @@ class PaginationView extends View {
 
   generateMarkupNumberOfPages(numPages) {
     return `
-      <div>${numPages}</div>
+      <div>Number of pages: ${numPages}.</div>
     `;
   }
 }
