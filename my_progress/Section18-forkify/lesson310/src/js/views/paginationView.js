@@ -40,7 +40,7 @@ class PaginationView extends View {
       return markup + generateMarkupNumberOfPages(numPages);
     }
     // Page 1, and there are NO other pages
-    return markup || '';
+    return '';
   }
 
   generateMarkupButton(direction, pageNumber) {
