@@ -27,7 +27,7 @@ class PaginationView extends View {
     }
     // Last page
     if (curPage === numPages && numPages > 1) {
-      return this.generateMarkupButton('prev', curPage - 1);
+      markup = this.generateMarkupButton('prev', curPage - 1);
     }
     // Other page
     if (curPage < numPages) {
