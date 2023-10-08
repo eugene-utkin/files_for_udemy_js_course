@@ -32,7 +32,8 @@ class PaginationView extends View {
     if (curPage < numPages) {
       return (
         this.generateMarkupButton('prev', curPage - 1) +
-        this.generateMarkupButton('next', curPage + 1)
+        this.generateMarkupButton('next', curPage + 1) +
+        this.generateMarkupNumberOfPages()
       );
     }
 
