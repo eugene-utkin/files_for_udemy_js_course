@@ -52,6 +52,8 @@ class PaginationView extends View {
       </button>
     `;
   }
+
+  generateMarkupNumberOfPages() {}
 }
 
 export default new PaginationView();
