@@ -36,6 +36,7 @@ class PaginationView extends View {
         this.generateMarkupButton('next', curPage + 1);
     }
 
+    if (markup) markup += generateMarkupNumberOfPages(numPages);
     // Page 1, and there are NO other pages
     return markup || '';
   }
