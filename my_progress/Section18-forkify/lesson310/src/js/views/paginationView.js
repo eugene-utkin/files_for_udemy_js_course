@@ -53,7 +53,11 @@ class PaginationView extends View {
     `;
   }
 
-  generateMarkupNumberOfPages(numPages) {}
+  generateMarkupNumberOfPages(numPages) {
+    return `
+      <div></div>
+    `;
+  }
 }
 
 export default new PaginationView();
