@@ -37,7 +37,7 @@ class PaginationView extends View {
     }
 
     if (markup) {
-      return markup + generateMarkupNumberOfPages(numPages);
+      return markup + this.generateMarkupNumberOfPages(numPages);
     }
     // Page 1, and there are NO other pages
     return '';
