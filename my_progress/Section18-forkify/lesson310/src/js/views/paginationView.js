@@ -20,16 +20,14 @@ class PaginationView extends View {
       this._data.results.length / this._data.resultsPerPage
     );
 
+    let markup;
     // Page 1, and there are other pages
     if (curPage === 1 && numPages > 1) {
       return this.generateMarkupButton('next', curPage + 1);
     }
     // Last page
     if (curPage === numPages && numPages > 1) {
-      return (
-        this.generateMarkupButton('prev', curPage - 1) +
-        this.generateMarkupNumberOfPages(numPages)
-      );
+      return this.generateMarkupButton('prev', curPage - 1);
     }
     // Other page
     if (curPage < numPages) {
