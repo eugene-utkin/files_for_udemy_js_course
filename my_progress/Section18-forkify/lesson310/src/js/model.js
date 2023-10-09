@@ -11,6 +11,7 @@ export const state = {
     results: [],
     page: 1,
     resultsPerPage: RES_PER_PAGE,
+    filters: {},
   },
   bookmarks: [],
 };
