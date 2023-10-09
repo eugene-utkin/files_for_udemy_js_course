@@ -1,3 +1,3 @@
 import View from './View.js';
 
-class ResultsFiltersView {}
+class ResultsFiltersView extends View {}
