@@ -6,6 +6,7 @@ class ResultsFiltersView extends View {
   _generateMarkup() {
     if (this._data.results.length > 1) {
     }
+    return '';
   }
 }
 
