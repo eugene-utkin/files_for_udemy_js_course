@@ -9,7 +9,7 @@ class ResultsFiltersView extends View {
     );
 
     if (this._data.results.length > 1) {
-      Object.keys(this._data.filters).reduce(
+      return Object.keys(this._data.filters).reduce(
         (filter, acc) => (acc += this.generateMarkupButton()),
         ''
       );
