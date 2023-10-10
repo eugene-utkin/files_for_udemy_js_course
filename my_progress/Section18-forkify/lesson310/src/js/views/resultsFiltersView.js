@@ -11,7 +11,7 @@ class ResultsFiltersView extends View {
     if (this._data.results.length > 1) {
       console.log(Object.keys(this._data.filters));
       return Object.keys(this._data.filters).reduce(
-        (filter, acc) =>
+        (acc, filter) =>
           (acc += this.generateMarkupButton(filter, filter === curFilter)),
         ''
       );
@@ -20,6 +20,7 @@ class ResultsFiltersView extends View {
   }
 
   generateMarkupButton(filter, active) {
+    console.log(filter);
     return `
       <button data-filter="${filter}" class="btn--inline">
         <span>${filter}</span>
