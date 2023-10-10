@@ -14,9 +14,11 @@ class ResultsFiltersView extends View {
     return '';
   }
 
-  generateMarkupButton() {
+  generateMarkupButton(filter) {
     return `
-
+      <button data-filter="${filter}" class="btn--inline">
+        <span>${filter}</span>
+      </button>
     `;
   }
 }
