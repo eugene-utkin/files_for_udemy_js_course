@@ -14,7 +14,11 @@ class ResultsFiltersView extends View {
     return '';
   }
 
-  generateMarkupButton() {}
+  generateMarkupButton() {
+    return `
+
+    `;
+  }
 }
 
 export default new ResultsFiltersView();
