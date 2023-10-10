@@ -9,7 +9,7 @@ class ResultsFiltersView extends View {
     );
 
     if (this._data.results.length > 1) {
-      this.generateMarkupButton();
+      return this.generateMarkupButton();
     }
     return '';
   }
