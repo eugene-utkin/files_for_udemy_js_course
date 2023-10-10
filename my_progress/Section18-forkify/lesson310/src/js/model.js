@@ -14,6 +14,7 @@ export const state = {
     filters: {
       none: true,
       cookingTime: false,
+      numberOfIngredients: false,
     },
   },
   bookmarks: [],
