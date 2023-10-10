@@ -4,7 +4,7 @@ class ResultsFiltersView extends View {
   _parentElement = document.querySelector('.filters');
 
   _generateMarkup() {
-    const curFilter = Object.entries(this._data.filters);
+    const curFilter = Object.keys(this._data.filters);
 
     if (this._data.results.length > 1) {
     }
