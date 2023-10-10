@@ -52,6 +52,7 @@ const controlSearchResults = async function () {
     await model.loadSearchResults(query);
 
     // 3) Render filter buttons
+    resultsFiltersView.render(model.state.search);
 
     // 4) Render results
     // resultsView.render(model.state.search.results);
