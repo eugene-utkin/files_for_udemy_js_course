@@ -13,6 +13,7 @@ export const state = {
     resultsPerPage: RES_PER_PAGE,
     filters: {
       none: true,
+      cookingTime: false,
     },
   },
   bookmarks: [],
