@@ -22,7 +22,7 @@ class ResultsFiltersView extends View {
     return `
       <button data-filter="${filter}" class="btn--inline"  ${
       active ? 'disabled' : ''
-    }">
+    }>
         <span>${filter}</span>
       </button>
     `;
