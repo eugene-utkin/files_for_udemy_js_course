@@ -9,7 +9,10 @@ class ResultsFiltersView extends View {
     );
 
     if (this._data.results.length > 1) {
-      return this.generateMarkupButton();
+      Object.keys(this._data.filters).reduce(
+        (filter, acc) => (acc += this.generateMarkupButton()),
+        ''
+      );
     }
     return '';
   }
