@@ -15,7 +15,7 @@ class ResultsFiltersView extends View {
       return Object.keys(this._data.filters).reduce(
         (acc, filter) =>
           (acc += this.generateMarkupButton(filter, filter === curFilter)),
-        ''
+        markup
       );
     }
     return '';
