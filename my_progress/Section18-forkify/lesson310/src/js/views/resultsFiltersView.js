@@ -12,7 +12,7 @@ class ResultsFiltersView extends View {
       let markup = `
         <p>Filters:</p>  
       `;
-      return Object.keys(this._data.filters).reduce(
+      markup = Object.keys(this._data.filters).reduce(
         (acc, filter) =>
           (acc += this.generateMarkupButton(filter, filter === curFilter)),
         markup
