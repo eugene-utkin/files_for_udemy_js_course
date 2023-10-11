@@ -9,7 +9,6 @@ class ResultsFiltersView extends View {
     );
 
     if (this._data.results.length > 1) {
-      console.log(Object.keys(this._data.filters));
       return Object.keys(this._data.filters).reduce(
         (acc, filter) =>
           (acc += this.generateMarkupButton(filter, filter === curFilter)),
