@@ -10,7 +10,7 @@ class ResultsFiltersView extends View {
 
     if (this._data.results.length > 1) {
       let markup = `
-        
+        <p>Filters:</p>  
       `;
       return Object.keys(this._data.filters).reduce(
         (acc, filter) =>
