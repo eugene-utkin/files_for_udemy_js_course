@@ -18,9 +18,9 @@ class ResultsFiltersView extends View {
           (acc += this.generateMarkupButton(filter, filter === curFilter)),
         markup
       );
-      markup += `
+      return (markup += `
         </div>
-      `;
+      `);
     }
     return '';
   }
