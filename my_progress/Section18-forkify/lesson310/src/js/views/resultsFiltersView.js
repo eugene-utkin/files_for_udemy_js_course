@@ -33,7 +33,7 @@ class ResultsFiltersView extends View {
     console.log(filter);
     return `
       <button data-filter="${filter}" class="btn--inline">
-        <span>${filter}</span>
+        <span>${FILTERS[filter]}</span>
       </button>
     `;
   }
