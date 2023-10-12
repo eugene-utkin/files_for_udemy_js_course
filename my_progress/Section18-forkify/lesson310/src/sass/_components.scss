@@ -92,6 +92,10 @@
 
 .filter-btn-active {
   background-color: $color-grey-dark-1;
+
+  &:hover {
+    background-color: $color-grey-dark-1;
+  }
 }
 
 .btn--round {
