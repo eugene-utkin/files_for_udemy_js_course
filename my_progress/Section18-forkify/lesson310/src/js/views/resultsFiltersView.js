@@ -32,7 +32,9 @@ class ResultsFiltersView extends View {
   generateMarkupButton(filter, active) {
     console.log(filter);
     return `
-      <button data-filter="${filter}" class="btn--inline">
+      <button data-filter="${filter}" class="btn--inline ${
+      active ? 'filter-btn-active' : ''
+    }">
         <span>${FILTERS[filter]}</span>
       </button>
     `;
