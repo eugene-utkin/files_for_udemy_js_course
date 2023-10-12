@@ -1,5 +1,5 @@
 import View from './View.js';
-import { FILTERS } from './config.js';
+import { FILTERS } from '../config.js';
 
 class ResultsFiltersView extends View {
   _parentElement = document.querySelector('.filters');
