@@ -4,7 +4,9 @@ import { FILTERS } from '../config.js';
 class ResultsFiltersView extends View {
   _parentElement = document.querySelector('.filters');
 
-  addHandlerClick(handler) {}
+  addHandlerClick(handler) {
+    this._parentElement.addEventListener('click', function (e) {});
+  }
 
   _generateMarkup() {
     const curFilter = Object.keys(this._data.filters).find(
