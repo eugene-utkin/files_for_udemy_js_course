@@ -5,7 +5,9 @@ class ResultsFiltersView extends View {
   _parentElement = document.querySelector('.filters');
 
   addHandlerClick(handler) {
-    this._parentElement.addEventListener('click', function (e) {});
+    this._parentElement.addEventListener('click', function (e) {
+      const btn = e.target.closest('.btn--inline');
+    });
   }
 
   _generateMarkup() {
