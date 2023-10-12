@@ -6,4 +6,5 @@ export const MODAL_CLOSE_SEC = 2.5;
 const FILTERS = {
   none: 'None',
   cookingTime: 'Cooking Time',
+  numberOfIngredients: 'Number of Ingredients',
 };
