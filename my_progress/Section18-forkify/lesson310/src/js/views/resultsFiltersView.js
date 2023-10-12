@@ -4,6 +4,8 @@ import { FILTERS } from '../config.js';
 class ResultsFiltersView extends View {
   _parentElement = document.querySelector('.filters');
 
+  addHandlerClick() {}
+
   _generateMarkup() {
     const curFilter = Object.keys(this._data.filters).find(
       key => this._data.filters[key] === true
