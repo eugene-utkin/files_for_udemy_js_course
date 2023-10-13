@@ -82,7 +82,7 @@ export const getSearchResultsPage = function (page = state.search.page) {
   return state.search.results.slice(start, end);
 };
 
-const getFilteredSearchResults = function (filter = 'none') {
+const setSearchResultsFilter = function (filter = 'none') {
   if (filter === 'none')
 };
 
