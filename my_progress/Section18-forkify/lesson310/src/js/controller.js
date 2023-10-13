@@ -94,6 +94,8 @@ const controlAddBookmark = function () {
   bookmarksView.render(model.state.bookmarks);
 };
 
+const controlFilters = function () {};
+
 const controlBookmarks = function () {
   bookmarksView.render(model.state.bookmarks);
 };
