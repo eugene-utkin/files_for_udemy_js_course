@@ -83,7 +83,10 @@ export const getSearchResultsPage = function (page = state.search.page) {
 };
 
 const setSearchResultsFilter = function (filter) {
-  state.search.filters.forEach((key, value) => {});
+  state.search.filters.forEach((key, value) => {
+    if (key === filter) {
+    }
+  });
 };
 
 export const updateServings = function (newServings) {
