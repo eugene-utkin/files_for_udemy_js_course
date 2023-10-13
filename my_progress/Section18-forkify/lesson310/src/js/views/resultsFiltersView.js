@@ -9,6 +9,7 @@ class ResultsFiltersView extends View {
       const btn = e.target.closest('.btn--inline');
       if (!btn) return;
 
+      const filter = btn.dataset.filter;
       handler();
     });
   }
