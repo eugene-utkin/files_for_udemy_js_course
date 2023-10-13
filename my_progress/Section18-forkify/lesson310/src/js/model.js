@@ -86,6 +86,7 @@ const setSearchResultsFilter = function (filter) {
   state.search.filters.forEach((key, value) => {
     if (key === filter) {
       state.search.filters[filter] = true;
+    } else {
     }
   });
 };
