@@ -85,6 +85,7 @@ export const getSearchResultsPage = function (page = state.search.page) {
 const setSearchResultsFilter = function (filter) {
   state.search.filters.forEach((key, value) => {
     if (key === filter) {
+      state.search.filters[filter] = true;
     }
   });
 };
