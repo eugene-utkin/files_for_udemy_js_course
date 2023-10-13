@@ -96,6 +96,7 @@ const controlAddBookmark = function () {
 
 const controlFilters = function (activeFilter) {
   // 1) Render FILTERED results
+  resultsView.render(model.getFilteredSearchResultsPage(filter));
 };
 
 const controlBookmarks = function () {
