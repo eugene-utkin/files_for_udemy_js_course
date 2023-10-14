@@ -82,6 +82,7 @@ export const getSearchResultsPage = function (page = state.search.page) {
   const activeFilter = Object.keys(state.search.filters).find(
     key => state.search.filters[key] === true
   );
+  console.log(activeFilter);
 
   let filteredResults = state.search.results;
   if (activeFilter !== 'none') {
