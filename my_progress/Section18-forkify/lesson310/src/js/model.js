@@ -96,6 +96,7 @@ export const getSearchResultsPage = function (page = state.search.page) {
 };
 
 export const setSearchResultsFilter = function (filter) {
+  console.log(filter);
   Object.keys(state.search.filters).forEach(key => {
     if (key === filter) {
       state.search.filters[filter] = true;
