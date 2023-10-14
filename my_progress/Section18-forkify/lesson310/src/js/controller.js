@@ -96,7 +96,7 @@ const controlAddBookmark = function () {
 
 const controlFilters = function (activeFilter) {
   // 1) set filter
-  resultsView.render(model.setSearchResultsFilter(activeFilter));
+  model.setSearchResultsFilter(activeFilter);
 
   // 2) Render FILTERED results
   resultsView.render(model.getSearchResultsPage());
