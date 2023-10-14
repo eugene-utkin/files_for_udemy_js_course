@@ -82,7 +82,7 @@ export const getSearchResultsPage = function (page = state.search.page) {
   return state.search.results.slice(start, end);
 };
 
-const setSearchResultsFilter = function (filter) {
+export const setSearchResultsFilter = function (filter) {
   state.search.filters.forEach((key, value) => {
     if (key === filter) {
       state.search.filters[filter] = true;
