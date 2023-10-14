@@ -84,7 +84,7 @@ export const getSearchResultsPage = function (page = state.search.page) {
   );
 
   let filteredResults = state.search.results;
-  if (activeFilter === 'none') {
+  if (activeFilter !== 'none') {
   }
 
   return state.search.results.slice(start, end);
