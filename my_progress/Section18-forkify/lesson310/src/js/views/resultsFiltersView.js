@@ -10,6 +10,7 @@ class ResultsFiltersView extends View {
       if (!btn) return;
 
       const filter = btn.dataset.filter;
+      console.log(filter);
       handler(filter);
     });
   }
