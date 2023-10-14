@@ -83,6 +83,7 @@ export const getSearchResultsPage = function (page = state.search.page) {
     key => state.search.filters[key] === true
   );
 
+  let filteredResults = state.search.results;
   if (activeFilter === 'none') {
   }
 
