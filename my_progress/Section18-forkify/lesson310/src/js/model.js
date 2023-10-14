@@ -100,9 +100,9 @@ export const setSearchResultsFilter = function (filter) {
   console.log(Object.keys(state.search.filters));
   Object.keys(state.search.filters).forEach(key => {
     if (key === filter) {
-      state.search.filters[filter] = true;
+      state.search.filters[key] = true;
     } else {
-      state.search.filters[filter] = false;
+      state.search.filters[key] = false;
     }
   });
   console.log(state.search.filters);
