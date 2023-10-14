@@ -87,6 +87,7 @@ const setSearchResultsFilter = function (filter) {
     if (key === filter) {
       state.search.filters[filter] = true;
     } else {
+      state.search.filters[filter] = false;
     }
   });
 };
