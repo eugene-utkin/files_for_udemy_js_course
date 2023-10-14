@@ -99,6 +99,7 @@ const controlFilters = function (activeFilter) {
   resultsView.render(model.setSearchResultsFilter(activeFilter));
 
   // 2) Render FILTERED results
+  resultsView.render(model.getSearchResultsPage());
 };
 
 const controlBookmarks = function () {
