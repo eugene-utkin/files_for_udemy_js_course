@@ -90,7 +90,7 @@ export const getSearchResultsPage = function (page = state.search.page) {
     });
   }
 
-  return state.search.results.slice(start, end);
+  return filteredResults.slice(start, end);
 };
 
 export const setSearchResultsFilter = function (filter) {
