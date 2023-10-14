@@ -83,6 +83,9 @@ export const getSearchResultsPage = function (page = state.search.page) {
     key => state.search.filters[key] === true
   );
 
+  if (activeFilter === 'none') {
+  }
+
   return state.search.results.slice(start, end);
 };
 
