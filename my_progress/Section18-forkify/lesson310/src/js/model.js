@@ -84,6 +84,7 @@ export const getSearchResultsPage = function (page = state.search.page) {
 
   let filteredResults = state.search.results;
   if (activeFilter !== 'none') {
+    console.log(filteredResults);
     filteredResults = filteredResults.sort(function (a, b) {
       return a[activeFilter] - b[activeFilter];
     });
