@@ -100,6 +100,8 @@ const controlFilters = function (activeFilter) {
 
   // 2) Render FILTERED results
   resultsView.render(model.getSearchResultsPage());
+
+  // 3) Render NEW pagination buttons
 };
 
 const controlBookmarks = function () {
