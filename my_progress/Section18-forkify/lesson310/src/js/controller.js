@@ -99,7 +99,7 @@ const controlFilters = function (activeFilter) {
   model.setSearchResultsFilter(activeFilter);
 
   // 2) Render FILTERED results
-  resultsView.render(model.getSearchResultsPage());
+  resultsView.render(model.getSearchResultsPage(1));
 
   // 3) Render NEW pagination buttons
   paginationView.render(model.state.search);
