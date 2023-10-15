@@ -66,7 +66,7 @@ export const loadSearchResults = async function (query) {
         image: rec.image_url,
         ...(rec.key && { key: rec.key }),
         cookingTime: rec.cooking_time,
-        numberOfIngredients: rec.ingredients.length,
+        numberOfIngredients: rec.ingredients?.length,
       };
     });
     state.search.page = 1;
