@@ -56,8 +56,9 @@ export const loadSearchResults = async function (query) {
 
     const data = await AJAX(`${API_URL}?search=${query}&key=${KEY}`);
 
-    console.log(rec);
+    console.log(data);
     state.search.results = data.data.recipes.map(rec => {
+      console.log(rec);
       return {
         id: rec.id,
         title: rec.title,
@@ -65,6 +66,7 @@ export const loadSearchResults = async function (query) {
         image: rec.image_url,
         ...(rec.key && { key: rec.key }),
         cookingTime: rec.cooking_time,
+        numberOfIngredients: rec.ingredients.length,
       };
     });
     state.search.page = 1;
