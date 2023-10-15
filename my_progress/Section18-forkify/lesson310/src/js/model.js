@@ -58,7 +58,6 @@ export const loadSearchResults = async function (query) {
 
     console.log(data);
     state.search.results = data.data.recipes.map(rec => {
-      console.log(rec);
       return {
         id: rec.id,
         title: rec.title,
