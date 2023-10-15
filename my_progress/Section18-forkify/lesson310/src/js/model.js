@@ -90,7 +90,6 @@ export const getSearchResultsPage = function (page = state.search.page) {
     });
   }
 
-  console.log(filteredResults);
   return filteredResults.slice(start, end);
 };
 
