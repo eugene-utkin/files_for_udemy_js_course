@@ -100,7 +100,6 @@ export const setSearchResultsFilter = function (filter) {
       state.search.filters[key] = false;
     }
   });
-  console.log(state.search.filters);
 };
 
 export const updateServings = function (newServings) {
