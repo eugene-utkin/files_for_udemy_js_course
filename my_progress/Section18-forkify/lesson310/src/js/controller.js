@@ -100,10 +100,10 @@ const controlFilters = function (activeFilter) {
 
   // 2) Render filter buttons
 
-  // 2) Render FILTERED results
+  // 3) Render FILTERED results
   resultsView.render(model.getSearchResultsPage(1));
 
-  // 3) Render NEW pagination buttons
+  // 4) Render NEW pagination buttons
   paginationView.render(model.state.search);
 };
 
