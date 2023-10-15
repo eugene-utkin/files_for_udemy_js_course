@@ -93,7 +93,6 @@ export const getSearchResultsPage = function (page = state.search.page) {
 };
 
 export const setSearchResultsFilter = function (filter) {
-  console.log(filter);
   console.log(Object.keys(state.search.filters));
   Object.keys(state.search.filters).forEach(key => {
     if (key === filter) {
