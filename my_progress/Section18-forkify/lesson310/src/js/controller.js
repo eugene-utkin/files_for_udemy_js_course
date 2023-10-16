@@ -110,7 +110,7 @@ const controlSearchSection = function (page = model.state.search.page) {
   // 2) Render search results
   resultsView.render(model.getSearchResultsPage(page));
 
-  // 3) Render NEW pagination buttons
+  // 3) Render pagination buttons
   paginationView.render(model.state.search);
 };
 
