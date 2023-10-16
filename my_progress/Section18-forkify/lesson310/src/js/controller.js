@@ -98,6 +98,8 @@ const controlFilters = function (activeFilter) {
   // 1) set filter
   model.setSearchResultsFilter(activeFilter);
 
+  // 2) Render search results section
+
   // 2) Render filter buttons
   resultsFiltersView.render(model.state.search);
 
