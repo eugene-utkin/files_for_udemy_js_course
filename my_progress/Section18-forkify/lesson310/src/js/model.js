@@ -83,6 +83,8 @@ export const getSearchResultsPage = function (page = state.search.page) {
     key => state.search.filters[key] === true
   );
 
+  // Filter functionality doesn't work, because API call
+  // doesn't return needed information
   let filteredResults = state.search.results;
   if (activeFilter !== 'none') {
     filteredResults = filteredResults.sort(function (a, b) {
