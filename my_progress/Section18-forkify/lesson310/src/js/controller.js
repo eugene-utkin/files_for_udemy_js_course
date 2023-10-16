@@ -109,7 +109,7 @@ const controlFilters = function (activeFilter) {
 };
 
 const controlSearchSection = function () {
-  // 2) Render filter buttons
+  // 1) Render filter buttons
   resultsFiltersView.render(model.state.search);
 
   // 3) Render FILTERED results
