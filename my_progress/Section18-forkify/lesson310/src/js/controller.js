@@ -115,7 +115,7 @@ const controlSearchSection = function () {
   // 2) Render FILTERED results
   resultsView.render(model.getSearchResultsPage(1));
 
-  // 4) Render NEW pagination buttons
+  // 3) Render NEW pagination buttons
   paginationView.render(model.state.search);
 };
 
