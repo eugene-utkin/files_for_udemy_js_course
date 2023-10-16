@@ -108,6 +108,8 @@ const controlFilters = function (activeFilter) {
   paginationView.render(model.state.search);
 };
 
+const controlSearchSection = function () {};
+
 const controlBookmarks = function () {
   bookmarksView.render(model.state.bookmarks);
 };
