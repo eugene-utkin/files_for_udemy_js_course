@@ -113,7 +113,7 @@ const controlSearchSection = function (page = model.state.search.page) {
   resultsFiltersView.render(model.state.search);
 
   // 2) Render FILTERED results
-  resultsView.render(model.getSearchResultsPage(1));
+  resultsView.render(model.getSearchResultsPage(page));
 
   // 3) Render NEW pagination buttons
   paginationView.render(model.state.search);
