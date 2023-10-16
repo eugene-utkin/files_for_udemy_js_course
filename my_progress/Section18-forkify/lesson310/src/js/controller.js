@@ -108,7 +108,7 @@ const controlFilters = function (activeFilter) {
   paginationView.render(model.state.search);
 };
 
-const controlSearchSection = function () {
+const controlSearchSection = function (page) {
   // 1) Render filter buttons
   resultsFiltersView.render(model.state.search);
 
