@@ -54,7 +54,6 @@ class AddRecipeView extends View {
           </div>
         `;
         parentDiv.insertAdjacentHTML('afterbegin', sp1);
-        parentDiv.insertBefore(sp1, ingredient);
       }
     });
   }
