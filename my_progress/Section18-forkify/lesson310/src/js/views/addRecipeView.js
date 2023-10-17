@@ -48,7 +48,12 @@ class AddRecipeView extends View {
       const ingArr = ingredient.value.split(',').map(el => el.trim());
       if (ingArr.length !== 3) {
         const parentDiv = ingredient.parentNode;
-        const sp1 = this.generateMarkupTooltip();
+        const sp1 = `
+          <div class="ingredient-tooltip">
+            Invalid ingredient format!
+          </div>
+        `;
+        parentDiv.insertAdjacentHTML('afterbegin', sp1);
         parentDiv.insertBefore(sp1, ingredient);
       }
     });
@@ -57,11 +62,7 @@ class AddRecipeView extends View {
   checkIngredientValue() {}
 
   generateMarkupTooltip() {
-    return `
-      <div class="ingredient-tooltip">
-        Invalid ingredient format!
-      </div>
-    `;
+    return;
   }
 
   _generateMarkup() {}
