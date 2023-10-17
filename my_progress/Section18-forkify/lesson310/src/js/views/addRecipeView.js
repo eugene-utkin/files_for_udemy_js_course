@@ -40,7 +40,7 @@ class AddRecipeView extends View {
   }
 
   addHandlerCheckValue() {
-    this._parentElement.addEventListener('change', function () {});
+    this._parentElement.addEventListener('change', function (e) {});
   }
 
   _generateMarkup() {}
