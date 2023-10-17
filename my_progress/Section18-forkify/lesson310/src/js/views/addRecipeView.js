@@ -48,6 +48,7 @@ class AddRecipeView extends View {
       const ingArr = ingredient.value.split(',').map(el => el.trim());
       if (ingArr.length !== 3) {
         const parentDiv = ingredient.parentNode;
+        parentDiv.insertBefore(sp1, ingredient);
       }
     });
   }
