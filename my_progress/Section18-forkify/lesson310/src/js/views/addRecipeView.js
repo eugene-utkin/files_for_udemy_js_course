@@ -39,7 +39,7 @@ class AddRecipeView extends View {
     });
   }
 
-  addHandlerCheckValue() {
+  addHandlerCheckValue(handler) {
     this._parentElement.addEventListener('change', function (e) {
       const ingredient = e.target.closest('.ingredient');
       if (!ingredient) return;
