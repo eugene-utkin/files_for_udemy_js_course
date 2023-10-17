@@ -56,7 +56,9 @@ class AddRecipeView extends View {
 
   generateMarkupTooltip() {
     return `
-      
+      <div class="ingredient-tooltip">
+        Invalid ingredient format!
+      </div>
     `;
   }
 
