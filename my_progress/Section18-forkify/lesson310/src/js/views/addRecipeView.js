@@ -45,6 +45,7 @@ class AddRecipeView extends View {
       if (!ingredient) return;
 
       console.log(ingredient.value);
+      const ingArr = ingredient.value.split(',').map(el => el.trim());
     });
   }
 
