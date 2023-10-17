@@ -48,7 +48,7 @@ class AddRecipeView extends View {
       const ingArr = ingredient.value.split(',').map(el => el.trim());
       if (ingArr.length !== 3) {
         const parentDiv = ingredient.parentNode;
-        const sp1 = document.createElement('div');
+        const sp1 = this.generateMarkupTooltip();
         parentDiv.insertBefore(sp1, ingredient);
       }
     });
