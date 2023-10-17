@@ -54,7 +54,11 @@ class AddRecipeView extends View {
     });
   }
 
-  generateMarkupTooltip() {}
+  generateMarkupTooltip() {
+    return `
+      
+    `;
+  }
 
   _generateMarkup() {}
 }
