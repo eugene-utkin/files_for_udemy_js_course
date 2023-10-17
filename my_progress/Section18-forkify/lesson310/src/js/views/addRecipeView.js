@@ -54,6 +54,8 @@ class AddRecipeView extends View {
     });
   }
 
+  checkIngredientValue() {}
+
   generateMarkupTooltip() {
     return `
       <div class="ingredient-tooltip">
