@@ -39,6 +39,8 @@ class AddRecipeView extends View {
     });
   }
 
+  addHandlerCheckValue() {}
+
   _generateMarkup() {}
 }
 
