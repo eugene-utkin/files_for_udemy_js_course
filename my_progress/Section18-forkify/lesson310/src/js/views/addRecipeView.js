@@ -39,7 +39,9 @@ class AddRecipeView extends View {
     });
   }
 
-  addHandlerCheckValue() {}
+  addHandlerCheckValue() {
+    this._parentElement.addEventListener('change', function () {});
+  }
 
   _generateMarkup() {}
 }
