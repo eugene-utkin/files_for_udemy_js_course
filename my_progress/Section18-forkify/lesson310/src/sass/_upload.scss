@@ -71,6 +71,7 @@
       border: 1px solid #ddd;
       border-radius: 0.5rem;
       transition: all 0.2s;
+      width: 100%;
 
       &::placeholder {
         color: $color-grey-light-3;
