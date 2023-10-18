@@ -53,7 +53,7 @@ class AddRecipeView extends View {
             Invalid ingredient format!
           </div>
         `;
-        parentDiv.insertAdjacentHTML('afterbegin', sp1);
+        ingredient.insertAdjacentHTML('beforebegin', sp1);
       }
     });
   }
