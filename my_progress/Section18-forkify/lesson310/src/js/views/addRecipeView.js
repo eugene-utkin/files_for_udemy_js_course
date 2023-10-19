@@ -58,6 +58,8 @@ class AddRecipeView extends View {
     this._parentElement.addEventListener('focus', function (e) {
       const tooltip = e.target.closest('.ingredient-tooltip');
       if (!tooltip) return;
+
+      tooltip.remove();
     });
   }
 
