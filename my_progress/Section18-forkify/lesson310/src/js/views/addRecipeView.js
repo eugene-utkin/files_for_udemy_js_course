@@ -44,6 +44,8 @@ class AddRecipeView extends View {
       const ingredient = e.target.closest('.ingredient');
       if (!ingredient) return;
 
+      const tooltip = e.target.closest('.ingredient-tooltip');
+
       console.log(ingredient.value);
       const ingArr = ingredient.value.split(',').map(el => el.trim());
       if (ingArr.length !== 3) {
@@ -55,7 +57,7 @@ class AddRecipeView extends View {
         ingredient.insertAdjacentHTML('beforebegin', markup);
       }
     });
-    this._parentElement.addEventListener('focus', function (e) {
+    this._parentElement.addEventListener('click', function (e) {
       const tooltip = e.target.closest('.ingredient-tooltip');
       if (!tooltip) return;
 
