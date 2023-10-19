@@ -53,6 +53,7 @@ class AddRecipeView extends View {
       const tooltip = e.target
         .closest('.ingredient-section')
         .querySelector('.ingredient-tooltip');
+      tooltip.remove();
       console.log(tooltip);
 
       console.log(ingredient.value);
