@@ -55,6 +55,7 @@ class AddRecipeView extends View {
         ingredient.insertAdjacentHTML('beforebegin', markup);
       }
     });
+    this._parentElement.addEventListener('focus', function () {});
   }
 
   checkIngredientValue() {}
