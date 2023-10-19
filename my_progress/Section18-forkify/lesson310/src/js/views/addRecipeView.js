@@ -59,6 +59,8 @@ class AddRecipeView extends View {
           </div>
         `;
         ingredient.insertAdjacentHTML('beforebegin', markup);
+      } else {
+        const tooltip = e.target.closest('.ingredient-tooltip');
       }
     });
     this._parentElement.addEventListener('click', function (e) {
