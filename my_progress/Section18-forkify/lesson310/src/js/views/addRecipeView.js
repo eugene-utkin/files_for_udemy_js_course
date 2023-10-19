@@ -45,8 +45,7 @@ class AddRecipeView extends View {
       if (!ingredient) return;
 
       const tooltip = e.target.closest('.ingredient-tooltip');
-
-      console.log(ingredient.value);
+      if (!tooltip) console.log(ingredient.value);
       const ingArr = ingredient.value.split(',').map(el => el.trim());
       if (ingArr.length !== 3) {
         const markup = `
