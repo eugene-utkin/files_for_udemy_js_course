@@ -48,7 +48,6 @@ class AddRecipeView extends View {
         .closest('.ingredient-section')
         .querySelector('.ingredient-tooltip');
       if (tooltip) tooltip.remove();
-      console.log(tooltip);
 
       console.log(ingredient.value);
       const ingArr = ingredient.value.split(',').map(el => el.trim());
