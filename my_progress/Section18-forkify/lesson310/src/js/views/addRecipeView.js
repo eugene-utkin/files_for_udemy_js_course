@@ -50,6 +50,11 @@ class AddRecipeView extends View {
       //   tooltip.remove();
       // }
 
+      const tooltip = e.target
+        .closest('.ingredient-section')
+        .querySelector('.ingredient-tooltip');
+      console.log(tooltip);
+
       console.log(ingredient.value);
       const ingArr = ingredient.value.split(',').map(el => el.trim());
       if (ingArr.length !== 3) {
@@ -61,11 +66,7 @@ class AddRecipeView extends View {
         ingredient.insertAdjacentHTML('beforebegin', markup);
       }
     });
-    this._parentElement.addEventListener('focus', function (e) {
-      const tooltip = e.target
-        .closest('.ingredient-section')
-        .querySelector('.ingredient-tooltip');
-    });
+    this._parentElement.addEventListener('focus', function (e) {});
   }
 
   checkIngredientValue() {}
