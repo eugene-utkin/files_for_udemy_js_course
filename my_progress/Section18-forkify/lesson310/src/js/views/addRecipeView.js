@@ -49,7 +49,6 @@ class AddRecipeView extends View {
         .querySelector('.ingredient-tooltip');
       if (tooltip) tooltip.remove();
 
-      console.log(ingredient.value);
       const ingArr = ingredient.value.split(',').map(el => el.trim());
       if (ingArr.length !== 3) {
         const markup = `
