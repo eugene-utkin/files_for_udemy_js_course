@@ -45,7 +45,9 @@ class AddRecipeView extends View {
       if (!ingredient) return;
 
       const tooltip = e.target.closest('.ingredient-tooltip');
-      if (!tooltip) console.log(ingredient.value);
+      if (!tooltip) tooltip.remove();
+
+      console.log(ingredient.value);
       const ingArr = ingredient.value.split(',').map(el => el.trim());
       if (ingArr.length !== 3) {
         const markup = `
@@ -58,9 +60,6 @@ class AddRecipeView extends View {
     });
     this._parentElement.addEventListener('click', function (e) {
       const tooltip = e.target.closest('.ingredient-tooltip');
-      if (!tooltip) return;
-
-      tooltip.remove();
     });
   }
 
