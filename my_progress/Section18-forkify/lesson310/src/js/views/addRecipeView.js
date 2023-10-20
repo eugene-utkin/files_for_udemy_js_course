@@ -33,7 +33,7 @@ class AddRecipeView extends View {
   }
 
   _addHandlerAddIngredient() {
-    this._btnAdd.addEventListener('click');
+    this._btnAdd.addEventListener('click', this.addIngredient.bind(this));
   }
 
   addIngredient() {}
