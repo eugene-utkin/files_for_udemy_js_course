@@ -37,10 +37,9 @@ class AddRecipeView extends View {
   }
 
   addIngredient() {
-    const ingredientMarkup = this._btnAdd.insertAdjacentHTML(
-      'beforebegin',
-      ingredientMarkup
-    );
+    const ingredientMarkup = generateIngredientMarkup();
+
+    this._btnAdd.insertAdjacentHTML('beforebegin', ingredientMarkup);
   }
 
   generateIngredientMarkup() {
