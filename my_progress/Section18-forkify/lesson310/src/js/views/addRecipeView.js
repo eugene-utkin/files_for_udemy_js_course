@@ -36,6 +36,8 @@ class AddRecipeView extends View {
     this._btnAdd.addEventListener('click');
   }
 
+  addIngredient() {}
+
   addHandlerUpload(handler) {
     this._parentElement.addEventListener('submit', function (e) {
       e.preventDefault();
