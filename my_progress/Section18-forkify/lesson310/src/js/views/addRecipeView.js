@@ -15,6 +15,7 @@ class AddRecipeView extends View {
     super();
     this._addHandlerShowWindow();
     this._addHandlerHideWindow();
+    this._addHandlerAddIngredient();
   }
 
   toggleWindow() {
