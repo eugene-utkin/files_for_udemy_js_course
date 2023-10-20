@@ -36,7 +36,9 @@ class AddRecipeView extends View {
     this._btnAdd.addEventListener('click', this.addIngredient.bind(this));
   }
 
-  addIngredient() {}
+  addIngredient() {
+    this._btnAdd.insertAdjacentHTML('beforebegin', markup);
+  }
 
   addHandlerUpload(handler) {
     this._parentElement.addEventListener('submit', function (e) {
