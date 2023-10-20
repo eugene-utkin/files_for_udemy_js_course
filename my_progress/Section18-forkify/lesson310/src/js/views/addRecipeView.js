@@ -62,8 +62,6 @@ class AddRecipeView extends View {
     this._parentElement.addEventListener('focus', function (e) {});
   }
 
-  checkIngredientValue() {}
-
   generateMarkupTooltip() {
     return;
   }
