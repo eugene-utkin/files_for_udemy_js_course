@@ -37,7 +37,7 @@ class AddRecipeView extends View {
   }
 
   addIngredient() {
-    this._btnAdd.insertAdjacentHTML('beforebegin', markup);
+    this._btnAdd.insertAdjacentHTML('beforebegin', ingredientMarkup);
   }
 
   addHandlerUpload(handler) {
