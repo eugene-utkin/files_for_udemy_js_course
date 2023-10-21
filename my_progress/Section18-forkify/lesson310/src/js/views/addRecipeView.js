@@ -44,7 +44,14 @@ class AddRecipeView extends View {
 
   generateIngredientMarkup() {
     return `
-      
+      <label>Ingredient 6</label>
+      <div class="ingredient-section">
+        <input
+          type="text"
+          name="ingredient-6"
+          placeholder="Format: 'Quantity,Unit,Description'"
+        />
+      </div>
     `;
   }
 
