@@ -37,6 +37,7 @@ class AddRecipeView extends View {
   }
 
   addIngredient(e) {
+    e.preventDefault();
     console.log(e.target);
     const ingredientMarkup = this.generateIngredientMarkup();
 
