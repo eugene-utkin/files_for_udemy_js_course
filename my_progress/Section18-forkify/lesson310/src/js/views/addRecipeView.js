@@ -43,7 +43,7 @@ class AddRecipeView extends View {
 
     console.log(this._window.style.top);
     this._window.style.cssText += `
-      top: ${500}px;
+      top: ${500 + this.extraIngredients * 50}px;
     `;
     // this._window.style.top = '10px';
     const ingredientMarkup = this.generateIngredientMarkup();
