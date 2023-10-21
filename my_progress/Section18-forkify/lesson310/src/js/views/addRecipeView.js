@@ -60,7 +60,7 @@ class AddRecipeView extends View {
       <div class="ingredient-section">
         <input
           type="text"
-          name="ingredient-6"
+          name="ingredient-${ingredientNumber}"
           placeholder="Format: 'Quantity,Unit,Description'"
         />
       </div>
