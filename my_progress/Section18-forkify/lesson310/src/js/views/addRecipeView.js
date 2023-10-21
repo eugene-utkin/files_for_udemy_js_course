@@ -41,7 +41,6 @@ class AddRecipeView extends View {
     e.preventDefault();
     console.log(e.target);
 
-    console.log(this._window.style.top);
     this.extraIngredients += 1;
     this._window.style.cssText += `
       top: ${500 + this.extraIngredients * 25}px;
