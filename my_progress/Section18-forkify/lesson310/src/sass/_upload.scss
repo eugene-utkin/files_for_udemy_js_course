@@ -61,6 +61,7 @@
     display: grid;
     grid-template-columns: 1fr 2.8fr;
     align-items: center;
+    align-content: start;
     gap: 1.5rem;
 
     & label {
