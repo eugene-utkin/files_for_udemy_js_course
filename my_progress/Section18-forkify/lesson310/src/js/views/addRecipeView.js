@@ -44,7 +44,7 @@ class AddRecipeView extends View {
     console.log(this._window.style.top);
     this.extraIngredients += 1;
     this._window.style.cssText += `
-      top: ${500 + this.extraIngredients * 24}px;
+      top: ${500 + this.extraIngredients * 25}px;
       transition-duration: 0s;
     `;
     // this._window.style.top = '10px';
