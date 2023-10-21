@@ -40,7 +40,11 @@ class AddRecipeView extends View {
     e.preventDefault();
     console.log(e.target);
 
-    this._window.style.transform = 'rotate(50px)';
+    console.log(this._window.style.top);
+    this._window.style.cssText += `
+      top: ${500}px;
+    `;
+    // this._window.style.top = '10px';
     const ingredientMarkup = this.generateIngredientMarkup();
 
     this._btnAdd.insertAdjacentHTML('beforebegin', ingredientMarkup);
