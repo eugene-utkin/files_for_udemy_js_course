@@ -61,6 +61,7 @@ class AddRecipeView extends View {
           type="text"
           name="ingredient-${ingredientNumber}"
           placeholder="Format: 'Quantity,Unit,Description'"
+          class="ingredient"
         />
       </div>
     `;
