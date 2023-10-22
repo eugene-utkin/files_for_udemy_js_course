@@ -39,7 +39,6 @@ class AddRecipeView extends View {
 
   addIngredient(e) {
     e.preventDefault();
-    console.log(e.target);
 
     this.extraIngredients += 1;
     this._window.style.cssText += `
