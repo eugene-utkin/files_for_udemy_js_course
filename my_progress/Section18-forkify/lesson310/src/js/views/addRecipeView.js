@@ -87,7 +87,7 @@ class AddRecipeView extends View {
           }
           ingredients[number][type] = input[1];
         } else {
-          ingredients[]
+          data[input[0]] = input[1];
         }
       });
       const data = Object.fromEntries(dataArr);
