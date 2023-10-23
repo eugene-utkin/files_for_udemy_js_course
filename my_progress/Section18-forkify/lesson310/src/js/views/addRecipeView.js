@@ -90,7 +90,11 @@ class AddRecipeView extends View {
           data[input[0]] = input[1];
         }
       });
-      Object.entries(ingredients).map(ing => {});
+      Object.entries(ingredients).map(ing => {
+        data[
+          `ingredient-${ing[0]}`
+        ] = `${ing[1]['quantity']},${ing[1]['unit']},${ing[1]['description']}`;
+      });
       const data = Object.fromEntries(dataArr);
       console.log(data);
       handler(data);
