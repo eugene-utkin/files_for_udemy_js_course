@@ -72,9 +72,10 @@ class AddRecipeView extends View {
 
       const dataArr = [...new FormData(this)];
       console.log(dataArr);
-      let data = {};
+      // let data = {};
       dataArr.map(input => {
         console.log(input);
+        if (input(0).startsWith('quantity'))
       });
       const data = Object.fromEntries(dataArr);
       console.log(data);
