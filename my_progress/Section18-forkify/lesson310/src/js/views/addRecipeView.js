@@ -84,6 +84,7 @@ class AddRecipeView extends View {
           if (!number in ingredients) {
             ingredients[number] = {};
           }
+          ingredients[number][type] = input[1];
         }
       });
       const data = Object.fromEntries(dataArr);
