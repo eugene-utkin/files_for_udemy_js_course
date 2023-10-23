@@ -81,6 +81,7 @@ class AddRecipeView extends View {
         ) {
           const number = input(0).split('-')[1];
           if (!number in ingredients) {
+            ingredients[number] = {};
           }
         }
       });
