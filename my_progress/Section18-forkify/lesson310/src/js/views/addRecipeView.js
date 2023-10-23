@@ -90,6 +90,7 @@ class AddRecipeView extends View {
           data[input[0]] = input[1];
         }
       });
+      Object.entries(ingredients).map(ing => {});
       const data = Object.fromEntries(dataArr);
       console.log(data);
       handler(data);
