@@ -74,7 +74,6 @@ class AddRecipeView extends View {
       console.log(dataArr);
       const ingredients = {};
       dataArr.map(input => {
-        console.log(input);
         if (
           input(0).startsWith('quantity') ||
           input(0).startsWith('unit') ||
