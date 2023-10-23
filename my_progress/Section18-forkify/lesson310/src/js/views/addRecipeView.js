@@ -75,9 +75,9 @@ class AddRecipeView extends View {
       const ingredients = {};
       dataArr.map(input => {
         if (
-          input(0).startsWith('quantity') ||
-          input(0).startsWith('unit') ||
-          input(0).startsWith('description')
+          input[0].startsWith('quantity') ||
+          input[0].startsWith('unit') ||
+          input[0].startsWith('description')
         ) {
           const type = input(0).split('-')[0];
           const number = input(0).split('-')[1];
@@ -86,6 +86,7 @@ class AddRecipeView extends View {
           }
           ingredients[number][type] = input[1];
         } else {
+          ingredients[]
         }
       });
       const data = Object.fromEntries(dataArr);
