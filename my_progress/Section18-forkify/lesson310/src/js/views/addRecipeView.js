@@ -95,7 +95,6 @@ class AddRecipeView extends View {
           `ingredient-${ing[0]}`
         ] = `${ing[1]['quantity']},${ing[1]['unit']},${ing[1]['description']}`;
       });
-      const data = Object.fromEntries(dataArr);
       console.log(data);
       handler(data);
     });
