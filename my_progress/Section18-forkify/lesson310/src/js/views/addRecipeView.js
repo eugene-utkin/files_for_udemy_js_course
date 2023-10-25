@@ -53,6 +53,32 @@ class AddRecipeView extends View {
 
   generateIngredientMarkup() {
     const ingredientNumber = 6 + this.extraIngredients;
+    `
+      <label>Ingredient 6</label>
+      <div class="ingredient-section">
+        <input
+          type="text"
+          required
+          name="quantity-6"
+          placeholder="Quantity"
+          class="ingredient"
+        />
+        <input
+          type="text"
+          required
+          name="unit-6"
+          placeholder="Unit"
+          class="ingredient"
+        />
+        <input
+          type="text"
+          required
+          name="description-6"
+          placeholder="Description"
+          class="ingredient"
+        />
+      </div>
+    `;
     return `
       <label>Ingredient ${ingredientNumber}</label>
       <div class="ingredient-section">
