@@ -73,7 +73,7 @@ class AddRecipeView extends View {
         <input
           type="text"
           required
-          name="description-6"
+          name="description-${ingredientNumber}"
           placeholder="Description"
           class="ingredient"
         />
