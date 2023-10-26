@@ -79,17 +79,6 @@ class AddRecipeView extends View {
         />
       </div>
     `;
-    return `
-      <label>Ingredient ${ingredientNumber}</label>
-      <div class="ingredient-section">
-        <input
-          type="text"
-          name="ingredient-${ingredientNumber}"
-          placeholder="Format: 'Quantity,Unit,Description'"
-          class="ingredient"
-        />
-      </div>
-    `;
   }
 
   addHandlerUpload(handler) {
