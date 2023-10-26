@@ -120,6 +120,8 @@ class AddRecipeView extends View {
       const ingredientSection = e.target.closest('.ingredient-section');
       if (!ingredientSection) return;
 
+      const quantityInput = ingredientSection.querySelector('.quantity');
+
       const tooltip = e.target
         .closest('.ingredient-section')
         .querySelector('.ingredient-tooltip');
