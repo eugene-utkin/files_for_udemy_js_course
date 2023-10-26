@@ -117,7 +117,7 @@ class AddRecipeView extends View {
 
   addHandlerCheckValue(handler) {
     this._parentElement.addEventListener('change', function (e) {
-      const ingredient = e.target.closest('.ingredient-section');
+      const ingredientSection = e.target.closest('.ingredient-section');
       if (!ingredient) return;
 
       const tooltip = e.target
