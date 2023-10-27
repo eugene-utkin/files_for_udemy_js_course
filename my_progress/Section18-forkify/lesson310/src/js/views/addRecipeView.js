@@ -130,7 +130,7 @@ class AddRecipeView extends View {
 
       if (
         (quantityInput.value !== '' || unitInput.value !== '') &&
-        descriptionInput.value === ''
+        descriptionInput.value
       ) {
         const markup = `
           <div class="ingredient-tooltip">
