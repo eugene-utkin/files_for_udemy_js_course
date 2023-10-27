@@ -75,7 +75,7 @@ class AddRecipeView extends View {
           required
           name="description-${ingredientNumber}"
           placeholder="Description"
-          class="ingredient"
+          class="description"
         />
       </div>
     `;
