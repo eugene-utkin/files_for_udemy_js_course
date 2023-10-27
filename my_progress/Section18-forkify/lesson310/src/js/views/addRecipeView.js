@@ -68,7 +68,7 @@ class AddRecipeView extends View {
           required
           name="unit-${ingredientNumber}"
           placeholder="Unit"
-          class="ingredient"
+          class="unit"
         />
         <input
           type="text"
