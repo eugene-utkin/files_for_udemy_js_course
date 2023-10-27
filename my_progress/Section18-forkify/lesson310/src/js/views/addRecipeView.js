@@ -121,6 +121,7 @@ class AddRecipeView extends View {
       if (!ingredientSection) return;
 
       const quantityInput = ingredientSection.querySelector('.quantity');
+      console.log(quantityInput.value);
 
       const tooltip = ingredientSection.querySelector('.ingredient-tooltip');
       if (tooltip) tooltip.remove();
