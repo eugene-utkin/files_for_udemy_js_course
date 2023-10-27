@@ -129,7 +129,7 @@ class AddRecipeView extends View {
       if (tooltip) tooltip.remove();
 
       const ingArr = ingredient.value.split(',').map(el => el.trim());
-      if (ingArr.length !== 3) {
+      if (quantityInput.value !== '') {
         const markup = `
           <div class="ingredient-tooltip">
             Invalid ingredient format!
