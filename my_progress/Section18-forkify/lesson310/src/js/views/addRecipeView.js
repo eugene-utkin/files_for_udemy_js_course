@@ -121,6 +121,7 @@ class AddRecipeView extends View {
       if (!ingredientSection) return;
 
       const quantityInput = ingredientSection.querySelector('.quantity');
+      const unitInput = ingredientSection.querySelector('.unit');
       console.log(quantityInput.value);
 
       const tooltip = ingredientSection.querySelector('.ingredient-tooltip');
