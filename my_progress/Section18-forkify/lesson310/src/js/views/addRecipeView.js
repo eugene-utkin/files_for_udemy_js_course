@@ -99,7 +99,6 @@ class AddRecipeView extends View {
           if (!(number in ingredients)) {
             ingredients[number] = {};
           }
-          console.log(ingredients);
           ingredients[number][type] = input[1];
         } else {
           data[input[0]] = input[1];
