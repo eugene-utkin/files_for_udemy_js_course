@@ -135,7 +135,7 @@ class AddRecipeView extends View {
         console.log('Test');
         const markup = `
           <div class="ingredient-tooltip">
-            Invalid ingredient format!
+            Invalid input! Ingredient must have a description.
           </div>
         `;
         descriptionInput.insertAdjacentHTML('beforebegin', markup);
