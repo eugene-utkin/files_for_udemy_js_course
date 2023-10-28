@@ -124,7 +124,6 @@ class AddRecipeView extends View {
         (quantityInput.value !== '' || unitInput.value !== '') &&
         !descriptionInput.value
       ) {
-        console.log('Test');
         const markup = `
           <div class="ingredient-tooltip">
             Invalid input! Ingredient must have a description.
