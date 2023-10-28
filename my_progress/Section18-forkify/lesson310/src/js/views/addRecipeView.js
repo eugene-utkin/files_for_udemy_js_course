@@ -104,7 +104,6 @@ class AddRecipeView extends View {
           data[input[0]] = input[1];
         }
       });
-      console.log(data);
       handler(data);
     });
   }
