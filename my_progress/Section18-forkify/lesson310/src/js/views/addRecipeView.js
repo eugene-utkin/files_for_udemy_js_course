@@ -96,7 +96,7 @@ class AddRecipeView extends View {
         ) {
           const type = input[0].split('-')[0];
           const number = input[0].split('-')[1];
-          if (!(number in ingredients)) {
+          if (!(`ingredient-${number}` in data)) {
             ingredients[number] = {};
           }
           ingredients[number][type] = input[1];
