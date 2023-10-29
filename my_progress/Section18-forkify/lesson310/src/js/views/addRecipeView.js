@@ -96,7 +96,7 @@ class AddRecipeView extends View {
           if (!(`ingredient-${number}` in data)) {
             data[`ingredient-${number}`] = {};
           }
-          data[`ingredient-${number}`][type] = input[1];
+          data[`ingredient-${number}`][type] = input[1].trim();
         } else {
           data[input[0]] = input[1];
         }
