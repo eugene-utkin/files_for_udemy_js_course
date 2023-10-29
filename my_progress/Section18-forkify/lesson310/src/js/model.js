@@ -171,7 +171,7 @@ export const uploadRecipe = async function (newRecipe) {
         return {
           quantity: ing[1]['quantity'] ? +ing[1]['quantity'] : null,
           unit: ing[1]['unit'],
-          description,
+          description: ing[1]['description'],
         };
       });
     const recipe = {
