@@ -168,7 +168,11 @@ export const uploadRecipe = async function (newRecipe) {
 
         const [quantity, unit, description] = ingArr;
 
-        return { quantity: quantity ? +quantity : null, unit, description };
+        return {
+          quantity: ing[1]['quantity'] ? +ing[1]['quantity'] : null,
+          unit,
+          description,
+        };
       });
     const recipe = {
       title: newRecipe.title,
