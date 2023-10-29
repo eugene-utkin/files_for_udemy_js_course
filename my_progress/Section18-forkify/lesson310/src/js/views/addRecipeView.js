@@ -58,7 +58,6 @@ class AddRecipeView extends View {
       <div class="ingredient-section">
         <input
           type="text"
-          required
           name="quantity-${ingredientNumber}"
           placeholder="Quantity"
           class="quantity"
