@@ -160,7 +160,6 @@ export const uploadRecipe = async function (newRecipe) {
           Object.values(entry[1]).some(val => val !== '')
       )
       .map(ing => {
-        // const ingArr = ing[1].replaceAll(' ', '').split(',');
         if (
           (ing[1]['quantity'] !== '' || ing[1]['unit'] !== '') &&
           ing[1]['description'] === ''
