@@ -162,7 +162,10 @@ export const uploadRecipe = async function (newRecipe) {
       .map(ing => {
         const ingArr = ing[1].split(',').map(el => el.trim());
         // const ingArr = ing[1].replaceAll(' ', '').split(',');
-        if (ingArr.length !== 3)
+        if (
+          (ing[1]['quantity'] !== '' || ing[1]['unit'] !== '') &&
+          ing[1]['description'] === ''
+        )
           throw new Error('Invalid input! Ingredient must have a description.');
 
         const [quantity, unit, description] = ingArr;
