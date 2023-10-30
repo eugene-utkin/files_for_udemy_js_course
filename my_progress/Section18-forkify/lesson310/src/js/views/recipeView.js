@@ -31,7 +31,7 @@ class RecipeView extends View {
   }
 
   addHandlerAddIngredientsToShoppingList(handler) {
-    this._parentElement.addEventListener('click', function () {});
+    this._parentElement.addEventListener('click', function (e) {});
   }
 
   _generateMarkup() {
