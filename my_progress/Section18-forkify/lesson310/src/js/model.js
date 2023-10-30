@@ -140,7 +140,9 @@ export const deleteBookmark = function (id) {
   persistBookmarks();
 };
 
-export const addIngredientsToShoppingList = function (recipe) {};
+export const addIngredientsToShoppingList = function (recipe) {
+  console.log('button pressed!');
+};
 
 const init = function () {
   const storage = localStorage.getItem('bookmarks');
