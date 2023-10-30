@@ -30,7 +30,9 @@ class RecipeView extends View {
     });
   }
 
-  addHandlerAddIngredientsToShoppingList(handler) {}
+  addHandlerAddIngredientsToShoppingList(handler) {
+    this._parentElement.addEventListener('click', function () {});
+  }
 
   _generateMarkup() {
     return `
