@@ -30,7 +30,7 @@ class RecipeView extends View {
     });
   }
 
-  addHandlerAddIngredientsToShoppingList() {}
+  addHandlerAddIngredientsToShoppingList(handler) {}
 
   _generateMarkup() {
     return `
