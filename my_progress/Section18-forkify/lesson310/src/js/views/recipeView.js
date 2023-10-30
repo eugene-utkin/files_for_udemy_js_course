@@ -30,6 +30,8 @@ class RecipeView extends View {
     });
   }
 
+  addHandlerAddIngredientsToShoppingList() {}
+
   _generateMarkup() {
     return `
       <figure class="recipe__fig">
