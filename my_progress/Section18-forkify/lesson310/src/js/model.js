@@ -166,8 +166,6 @@ export const uploadRecipe = async function (newRecipe) {
         )
           throw new Error('Invalid input! Ingredient must have a description.');
 
-        const [quantity, unit, description] = ingArr;
-
         return {
           quantity: ing[1]['quantity'] ? +ing[1]['quantity'] : null,
           unit: ing[1]['unit'],
