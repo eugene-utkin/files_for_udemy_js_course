@@ -87,7 +87,9 @@ const controlAddBookmark = function () {
   bookmarksView.render(model.state.bookmarks);
 };
 
-const controlAddIngredients = function () {};
+const controlAddIngredients = function () {
+  model.addIngredientsToShoppingList();
+};
 
 const controlFilters = function (activeFilter) {
   // 1) set filter
