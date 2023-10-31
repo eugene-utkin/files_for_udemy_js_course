@@ -88,7 +88,7 @@ const controlAddBookmark = function () {
 };
 
 const controlAddIngredients = function () {
-  model.addIngredientsToShoppingList();
+  model.addIngredientsToShoppingList(model.state.recipe);
 };
 
 const controlFilters = function (activeFilter) {
