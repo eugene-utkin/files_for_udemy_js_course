@@ -147,7 +147,7 @@ const init = function () {
   recipeView.addHandlerRender(controlRecipes);
   recipeView.addHandlerUpdateServings(controlServings);
   recipeView.addHandlerAddBookmark(controlAddBookmark);
-  recipeView.addHandlerAddIngredientsToShoppingList();
+  recipeView.addHandlerAddIngredientsToShoppingList(controlAddIngredients);
   resultsFiltersView.addHandlerClick(controlFilters);
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
