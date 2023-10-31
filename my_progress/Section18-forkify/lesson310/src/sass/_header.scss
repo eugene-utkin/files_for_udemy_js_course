@@ -138,7 +138,8 @@
   }
 
   &:hover,
-  .nav__btn--bookmarks:hover + & {
+  .nav__btn--bookmarks:hover + &,
+  .nav__btn--shopping-list:hover + & {
     visibility: visible;
     opacity: 1;
   }
