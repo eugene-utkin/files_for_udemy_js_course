@@ -143,7 +143,7 @@ export const deleteBookmark = function (id) {
 export const addIngredientsToShoppingList = function (recipe) {
   // Add ingredients
   recipe.ingredients.forEach(ing => {
-    if (!state.includes(ing.description)) {
+    if (!state.shoppingList.includes(ing.description)) {
     }
   });
   console.log('button pressed!');
