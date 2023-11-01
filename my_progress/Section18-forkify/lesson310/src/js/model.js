@@ -143,7 +143,7 @@ export const deleteBookmark = function (id) {
 export const addIngredientsToShoppingList = function (recipe) {
   // Add ingredients
   recipe.ingredients.forEach(ing => {
-    const ingWords = ing.description.split(' ');
+    const ingWords = ing.description.split(' ').map();
     console.log(ingWords);
     if (!state.shoppingList.includes(ing.description)) {
       state.shoppingList.push(ing.description);
