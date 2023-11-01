@@ -146,8 +146,9 @@ export const addIngredientsToShoppingList = function (recipe) {
     const ingWords = ing.description
       .split(' ')
       .map(word => {
-        const editedWord =
+        let editedWord =
           word.slice(0, 1).toUpperCase() + word.slice(1).toLowerCase();
+
         return word.slice(0, 1).toUpperCase() + word.slice(1).toLowerCase();
       })
       .join(' ')
