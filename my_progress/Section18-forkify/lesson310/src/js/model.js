@@ -149,7 +149,8 @@ export const addIngredientsToShoppingList = function (recipe) {
         return word.slice(0, 1).toUpperCase() + word.slice(1).toLowerCase();
       })
       .join(' ')
-      .split('/');
+      .split('/')
+      .map();
     console.log(ingWords);
     if (!state.shoppingList.includes(ing.description)) {
       state.shoppingList.push(ing.description);
