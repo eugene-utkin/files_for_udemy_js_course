@@ -142,6 +142,7 @@ export const deleteBookmark = function (id) {
 
 export const addIngredientsToShoppingList = function (recipe) {
   // Add ingredients
+  recipe.ingredients.map();
   console.log('button pressed!');
 };
 
