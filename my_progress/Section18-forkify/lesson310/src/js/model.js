@@ -147,7 +147,7 @@ export const addIngredientsToShoppingList = function (recipe) {
       state.shoppingList.push(ing.description);
     }
   });
-  console.log('button pressed!');
+  console.log(state.shoppingList);
 };
 
 const init = function () {
