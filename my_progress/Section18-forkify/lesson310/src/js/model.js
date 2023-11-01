@@ -144,6 +144,7 @@ export const addIngredientsToShoppingList = function (recipe) {
   // Add ingredients
   recipe.ingredients.forEach(ing => {
     if (!state.shoppingList.includes(ing.description)) {
+      state.shoppingList.push(ing.description);
     }
   });
   console.log('button pressed!');
