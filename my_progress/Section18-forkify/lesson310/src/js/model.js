@@ -144,7 +144,7 @@ export const addIngredientsToShoppingList = function (recipe) {
   // Add ingredients
   recipe.ingredients.forEach(ing => {
     const ingWords = ing.description.split(' ').map(word => {
-      return word.slice(0, 1).toUpperCase();
+      return word.slice(0, 1).toUpperCase() + word.slice(1);
     });
     console.log(ingWords);
     if (!state.shoppingList.includes(ing.description)) {
