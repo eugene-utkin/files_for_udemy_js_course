@@ -157,7 +157,6 @@ export const addIngredientsToShoppingList = function (recipe) {
         return editedWord;
       })
       .join(' ');
-    console.log(humanizedDescription);
     if (!state.shoppingList.includes(humanizedDescription)) {
       state.shoppingList.push(humanizedDescription);
     }
