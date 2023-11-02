@@ -156,8 +156,7 @@ export const addIngredientsToShoppingList = function (recipe) {
           .join('/');
         return editedWord;
       })
-      .join(' ')
-      .split('/');
+      .join(' ');
     console.log(ingWords);
     if (!state.shoppingList.includes(ing.description)) {
       state.shoppingList.push(ing.description);
