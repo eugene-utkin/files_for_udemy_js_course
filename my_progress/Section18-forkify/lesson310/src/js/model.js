@@ -143,7 +143,7 @@ export const deleteBookmark = function (id) {
 export const addIngredientsToShoppingList = function (recipe) {
   // Add ingredients
   recipe.ingredients.forEach(ing => {
-    const ingWords = ing.description
+    const humanizedDescription = ing.description
       .split(' ')
       .map(word => {
         let editedWord =
