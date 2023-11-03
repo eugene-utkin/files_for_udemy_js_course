@@ -115,7 +115,9 @@ const controlBookmarks = function () {
   bookmarksView.render(model.state.bookmarks);
 };
 
-const controlShoppingList = function () {};
+const controlShoppingList = function () {
+  shoppingListView.render();
+};
 
 const controlAddRecipe = async function (newRecipe) {
   try {
