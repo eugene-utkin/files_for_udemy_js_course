@@ -115,6 +115,8 @@ const controlBookmarks = function () {
   bookmarksView.render(model.state.bookmarks);
 };
 
+const controlShoppingList = function () {};
+
 const controlAddRecipe = async function (newRecipe) {
   try {
     // Show loading spinner
