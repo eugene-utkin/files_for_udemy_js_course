@@ -116,7 +116,7 @@ const controlBookmarks = function () {
 };
 
 const controlShoppingList = function () {
-  shoppingListView.render();
+  shoppingListView.render(model.state.shoppingList);
 };
 
 const controlAddRecipe = async function (newRecipe) {
