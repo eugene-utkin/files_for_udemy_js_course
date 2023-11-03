@@ -156,6 +156,6 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerCheckValue();
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  shoppingListView.addHandlerRender();
+  shoppingListView.addHandlerRender(controlShoppingList);
 };
 init();
