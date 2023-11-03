@@ -17,7 +17,9 @@ class ShoppingListView extends View {
   }
 
   _generateMarkup() {
-    return this._data.map();
+    return this._data.map(ingredient =>
+      shoppingListItemView.render(ingredient, false)
+    );
   }
 }
 
