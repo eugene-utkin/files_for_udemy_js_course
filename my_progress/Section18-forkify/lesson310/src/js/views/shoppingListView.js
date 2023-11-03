@@ -1,3 +1,3 @@
 import View from './View.js';
 
-class ShoppingListView {}
+class ShoppingListView extends View {}
