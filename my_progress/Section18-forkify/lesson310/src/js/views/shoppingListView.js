@@ -1,4 +1,5 @@
 import View from './View.js';
+import shoppingListItemView from './shoppingListItemView.js';
 
 class ShoppingListView extends View {
   _parentElement = document.querySelector('.ingredients__list');
