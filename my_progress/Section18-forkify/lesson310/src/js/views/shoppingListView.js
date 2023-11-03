@@ -10,6 +10,7 @@ class ShoppingListView extends View {
       Find a nice recipe and add ingredients to Shopping list.
     </p>
   `;
+  _message = '';
 
   addHandlerRender(handler) {
     window.addEventListener('load', handler);
