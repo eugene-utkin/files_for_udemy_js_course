@@ -4,6 +4,7 @@ class ShoppingListItemView extends View {
   _parentElement = '';
 
   _generateMarkup() {
+    console.log(this._data);
     return `
       <li>
 
