@@ -89,6 +89,7 @@ const controlAddBookmark = function () {
 };
 
 const controlAddIngredients = function () {
+  // 1) Add ingredient
   model.addIngredientsToShoppingList(model.state.recipe);
 };
 
