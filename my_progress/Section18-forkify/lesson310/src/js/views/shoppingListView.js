@@ -18,6 +18,7 @@ class ShoppingListView extends View {
   }
 
   _generateMarkup() {
+    console.log(this._data);
     return this._data
       .map(ingredient => shoppingListItemView.render(ingredient, false))
       .join('');
