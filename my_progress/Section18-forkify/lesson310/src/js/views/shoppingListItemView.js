@@ -6,7 +6,7 @@ class ShoppingListItemView extends View {
   _generateMarkup() {
     console.log(this._data);
     return `
-      <li>
+      <li class="shopping-list-ingredient">
         ${this._data}
       </li>
     `;
