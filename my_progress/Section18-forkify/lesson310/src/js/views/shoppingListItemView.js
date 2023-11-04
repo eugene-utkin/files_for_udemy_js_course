@@ -1,1 +1,1 @@
-class ShoppingListItem {}
+class ShoppingListItem extends View {}
