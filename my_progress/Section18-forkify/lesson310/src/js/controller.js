@@ -91,6 +91,8 @@ const controlAddBookmark = function () {
 const controlAddIngredients = function () {
   // 1) Add ingredient
   model.addIngredientsToShoppingList(model.state.recipe);
+
+  // 2) Render shopping list
 };
 
 const controlFilters = function (activeFilter) {
