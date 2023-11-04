@@ -3,7 +3,11 @@ import View from './View.js';
 class ShoppingListItemView extends View {
   _parentElement = '';
 
-  _generateMarkup() {}
+  _generateMarkup() {
+    return `
+    
+    `;
+  }
 }
 
 export default new ShoppingListItemView();
