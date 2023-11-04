@@ -7,7 +7,7 @@ class ShoppingListItemView extends View {
     console.log(this._data);
     return `
       <li>
-
+        ${this._data}
       </li>
     `;
   }
