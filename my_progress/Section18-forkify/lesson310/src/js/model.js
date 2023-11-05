@@ -19,7 +19,9 @@ export const state = {
   },
   bookmarks: [],
   shoppingList: [],
-  calendar: {},
+  calendar: {
+    monday: '',
+  },
 };
 
 const createRecipeObject = function (data) {
