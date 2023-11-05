@@ -11,7 +11,7 @@ class ShoppingListItemView extends View {
   _generateMarkup() {
     return `
       <li class="shopping-list-ingredient">
-        ${this.shoppingListItemsCount}${this._data}
+        ${this.shoppingListItemsCount}. ${this._data}
       </li>
     `;
   }
