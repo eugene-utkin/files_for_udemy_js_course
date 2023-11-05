@@ -21,6 +21,7 @@ export const state = {
   shoppingList: [],
   calendar: {
     monday: '',
+    tuesday: '',
   },
 };
 
