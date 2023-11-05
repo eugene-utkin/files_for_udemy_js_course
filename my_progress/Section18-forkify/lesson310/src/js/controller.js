@@ -8,6 +8,7 @@ import paginationView from './views/paginationView.js';
 import bookmarksView from './views/bookmarksView.js';
 import addRecipeView from './views/addRecipeView.js';
 import shoppingListView from './views/shoppingListView.js';
+import shoppingListItemView from './views/shoppingListItemView.js';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
