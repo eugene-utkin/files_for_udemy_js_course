@@ -5,6 +5,7 @@ class ShoppingListItemView extends View {
 
   constructor() {
     super();
+    this.shoppingListItemsCount = 0;
   }
 
   _generateMarkup() {
