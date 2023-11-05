@@ -92,6 +92,7 @@ const controlAddIngredients = function () {
   // 1) Add ingredient
   model.addIngredientsToShoppingList(model.state.recipe);
 
+  // 2) Update items counter
   // 2) Render shopping list
   shoppingListView.render(model.state.shoppingList);
 };
