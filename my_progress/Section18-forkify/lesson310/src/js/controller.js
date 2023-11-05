@@ -97,7 +97,7 @@ const controlAddIngredients = function () {
   shoppingListItemView.shoppingListItemsCount = 0;
 
   // 3) Render shopping list
-  shoppingListView.render(model.state.shoppingList);
+  shoppingListView.render(model.state.shoppingList.sort());
 };
 
 const controlFilters = function (activeFilter) {
