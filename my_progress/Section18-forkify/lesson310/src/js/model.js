@@ -24,6 +24,7 @@ export const state = {
     tuesday: '',
     wednesday: '',
     thursday: '',
+    friday: '',
   },
 };
 
