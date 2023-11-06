@@ -85,7 +85,7 @@ class RecipeView extends View {
                 <use href="${icons}#icon-plus-circle"></use>
               </svg>
             </button>
-            <div>
+            <div class="calendar">
             </div>
           </div>
         </div>
