@@ -105,7 +105,7 @@ class RecipeView extends View {
             <use href="${icons}#icon-plus-circle"></use>
           </svg>
         </button>
-        <div class="calendar">
+        <div class="add-to-calendar">
           <button class="btn--round btn--add-to-calendar">
             <svg class="">
               <use href="${icons}#icon-check"></use>
