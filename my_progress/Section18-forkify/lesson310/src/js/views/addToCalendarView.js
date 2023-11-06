@@ -1,7 +1,5 @@
 import View from './View.js';
 
-class AddToCalendarView extends View {
-  _parentElement = document.querySelector('.add-to-calendar-window');
-}
+class AddToCalendarView extends View {}
 
 export default new AddToCalendarView();
