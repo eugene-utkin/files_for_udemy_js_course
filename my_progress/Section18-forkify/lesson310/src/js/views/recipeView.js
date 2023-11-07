@@ -130,6 +130,9 @@ class RecipeView extends View {
             <button class="btn--inline">
               Saturday
             </button>
+            <button class="btn--inline">
+              Sunday
+            </button>
           </div>
         </div>
       </div>
