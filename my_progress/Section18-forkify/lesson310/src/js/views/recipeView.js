@@ -112,7 +112,7 @@ class RecipeView extends View {
             </svg>
           </button>
           <div class="add-to-calendar-dropdown">
-            <button class="btn--round">
+            <button class="btn--inline">
             </button>
           </div>
         </div>
