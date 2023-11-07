@@ -113,6 +113,7 @@ class RecipeView extends View {
           </button>
           <div class="add-to-calendar-dropdown">
             <button class="btn--inline">
+              Monday
             </button>
           </div>
         </div>
