@@ -20,7 +20,7 @@ export const state = {
   bookmarks: [],
   shoppingList: [],
   calendar: {
-    monday: '',
+    monday: null,
     tuesday: '',
     wednesday: '',
     thursday: '',
