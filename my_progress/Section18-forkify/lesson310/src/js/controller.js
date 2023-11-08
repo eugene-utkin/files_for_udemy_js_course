@@ -171,5 +171,6 @@ const init = function () {
   addRecipeView.addHandlerCheckValue();
   addRecipeView.addHandlerUpload(controlAddRecipe);
   shoppingListView.addHandlerRender(controlShoppingList);
+  addToCalendarView.addHandlerRender();
 };
 init();
