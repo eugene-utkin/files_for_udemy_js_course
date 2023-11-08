@@ -22,7 +22,7 @@ export const state = {
   calendar: {
     monday: null,
     tuesday: null,
-    wednesday: '',
+    wednesday: null,
     thursday: '',
     friday: '',
     saturday: '',
