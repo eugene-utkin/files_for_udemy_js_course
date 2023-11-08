@@ -126,7 +126,7 @@ const controlBookmarks = function () {
 };
 
 const controlAddToCalendar = function () {
-  addToCalendarView.render();
+  addToCalendarView.render(model.state.calendar);
 };
 
 const controlShoppingList = function () {
