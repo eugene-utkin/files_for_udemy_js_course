@@ -23,7 +23,7 @@ export const state = {
     monday: null,
     tuesday: null,
     wednesday: null,
-    thursday: '',
+    thursday: null,
     friday: '',
     saturday: '',
     sunday: '',
