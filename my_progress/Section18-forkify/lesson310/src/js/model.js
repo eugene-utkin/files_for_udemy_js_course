@@ -25,7 +25,7 @@ export const state = {
     wednesday: null,
     thursday: null,
     friday: null,
-    saturday: '',
+    saturday: null,
     sunday: '',
   },
 };
