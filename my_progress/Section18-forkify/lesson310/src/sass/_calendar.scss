@@ -12,7 +12,8 @@
     margin: 1rem 0.5rem;
   }
 
-  &:hover {
+  &:hover,
+  .btn--add-to-calendar:hover + & {
     visibility: visible;
     opacity: 1;
   }
