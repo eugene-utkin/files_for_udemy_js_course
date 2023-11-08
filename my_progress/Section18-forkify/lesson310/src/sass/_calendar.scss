@@ -1,9 +1,5 @@
 .add-to-calendar {
   position: relative;
-  &:hover {
-    visibility: visible;
-    opacity: 1;
-  }
 }
 
 .add-to-calendar-dropdown {
@@ -14,5 +10,10 @@
 
   button {
     margin: 1rem 0.5rem;
+  }
+
+  &:hover {
+    visibility: visible;
+    opacity: 1;
   }
 }
