@@ -125,6 +125,8 @@ const controlBookmarks = function () {
   bookmarksView.render(model.state.bookmarks);
 };
 
+const controlAddToCalendar = function () {};
+
 const controlShoppingList = function () {
   shoppingListView.render(model.state.shoppingList);
 };
