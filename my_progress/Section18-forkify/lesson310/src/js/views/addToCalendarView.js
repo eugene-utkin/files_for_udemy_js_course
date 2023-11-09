@@ -8,7 +8,7 @@ class AddToCalendarView extends View {
   }
 
   _generateMarkup() {
-    return this._data;
+    return this._data.map();
   }
 }
 
