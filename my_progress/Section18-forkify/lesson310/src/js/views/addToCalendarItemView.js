@@ -1,3 +1,3 @@
 import View from './View.js';
 
-class AddToCalendarItemView {}
+class AddToCalendarItemView extends View {}
