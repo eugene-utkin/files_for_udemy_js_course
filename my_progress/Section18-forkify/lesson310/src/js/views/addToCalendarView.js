@@ -9,6 +9,7 @@ class AddToCalendarView extends View {
   }
 
   _generateMarkup() {
+    console.log(this._data);
     return this._data
       .map(day => addToCalendarItemView.render(day, false))
       .join('');
