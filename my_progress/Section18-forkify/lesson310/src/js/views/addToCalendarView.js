@@ -7,7 +7,9 @@ class AddToCalendarView extends View {
     window.addEventListener('load', handler);
   }
 
-  _generateMarkup() {}
+  _generateMarkup() {
+    this._data;
+  }
 }
 
 export default new AddToCalendarView();
