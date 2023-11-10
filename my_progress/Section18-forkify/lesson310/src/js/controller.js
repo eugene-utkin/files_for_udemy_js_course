@@ -37,10 +37,10 @@ const controlRecipes = async function () {
     await model.loadRecipe(id);
 
     // 3) Rendering recipe
-    recipeView.render(model.state.recipe);
+    recipeView.render(model.state);
 
     // 4) Rendering Add to Calendar dropdown
-    addToCalendarView.render(model.state.calendar);
+    await addToCalendarView.render(model.state.calendar);
   } catch (err) {
     recipeView.renderError();
     console.error(err);
