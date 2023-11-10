@@ -153,7 +153,7 @@ class RecipeView extends View {
         <p class="recipe__directions-text">
           This recipe was carefully designed and tested by
           <span class="recipe__publisher">${
-            this._data.publisher
+            this._data.recipe.publisher
           }</span>. Please check out
           directions at their website.
         </p>
