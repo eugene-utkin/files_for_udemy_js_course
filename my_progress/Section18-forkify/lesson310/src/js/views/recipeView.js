@@ -66,7 +66,7 @@ class RecipeView extends View {
             <use href="${icons}#icon-users"></use>
           </svg>
           <span class="recipe__info-data recipe__info-data--people">${
-            this._data.servings
+            this._data.recipe.servings
           }</span>
           <span class="recipe__info-text">servings</span>
 
