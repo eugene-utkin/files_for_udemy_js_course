@@ -44,7 +44,7 @@ class RecipeView extends View {
     return `
       <figure class="recipe__fig">
         <img src="${this._data.recipe.image}" alt="${
-      this._data.title
+      this._data.recipe.title
     }" class="recipe__img" />
         <h1 class="recipe__title">
           <span>${this._data.title}</span>
