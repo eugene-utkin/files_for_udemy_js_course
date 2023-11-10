@@ -47,7 +47,7 @@ class RecipeView extends View {
       this._data.recipe.title
     }" class="recipe__img" />
         <h1 class="recipe__title">
-          <span>${this._data.title}</span>
+          <span>${this._data.recipe.title}</span>
         </h1>
       </figure>
 
