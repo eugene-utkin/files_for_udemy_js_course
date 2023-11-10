@@ -38,6 +38,8 @@ const controlRecipes = async function () {
 
     // 3) Rendering recipe
     recipeView.render(model.state.recipe);
+
+    // 4) Rendering Add to Calendar dropdown
   } catch (err) {
     recipeView.renderError();
     console.error(err);
