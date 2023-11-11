@@ -191,7 +191,11 @@ class RecipeView extends View {
     `;
   }
 
-  _generateMarkupCalendarButton(day) {}
+  _generateMarkupCalendarButton(day) {
+    return `
+    
+    `;
+  }
 }
 
 export default new RecipeView();
