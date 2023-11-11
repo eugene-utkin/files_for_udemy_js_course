@@ -114,9 +114,9 @@ class RecipeView extends View {
             </svg>
           </button>
           <div class="add-to-calendar-dropdown">
-            ${Object.entries(this._data.calendar).map(
-              this._generateMarkupCalendarButton
-            )}
+            ${Object.entries(this._data.calendar)
+              .map(this._generateMarkupCalendarButton)
+              .join('')}
             <button class="btn--inline">
               Monday
             </button>
