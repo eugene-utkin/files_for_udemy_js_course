@@ -190,6 +190,8 @@ class RecipeView extends View {
       </li>
     `;
   }
+
+  _generateMarkupCalendarButton() {}
 }
 
 export default new RecipeView();
