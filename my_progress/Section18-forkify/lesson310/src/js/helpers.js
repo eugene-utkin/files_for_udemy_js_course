@@ -31,7 +31,7 @@ export const AJAX = async function (url, uploadData = undefined) {
 };
 
 export const capitalize = function (str) {
-  return str.slice(0, 1);
+  return str.slice(0, 1).toUpperCase();
 };
 
 /*
