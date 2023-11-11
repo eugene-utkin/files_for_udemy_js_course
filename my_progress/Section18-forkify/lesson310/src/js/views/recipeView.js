@@ -119,9 +119,6 @@ class RecipeView extends View {
               .map(this._generateMarkupCalendarButton)
               .join('')}
             <button class="btn--inline">
-              Thursday
-            </button>
-            <button class="btn--inline">
               Friday
             </button>
             <button class="btn--inline">
