@@ -30,6 +30,8 @@ export const AJAX = async function (url, uploadData = undefined) {
   }
 };
 
+const capitalize = function () {};
+
 /*
 export const getJSON = async function (url) {
   try {
