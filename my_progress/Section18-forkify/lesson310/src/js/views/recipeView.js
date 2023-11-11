@@ -1,4 +1,5 @@
 import View from './View.js';
+import { capitalize } from './helpers.js';
 
 // import icons from '../img/icons.svg'; // Parcel 1
 import icons from 'url:../../img/icons.svg'; // Parcel 2
