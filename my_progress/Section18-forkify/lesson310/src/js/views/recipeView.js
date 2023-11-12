@@ -173,7 +173,7 @@ class RecipeView extends View {
 
   _generateMarkupCalendarButton(day) {
     return `
-      <button data-day="${day}" class="btn--inline">
+      <button data-day="${day[0]}" class="btn--inline">
         ${capitalize(day[0])}
       </button>
     `;
