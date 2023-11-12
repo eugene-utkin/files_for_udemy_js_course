@@ -158,9 +158,7 @@ export const addIngredientsToShoppingList = function (recipe) {
         let editedWord = capitalize(word);
         editedWord = editedWord
           .split('/')
-          .map(word => {
-            return capitalize(word);
-          })
+          .map(word => capitalize(word))
           .join('/');
         return editedWord;
       })
