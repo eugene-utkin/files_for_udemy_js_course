@@ -175,7 +175,7 @@ class RecipeView extends View {
     const id = window.location.hash.slice(1);
     const active = day[1] && day[1] === id;
     return `
-      <button data-day="${day[0]}" class="btn--inline">
+      <button data-day="${day[0]}" class="btn--inline" disabled="${active}">
         ${capitalize(day[0])}
       </button>
     `;
