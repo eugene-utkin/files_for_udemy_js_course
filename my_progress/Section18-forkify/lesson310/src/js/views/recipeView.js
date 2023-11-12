@@ -177,7 +177,7 @@ class RecipeView extends View {
     return `
       <button data-day="${day[0]}" class="btn--inline ${
       active ? 'calendar-btn-active' : ''
-    }" disabled="${active}">
+    }">
         ${capitalize(day[0])}
       </button>
     `;
