@@ -4,7 +4,6 @@ class AddToCalendarItemView extends View {
   _parentElement = '';
 
   _generateMarkup() {
-    console.log(this._data);
     return 'Test';
   }
 }
