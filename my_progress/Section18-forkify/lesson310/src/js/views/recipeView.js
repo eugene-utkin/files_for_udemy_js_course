@@ -173,7 +173,7 @@ class RecipeView extends View {
 
   _generateMarkupCalendarButton(day) {
     const id = window.location.hash.slice(1);
-    const active = day[1];
+    const active = day[1] && day[1] === id;
     return `
       <button data-day="${day[0]}" class="btn--inline">
         ${capitalize(day[0])}
