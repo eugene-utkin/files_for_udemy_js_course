@@ -90,7 +90,8 @@
   }
 }
 
-.filter-btn-active {
+.filter-btn-active,
+.calendar-btn-active {
   background-color: $color-grey-dark-1;
 
   &:hover {
