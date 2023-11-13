@@ -169,6 +169,8 @@ export const addIngredientsToShoppingList = function (recipe) {
   });
 };
 
+addToCalendar = function () {};
+
 const init = function () {
   const storage = localStorage.getItem('bookmarks');
   if (storage) state.bookmarks = JSON.parse(storage);
