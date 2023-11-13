@@ -40,7 +40,7 @@ class RecipeView extends View {
   }
 
   addHandlerAddToCalendar() {
-    this._parentElement.addEventListener('click', function () {});
+    this._parentElement.addEventListener('click', function (e) {});
   }
 
   addHandler;
