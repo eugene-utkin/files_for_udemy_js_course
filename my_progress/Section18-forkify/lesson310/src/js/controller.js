@@ -125,10 +125,9 @@ const controlBookmarks = function () {
   bookmarksView.render(model.state.bookmarks);
 };
 
-const controlAddToCalendar = function () {
+const controlAddToCalendar = function (day) {
   // 1) Add recipe to calendar
   model.addToCalendar();
-  addToCalendarView.render(model.state.calendar);
 };
 
 const controlShoppingList = function () {
