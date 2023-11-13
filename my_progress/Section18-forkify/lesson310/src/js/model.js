@@ -169,7 +169,7 @@ export const addIngredientsToShoppingList = function (recipe) {
   });
 };
 
-export const addToCalendar = function () {};
+export const addToCalendar = function (day) {};
 
 const init = function () {
   const storage = localStorage.getItem('bookmarks');
