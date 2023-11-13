@@ -39,6 +39,8 @@ class RecipeView extends View {
     });
   }
 
+  addHandlerAddToCalendar() {}
+
   addHandler;
 
   _generateMarkup() {
