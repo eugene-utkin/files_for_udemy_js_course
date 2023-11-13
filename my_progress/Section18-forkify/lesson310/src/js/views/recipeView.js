@@ -39,7 +39,9 @@ class RecipeView extends View {
     });
   }
 
-  addHandlerAddToCalendar() {}
+  addHandlerAddToCalendar() {
+    this._parentElement.addEventListener('click', function () {});
+  }
 
   addHandler;
 
