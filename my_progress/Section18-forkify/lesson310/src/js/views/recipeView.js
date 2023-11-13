@@ -44,7 +44,7 @@ class RecipeView extends View {
       const btn = e.target.closest('.btn--add-to-calendar');
       if (!btn) return;
       const { day } = btn.dataset;
-      handler();
+      handler(day);
     });
   }
 
