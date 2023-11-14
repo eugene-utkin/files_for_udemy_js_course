@@ -35,6 +35,11 @@
   .calendar-remove {
     display: none;
   }
+  .calendar-btn-active {
+    .calendar-add {
+      display: none;
+    }
+  }
 }
 
 .calendar-day {
