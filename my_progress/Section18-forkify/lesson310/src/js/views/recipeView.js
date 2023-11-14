@@ -185,7 +185,7 @@ class RecipeView extends View {
     const id = window.location.hash.slice(1);
     const active = day[1] && day[1]['id'] === id;
     return `
-      <span>${capitalize(day[0])}:</span>
+      <span class="calendar-day">${capitalize(day[0])}:</span>
       <button data-day="${day[0]}" class="btn--inline btn--add-to-calendar ${
       active ? 'calendar-btn-active' : ''
     }">
