@@ -190,7 +190,7 @@ class RecipeView extends View {
         <button data-day="${day[0]}" class="btn--inline btn--add-to-calendar ${
       active ? 'calendar-btn-active' : ''
     }">
-          <span class="calendar-add">Add</span>
+          <span class="calendar-add">Add</span><span class="calendar-remove">Remove</span>
         </button>
       </div>
     `;
