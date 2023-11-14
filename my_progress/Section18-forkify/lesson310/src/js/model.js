@@ -170,7 +170,9 @@ export const addIngredientsToShoppingList = function (recipe) {
 };
 
 export const addToCalendar = function (day) {
-  state.calendar[day] = {};
+  state.calendar[day] = {
+    id: state.recipe['id'],
+  };
 };
 
 const init = function () {
