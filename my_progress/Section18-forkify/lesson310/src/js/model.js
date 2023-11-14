@@ -21,7 +21,7 @@ export const state = {
   shoppingList: [],
   calendar: {
     monday: null,
-    tuesday: { id: '5ed6604691c37cdc054bd007' },
+    tuesday: { id: '5ed6604691c37cdc054bd007', title: 'Test' },
     wednesday: null,
     thursday: null,
     friday: null,
