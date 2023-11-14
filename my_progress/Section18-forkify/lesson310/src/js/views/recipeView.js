@@ -43,6 +43,7 @@ class RecipeView extends View {
     this._parentElement.addEventListener('click', function (e) {
       const btn = e.target.closest('.btn--add-to-calendar');
       if (!btn) return;
+      btn.classList.toggle('calendar-btn-active');
       const { day } = btn.dataset;
       handler(day);
     });
