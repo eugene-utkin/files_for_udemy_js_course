@@ -6,12 +6,17 @@
   position: absolute;
   background-color: #fff;
   padding: 1rem 0;
-  width: 11rem;
+  width: 40rem;
   visibility: hidden;
   opacity: 0;
+  left: -10rem;
 
   button {
     margin: 1rem 0.5rem;
+  }
+
+  .btn--add-to-calendar {
+    display: inline;
   }
 
   &:hover,
@@ -22,6 +27,7 @@
 }
 
 .calendar-segment {
+  white-space: nowrap;
 }
 
 .calendar-day {
