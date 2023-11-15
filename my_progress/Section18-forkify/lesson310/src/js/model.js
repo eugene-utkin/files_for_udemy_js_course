@@ -176,6 +176,8 @@ export const addToCalendar = function (day) {
         id: state.recipe['id'],
         title: state.recipe['title'],
       };
+    } else {
+      state.calendar[day] = null;
     }
   }
   console.log(state.calendar);
