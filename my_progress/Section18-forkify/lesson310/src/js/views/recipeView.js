@@ -42,10 +42,10 @@ class RecipeView extends View {
   addHandlerAddToCalendar(handler) {
     this._parentElement.addEventListener('click', function (e) {
       const btn = e.target.closest('.btn--add-to-calendar');
-      const segment = e.target.closest('.calendar-title');
       if (!btn) return;
       btn.classList.toggle('calendar-btn-active');
       const { day } = btn.dataset;
+      const segment = e.target.closest('.calendar-title');
       handler(day);
     });
   }
