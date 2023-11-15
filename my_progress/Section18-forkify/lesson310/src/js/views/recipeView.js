@@ -186,8 +186,9 @@ class RecipeView extends View {
     const active = day[1] && day[1]['id'] === id;
     return `
       <div class="calendar-segment">
+
         <div>
-          ${day[1]['title']}
+          ${day[1] ? day[1]['title'] : ''}
         </div>
         <span class="calendar-day">${capitalize(day[0])}:</span>
         <button data-day="${day[0]}" class="btn--inline btn--add-to-calendar ${
