@@ -48,6 +48,7 @@ class RecipeView extends View {
       const title = e.target
         .closest('.calendar-segment')
         .querySelector('.calendar-title');
+      console.log(title);
       handler(day);
     });
   }
