@@ -45,7 +45,9 @@ class RecipeView extends View {
       if (!btn) return;
       btn.classList.toggle('calendar-btn-active');
       const { day } = btn.dataset;
-      const segment = e.target.closest('.calendar-segment');
+      const segment = e.target
+        .closest('.calendar-segment')
+        .querySelector('.calendar-title');
       handler(day);
     });
   }
