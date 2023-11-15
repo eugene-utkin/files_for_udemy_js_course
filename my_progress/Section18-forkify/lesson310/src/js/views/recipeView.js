@@ -187,7 +187,7 @@ class RecipeView extends View {
     return `
       <div class="calendar-segment">
 
-        <div>
+        <div class="calendar-title">
           ${day[1] ? day[1]['title'] : ''}
         </div>
         <span class="calendar-day">${capitalize(day[0])}:</span>
