@@ -28,6 +28,7 @@
 
 .calendar-segment {
   display: flex;
+  justify-content: space-between;
   margin: 1rem 1rem;
   white-space: nowrap;
   .calendar-add {
