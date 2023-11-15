@@ -187,6 +187,7 @@ class RecipeView extends View {
     return `
       <div class="calendar-segment">
         <div>
+          ${day[1]['title']}
         </div>
         <span class="calendar-day">${capitalize(day[0])}:</span>
         <button data-day="${day[0]}" class="btn--inline btn--add-to-calendar ${
