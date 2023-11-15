@@ -170,10 +170,12 @@ export const addIngredientsToShoppingList = function (recipe) {
 };
 
 export const addToCalendar = function (day) {
-  state.calendar[day] = {
-    id: state.recipe['id'],
-    title: state.recipe['title'],
-  };
+  if (!state.calendar[day]) {
+    state.calendar[day] = {
+      id: state.recipe['id'],
+      title: state.recipe['title'],
+    };
+  }
   console.log(state.calendar);
 };
 
