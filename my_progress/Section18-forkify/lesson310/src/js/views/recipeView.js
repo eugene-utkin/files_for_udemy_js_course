@@ -42,6 +42,7 @@ class RecipeView extends View {
   addHandlerAddToCalendar(handler) {
     this._parentElement.addEventListener('click', function (e) {
       const btn = e.target.closest('.btn--add-to-calendar');
+      const segment = e.target.closest('.calendar-title');
       if (!btn) return;
       btn.classList.toggle('calendar-btn-active');
       const { day } = btn.dataset;
@@ -186,7 +187,6 @@ class RecipeView extends View {
     const active = day[1] && day[1]['id'] === id;
     return `
       <div class="calendar-segment">
-
         <div class="calendar-title">
           ${day[1] ? day[1]['title'] : ''}
         </div>
