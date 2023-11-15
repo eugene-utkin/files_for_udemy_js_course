@@ -170,7 +170,7 @@ export const addIngredientsToShoppingList = function (recipe) {
 };
 
 export const addToCalendar = function (day) {
-  if (!state.calendar[day]) {
+  if (state.calendar[day]) {
     if (state.calendar[day]['id'] !== state.recipe['id']) {
       state.calendar[day] = {
         id: state.recipe['id'],
