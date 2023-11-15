@@ -184,13 +184,16 @@ class RecipeView extends View {
   _generateMarkupCalendarButton(day) {
     const id = window.location.hash.slice(1);
     const active = day[1] && day[1]['id'] === id;
+    console.log(state.calendar[day[1]]);
     return `
       <div class="calendar-segment">
         <span class="calendar-day">${capitalize(day[0])}:</span>
         <button data-day="${day[0]}" class="btn--inline btn--add-to-calendar ${
       active ? 'calendar-btn-active' : ''
     }">
-          <span class="calendar-add">Add</span><span class="calendar-remove">Remove</span>
+          <span class="calendar-add">${
+            active ? 'Replace' : 'Add'
+          }</span><span class="calendar-remove">Remove</span>
         </button>
       </div>
     `;
