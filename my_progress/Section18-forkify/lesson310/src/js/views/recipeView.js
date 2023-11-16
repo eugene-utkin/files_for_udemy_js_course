@@ -51,7 +51,7 @@ class RecipeView extends View {
       const id = window.location.hash.slice(1);
       const recipeTitle =
         _parentElement.querySelector('.recipe__title').innerHTML;
-      console.log(title.innerHTML);
+      console.log(recipeTitle);
       title.innerHTML = '';
       handler(day);
     });
