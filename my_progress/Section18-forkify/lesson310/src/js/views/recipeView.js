@@ -49,8 +49,7 @@ class RecipeView extends View {
         .closest('.calendar-segment')
         .querySelector('.calendar-title');
       const id = window.location.hash.slice(1);
-      const recipeTitle =
-        _parentElement.querySelector('.recipe__title').innerHTML;
+      const recipeTitle = document.querySelector('.recipe__title').innerHTML;
       console.log(recipeTitle);
       title.innerHTML = '';
       handler(day);
