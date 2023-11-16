@@ -185,7 +185,6 @@ export const addToCalendar = function (day) {
       title: state.recipe['title'],
     };
   }
-  console.log(state.calendar);
 };
 
 const init = function () {
