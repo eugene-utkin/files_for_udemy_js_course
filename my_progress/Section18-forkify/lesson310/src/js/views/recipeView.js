@@ -51,6 +51,7 @@ class RecipeView extends View {
       const id = window.location.hash.slice(1);
       const recipeTitle = document.querySelector('.recipe__title').textContent;
       if (recipeTitle === title) {
+        title.innerHTML = '';
       }
       console.log(recipeTitle);
       title.innerHTML = '';
