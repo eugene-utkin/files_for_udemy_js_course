@@ -55,7 +55,6 @@ class RecipeView extends View {
       } else {
         title.innerHTML = recipeTitle;
       }
-      console.log(recipeTitle);
       handler(day);
     });
   }
