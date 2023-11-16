@@ -48,7 +48,6 @@ class RecipeView extends View {
       const title = e.target
         .closest('.calendar-segment')
         .querySelector('.calendar-title');
-      const id = window.location.hash.slice(1);
       const recipeTitle = document.querySelector('.recipe__title').textContent;
       if (recipeTitle === title.textContent) {
         title.innerHTML = '';
