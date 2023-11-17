@@ -195,6 +195,7 @@ export const addToCalendar = function (day) {
 const init = function () {
   const storage = localStorage.getItem('bookmarks');
   if (storage) state.bookmarks = JSON.parse(storage);
+  const calendar = localStorage.getItem('calendar');
 };
 init();
 
