@@ -173,7 +173,7 @@ const persistCalendar = function () {
   localStorage.setItem('calendar', JSON.stringify(state.calendar));
 };
 
-export const addToCalendar = function (day) {
+export const updateCalendarDay = function (day) {
   if (state.calendar[day]) {
     if (state.calendar[day]['id'] !== state.recipe['id']) {
       state.calendar[day] = {
