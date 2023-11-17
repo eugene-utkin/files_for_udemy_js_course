@@ -170,7 +170,7 @@ export const addIngredientsToShoppingList = function (recipe) {
 };
 
 const persistCalendar = function () {
-  localStorage.setItem('calendar');
+  localStorage.setItem('calendar', JSON.stringify(state.calendar));
 };
 
 export const addToCalendar = function (day) {
