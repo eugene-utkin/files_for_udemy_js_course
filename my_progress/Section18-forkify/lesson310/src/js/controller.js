@@ -14,7 +14,6 @@ import addToCalendarView from './views/addToCalendarView.js';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 import { async } from 'regenerator-runtime';
-import addToCalendarView from './views/addToCalendarView.js';
 
 // if (module.hot) {
 //   module.hot.accept();
