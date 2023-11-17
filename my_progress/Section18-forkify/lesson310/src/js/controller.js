@@ -126,7 +126,7 @@ const controlBookmarks = function () {
 
 const controlAddToCalendar = function (day) {
   // 1) Add recipe to calendar
-  model.addToCalendar(day);
+  model.updateCalendarDay(day);
 };
 
 const controlShoppingList = function () {
