@@ -169,6 +169,8 @@ export const addIngredientsToShoppingList = function (recipe) {
   });
 };
 
+const persistCalendar = function () {};
+
 export const addToCalendar = function (day) {
   if (state.calendar[day]) {
     if (state.calendar[day]['id'] !== state.recipe['id']) {
