@@ -39,7 +39,7 @@ class RecipeView extends View {
     });
   }
 
-  addHandlerAddToCalendar(handler) {
+  addHandlerUpdateCalendarDay(handler) {
     this._parentElement.addEventListener('click', function (e) {
       const btn = e.target.closest('.btn--add-to-calendar');
       if (!btn) return;
