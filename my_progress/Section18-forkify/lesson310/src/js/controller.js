@@ -10,6 +10,7 @@ import addRecipeView from './views/addRecipeView.js';
 import shoppingListView from './views/shoppingListView.js';
 import shoppingListItemView from './views/shoppingListItemView.js';
 import addToCalendarView from './views/addToCalendarView.js';
+import calendarView from './views/calendarView.js';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
