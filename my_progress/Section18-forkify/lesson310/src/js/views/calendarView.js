@@ -1,7 +1,7 @@
 import View from './View.js';
 
 class calendarView extends View {
-  addHandlerRender() {}
+  addHandlerRender(handler) {}
 }
 
 export default new calendarView();
