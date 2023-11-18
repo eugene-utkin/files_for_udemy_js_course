@@ -140,7 +140,8 @@
 
   &:hover,
   .nav__btn--bookmarks:hover + &,
-  .nav__btn--shopping-list:hover + & {
+  .nav__btn--shopping-list:hover + &,
+  .nav__btn--calendar:hover + & {
     visibility: visible;
     opacity: 1;
   }
