@@ -15,6 +15,8 @@ class calendarView extends View {
   addHandlerRender(handler) {
     window.addEventListener('load', handler);
   }
+
+  _generateMarkup() {}
 }
 
 export default new calendarView();
