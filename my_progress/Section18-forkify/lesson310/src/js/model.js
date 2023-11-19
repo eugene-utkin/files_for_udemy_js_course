@@ -208,6 +208,7 @@ const clearBookmarks = function () {
 const clearCalendar = function () {
   localStorage.clear('calendar');
 };
+clearCalendar();
 
 export const uploadRecipe = async function (newRecipe) {
   try {
