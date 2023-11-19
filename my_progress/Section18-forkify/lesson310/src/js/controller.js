@@ -135,7 +135,9 @@ const controlShoppingList = function () {
 };
 
 const controlCalendar = function () {
-  const calendarIsEmpty = Object.entries(model.state.calendar).every();
+  const calendarIsEmpty = Object.entries(model.state.calendar).every(
+    entry => entry[1] === null
+  );
   calendarView.render(model.state.calendar);
 };
 
