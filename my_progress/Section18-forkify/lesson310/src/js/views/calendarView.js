@@ -10,6 +10,7 @@ class calendarView extends View {
       Find a nice recipe and add it to the Calendar.
     </p>
   `;
+  _message = '';
 
   addHandlerRender(handler) {
     window.addEventListener('load', handler);
