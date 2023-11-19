@@ -205,6 +205,8 @@ const clearBookmarks = function () {
 };
 // clearBookmarks();
 
+const clearCalendar = function () {};
+
 export const uploadRecipe = async function (newRecipe) {
   try {
     const ingredients = Object.entries(newRecipe)
