@@ -135,7 +135,7 @@ const controlShoppingList = function () {
 };
 
 const controlCalendar = function () {
-  calendarView.render();
+  calendarView.render(model.state.calendar);
 };
 
 const controlAddRecipe = async function (newRecipe) {
