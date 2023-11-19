@@ -135,6 +135,7 @@ const controlShoppingList = function () {
 };
 
 const controlCalendar = function () {
+  Object.entries(model.state.calendar).every();
   calendarView.render(model.state.calendar);
 };
 
