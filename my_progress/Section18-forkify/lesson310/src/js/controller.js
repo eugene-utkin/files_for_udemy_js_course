@@ -137,7 +137,7 @@ const controlShoppingList = function () {
 const controlCalendar = function () {
   const entries = Object.entries(model.state.calendar);
   const calendarIsEmpty = entries.every(entry => entry[1] === null);
-  calendarView.render(model.state.calendar);
+  calendarView.render(calendarIsEmpty ? null : entries);
 };
 
 const controlAddRecipe = async function (newRecipe) {
