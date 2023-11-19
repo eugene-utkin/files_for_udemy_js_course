@@ -134,6 +134,8 @@ const controlShoppingList = function () {
   shoppingListView.render(model.state.shoppingList);
 };
 
+const controlCalendar = function () {};
+
 const controlAddRecipe = async function (newRecipe) {
   try {
     // Show loading spinner
