@@ -6,7 +6,7 @@ class CalendarItemView extends View {
   _generateMarkup() {
     return `
       <li class="nav-calendar-day">
-        ${capitalize(this._data[0])}
+        <span>${capitalize(this._data[0])}</span>
       </li>
     `;
   }
