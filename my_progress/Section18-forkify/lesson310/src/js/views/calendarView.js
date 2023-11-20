@@ -1,4 +1,5 @@
 import View from './View.js';
+import calendarItemView from './calendarItemView.js';
 
 class calendarView extends View {
   _parentElement = document.querySelector('.nav-calendar__list');
