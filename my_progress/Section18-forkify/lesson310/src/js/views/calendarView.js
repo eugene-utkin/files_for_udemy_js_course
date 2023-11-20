@@ -17,7 +17,7 @@ class calendarView extends View {
   }
 
   _generateMarkup() {
-    return this._data.map();
+    return this._data.map().join('');
   }
 }
 
