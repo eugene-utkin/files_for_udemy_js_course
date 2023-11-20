@@ -5,7 +5,7 @@ class CalendarItemView extends View {
 
   _generateMarkup() {
     return `
-      <li>
+      <li class="nav-calendar-day">
       </li>
     `;
   }
