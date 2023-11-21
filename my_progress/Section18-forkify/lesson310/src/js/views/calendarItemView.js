@@ -12,7 +12,7 @@ class CalendarItemView extends View {
           this._data[0]
         )}</span>: <a class="preview__link ${
       this._data[1].id === id ? 'preview__link--active' : ''
-    }" href="#${this._data[1].id}">
+    }" href="#${this._data[1].id}"></a>
       </li>
     `;
   }
