@@ -9,7 +9,7 @@ class CalendarItemView extends View {
     console.log(this._data);
     let markup = `
       <li class="nav-calendar-day">
-      <span class="calendar-day">${capitalize(this._data[0])}</span>: 
+      <span class="calendar-day">${capitalize(this._data[0])}: 
     `;
     if (this._data[1]) {
       markup += `
@@ -19,6 +19,7 @@ class CalendarItemView extends View {
       markup += 'No recipe.';
     }
     markup += `
+        </span>
       </li>
     `;
     return markup;
