@@ -11,6 +11,8 @@ class CalendarItemView extends View {
       <li class="nav-calendar-day">
       <span class="calendar-day">${capitalize(this._data[0])}</span>:
     `;
+    if (this._data[1]) {
+    }
     return `
       <li class="nav-calendar-day">
         <span class="calendar-day">${capitalize(
