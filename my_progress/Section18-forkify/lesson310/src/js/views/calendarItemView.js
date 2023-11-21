@@ -18,6 +18,9 @@ class CalendarItemView extends View {
     } else {
       markup += 'No recipe.';
     }
+    markup += `
+      </li>
+    `;
     return `
       <li class="nav-calendar-day">
         <span class="calendar-day">${capitalize(
