@@ -21,15 +21,7 @@ class CalendarItemView extends View {
     markup += `
       </li>
     `;
-    return `
-      <li class="nav-calendar-day">
-        <span class="calendar-day">${capitalize(
-          this._data[0]
-        )}</span>: <a class="preview__link ${
-      this._data[1] && this._data[1].id === id ? 'preview__link--active' : ''
-    }" href="#${this._data[1].id}">${this._data[1].title}</a>
-      </li>
-    `;
+    return markup;
   }
 }
 
