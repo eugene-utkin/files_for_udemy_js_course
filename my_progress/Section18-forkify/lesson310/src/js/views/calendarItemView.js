@@ -5,6 +5,7 @@ class CalendarItemView extends View {
   _parentElement = '';
 
   _generateMarkup() {
+    const id = window.location.hash.slice(1);
     return `
       <li class="nav-calendar-day">
         <span class="calendar-day">${capitalize(
