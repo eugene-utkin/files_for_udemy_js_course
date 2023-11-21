@@ -16,6 +16,7 @@ class CalendarItemView extends View {
         <a href="#${this._data[1].id}">${this._data[1].title}</a>
       `;
     } else {
+      markup += 'No recipe.';
     }
     return `
       <li class="nav-calendar-day">
