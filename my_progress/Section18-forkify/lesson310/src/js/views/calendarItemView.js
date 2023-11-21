@@ -9,9 +9,12 @@ class CalendarItemView extends View {
     console.log(this._data);
     let markup = `
       <li class="nav-calendar-day">
-      <span class="calendar-day">${capitalize(this._data[0])}</span>:
+      <span class="calendar-day">${capitalize(this._data[0])}</span>: 
     `;
     if (this._data[1]) {
+      markup += `
+        <a href="#${this._data[1].id}">${this._data[1].title}</a>
+      `;
     }
     return `
       <li class="nav-calendar-day">
