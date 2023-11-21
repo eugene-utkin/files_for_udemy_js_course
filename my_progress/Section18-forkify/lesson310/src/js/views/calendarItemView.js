@@ -1,4 +1,5 @@
 import View from './View.js';
+import { capitalize } from '../helpers.js';
 
 class CalendarItemView extends View {
   _parentElement = '';
