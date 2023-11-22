@@ -198,7 +198,7 @@ class RecipeView extends View {
         <div class="calendar-title">
           ${day[1] ? day[1]['title'] : ''}
         </div>
-        <span class="calendar-day">${capitalize(day[0])}:</span>
+        <span class="recipe-calendar-day">${capitalize(day[0])}:</span>
         <button data-day="${day[0]}" class="btn--inline btn--add-to-calendar ${
       active ? 'calendar-btn-active' : ''
     }">
