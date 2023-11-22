@@ -16,6 +16,8 @@ class CalendarItemView extends View {
     if (this._data[1]) {
       markup += `
         <a href="#${this._data[1].id}">${this._data[1].title}</a>
+        <button class="btn--tiny btn--calendar-remove-recipe">
+        </button>
       `;
     } else {
       markup += 'No recipe.';
