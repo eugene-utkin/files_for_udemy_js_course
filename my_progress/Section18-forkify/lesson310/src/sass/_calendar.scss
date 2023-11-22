@@ -68,7 +68,6 @@
 }
 
 .calendar-recipe {
-  margin-right: 2rem;
   color: $color-grey-dark-1;
   font-weight: 400;
   position: relative;
@@ -86,5 +85,5 @@
 
 .btn--calendar-remove-recipe {
   position: absolute;
-  top: 0;
+  bottom: 0;
 }
