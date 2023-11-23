@@ -16,6 +16,7 @@ class calendarView extends View {
   addHandlerClick() {
     this._parentElement.addEventListener('click', function (e) {
       const btn = e.target.closest('');
+      if (!btn) return;
     });
   }
 
