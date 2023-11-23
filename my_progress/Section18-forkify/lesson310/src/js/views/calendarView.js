@@ -19,6 +19,7 @@ class calendarView extends View {
       if (!btn) return;
 
       const { day } = btn.dataset;
+      const recipe = e.target.closest('.');
     });
   }
 
