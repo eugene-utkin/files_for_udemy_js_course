@@ -13,7 +13,7 @@ class calendarView extends View {
   `;
   _message = '';
 
-  addHandlerClick() {
+  addHandlerClick(handler) {
     this._parentElement.addEventListener('click', function (e) {
       const btn = e.target.closest('.btn--calendar-remove-recipe');
       if (!btn) return;
