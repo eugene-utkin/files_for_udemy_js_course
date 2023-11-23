@@ -13,7 +13,9 @@ class calendarView extends View {
   `;
   _message = '';
 
-  addHandlerClick() {}
+  addHandlerClick() {
+    this._parentElement.addEventListener('click', function () {});
+  }
 
   addHandlerRender(handler) {
     window.addEventListener('load', handler);
