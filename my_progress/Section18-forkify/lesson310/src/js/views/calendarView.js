@@ -13,6 +13,8 @@ class calendarView extends View {
   `;
   _message = '';
 
+  addHandlerClick() {}
+
   addHandlerRender(handler) {
     window.addEventListener('load', handler);
   }
