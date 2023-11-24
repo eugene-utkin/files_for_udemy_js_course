@@ -179,6 +179,7 @@ const controlRemoveFromCalendar = function (day) {
   console.log(day);
   // Remove recipe from the calendar
   model.removeFromCalendar(day);
+  console.log(model.state.calendar);
 };
 
 const init = function () {
