@@ -210,7 +210,7 @@ const clearCalendar = function () {
 };
 // clearCalendar();
 
-const removeFromCalendar = function () {};
+const removeFromCalendar = function (day) {};
 
 export const uploadRecipe = async function (newRecipe) {
   try {
