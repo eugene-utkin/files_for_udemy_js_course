@@ -85,7 +85,7 @@ const controlAddBookmark = function () {
   else model.deleteBookmark(model.state.recipe.id);
 
   // 2) Update recipe view
-  recipeView.update(model.state.recipe);
+  recipeView.update(model.state);
 
   // 3) Render bookmarks
   bookmarksView.render(model.state.bookmarks);
