@@ -176,6 +176,7 @@ const controlAddRecipe = async function (newRecipe) {
 
 const controlRemoveFromCalendar = function (day) {
   console.log(day);
+  // Remove recipe from the calendar
 };
 
 const init = function () {
