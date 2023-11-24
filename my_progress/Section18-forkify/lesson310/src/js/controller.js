@@ -174,7 +174,9 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
-const controlRemoveFromCalendar = function (day) {};
+const controlRemoveFromCalendar = function (day) {
+  console.log(day);
+};
 
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
