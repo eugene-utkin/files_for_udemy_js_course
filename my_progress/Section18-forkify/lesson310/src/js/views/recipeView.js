@@ -61,7 +61,7 @@ class RecipeView extends View {
   addHandler;
 
   _generateMarkup() {
-    console.log('test');
+    console.log(this._data);
     return `
       <figure class="recipe__fig">
         <img src="${this._data.recipe.image}" alt="${
