@@ -140,7 +140,6 @@ const controlShoppingList = function () {
 const controlCalendar = function () {
   const entries = Object.entries(model.state.calendar);
   const calendarIsEmpty = entries.every(entry => entry[1] === null);
-  console.log(calendarIsEmpty ? null : entries);
   calendarView.render(calendarIsEmpty ? null : entries);
 };
 
