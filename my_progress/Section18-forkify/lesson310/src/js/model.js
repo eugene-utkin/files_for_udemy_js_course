@@ -210,7 +210,7 @@ const clearCalendar = function () {
 };
 // clearCalendar();
 
-const removeFromCalendar = function (day) {
+export const removeFromCalendar = function (day) {
   state.calendar[day] = null;
   persistCalendar();
 };
