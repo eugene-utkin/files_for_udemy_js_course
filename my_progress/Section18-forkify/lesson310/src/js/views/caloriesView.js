@@ -1,3 +1,3 @@
 import View from './View.js';
 
-class CaloriesView {}
+class CaloriesView extends View {}
