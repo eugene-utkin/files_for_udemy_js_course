@@ -199,6 +199,7 @@ const init = function () {
   shoppingListView.addHandlerRender(controlShoppingList);
   calendarView.addHandlerRender(controlCalendar);
   calendarView.addHandlerClick(controlRemoveFromCalendar);
+  caloriesView.addHandlerRender();
   // addToCalendarView.addHandlerRender(controlAddToCalendar);
 };
 init();
