@@ -186,8 +186,8 @@ class RecipeView extends View {
         <div class="recipe__description">
           <span class="recipe__unit">${ing.unit}</span>
           ${ing.description}
-          <div>
-          </div>
+          <svg>
+          </svg>
         </div>
       </li>
     `;
