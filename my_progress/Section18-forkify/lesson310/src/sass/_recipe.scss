@@ -129,6 +129,8 @@
     position: absolute;
     top: 0;
     font-size: 1rem;
+    &:hover {
+    }
   }
   &__ingredients {
     padding: 5rem 8rem;
