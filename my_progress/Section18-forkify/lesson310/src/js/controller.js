@@ -202,6 +202,7 @@ const init = function () {
   calendarView.addHandlerRender(controlCalendar);
   calendarView.addHandlerClick(controlRemoveFromCalendar);
   caloriesView.addHandlerRender(controlCalories);
+  caloriesView.addHandlerClick();
   // addToCalendarView.addHandlerRender(controlAddToCalendar);
 };
 init();
