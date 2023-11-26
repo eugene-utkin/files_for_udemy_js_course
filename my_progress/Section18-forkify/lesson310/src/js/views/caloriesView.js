@@ -6,6 +6,7 @@ class CaloriesView extends View {
   _message = '';
 
   _window = document.querySelector('.calories-window');
+  _overlay = document.querySelector('.overlay');
 }
 
 export default new CaloriesView();
