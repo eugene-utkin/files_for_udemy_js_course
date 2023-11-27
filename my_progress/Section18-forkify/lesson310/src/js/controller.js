@@ -184,7 +184,9 @@ const controlRemoveFromCalendar = function (day) {
   recipeView.render(model.state);
 };
 
-const controlCalories = function () {};
+const controlCalories = function () {
+  console.log('Calories!');
+};
 
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
