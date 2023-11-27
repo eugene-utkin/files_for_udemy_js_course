@@ -203,7 +203,7 @@ const init = function () {
   shoppingListView.addHandlerRender(controlShoppingList);
   calendarView.addHandlerRender(controlCalendar);
   calendarView.addHandlerClick(controlRemoveFromCalendar);
-  caloriesView.addHandlerRender(controlCalories);
+  // caloriesView.addHandlerRender(controlCalories);
   caloriesView.addHandlerClick(controlShowCalories);
   // addToCalendarView.addHandlerRender(controlAddToCalendar);
 };
