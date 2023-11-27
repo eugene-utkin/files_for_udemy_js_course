@@ -9,8 +9,9 @@ class CaloriesView extends View {
   _overlay = document.querySelector('.overlay');
 
   addHandlerClick(handler) {
-    this._parentElement.addEventListener('click', function () {});
-    handler();
+    this._parentElement.addEventListener('click', function () {
+      handler();
+    });
   }
 }
 
