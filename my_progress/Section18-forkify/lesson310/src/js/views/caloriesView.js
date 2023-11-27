@@ -10,6 +10,7 @@ class CaloriesView extends View {
 
   addHandlerClick(handler) {
     this._parentElement.addEventListener('click', function (e) {
+      const btn = e.target.closest('');
       handler();
     });
   }
