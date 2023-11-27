@@ -16,6 +16,8 @@ class CaloriesView extends View {
       handler();
     });
   }
+
+  toggleWindow() {}
 }
 
 export default new CaloriesView();
