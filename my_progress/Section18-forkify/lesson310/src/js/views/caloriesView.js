@@ -8,7 +8,9 @@ class CaloriesView extends View {
   _window = document.querySelector('.calories-window');
   _overlay = document.querySelector('.overlay');
 
-  addHandlerClick(handler) {}
+  addHandlerClick(handler) {
+    handler();
+  }
 }
 
 export default new CaloriesView();
