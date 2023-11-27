@@ -195,6 +195,7 @@ const init = function () {
   recipeView.addHandlerAddBookmark(controlAddBookmark);
   recipeView.addHandlerAddIngredientsToShoppingList(controlAddIngredients);
   recipeView.addHandlerUpdateCalendarDay(controlUpdateCalendarDay);
+  recipeView.addHandlerShowCalories();
   resultsFiltersView.addHandlerClick(controlFilters);
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
