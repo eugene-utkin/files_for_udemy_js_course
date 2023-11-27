@@ -17,7 +17,9 @@ class CaloriesView extends View {
     });
   }
 
-  toggleWindow() {}
+  toggleWindow() {
+    this._overlay.classList.toggle('hidden');
+  }
 }
 
 export default new CaloriesView();
