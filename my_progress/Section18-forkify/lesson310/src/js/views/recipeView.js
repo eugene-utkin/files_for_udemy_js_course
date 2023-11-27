@@ -58,6 +58,15 @@ class RecipeView extends View {
     });
   }
 
+  addHandlerShowCalories(handler) {
+    this._parentElement.addEventListener('click', function (e) {
+      const btn = e.target.closest('.calories-btn');
+      if (!btn) return;
+
+      handler();
+    });
+  }
+
   addHandler;
 
   _generateMarkup() {
