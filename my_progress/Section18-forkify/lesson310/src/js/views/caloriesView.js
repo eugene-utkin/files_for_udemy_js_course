@@ -8,15 +8,6 @@ class CaloriesView extends View {
   _window = document.querySelector('.calories-window');
   _overlay = document.querySelector('.overlay');
 
-  addHandlerClick(handler) {
-    this._parentElement.addEventListener('click', function (e) {
-      const btn = e.target.closest('.calories-btn');
-      if (!btn) return;
-
-      handler();
-    });
-  }
-
   toggleWindow() {
     this._overlay.classList.toggle('hidden');
     this._window.classList.toggle('hidden');
