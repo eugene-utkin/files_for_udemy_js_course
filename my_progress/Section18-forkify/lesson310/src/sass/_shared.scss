@@ -1,6 +1,6 @@
 .add-recipe-window,
 .calories-window {
-  position: absolute;
+  position: fixed;
   top: 500px;
   left: 50%;
   transform: translate(-50%, -50%);
