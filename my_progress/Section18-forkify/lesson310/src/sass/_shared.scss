@@ -4,11 +4,11 @@
 
 .calories-window {
   position: fixed;
+  top: 300px;
 }
 
 .add-recipe-window,
 .calories-window {
-  top: 300px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100rem;
