@@ -7,6 +7,7 @@ class CaloriesView extends View {
 
   _window = document.querySelector('.calories-window');
   _overlay = document.querySelector('.calories-overlay');
+  _btnClose = document.querySelector('.btn--close-calories-modal');
 
   constructor() {
     super();
