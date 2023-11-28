@@ -6,7 +6,7 @@ class CaloriesView extends View {
   _message = '';
 
   _window = document.querySelector('.calories-window');
-  _overlay = document.querySelector('.overlay');
+  _overlay = document.querySelector('.calories-overlay');
 
   toggleWindow() {
     this._overlay.classList.toggle('hidden');
