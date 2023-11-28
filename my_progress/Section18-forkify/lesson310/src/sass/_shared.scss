@@ -1,6 +1,7 @@
 .add-recipe-window {
   position: absolute;
   top: 500px;
+  width: 100rem;
 }
 
 .calories-window {
@@ -12,7 +13,6 @@
 .calories-window {
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100rem;
   background-color: white;
   border-radius: 9px;
 
