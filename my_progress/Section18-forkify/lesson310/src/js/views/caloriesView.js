@@ -1,7 +1,7 @@
 import View from './View.js';
 
 class CaloriesView extends View {
-  _parentElement = document.querySelector('.calories-window');
+  _parentElement = document.querySelector('.calories-result');
   _errorMessage = 'Something went wrong. Please, try again.';
   _message = '';
 
