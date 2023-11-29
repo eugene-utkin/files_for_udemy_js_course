@@ -186,6 +186,8 @@ const controlShowCalories = function () {
   console.log('Calories!');
   // Show loading spinner
   caloriesView.renderSpinner();
+
+  await model.loadCalories();
 };
 
 const init = function () {
