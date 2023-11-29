@@ -176,7 +176,6 @@ const controlAddRecipe = async function (newRecipe) {
 
 const controlRemoveFromCalendar = function (day) {
   if (!day) return;
-  console.log(day);
   // Remove recipe from the calendar
   model.removeFromCalendar(day);
   console.log(model.state.calendar);
