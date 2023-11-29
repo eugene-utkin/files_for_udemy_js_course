@@ -60,6 +60,8 @@ export const loadRecipe = async function (id) {
   }
 };
 
+const loadCalories = function () {};
+
 export const loadSearchResults = async function (query) {
   try {
     state.search.query = query;
