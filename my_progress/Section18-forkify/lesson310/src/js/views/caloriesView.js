@@ -18,6 +18,8 @@ class CaloriesView extends View {
     this._overlay.classList.toggle('hidden');
     this._window.classList.toggle('hidden');
   }
+
+  _addHandlerShowWindow() {}
 }
 
 export default new CaloriesView();
