@@ -187,6 +187,7 @@ const controlShowCalories = async function () {
   // Show loading spinner
   caloriesView.renderSpinner();
 
+  // Loading calories
   await model.loadCalories();
 };
 
