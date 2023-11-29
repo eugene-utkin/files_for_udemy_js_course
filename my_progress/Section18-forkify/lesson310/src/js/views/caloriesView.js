@@ -11,7 +11,6 @@ class CaloriesView extends View {
 
   constructor() {
     super();
-    this._addHandlerShowWindow();
   }
 
   toggleWindow() {
