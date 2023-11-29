@@ -19,7 +19,9 @@ class CaloriesView extends View {
     this._window.classList.toggle('hidden');
   }
 
-  _addHandlerShowWindow() {}
+  _addHandlerShowWindow() {
+    this._btnClose.addEventListener('click', {});
+  }
 }
 
 export default new CaloriesView();
