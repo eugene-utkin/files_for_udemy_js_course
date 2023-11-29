@@ -20,7 +20,7 @@ class CaloriesView extends View {
   }
 
   _addHandlerShowWindow() {
-    this._btnClose.addEventListener('click', {});
+    this._btnClose.addEventListener('click', this.toggleWindow.bind(this));
   }
 }
 
