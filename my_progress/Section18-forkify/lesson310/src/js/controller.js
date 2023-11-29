@@ -182,7 +182,7 @@ const controlRemoveFromCalendar = function (day) {
   recipeView.render(model.state);
 };
 
-const controlShowCalories = function () {
+const controlShowCalories = async function () {
   console.log('Calories!');
   // Show loading spinner
   caloriesView.renderSpinner();
