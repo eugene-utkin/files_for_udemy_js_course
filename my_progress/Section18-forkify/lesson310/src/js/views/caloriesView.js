@@ -14,7 +14,15 @@ class CaloriesView extends View {
     this._addHandlerShowWindow();
   }
 
-  _addHandlerShowWindow() {}
+  _addHandlerShowWindow() {
+    this._parentElement.addEventListener('click', function (e) {
+      const btn = e.target.closest('.calories-btn');
+      if (!btn) return;
+
+      caloriesView.toggleWindow();
+      handler();
+    });
+  }
 
   toggleWindow() {
     this._overlay.classList.toggle('hidden');
