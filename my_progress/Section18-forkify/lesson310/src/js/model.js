@@ -61,7 +61,7 @@ export const loadRecipe = async function (id) {
 };
 
 export const loadCalories = async function (ingredient) {
-  const url = `${CALORIES_URL}?query=${ingredient}`;
+  const url = `${CALORIES_URL}?query=${ingredient}&number=1`;
 
   const fetchPro = fetch(url, {
     method: 'GET',
