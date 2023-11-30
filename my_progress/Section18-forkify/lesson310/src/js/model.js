@@ -60,7 +60,7 @@ export const loadRecipe = async function (id) {
   }
 };
 
-export const loadCalories = function () {};
+export const loadCalories = async function () {};
 
 export const loadSearchResults = async function (query) {
   try {
