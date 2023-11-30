@@ -64,7 +64,7 @@ class RecipeView extends View {
       const btn = e.target.closest('.calories-btn');
       if (!btn) return;
 
-      const ingredientElement = e.target.closest('');
+      const ingredientElement = e.target.closest('.recipe__description');
       caloriesView.toggleWindow();
       handler();
     });
