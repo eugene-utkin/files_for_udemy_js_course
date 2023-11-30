@@ -200,7 +200,7 @@ class RecipeView extends View {
         }</div>
         <div class="recipe__description">
           <span class="recipe__unit">${ing.unit}</span>
-          <span>${ing.description}</span>
+          <span class="ingredient-description">${ing.description}</span>
           <button class="calories-btn">
             Cal.
           </button>
