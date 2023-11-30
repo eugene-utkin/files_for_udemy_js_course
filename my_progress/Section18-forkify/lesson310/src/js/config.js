@@ -8,4 +8,5 @@ export const FILTERS = {
   cookingTime: 'Cooking Time',
   numberOfIngredients: 'Number of Ingredients',
 };
-const CALORIES_URL = 'https://api.spoonacular.com/food/ingredients/search';
+export const CALORIES_URL =
+  'https://api.spoonacular.com/food/ingredients/search';
