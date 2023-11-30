@@ -68,6 +68,7 @@ class RecipeView extends View {
       const ingredientName = ingredientElement.querySelector(
         '.ingredient-description'
       ).textContent;
+      console.log(ingredientName);
       caloriesView.toggleWindow();
       handler();
     });
