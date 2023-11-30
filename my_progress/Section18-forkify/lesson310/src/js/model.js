@@ -60,7 +60,15 @@ export const loadRecipe = async function (id) {
   }
 };
 
-export const loadCalories = async function () {};
+export const loadCalories = async function () {
+  const fetchPro = fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(uploadData),
+  });
+};
 
 export const loadSearchResults = async function (query) {
   try {
