@@ -74,6 +74,7 @@ export const loadCalories = async function (ingredient) {
   const data = await res.json();
 
   if (!res.ok) throw new Error(`${data.message} (${res.status})`);
+  console.log(data);
 };
 
 export const loadSearchResults = async function (query) {
