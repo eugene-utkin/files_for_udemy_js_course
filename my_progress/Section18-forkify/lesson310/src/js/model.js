@@ -67,7 +67,7 @@ export const loadRecipe = async function (id) {
 };
 
 export const loadCalories = async function (ingredient) {
-  const url = `${CALORIES_URL}?query=${ingredient}&number=1&apiKey=${CALORIES_KEY}`;
+  const url = `${CALORIES_URL}?query=${ingredient}&number=1&apiKey=${CALORIES_KEY}&sort=calories`;
 
   const fetchPro = fetch(url);
 };
