@@ -77,6 +77,7 @@ export const loadRecipe = async function (id) {
 
 export const loadCalories = async function (ingredient) {
   try {
+    const data = await AJAX(`${API_URL}${id}?key=${KEY}`);
     const url = `${CALORIES_URL}?query=${ingredient}&number=1&apiKey=${CALORIES_KEY}&metaInformation=true`;
 
     const fetchPro = fetch(url);
