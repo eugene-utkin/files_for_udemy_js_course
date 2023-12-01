@@ -84,6 +84,7 @@ export const loadCalories = async function (ingredient) {
     const data = await res.json();
 
     if (!res.ok) throw new Error(`${data.message} (${res.status})`);
+    const id = data.results[0].id;
     console.log(data);
   } catch (err) {
     throw err;
