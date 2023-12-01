@@ -80,13 +80,6 @@ export const loadCalories = async function (ingredient) {
     const data = await AJAX(
       `${CALORIES_URL}?query=${ingredient}&number=1&apiKey=${CALORIES_KEY}&metaInformation=true`
     );
-    const url = `${CALORIES_URL}?query=${ingredient}&number=1&apiKey=${CALORIES_KEY}&metaInformation=true`;
-
-    const fetchPro = fetch(url);
-    const res = await Promise.race([fetchPro, timeout(TIMEOUT_SEC)]);
-    const data = await res.json();
-
-    if (!res.ok) throw new Error(`${data.message} (${res.status})`);
     const id = data.results[0].id;
     console.log(id);
   } catch (err) {
