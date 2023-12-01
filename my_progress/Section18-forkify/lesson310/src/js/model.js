@@ -5,6 +5,7 @@ import {
   KEY,
   CALORIES_URL,
   CALORIES_KEY,
+  TIMEOUT_SEC,
 } from './config.js';
 // import { getJSON, sendJSON } from './helpers.js';
 import { AJAX, capitalize } from './helpers.js';
