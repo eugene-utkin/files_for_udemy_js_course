@@ -76,7 +76,9 @@ export const loadCalories = async function (ingredient) {
 
     if (!res.ok) throw new Error(`${data.message} (${res.status})`);
     console.log(data);
-  } catch (err) {}
+  } catch (err) {
+    throw err;
+  }
 };
 
 export const loadSearchResults = async function (query) {
