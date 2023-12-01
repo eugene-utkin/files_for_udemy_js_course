@@ -72,6 +72,8 @@ export const loadCalories = async function (ingredient) {
   const fetchPro = fetch(url);
   const res = await Promise.race([fetchPro, timeout(TIMEOUT_SEC)]);
   const data = await res.json();
+
+  if (!res.ok) throw new Error(`${data.message} (${res.status})`);
 };
 
 export const loadSearchResults = async function (query) {
