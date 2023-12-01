@@ -70,6 +70,7 @@ export const loadCalories = async function (ingredient) {
   const url = `${CALORIES_URL}?query=${ingredient}&number=1&apiKey=${CALORIES_KEY}&sort=calories&sortDirection=desc&metaInformation=true`;
 
   const fetchPro = fetch(url);
+  const res = await Promise.race([fetchPro, timeout(TIMEOUT_SEC)]);
 };
 
 export const loadSearchResults = async function (query) {
