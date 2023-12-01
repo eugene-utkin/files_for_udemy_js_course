@@ -10,4 +10,4 @@ export const FILTERS = {
 };
 export const CALORIES_URL =
   'https://api.spoonacular.com/food/ingredients/search';
-const CALORIES_KEY = 'ab70e2f1d7914cabb10248999b42af0c';
+export const CALORIES_KEY = 'ab70e2f1d7914cabb10248999b42af0c';
