@@ -75,6 +75,7 @@ class RecipeView extends View {
         .querySelector('.recipe__quantity').textContent;
       const ingredient = {
         name: ingredientName,
+        quantity: ingredientQuantity,
       };
       console.log(ingredientName);
       caloriesView.toggleWindow();
