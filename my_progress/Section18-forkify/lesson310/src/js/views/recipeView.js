@@ -78,7 +78,7 @@ class RecipeView extends View {
         quantity: ingredientQuantity,
         unit: ingredientUnit,
       };
-      console.log(ingredientName);
+      console.log(ingredient);
       caloriesView.toggleWindow();
       handler(ingredientName);
     });
