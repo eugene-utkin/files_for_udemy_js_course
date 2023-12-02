@@ -72,7 +72,7 @@ class RecipeView extends View {
         ingredientElement.querySelector('.recipe__unit').textContent;
       const ingredientQuantity = btn
         .closest('.recipe__ingredient')
-        .querySelector('');
+        .querySelector('.recipe__quantity');
       const ingredient = {};
       console.log(ingredientName);
       caloriesView.toggleWindow();
