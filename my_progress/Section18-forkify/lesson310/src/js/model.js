@@ -85,6 +85,8 @@ export const loadCalories = async function (ingredient) {
   }
 };
 
+const createCaloriesObject = function () {};
+
 export const loadSearchResults = async function (query) {
   try {
     state.search.query = query;
