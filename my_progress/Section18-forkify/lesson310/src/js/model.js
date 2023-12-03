@@ -86,7 +86,9 @@ export const loadCalories = async function (ingredient) {
 };
 
 const createCaloriesObject = function (data) {
-  return {};
+  return {
+    name: data.name,
+  };
 };
 
 export const loadSearchResults = async function (query) {
