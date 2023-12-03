@@ -72,7 +72,7 @@ export const loadCalories = async function (ingredient) {
       `${CALORIES_URL}?query=${ingredient.name}&number=1&apiKey=${CALORIES_KEY}&metaInformation=true`
     );
     console.log(ingData);
-    if (ingData.result.length === 0)
+    if (ingData.results.length === 0)
       throw new Error(`Sorry, no calories data for ${ingredient.name}`);
 
     const id = ingData.results[0].id;
