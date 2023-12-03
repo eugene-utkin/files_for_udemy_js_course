@@ -88,6 +88,7 @@ export const loadCalories = async function (ingredient) {
 const createCaloriesObject = function (data) {
   return {
     name: data.name,
+    calories: data.nutrition.nutrients.find(element => element['Calories']),
   };
 };
 
