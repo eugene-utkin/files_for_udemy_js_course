@@ -78,7 +78,7 @@ export const loadCalories = async function (ingredient) {
     const id = ingData.results[0].id;
     const url = `https://api.spoonacular.com/food/ingredients/${id}/information?apiKey=${CALORIES_KEY}&amount=1`;
     const caloriesRes = await AJAX(url);
-    console.log(calories);
+    console.log(caloriesRes);
     const caloriesData = createCaloriesObject();
   } catch (err) {
     throw err;
