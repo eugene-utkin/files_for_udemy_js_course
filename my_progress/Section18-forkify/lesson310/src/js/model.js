@@ -93,7 +93,7 @@ const createCaloriesObject = function (data) {
   return {
     name: data.name,
     calories: calData.amount,
-    calories_unit: calData.unit,
+    caloriesUnit: calData.unit,
   };
 };
 
