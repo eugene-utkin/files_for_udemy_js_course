@@ -80,6 +80,7 @@ export const loadCalories = async function (ingredient) {
     const caloriesRes = await AJAX(url);
     console.log(caloriesRes);
     const caloriesData = createCaloriesObject(caloriesRes);
+    return caloriesData;
   } catch (err) {
     throw err;
   }
