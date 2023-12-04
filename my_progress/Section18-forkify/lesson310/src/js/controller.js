@@ -183,7 +183,6 @@ const controlRemoveFromCalendar = function (day) {
 };
 
 const controlShowCalories = async function (ingredient) {
-  console.log('Calories!');
   // Show loading spinner
   caloriesView.renderSpinner();
 
