@@ -94,6 +94,7 @@ const createCaloriesObject = function (data) {
     name: data.name,
     calories: calData.amount,
     caloriesUnit: calData.unit,
+    ingredientUnit: data.nutrition.weightPerServing.unit,
   };
 };
 
