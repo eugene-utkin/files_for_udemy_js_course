@@ -90,9 +90,6 @@ const createCaloriesObject = function (data) {
   const calData = data.nutrition.nutrients.find(
     element => element['name'] === 'Calories'
   );
-  console.log(
-    data.nutrition.nutrients.find(element => element['name'] === 'Calories')
-  );
   return {
     name: data.name,
     calories: calData.amount,
