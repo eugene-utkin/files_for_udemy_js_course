@@ -71,7 +71,6 @@ export const loadCalories = async function (ingredient) {
     const ingData = await AJAX(
       `${CALORIES_URL}?query=${ingredient.name}&number=1&apiKey=${CALORIES_KEY}&metaInformation=true`
     );
-    console.log(ingData);
     if (ingData.results.length === 0)
       throw new Error(`Sorry, no calories data for ${ingredient.name}!`);
 
