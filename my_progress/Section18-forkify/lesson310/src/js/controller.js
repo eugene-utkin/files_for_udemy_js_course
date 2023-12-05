@@ -190,8 +190,10 @@ const controlShowCalories = async function (ingredient) {
   const caloriesData = await model.loadCalories(ingredient);
   console.log(caloriesData);
 
-  // Rendering calories
-  caloriesView.render(caloriesData);
+  if (caloriesData) {
+    // Rendering calories
+    caloriesView.render(caloriesData);
+  }
 };
 
 const init = function () {
