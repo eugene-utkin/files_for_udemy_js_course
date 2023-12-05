@@ -73,11 +73,6 @@ class RecipeView extends View {
       const ingredientQuantity = btn
         .closest('.recipe__ingredient')
         .querySelector('.recipe__quantity').textContent;
-      const ingredient = {
-        name: ingredientName,
-        quantity: ingredientQuantity,
-        unit: ingredientUnit,
-      };
       caloriesView.toggleWindow();
       handler(ingredientName);
     });
