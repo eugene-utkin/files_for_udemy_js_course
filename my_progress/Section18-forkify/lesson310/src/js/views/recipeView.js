@@ -64,7 +64,6 @@ class RecipeView extends View {
       const btn = e.target.closest('.calories-btn');
       if (!btn) return;
 
-      const ingredientElement = btn.closest('.recipe__description');
       const ingredientName = btn
         .closest('.recipe__description')
         .querySelector('.ingredient-description').textContent;
