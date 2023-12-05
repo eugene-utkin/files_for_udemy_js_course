@@ -194,7 +194,7 @@ const controlShowCalories = async function (ingredient) {
     // Rendering calories
     caloriesView.render(caloriesData);
   } else {
-    caloriesView.renderError(`Sorry, no calories data for ${ingredient.name}!`);
+    caloriesView.renderError(`Sorry, no calories data for ${ingredient}!`);
   }
 };
 
