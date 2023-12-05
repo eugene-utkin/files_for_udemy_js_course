@@ -80,7 +80,7 @@ class RecipeView extends View {
       };
       console.log(ingredient);
       caloriesView.toggleWindow();
-      handler(ingredient);
+      handler(ingredientName);
     });
   }
 
