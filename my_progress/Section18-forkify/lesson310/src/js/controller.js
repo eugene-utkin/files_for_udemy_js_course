@@ -194,6 +194,7 @@ const controlShowCalories = async function (ingredient) {
     // Rendering calories
     caloriesView.render(caloriesData);
   } else {
+    caloriesView.renderError();
   }
 };
 
