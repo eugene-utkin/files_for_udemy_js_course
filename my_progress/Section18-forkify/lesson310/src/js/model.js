@@ -75,7 +75,6 @@ export const loadCalories = async function (ingredient) {
       return this.renderError(
         `Sorry, no calories data for ${ingredient.name}!`
       );
-    throw new Error(`Sorry, no calories data for ${ingredient.name}!`);
 
     const caloriesRes = await AJAX(
       `https://api.spoonacular.com/food/ingredients/${ingData.results[0].id}/information?apiKey=${CALORIES_KEY}&amount=1`
