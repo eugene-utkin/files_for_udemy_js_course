@@ -69,7 +69,7 @@ export const loadRecipe = async function (id) {
 export const loadCalories = async function (ingredient) {
   try {
     const ingData = await AJAX(
-      `${CALORIES_URL}?query=${ingredient.name}&number=1&apiKey=${CALORIES_KEY}&metaInformation=true`
+      `${CALORIES_URL}?query=${ingredient}&number=1&apiKey=${CALORIES_KEY}&metaInformation=true`
     );
     if (ingData.results.length === 0) return;
     // this.renderError(
