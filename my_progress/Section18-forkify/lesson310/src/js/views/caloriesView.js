@@ -24,7 +24,7 @@ class CaloriesView extends View {
     this._overlay.addEventListener('click', this.toggleWindow.bind(this));
   }
 
-  _generateMarkup() {}
+  _generateMarkup(caloriesData) {}
 }
 
 export default new CaloriesView();
