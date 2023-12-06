@@ -28,7 +28,7 @@ class CaloriesView extends View {
     console.log(this._data);
     return `
       <div class="calories-info">
-        <p></p>
+        <p>${this._data.name}</p>
       </div>
     `;
   }
