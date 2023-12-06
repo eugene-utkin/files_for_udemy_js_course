@@ -28,7 +28,9 @@ class CaloriesView extends View {
   _generateMarkup() {
     return `
       <div class="calories-info">
-        <p>${capitalize(this._data.name)} - 1${this._data.ingredientUnit}</p>
+        <p>${capitalize(this._data.name)} - 1${this._data.ingredientUnit} - ${
+      this._data.calories
+    }</p>
       </div>
     `;
   }
