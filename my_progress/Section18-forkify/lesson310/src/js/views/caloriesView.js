@@ -27,7 +27,7 @@ class CaloriesView extends View {
   _generateMarkup(caloriesData) {
     console.log(this._data);
     return `
-      <div>
+      <div class="calories-info">
 
       </div>
     `;
