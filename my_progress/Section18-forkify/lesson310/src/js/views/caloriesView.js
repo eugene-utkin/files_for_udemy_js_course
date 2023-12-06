@@ -30,7 +30,7 @@ class CaloriesView extends View {
       <div class="calories-info">
         <p>${capitalize(this._data.name)} - 1${this._data.ingredientUnit} - ${
       this._data.calories
-    }${this._data.caloriesUnit}</p>
+    }${this._data.caloriesUnit}.</p>
       </div>
     `;
   }
