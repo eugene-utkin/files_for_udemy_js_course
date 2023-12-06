@@ -193,6 +193,7 @@ const controlShowCalories = async function (ingredient) {
     // Rendering calories
     caloriesView.render(caloriesData);
   } else {
+    // Rendering error
     caloriesView.renderError(`Sorry, no calories data for ${ingredient}!`);
   }
 };
