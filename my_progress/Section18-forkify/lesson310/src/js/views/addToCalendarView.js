@@ -1,5 +1,4 @@
 import View from './View.js';
-import addToCalendarItemView from './addToCalendarItemView.js';
 
 class AddToCalendarView extends View {
   addHandlerRender(handler) {
