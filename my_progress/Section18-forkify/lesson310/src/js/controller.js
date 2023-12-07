@@ -214,7 +214,7 @@ const init = function () {
   shoppingListView.addHandlerRender(controlShoppingList);
   calendarView.addHandlerRender(controlCalendar);
   calendarView.addHandlerClick(controlRemoveFromCalendar);
-  // caloriesView.addHandlerRender(controlCalories);
+  // caloriesView.addHandlerRender();
   // caloriesView.addHandlerClick(controlShowCalories);
   // addToCalendarView.addHandlerRender(controlAddToCalendar);
 };
