@@ -7,5 +7,3 @@ class AddToCalendarItemView extends View {
     return 'Test';
   }
 }
-
-export default new AddToCalendarItemView();
