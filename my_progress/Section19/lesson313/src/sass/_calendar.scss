@@ -1,0 +1,94 @@
+.add-to-calendar {
+  position: relative;
+}
+
+.add-to-calendar-dropdown {
+  position: absolute;
+  background-color: #fff;
+  padding: 1rem 0;
+  width: 23rem;
+  visibility: hidden;
+  opacity: 0;
+  left: -10rem;
+
+  button {
+    margin: 0rem 0.5rem;
+  }
+
+  .btn--add-to-calendar {
+    display: inline;
+    width: 8rem;
+  }
+
+  &:hover,
+  .btn--recipe-calendar:hover + & {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.calendar-segment {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.2rem 1rem;
+  white-space: nowrap;
+  position: relative;
+  .calendar-add {
+    display: inline;
+  }
+  .calendar-remove {
+    display: none;
+  }
+  .calendar-btn-active {
+    .calendar-add {
+      display: none;
+    }
+    .calendar-remove {
+      display: inline;
+    }
+  }
+}
+
+.recipe-calendar-day {
+  font-size: 1.8rem;
+  color: $color-grey-dark-2;
+  font-weight: 600;
+}
+
+.calendar-day,
+.calendar-recipe {
+  font-size: 1.8rem;
+  margin: 1rem 0rem;
+}
+
+.calendar-day {
+  color: $color-primary;
+  font-weight: 600;
+}
+
+.calendar-recipe {
+  color: $color-grey-dark-1;
+  font-weight: 400;
+  position: relative;
+}
+
+.calendar-title {
+  position: absolute;
+  color: red;
+  top: 2.2rem;
+  left: 0.5rem;
+  white-space: normal;
+  width: 12rem;
+  line-height: 1rem;
+}
+
+.btn--calendar-remove-recipe {
+  position: absolute;
+  bottom: 0.1rem;
+  right: -2.5rem;
+}
+
+.nav-calendar__list {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
